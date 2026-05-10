@@ -1,10 +1,12 @@
-# English Expressions Practice
+# Free Studies
 
-A small static web app for practicing English expressions and phrasal verbs.
+A small static study app for practicing English expressions and phrasal verbs.
+
+The science questions are based on the book *Everything You Need to Ace Science in One Big Fat Notebook*.
 
 ## Features
 
-- 150 quiz entries loaded from `data/english-expressions.json`
+- 150 quiz entries loaded from `data/free-studies.json`
 - Four alternatives per expression
 - Instant feedback with the correct answer and a study tip
 - Score, streak, progress, shuffle, and missed-question review
@@ -12,11 +14,23 @@ A small static web app for practicing English expressions and phrasal verbs.
 ## Run Locally
 
 ```bash
-python3 -m http.server 5173 --bind 127.0.0.1
+npm start
 ```
 
 Then open:
 
 ```text
 http://127.0.0.1:5173/
+```
+
+If that port is already busy, start it on another port:
+
+```bash
+PORT=5174 npm start
+```
+
+## Test
+
+```bash
+npm test
 ```

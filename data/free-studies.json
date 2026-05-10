@@ -1,0 +1,2252 @@
+[
+  {
+    "id": 1,
+    "expression": "What is science?",
+    "usageExample": "Science helps people understand the world by studying evidence and making observations.",
+    "tip": "Science is based on evidence, observations, and explanations.",
+    "alternatives": [
+      "the study of the natural world using evidence",
+      "a list of random guesses",
+      "a type of art project",
+      "a story with no testing"
+    ],
+    "correctAnswer": "the study of the natural world using evidence",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 2,
+    "expression": "What do scientists use to answer questions?",
+    "usageExample": "Scientists use evidence to answer questions about how things work.",
+    "tip": "Evidence is information gathered through observations, tests, and research.",
+    "alternatives": [
+      "evidence",
+      "luck",
+      "opinions only",
+      "magic"
+    ],
+    "correctAnswer": "evidence",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 3,
+    "expression": "Which branch of science studies living things?",
+    "usageExample": "A biologist may study plants, animals, single-celled organisms, and other living things.",
+    "tip": "Biology is the study of life.",
+    "alternatives": [
+      "life science",
+      "earth science",
+      "physical science",
+      "computer science only"
+    ],
+    "correctAnswer": "life science",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 4,
+    "expression": "Which topics belong to life science?",
+    "usageExample": "Life science includes organisms such as plants, animals, and single-celled living things.",
+    "tip": "Look for examples that are alive or were once alive.",
+    "alternatives": [
+      "plants, animals, and organisms",
+      "rocks, stars, and weather only",
+      "forces and motion only",
+      "computers and screens only"
+    ],
+    "correctAnswer": "plants, animals, and organisms",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 5,
+    "expression": "Which branch studies Earth and space?",
+    "usageExample": "Earth science looks at Earth, rocks, weather, oceans, planets, and stars.",
+    "tip": "Earth science includes Earth and objects in space.",
+    "alternatives": [
+      "earth science",
+      "life science",
+      "chemistry only",
+      "grammar"
+    ],
+    "correctAnswer": "earth science",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 6,
+    "expression": "Which examples fit earth science?",
+    "usageExample": "A scientist studying rocks, clouds, or planets is working in earth science.",
+    "tip": "Earth science includes geology, weather, and astronomy topics.",
+    "alternatives": [
+      "rocks, weather, planets, and stars",
+      "cells, plants, and animals",
+      "only addition and subtraction",
+      "only music notes"
+    ],
+    "correctAnswer": "rocks, weather, planets, and stars",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 7,
+    "expression": "Which branch studies matter and energy?",
+    "usageExample": "Physical science studies matter, energy, and how they interact.",
+    "tip": "Physics and chemistry are parts of physical science.",
+    "alternatives": [
+      "physical science",
+      "life science",
+      "history",
+      "literature"
+    ],
+    "correctAnswer": "physical science",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 8,
+    "expression": "What does physics study?",
+    "usageExample": "Physics studies energy, forces, motion, and how matter behaves.",
+    "tip": "Physics often deals with motion, energy, and forces.",
+    "alternatives": [
+      "energy, forces, motion, and matter",
+      "only living organisms",
+      "only ancient events",
+      "only spelling rules"
+    ],
+    "correctAnswer": "energy, forces, motion, and matter",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 9,
+    "expression": "What does chemistry study?",
+    "usageExample": "Chemistry studies matter and how it changes or transforms.",
+    "tip": "Chemistry focuses on substances, materials, and changes in matter.",
+    "alternatives": [
+      "matter and its transformations",
+      "the lives of animals only",
+      "maps and countries only",
+      "poems and novels only"
+    ],
+    "correctAnswer": "matter and its transformations",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 10,
+    "expression": "What is scientific inquiry?",
+    "usageExample": "Scientific inquiry begins with a question and uses evidence to find an answer.",
+    "tip": "Inquiry means asking and investigating.",
+    "alternatives": [
+      "a way to investigate questions using evidence",
+      "a finished answer that never changes",
+      "a drawing with no purpose",
+      "a rule for writing stories"
+    ],
+    "correctAnswer": "a way to investigate questions using evidence",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 11,
+    "expression": "What usually starts a scientific investigation?",
+    "usageExample": "A scientist may begin by asking why an object behaves in a certain way.",
+    "tip": "Investigations commonly begin with questions.",
+    "alternatives": [
+      "a question",
+      "a conclusion",
+      "a final grade",
+      "a celebration"
+    ],
+    "correctAnswer": "a question",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 12,
+    "expression": "Why do scientists ask background research questions?",
+    "usageExample": "Before testing, scientists learn what is already known about their topic.",
+    "tip": "Background research helps scientists understand the problem better.",
+    "alternatives": [
+      "to learn existing information about a topic",
+      "to avoid observing anything",
+      "to skip the experiment",
+      "to make answers less clear"
+    ],
+    "correctAnswer": "to learn existing information about a topic",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 13,
+    "expression": "What is a research question?",
+    "usageExample": "A research question identifies what the scientist wants to find out.",
+    "tip": "Research questions guide the investigation.",
+    "alternatives": [
+      "the question an investigation tries to answer",
+      "the final answer after testing",
+      "a decoration on a chart",
+      "a list of unrelated facts"
+    ],
+    "correctAnswer": "the question an investigation tries to answer",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 14,
+    "expression": "What makes a good research question?",
+    "usageExample": "A good research question can be investigated with observations, measurements, or tests.",
+    "tip": "Good research questions can be studied with evidence.",
+    "alternatives": [
+      "it can be investigated with evidence",
+      "it can never be tested",
+      "it has no clear topic",
+      "it is only a personal opinion"
+    ],
+    "correctAnswer": "it can be investigated with evidence",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 15,
+    "expression": "What is a hypothesis?",
+    "usageExample": "A hypothesis is a prediction or proposed explanation that can be tested.",
+    "tip": "A hypothesis is not just a guess; it should be testable.",
+    "alternatives": [
+      "a testable prediction or explanation",
+      "a proven law of nature",
+      "a random drawing",
+      "a final score"
+    ],
+    "correctAnswer": "a testable prediction or explanation",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 16,
+    "expression": "Why must a hypothesis be testable?",
+    "usageExample": "Scientists need to check a hypothesis using observations or experiments.",
+    "tip": "If it cannot be tested, science cannot gather evidence for it.",
+    "alternatives": [
+      "so evidence can support or reject it",
+      "so no one can question it",
+      "so it becomes a fact immediately",
+      "so observations are unnecessary"
+    ],
+    "correctAnswer": "so evidence can support or reject it",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 17,
+    "expression": "What is a prediction?",
+    "usageExample": "A prediction states what a scientist thinks will happen before an investigation is completed.",
+    "tip": "Predictions look forward to an expected result.",
+    "alternatives": [
+      "a statement about what may happen",
+      "a measurement taken after every result",
+      "a tool for cutting paper",
+      "a type of conclusion only"
+    ],
+    "correctAnswer": "a statement about what may happen",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 18,
+    "expression": "What is an observation?",
+    "usageExample": "A scientist may observe a plant growing taller or a liquid changing color.",
+    "tip": "Observations use senses or tools to gather information.",
+    "alternatives": [
+      "information gathered with senses or tools",
+      "a belief with no evidence",
+      "a question mark",
+      "a rule that cannot change"
+    ],
+    "correctAnswer": "information gathered with senses or tools",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 19,
+    "expression": "Which is a qualitative observation?",
+    "usageExample": "Saying a flower is yellow describes a quality without using a number.",
+    "tip": "Qualitative observations describe qualities.",
+    "alternatives": [
+      "the liquid is blue",
+      "the plant is 12 centimeters tall",
+      "the cup holds 250 milliliters",
+      "the rock has a mass of 8 grams"
+    ],
+    "correctAnswer": "the liquid is blue",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 20,
+    "expression": "Which is a quantitative observation?",
+    "usageExample": "Measuring a toy car at 15 centimeters gives a number.",
+    "tip": "Quantitative observations use numbers or measurements.",
+    "alternatives": [
+      "the string is 15 centimeters long",
+      "the rock feels rough",
+      "the sky looks cloudy",
+      "the flower smells sweet"
+    ],
+    "correctAnswer": "the string is 15 centimeters long",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 21,
+    "expression": "What is an experiment?",
+    "usageExample": "An experiment tests a question or hypothesis by collecting evidence.",
+    "tip": "Experiments are planned tests.",
+    "alternatives": [
+      "a planned test to gather evidence",
+      "a guess that cannot be checked",
+      "a poster with no data",
+      "a story about a scientist"
+    ],
+    "correctAnswer": "a planned test to gather evidence",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 22,
+    "expression": "What is data?",
+    "usageExample": "Measurements, counts, and observations collected during an investigation are data.",
+    "tip": "Data is the information scientists collect.",
+    "alternatives": [
+      "information collected in an investigation",
+      "the name of a science branch",
+      "the final opinion of one person",
+      "the color of a notebook only"
+    ],
+    "correctAnswer": "information collected in an investigation",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 23,
+    "expression": "Why do scientists analyze results?",
+    "usageExample": "After collecting data, scientists look for patterns and decide what the data means.",
+    "tip": "Analyzing results helps scientists understand the evidence.",
+    "alternatives": [
+      "to find patterns and meaning in data",
+      "to erase all measurements",
+      "to avoid conclusions",
+      "to make the test random"
+    ],
+    "correctAnswer": "to find patterns and meaning in data",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 24,
+    "expression": "What is a conclusion?",
+    "usageExample": "A conclusion explains what the investigation showed based on evidence.",
+    "tip": "Conclusions should connect back to the question and evidence.",
+    "alternatives": [
+      "an evidence-based answer after an investigation",
+      "a question asked before research",
+      "a tool used to measure length",
+      "a type of model"
+    ],
+    "correctAnswer": "an evidence-based answer after an investigation",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 25,
+    "expression": "What should scientists do if results do not support a hypothesis?",
+    "usageExample": "Scientists may revise the hypothesis or design a new investigation.",
+    "tip": "A hypothesis can be changed when evidence does not support it.",
+    "alternatives": [
+      "revise the hypothesis or test again",
+      "pretend the data does not exist",
+      "stop using evidence forever",
+      "always call the hypothesis true"
+    ],
+    "correctAnswer": "revise the hypothesis or test again",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 26,
+    "expression": "Why should experiments be repeated?",
+    "usageExample": "Repeating a test helps scientists see whether the results are reliable.",
+    "tip": "Repeated results are stronger than one-time results.",
+    "alternatives": [
+      "to check whether results are reliable",
+      "to make the experiment less clear",
+      "to avoid collecting data",
+      "to change every variable at once"
+    ],
+    "correctAnswer": "to check whether results are reliable",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 27,
+    "expression": "Why do scientists share results?",
+    "usageExample": "Sharing results lets others review, repeat, and build on the investigation.",
+    "tip": "Science grows when results are communicated.",
+    "alternatives": [
+      "so others can review and use the findings",
+      "so no one can ask questions",
+      "so the evidence disappears",
+      "so experiments become secret forever"
+    ],
+    "correctAnswer": "so others can review and use the findings",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 28,
+    "expression": "What is a variable?",
+    "usageExample": "A variable is something in an experiment that can change, such as temperature or time.",
+    "tip": "Variables are factors that may affect results.",
+    "alternatives": [
+      "a factor that can change",
+      "a final answer",
+      "a science notebook",
+      "a type of rock"
+    ],
+    "correctAnswer": "a factor that can change",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 29,
+    "expression": "Why should scientists control variables?",
+    "usageExample": "Controlling variables helps scientists know what caused the results.",
+    "tip": "A fair test changes only the factor being tested.",
+    "alternatives": [
+      "to make the test fair and clear",
+      "to make the results impossible to understand",
+      "to hide the evidence",
+      "to stop measuring"
+    ],
+    "correctAnswer": "to make the test fair and clear",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 30,
+    "expression": "What is a scientific law?",
+    "usageExample": "A law describes what happens in nature, often after many observations.",
+    "tip": "A law describes a pattern; it does not usually explain why the pattern happens.",
+    "alternatives": [
+      "a rule that describes a natural pattern",
+      "a guess that cannot be tested",
+      "a drawing of equipment",
+      "a private opinion"
+    ],
+    "correctAnswer": "a rule that describes a natural pattern",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 31,
+    "expression": "What is a scientific theory?",
+    "usageExample": "A theory explains why something happens and is supported by much evidence.",
+    "tip": "In science, a theory is a strong explanation supported by evidence.",
+    "alternatives": [
+      "a well-supported explanation",
+      "a wild guess",
+      "a single measurement",
+      "a list of materials"
+    ],
+    "correctAnswer": "a well-supported explanation",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 32,
+    "expression": "How are laws and theories different?",
+    "usageExample": "A law describes what happens, while a theory explains why it happens.",
+    "tip": "Remember: laws describe, theories explain.",
+    "alternatives": [
+      "laws describe patterns; theories explain them",
+      "laws are guesses; theories are tools",
+      "laws are always pictures; theories are always numbers",
+      "there is no difference at all"
+    ],
+    "correctAnswer": "laws describe patterns; theories explain them",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 33,
+    "expression": "What is a scientific model?",
+    "usageExample": "A model can represent something too large, too small, or too complex to study directly.",
+    "tip": "Models help scientists understand and explain objects or systems.",
+    "alternatives": [
+      "a representation used to study or explain something",
+      "an answer with no evidence",
+      "a branch of science",
+      "a type of weather"
+    ],
+    "correctAnswer": "a representation used to study or explain something",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 34,
+    "expression": "Why do scientists use models?",
+    "usageExample": "A globe can model Earth when studying the whole planet directly would be difficult.",
+    "tip": "Models make hard-to-study things easier to understand.",
+    "alternatives": [
+      "to study things that are too large, small, or complex",
+      "to avoid evidence",
+      "to replace all observations",
+      "to make science less accurate on purpose"
+    ],
+    "correctAnswer": "to study things that are too large, small, or complex",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 35,
+    "expression": "Which is an example of a physical model?",
+    "usageExample": "A globe is a physical model of Earth.",
+    "tip": "Physical models are objects you can see or touch.",
+    "alternatives": [
+      "a globe of Earth",
+      "a computer weather simulation",
+      "a mathematical equation",
+      "a written conclusion only"
+    ],
+    "correctAnswer": "a globe of Earth",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 36,
+    "expression": "Which is an example of a computer model?",
+    "usageExample": "A weather simulation can use a computer to model storms.",
+    "tip": "Computer models use technology to represent systems.",
+    "alternatives": [
+      "a weather simulation on a computer",
+      "a clay volcano",
+      "a printed ruler",
+      "a hand lens"
+    ],
+    "correctAnswer": "a weather simulation on a computer",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 37,
+    "expression": "Which is an example of a mathematical model?",
+    "usageExample": "A formula can model a relationship between measurements.",
+    "tip": "Mathematical models use numbers, equations, or graphs.",
+    "alternatives": [
+      "an equation that predicts a result",
+      "a toy airplane",
+      "a microscope slide",
+      "a classroom poster only"
+    ],
+    "correctAnswer": "an equation that predicts a result",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 38,
+    "expression": "Can models be perfect copies of real things?",
+    "usageExample": "Models are useful, but they may leave out details from the real object or system.",
+    "tip": "Models have limits.",
+    "alternatives": [
+      "no, models have limitations",
+      "yes, every model is always perfect",
+      "yes, models never need testing",
+      "no, models cannot be useful"
+    ],
+    "correctAnswer": "no, models have limitations",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 39,
+    "expression": "What does a model's limitation mean?",
+    "usageExample": "A small model airplane may show shape but not exactly how a real airplane flies.",
+    "tip": "Limitations are things a model cannot show accurately.",
+    "alternatives": [
+      "something the model does not show well",
+      "proof that science is useless",
+      "a type of measurement tool",
+      "the final step of every experiment"
+    ],
+    "correctAnswer": "something the model does not show well",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 40,
+    "expression": "What is a good reason to use a globe as a model?",
+    "usageExample": "A globe helps show Earth's shape and continents in a smaller form.",
+    "tip": "Globes are physical models of Earth.",
+    "alternatives": [
+      "Earth is too large to hold and study directly",
+      "Earth is a living organism",
+      "Earth cannot be observed at all",
+      "Earth has no shape"
+    ],
+    "correctAnswer": "Earth is too large to hold and study directly",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 41,
+    "expression": "What does it mean to make a hypothesis?",
+    "usageExample": "A scientist may say, 'If plants get more sunlight, then they will grow taller.'",
+    "tip": "Hypotheses are predictions or explanations that can be tested.",
+    "alternatives": [
+      "to propose a testable explanation",
+      "to collect final grades",
+      "to ignore the research question",
+      "to write a law immediately"
+    ],
+    "correctAnswer": "to propose a testable explanation",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 42,
+    "expression": "What does it mean to test a hypothesis?",
+    "usageExample": "Scientists test a hypothesis by doing an experiment or collecting observations.",
+    "tip": "Testing gathers evidence for or against a hypothesis.",
+    "alternatives": [
+      "to gather evidence about whether it is supported",
+      "to assume it is true without checking",
+      "to turn it into a law instantly",
+      "to make it impossible to study"
+    ],
+    "correctAnswer": "to gather evidence about whether it is supported",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 43,
+    "expression": "What does background research happen before?",
+    "usageExample": "Scientists often do background research before designing an investigation.",
+    "tip": "Background research prepares the scientist for the experiment.",
+    "alternatives": [
+      "before the investigation or experiment",
+      "after all results are forgotten",
+      "only after the conclusion",
+      "never in science"
+    ],
+    "correctAnswer": "before the investigation or experiment",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 44,
+    "expression": "What does 'make a conclusion' mean in science?",
+    "usageExample": "After comparing data, the scientist states whether the hypothesis was supported.",
+    "tip": "A conclusion should be based on data.",
+    "alternatives": [
+      "use evidence to answer the question",
+      "ask a new question before collecting data",
+      "build a model with no purpose",
+      "change the data to fit a guess"
+    ],
+    "correctAnswer": "use evidence to answer the question",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 45,
+    "expression": "Which step is part of the scientific method?",
+    "usageExample": "The scientific method often includes asking a question, making a hypothesis, testing, and making a conclusion.",
+    "tip": "The scientific method is a process for investigating questions.",
+    "alternatives": [
+      "test your hypothesis",
+      "hide your results",
+      "avoid observations",
+      "never ask questions"
+    ],
+    "correctAnswer": "test your hypothesis",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 46,
+    "expression": "What should a scientist do after making observations?",
+    "usageExample": "After observing, a scientist can organize and analyze the information.",
+    "tip": "Observations become data that can be studied.",
+    "alternatives": [
+      "analyze the data",
+      "throw away the notebook",
+      "stop asking questions forever",
+      "ignore every result"
+    ],
+    "correctAnswer": "analyze the data",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 47,
+    "expression": "What does a scientific explanation use?",
+    "usageExample": "A scientific explanation should use observations, data, and evidence.",
+    "tip": "Explanations in science need evidence.",
+    "alternatives": [
+      "evidence and observations",
+      "only wishes",
+      "only jokes",
+      "no information"
+    ],
+    "correctAnswer": "evidence and observations",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 48,
+    "expression": "Why is observation important in science?",
+    "usageExample": "Observation helps scientists collect information about what is happening.",
+    "tip": "Observation is one of the main ways scientists gather evidence.",
+    "alternatives": [
+      "it helps collect evidence",
+      "it replaces every experiment",
+      "it makes questions unnecessary",
+      "it proves every idea immediately"
+    ],
+    "correctAnswer": "it helps collect evidence",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 49,
+    "expression": "What is one purpose of scientific tools?",
+    "usageExample": "Tools can help scientists measure, observe, and model things more accurately.",
+    "tip": "Tools extend what people can observe or measure.",
+    "alternatives": [
+      "to help measure and observe",
+      "to make all results fake",
+      "to avoid collecting evidence",
+      "to replace all thinking"
+    ],
+    "correctAnswer": "to help measure and observe",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 50,
+    "expression": "What is the main goal of this chapter's science process?",
+    "usageExample": "The chapter shows how scientists ask questions, test ideas, use models, and support conclusions with evidence.",
+    "tip": "The process connects questions, evidence, testing, and explanations.",
+    "alternatives": [
+      "to explain the natural world with evidence",
+      "to memorize random words only",
+      "to avoid questions",
+      "to make unsupported guesses"
+    ],
+    "correctAnswer": "to explain the natural world with evidence",
+    "version": "v1",
+    "chapter": 1
+  },
+  {
+    "id": 51,
+    "expression": "What does the immune system do?",
+    "usageExample": "The immune system protects and fights against infection and disease.",
+    "tip": "Think of the immune system as the body's defense team.",
+    "alternatives": [
+      "protects the body from infection and disease",
+      "pumps blood through arteries",
+      "breaks food into nutrients only",
+      "controls voluntary muscle movement"
+    ],
+    "correctAnswer": "protects the body from infection and disease",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 52,
+    "expression": "What is a pathogen?",
+    "usageExample": "A pathogen may be a bacterium, virus, fungus, or protist that can cause disease.",
+    "tip": "Pathogens are harmful invaders that can make organisms sick.",
+    "alternatives": [
+      "a particle or organism that can cause disease",
+      "a helpful nutrient in food",
+      "a type of bone cell",
+      "a harmless body signal"
+    ],
+    "correctAnswer": "a particle or organism that can cause disease",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 53,
+    "expression": "Which group includes examples of pathogens?",
+    "usageExample": "Bacteria, viruses, fungi, and protists can all include disease-causing pathogens.",
+    "tip": "Look for tiny organisms or particles that can cause disease.",
+    "alternatives": [
+      "bacteria, viruses, fungi, and protists",
+      "bones, muscles, joints, and tendons",
+      "vitamins, minerals, water, and fiber",
+      "roots, stems, leaves, and flowers"
+    ],
+    "correctAnswer": "bacteria, viruses, fungi, and protists",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 54,
+    "expression": "What is nonspecific immunity?",
+    "usageExample": "Nonspecific immunity includes defenses that protect your body against many kinds of pathogens.",
+    "tip": "Nonspecific defenses respond broadly, not to one exact pathogen.",
+    "alternatives": [
+      "general defenses that protect against many pathogens",
+      "a defense against only one named virus",
+      "a medicine that replaces all white blood cells",
+      "a disease that spreads through air"
+    ],
+    "correctAnswer": "general defenses that protect against many pathogens",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 55,
+    "expression": "Why are physical barriers called the first line of defense?",
+    "usageExample": "Physical barriers help stop pathogens before they enter the body.",
+    "tip": "The first line acts before invaders get inside.",
+    "alternatives": [
+      "they help prevent pathogens from entering the body",
+      "they make antibodies after infection",
+      "they carry oxygen to cells",
+      "they digest proteins in the stomach"
+    ],
+    "correctAnswer": "they help prevent pathogens from entering the body",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 56,
+    "expression": "How does skin help the immune system?",
+    "usageExample": "Skin provides a physical barrier that prevents many pathogens from entering your body.",
+    "tip": "Skin works like the outside wall of a protected place.",
+    "alternatives": [
+      "it blocks many pathogens from entering",
+      "it makes red blood cells",
+      "it stores passive antibodies only",
+      "it turns viruses into bacteria"
+    ],
+    "correctAnswer": "it blocks many pathogens from entering",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 57,
+    "expression": "What do mucus and cilia in the respiratory system do?",
+    "usageExample": "Mucus and cilia trap and remove pathogens as they enter your airways.",
+    "tip": "These defenses help clean the air passages.",
+    "alternatives": [
+      "trap and remove pathogens from airways",
+      "produce insulin for the blood",
+      "make bones stronger",
+      "send nerve messages to muscles"
+    ],
+    "correctAnswer": "trap and remove pathogens from airways",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 58,
+    "expression": "How do saliva and stomach acid help defend the body?",
+    "usageExample": "Saliva and stomach acid can kill many types of bacteria.",
+    "tip": "Some body fluids help destroy invaders chemically.",
+    "alternatives": [
+      "they kill many types of bacteria",
+      "they carry messages from nerves",
+      "they make bones grow longer",
+      "they turn lymph into blood"
+    ],
+    "correctAnswer": "they kill many types of bacteria",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 59,
+    "expression": "What can happen if pathogens get past physical defenses?",
+    "usageExample": "If pathogens enter through a cut, the body uses backup defenses like white blood cells.",
+    "tip": "The immune system has more than one layer of protection.",
+    "alternatives": [
+      "white blood cells can confront them",
+      "the body stops using immunity",
+      "skin no longer protects anything",
+      "all pathogens become harmless instantly"
+    ],
+    "correctAnswer": "white blood cells can confront them",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 60,
+    "expression": "What are white blood cells?",
+    "usageExample": "White blood cells fight invaders that make it into the body.",
+    "tip": "These cells are important immune system fighters.",
+    "alternatives": [
+      "immune cells that fight pathogens",
+      "cells that only carry oxygen",
+      "cells that build tooth enamel",
+      "cells that make stomach acid"
+    ],
+    "correctAnswer": "immune cells that fight pathogens",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 61,
+    "expression": "What do some white blood cells do to pathogens?",
+    "usageExample": "Some white blood cells digest and destroy bacteria and other pathogens.",
+    "tip": "Some immune cells destroy invaders by engulfing them.",
+    "alternatives": [
+      "digest and destroy them",
+      "turn them into oxygen",
+      "help them reproduce faster",
+      "store them in bones"
+    ],
+    "correctAnswer": "digest and destroy them",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 62,
+    "expression": "What is a macrophage?",
+    "usageExample": "Macrophages are white blood cells that engulf and destroy pathogens they encounter.",
+    "tip": "Macrophages are immune cells that use a direct attack.",
+    "alternatives": [
+      "a white blood cell that engulfs and destroys pathogens",
+      "a virus that causes the flu",
+      "a chemical that causes cancer",
+      "a lymph fluid storage organ only"
+    ],
+    "correctAnswer": "a white blood cell that engulfs and destroys pathogens",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 63,
+    "expression": "Why are macrophages compared to strong defenders?",
+    "usageExample": "Macrophages use force to engulf and destroy pathogens.",
+    "tip": "The chapter describes macrophages as using brute force.",
+    "alternatives": [
+      "they engulf and destroy invaders",
+      "they carry air into the lungs",
+      "they make the skin waterproof",
+      "they create noninfectious diseases"
+    ],
+    "correctAnswer": "they engulf and destroy invaders",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 64,
+    "expression": "What are antibodies?",
+    "usageExample": "The body produces antibodies in response to a pathogen.",
+    "tip": "Antibodies help the body recognize and fight specific invaders.",
+    "alternatives": [
+      "proteins made to fight specific pathogens",
+      "tiny bones inside the ear",
+      "germs that cause pneumonia",
+      "cells that make tumors"
+    ],
+    "correctAnswer": "proteins made to fight specific pathogens",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 65,
+    "expression": "How can antibodies protect you if a pathogen returns?",
+    "usageExample": "Your body may keep antibodies ready to fight a pathogen if it comes back.",
+    "tip": "Stored antibodies help the immune system respond faster later.",
+    "alternatives": [
+      "they can help fight the pathogen again",
+      "they make pathogens spread through water",
+      "they stop skin from acting as a barrier",
+      "they change viruses into fungi"
+    ],
+    "correctAnswer": "they can help fight the pathogen again",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 66,
+    "expression": "What is active immunity?",
+    "usageExample": "Active immunity happens when your body produces the antibodies that give you immunity.",
+    "tip": "Active immunity means your own immune system does the work.",
+    "alternatives": [
+      "immunity from antibodies your own body makes",
+      "immunity received from another body",
+      "a disease caused by no pathogen",
+      "a barrier made only by skin"
+    ],
+    "correctAnswer": "immunity from antibodies your own body makes",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 67,
+    "expression": "What is passive immunity?",
+    "usageExample": "A baby can receive passive immunity from the mother during pregnancy and later from breast milk.",
+    "tip": "Passive immunity is received rather than made by your own body.",
+    "alternatives": [
+      "immunity gained by receiving antibodies from another body",
+      "immunity made only after exercise",
+      "a defense that never uses antibodies",
+      "a disease caused by cancer cells"
+    ],
+    "correctAnswer": "immunity gained by receiving antibodies from another body",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 68,
+    "expression": "Which example shows passive immunity?",
+    "usageExample": "A baby receives passive immunity from the mother during pregnancy and through breast milk.",
+    "tip": "Look for antibodies received from someone else.",
+    "alternatives": [
+      "a baby receiving antibodies from the mother",
+      "skin blocking dirt from entering a cut",
+      "macrophages engulfing a bacterium",
+      "a person scraping a knee"
+    ],
+    "correctAnswer": "a baby receiving antibodies from the mother",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 69,
+    "expression": "What happens during a vaccination?",
+    "usageExample": "During vaccination, a small amount of an inactivated pathogen may be injected into the body.",
+    "tip": "Vaccination prepares the immune system without causing the full disease.",
+    "alternatives": [
+      "a harmless form or part of a pathogen is introduced",
+      "all white blood cells are removed",
+      "skin stops being a barrier",
+      "lymph nodes stop filtering fluid"
+    ],
+    "correctAnswer": "a harmless form or part of a pathogen is introduced",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 70,
+    "expression": "Why do vaccinations help protect the body?",
+    "usageExample": "Vaccinations cause an immune response that produces antibodies.",
+    "tip": "Vaccines train the immune system for a future encounter.",
+    "alternatives": [
+      "they help the body make antibodies before the real pathogen returns",
+      "they make bacteria impossible to kill",
+      "they replace all physical barriers",
+      "they spread diseases through food"
+    ],
+    "correctAnswer": "they help the body make antibodies before the real pathogen returns",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 71,
+    "expression": "What remains in the blood after a vaccination response?",
+    "usageExample": "After vaccination, antibodies can remain in the blood prepared to fight the real pathogen later.",
+    "tip": "The immune system keeps useful defenses ready.",
+    "alternatives": [
+      "antibodies prepared to fight the pathogen",
+      "extra stomach acid only",
+      "cancerous cells",
+      "noninfectious pathogens"
+    ],
+    "correctAnswer": "antibodies prepared to fight the pathogen",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 72,
+    "expression": "What is inflammation?",
+    "usageExample": "Redness and swelling after a scrape are signs of inflammation.",
+    "tip": "Inflammation often makes an area red, puffy, warm, and tender.",
+    "alternatives": [
+      "redness and swelling caused by an immune response",
+      "a kind of passive immunity",
+      "a disease spread through blood only",
+      "a type of noninfectious cancer"
+    ],
+    "correctAnswer": "redness and swelling caused by an immune response",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 73,
+    "expression": "What can trigger inflammation?",
+    "usageExample": "When cells are damaged by infection or injury, they release chemicals that cause inflammation.",
+    "tip": "Damaged cells signal the body to respond.",
+    "alternatives": [
+      "cell damage from infection or injury",
+      "healthy cells dividing normally",
+      "antibodies from another person",
+      "lymph nodes shrinking forever"
+    ],
+    "correctAnswer": "cell damage from infection or injury",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 74,
+    "expression": "Why does blood flow increase during inflammation?",
+    "usageExample": "Increased blood flow helps more white blood cells reach the damaged area.",
+    "tip": "More blood flow brings more immune cells to the problem.",
+    "alternatives": [
+      "so more white blood cells can reach the area",
+      "so pathogens can escape faster",
+      "so antibodies disappear from blood",
+      "so skin stops blocking pathogens"
+    ],
+    "correctAnswer": "so more white blood cells can reach the area",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 75,
+    "expression": "Which signs may appear during inflammation?",
+    "usageExample": "An inflamed scrape can become red, puffy, warm, and tender.",
+    "tip": "Inflammation often changes how an injured area looks and feels.",
+    "alternatives": [
+      "redness, puffiness, warmth, and tenderness",
+      "coldness, numbness, and no swelling",
+      "clear vision and faster hearing",
+      "stronger bones and longer muscles"
+    ],
+    "correctAnswer": "redness, puffiness, warmth, and tenderness",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 76,
+    "expression": "What is the lymphatic system compared to in the chapter?",
+    "usageExample": "The lymphatic system is described as sort of like a drainpipe.",
+    "tip": "It collects and filters fluid from the body.",
+    "alternatives": [
+      "a drainpipe that collects and filters fluid",
+      "a pump that moves air into lungs",
+      "a wall that blocks sunlight",
+      "a bone that supports the arm"
+    ],
+    "correctAnswer": "a drainpipe that collects and filters fluid",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 77,
+    "expression": "What is lymph?",
+    "usageExample": "The lymphatic system collects fluid called lymph from your body.",
+    "tip": "Lymph is the fluid handled by the lymphatic system.",
+    "alternatives": [
+      "fluid collected by the lymphatic system",
+      "a type of skin barrier",
+      "a disease caused by bacteria",
+      "a medicine used to kill viruses"
+    ],
+    "correctAnswer": "fluid collected by the lymphatic system",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 78,
+    "expression": "What are lymph nodes?",
+    "usageExample": "Lymph nodes are small lumps of tissue scattered throughout the body that filter lymph.",
+    "tip": "Lymph nodes help clean and monitor body fluid.",
+    "alternatives": [
+      "small tissues that filter lymph",
+      "viruses that cause colds",
+      "chemicals that increase cancer",
+      "barriers made of skin only"
+    ],
+    "correctAnswer": "small tissues that filter lymph",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 79,
+    "expression": "What type of white blood cell do lymph nodes produce?",
+    "usageExample": "Lymph nodes produce white blood cells called lymphocytes.",
+    "tip": "The word lymphocyte starts with lymph because it belongs with the lymphatic system.",
+    "alternatives": [
+      "lymphocytes",
+      "red blood cells",
+      "skin cells",
+      "cancer cells"
+    ],
+    "correctAnswer": "lymphocytes",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 80,
+    "expression": "What do lymphocytes do as blood passes through lymph nodes?",
+    "usageExample": "Lymphocytes attack and remove pathogens from your body.",
+    "tip": "Lymphocytes are immune system fighters.",
+    "alternatives": [
+      "attack and remove pathogens",
+      "make stomach acid weaker",
+      "carry oxygen to muscles only",
+      "cause noninfectious disease"
+    ],
+    "correctAnswer": "attack and remove pathogens",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 81,
+    "expression": "Why can lymph nodes swell when you are sick?",
+    "usageExample": "Neck lymph nodes may swell because many lymphocytes are fighting pathogens.",
+    "tip": "Swollen lymph nodes can mean immune cells are active.",
+    "alternatives": [
+      "many lymphocytes are responding to infection",
+      "all pathogens have become harmless",
+      "the skin is making antibodies",
+      "the body has stopped filtering lymph"
+    ],
+    "correctAnswer": "many lymphocytes are responding to infection",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 82,
+    "expression": "What can cause human disease?",
+    "usageExample": "Human disease can be caused by many things, including pathogens and noninfectious causes.",
+    "tip": "The chapter separates infectious and noninfectious diseases.",
+    "alternatives": [
+      "a number of different things",
+      "only bacteria",
+      "only viruses",
+      "only exercise"
+    ],
+    "correctAnswer": "a number of different things",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 83,
+    "expression": "Which diseases can certain bacteria cause?",
+    "usageExample": "Certain species of bacteria can cause strep throat, ear infections, tuberculosis, or pneumonia.",
+    "tip": "The chapter lists several bacterial diseases.",
+    "alternatives": [
+      "strep throat, ear infections, tuberculosis, or pneumonia",
+      "measles, warts, polio, and AIDS only",
+      "athlete's foot and yeast infections only",
+      "diabetes and genetic diseases only"
+    ],
+    "correctAnswer": "strep throat, ear infections, tuberculosis, or pneumonia",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 84,
+    "expression": "Which diseases can viruses cause?",
+    "usageExample": "Viruses can cause the flu, colds, polio, measles, warts, or AIDS.",
+    "tip": "Viruses are one category of pathogen.",
+    "alternatives": [
+      "the flu, colds, polio, measles, warts, or AIDS",
+      "strep throat, ear infections, and tuberculosis only",
+      "malaria, dysentery, and giardiasis only",
+      "cancer, diabetes, and genetic disease only"
+    ],
+    "correctAnswer": "the flu, colds, polio, measles, warts, or AIDS",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 85,
+    "expression": "Which diseases can certain protists cause?",
+    "usageExample": "Certain species of protists can cause malaria, dysentery, or giardiasis.",
+    "tip": "Protists are another type of disease-causing organism.",
+    "alternatives": [
+      "malaria, dysentery, or giardiasis",
+      "the flu, colds, and measles",
+      "strep throat and pneumonia",
+      "diabetes and cancer"
+    ],
+    "correctAnswer": "malaria, dysentery, or giardiasis",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 86,
+    "expression": "Which diseases can certain fungi cause?",
+    "usageExample": "Certain species of fungi can cause athlete's foot, yeast infections, or other diseases.",
+    "tip": "Fungi include some pathogens too.",
+    "alternatives": [
+      "athlete's foot, yeast infections, or other diseases",
+      "polio, measles, and AIDS only",
+      "malaria and giardiasis only",
+      "strep throat and tuberculosis only"
+    ],
+    "correctAnswer": "athlete's foot, yeast infections, or other diseases",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 87,
+    "expression": "What can antibiotic drugs treat best?",
+    "usageExample": "The chapter explains that bacteria can be killed and removed with antibiotic drugs.",
+    "tip": "Antibiotics are for bacterial infections, not viral infections.",
+    "alternatives": [
+      "many bacterial infections",
+      "all viral infections",
+      "every kind of cancer",
+      "all noninfectious diseases"
+    ],
+    "correctAnswer": "many bacterial infections",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 88,
+    "expression": "Why can viral infections be harder to remove completely?",
+    "usageExample": "Once you have been infected with a virus, it often remains with you for life.",
+    "tip": "The chapter contrasts viruses with bacteria treated by antibiotics.",
+    "alternatives": [
+      "a virus can remain in the body for life",
+      "all viruses turn into bacteria",
+      "viruses are killed by skin barriers only",
+      "viruses cannot enter cells"
+    ],
+    "correctAnswer": "a virus can remain in the body for life",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 89,
+    "expression": "What is an infectious disease?",
+    "usageExample": "An infectious disease can travel from one infected organism to another.",
+    "tip": "Infectious diseases can spread.",
+    "alternatives": [
+      "a disease that can spread from one organism to another",
+      "a disease that cannot spread between people",
+      "a disease caused only by DNA mutations",
+      "a disease caused only by surgery"
+    ],
+    "correctAnswer": "a disease that can spread from one organism to another",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 90,
+    "expression": "How can some infectious diseases spread?",
+    "usageExample": "Some diseases can spread through air, water, food, or physical contact.",
+    "tip": "The chapter lists several paths for disease transmission.",
+    "alternatives": [
+      "through air, water, food, or physical contact",
+      "only through inherited genes",
+      "only through exercise",
+      "only through sunlight"
+    ],
+    "correctAnswer": "through air, water, food, or physical contact",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 91,
+    "expression": "How can diseases like HIV spread?",
+    "usageExample": "Some diseases, like HIV, can spread through body fluids such as blood.",
+    "tip": "Body fluids can carry certain pathogens.",
+    "alternatives": [
+      "through body fluids such as blood",
+      "only through dry skin",
+      "only through genetic mutation",
+      "through lymph nodes making tumors"
+    ],
+    "correctAnswer": "through body fluids such as blood",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 92,
+    "expression": "Where can bacteria and viruses survive outside the body?",
+    "usageExample": "Bacteria and viruses can survive on surfaces like doorknobs and handrails.",
+    "tip": "Shared surfaces can carry pathogens.",
+    "alternatives": [
+      "on surfaces like doorknobs and handrails",
+      "only inside bones",
+      "only in antibodies",
+      "only in noninfectious tumors"
+    ],
+    "correctAnswer": "on surfaces like doorknobs and handrails",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 93,
+    "expression": "What is an easy and effective way to help prevent disease?",
+    "usageExample": "Washing your hands helps keep you free from disease.",
+    "tip": "Handwashing removes many germs from your hands.",
+    "alternatives": [
+      "washing your hands",
+      "touching more handrails",
+      "sharing cups with sick people",
+      "ignoring cuts and scrapes"
+    ],
+    "correctAnswer": "washing your hands",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 94,
+    "expression": "What are noninfectious diseases?",
+    "usageExample": "Noninfectious diseases are not caused by pathogens and cannot be spread from person to person.",
+    "tip": "Noninfectious means not spread by germs from one person to another.",
+    "alternatives": [
+      "diseases not caused by pathogens and not spread person to person",
+      "diseases caused only by viruses",
+      "diseases spread through air and water",
+      "diseases caused only by fungi"
+    ],
+    "correctAnswer": "diseases not caused by pathogens and not spread person to person",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 95,
+    "expression": "Which are examples of noninfectious diseases?",
+    "usageExample": "Diabetes, genetic diseases, and cancer are examples of noninfectious diseases.",
+    "tip": "These diseases do not spread from person to person through pathogens.",
+    "alternatives": [
+      "diabetes, genetic diseases, and cancer",
+      "flu, colds, and measles",
+      "strep throat and pneumonia",
+      "athlete's foot and yeast infections"
+    ],
+    "correctAnswer": "diabetes, genetic diseases, and cancer",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 96,
+    "expression": "Why is cancer considered noninfectious?",
+    "usageExample": "Cancer is not caused by pathogens and cannot be spread from person to person.",
+    "tip": "Cancer comes from changes in body cells, not from catching a germ.",
+    "alternatives": [
+      "it is not caused by pathogens or spread between people",
+      "it is always caused by bacteria",
+      "it spreads through water and food",
+      "it is caused only by fungi"
+    ],
+    "correctAnswer": "it is not caused by pathogens or spread between people",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 97,
+    "expression": "What causes cells to become cancerous?",
+    "usageExample": "Cancer happens when cells have a mutation in their DNA that causes them to reproduce uncontrollably.",
+    "tip": "A mutation is a change in DNA.",
+    "alternatives": [
+      "a DNA mutation that makes cells reproduce uncontrollably",
+      "mucus trapping pathogens in airways",
+      "antibodies from breast milk",
+      "skin blocking pathogens"
+    ],
+    "correctAnswer": "a DNA mutation that makes cells reproduce uncontrollably",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 98,
+    "expression": "What can cancerous cells eventually form?",
+    "usageExample": "Cancerous cells can grow and eventually form tumors and growths.",
+    "tip": "Uncontrolled cell reproduction can produce abnormal masses.",
+    "alternatives": [
+      "tumors and growths",
+      "antibodies and lymph",
+      "mucus and cilia",
+      "bacteria and protists"
+    ],
+    "correctAnswer": "tumors and growths",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 99,
+    "expression": "Why can tumors interfere with the body?",
+    "usageExample": "Tumors and growths can interfere with normal body processes.",
+    "tip": "Abnormal growths can get in the way of how the body works.",
+    "alternatives": [
+      "they can interfere with normal body processes",
+      "they always help lymphocytes attack faster",
+      "they make skin a stronger barrier",
+      "they turn infectious diseases into vaccines"
+    ],
+    "correctAnswer": "they can interfere with normal body processes",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 100,
+    "expression": "How may doctors fight cancer?",
+    "usageExample": "Doctors may try to remove or kill cancerous cells with surgery, chemicals, or radiation.",
+    "tip": "Cancer treatments try to get rid of abnormal cells.",
+    "alternatives": [
+      "by removing or killing cancerous cells",
+      "by spreading pathogens through air",
+      "by making bacteria survive longer",
+      "by stopping all white blood cells"
+    ],
+    "correctAnswer": "by removing or killing cancerous cells",
+    "version": "v1",
+    "chapter": 40
+  },
+  {
+    "id": 101,
+    "expression": "What is cellular respiration?",
+    "usageExample": "Cellular respiration breaks down glucose and releases chemical energy for the body to use.",
+    "tip": "It is the process cells use to get energy from sugar.",
+    "alternatives": [
+      "a series of reactions that breaks down glucose for energy",
+      "the movement of bones at a joint",
+      "the growth of hair and nails",
+      "the storage of memories in the brain"
+    ],
+    "correctAnswer": "a series of reactions that breaks down glucose for energy",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 102,
+    "expression": "Which simple sugar is broken down during cellular respiration?",
+    "usageExample": "Glucose is the simple sugar that cells break down to release energy.",
+    "tip": "The chapter names glucose as the sugar used for energy.",
+    "alternatives": [
+      "glucose",
+      "carbon dioxide",
+      "cartilage",
+      "mucus"
+    ],
+    "correctAnswer": "glucose",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 103,
+    "expression": "Why does the body need oxygen for cellular respiration?",
+    "usageExample": "Your body needs oxygen to use sugar and burn calories for energy.",
+    "tip": "The chapter compares oxygen use to a fire needing oxygen for combustion.",
+    "alternatives": [
+      "to help release energy from glucose",
+      "to make bones harder",
+      "to digest food in the stomach",
+      "to keep platelets from clotting"
+    ],
+    "correctAnswer": "to help release energy from glucose",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 104,
+    "expression": "What waste products are released by cellular respiration?",
+    "usageExample": "Cellular respiration uses oxygen and releases carbon dioxide and water as waste products.",
+    "tip": "Look for the two wastes made after oxygen helps break down glucose.",
+    "alternatives": [
+      "carbon dioxide and water",
+      "oxygen and glucose",
+      "plasma and platelets",
+      "cartilage and mucus"
+    ],
+    "correctAnswer": "carbon dioxide and water",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 105,
+    "expression": "What delivery system carries oxygen from the lungs to cells?",
+    "usageExample": "Blood carries oxygen from the lungs to all your cells.",
+    "tip": "The chapter calls blood the delivery system.",
+    "alternatives": [
+      "blood",
+      "the epiglottis",
+      "the diaphragm",
+      "cartilage"
+    ],
+    "correctAnswer": "blood",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 106,
+    "expression": "What does blood carry back to the lungs from cells?",
+    "usageExample": "Blood returns to the lungs with carbon dioxide waste so it can be exhaled.",
+    "tip": "This waste leaves the body when you breathe out.",
+    "alternatives": [
+      "carbon dioxide waste",
+      "new glucose only",
+      "extra cartilage",
+      "platelet fragments only"
+    ],
+    "correctAnswer": "carbon dioxide waste",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 107,
+    "expression": "Where does air enter the respiratory tract?",
+    "usageExample": "You breathe air in through your mouth and nose.",
+    "tip": "The first step of the respiratory tract is breathing in.",
+    "alternatives": [
+      "through the mouth and nose",
+      "through the kidneys",
+      "through the left ventricle",
+      "through the capillaries"
+    ],
+    "correctAnswer": "through the mouth and nose",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 108,
+    "expression": "What is the pharynx?",
+    "usageExample": "Air moves into the pharynx, a passageway in the throat that leads to both the stomach and lungs.",
+    "tip": "The pharynx is a throat passageway.",
+    "alternatives": [
+      "a throat passageway leading to the stomach and lungs",
+      "a chamber that pumps blood",
+      "a tiny air sac in the lungs",
+      "a blood cell that fights disease"
+    ],
+    "correctAnswer": "a throat passageway leading to the stomach and lungs",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 109,
+    "expression": "What does the epiglottis do?",
+    "usageExample": "The epiglottis prevents food from going into your airway.",
+    "tip": "It acts like a flap in the back of the throat.",
+    "alternatives": [
+      "prevents food from entering the airway",
+      "carries oxygen through the blood",
+      "clots blood after a cut",
+      "pumps blood to the body"
+    ],
+    "correctAnswer": "prevents food from entering the airway",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 110,
+    "expression": "What happens to the epiglottis when you breathe?",
+    "usageExample": "When you breathe, the epiglottis remains open so air can pass through.",
+    "tip": "Breathing requires an open airway.",
+    "alternatives": [
+      "it remains open",
+      "it clots blood",
+      "it fills with glucose",
+      "it becomes a capillary"
+    ],
+    "correctAnswer": "it remains open",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 111,
+    "expression": "What is the larynx?",
+    "usageExample": "Air moves into the larynx, the part of the air passage where the vocal cords are located.",
+    "tip": "The vocal cords are in the larynx.",
+    "alternatives": [
+      "the air passage where the vocal cords are located",
+      "the liquid part of blood",
+      "a one-way valve in veins",
+      "a muscle under the rib cage"
+    ],
+    "correctAnswer": "the air passage where the vocal cords are located",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 112,
+    "expression": "What is the trachea lined with?",
+    "usageExample": "The trachea is lined with cartilage to keep it firm and prevent collapse.",
+    "tip": "Cartilage helps the airway stay open.",
+    "alternatives": [
+      "cartilage",
+      "red blood cells",
+      "alveoli",
+      "platelets"
+    ],
+    "correctAnswer": "cartilage",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 113,
+    "expression": "Why does the trachea have cartilage?",
+    "usageExample": "Cartilage keeps the trachea firm so it does not collapse.",
+    "tip": "The trachea needs to stay open for air to move.",
+    "alternatives": [
+      "to keep it firm and open",
+      "to exchange oxygen with blood",
+      "to make blood clot faster",
+      "to carry glucose to the kidneys"
+    ],
+    "correctAnswer": "to keep it firm and open",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 114,
+    "expression": "What do cilia and mucus in the trachea trap?",
+    "usageExample": "Tiny hairlike cilia and mucus trap bacteria, dust, and particles that should not enter the lungs.",
+    "tip": "Cilia and mucus help clean the airway.",
+    "alternatives": [
+      "bacteria, dust, and unwanted particles",
+      "oxygen-rich blood",
+      "heart chambers",
+      "glucose and vitamins only"
+    ],
+    "correctAnswer": "bacteria, dust, and unwanted particles",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 115,
+    "expression": "What are bronchi?",
+    "usageExample": "Air moves into tubes leading to your lungs called bronchi.",
+    "tip": "Bronchi are the larger tubes that branch toward the lungs.",
+    "alternatives": [
+      "tubes that lead air to the lungs",
+      "cells that carry oxygen",
+      "fragments that clot blood",
+      "one-way valves in veins"
+    ],
+    "correctAnswer": "tubes that lead air to the lungs",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 116,
+    "expression": "What do bronchi branch into?",
+    "usageExample": "The bronchi branch into smaller tubes called bronchioles.",
+    "tip": "The word bronchi is compared to branch.",
+    "alternatives": [
+      "bronchioles",
+      "platelets",
+      "atria",
+      "kidneys"
+    ],
+    "correctAnswer": "bronchioles",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 117,
+    "expression": "What do bronchioles connect directly to?",
+    "usageExample": "Bronchioles connect directly to alveoli, which are tiny air sacs.",
+    "tip": "Alveoli sit at the ends of the smallest air tubes.",
+    "alternatives": [
+      "alveoli",
+      "the aorta",
+      "white blood cells",
+      "the epiglottis"
+    ],
+    "correctAnswer": "alveoli",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 118,
+    "expression": "What are alveoli?",
+    "usageExample": "Alveoli are millions of tiny air sacs connected to the bronchioles.",
+    "tip": "These tiny sacs are where gases move between air and blood.",
+    "alternatives": [
+      "tiny air sacs in the lungs",
+      "large arteries leaving the heart",
+      "blood fragments that form clots",
+      "throat flaps that block food"
+    ],
+    "correctAnswer": "tiny air sacs in the lungs",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 119,
+    "expression": "Where does oxygen from the alveoli go?",
+    "usageExample": "Oxygen from air in the alveoli moves into the blood in the capillaries.",
+    "tip": "Capillaries are tiny blood vessels next to the alveoli.",
+    "alternatives": [
+      "into blood in the capillaries",
+      "into the stomach",
+      "into the vocal cords",
+      "into platelets only"
+    ],
+    "correctAnswer": "into blood in the capillaries",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 120,
+    "expression": "What happens to carbon dioxide waste in the alveoli?",
+    "usageExample": "Carbon dioxide waste moves from the blood into the air in the alveoli to be exhaled.",
+    "tip": "Carbon dioxide leaves when you breathe out.",
+    "alternatives": [
+      "it moves into the alveoli to be exhaled",
+      "it becomes a heart chamber",
+      "it turns into cartilage",
+      "it clots the blood"
+    ],
+    "correctAnswer": "it moves into the alveoli to be exhaled",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 121,
+    "expression": "What is breathing?",
+    "usageExample": "Breathing is the mechanical process of taking in air.",
+    "tip": "The chapter separates breathing from cellular respiration.",
+    "alternatives": [
+      "the mechanical process of taking in air",
+      "the chemical breakdown of glucose only",
+      "the clotting of blood",
+      "the movement of blood through veins only"
+    ],
+    "correctAnswer": "the mechanical process of taking in air",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 122,
+    "expression": "Why do you breathe faster during exercise?",
+    "usageExample": "When you exercise, your body needs more oxygen to burn more calories for energy.",
+    "tip": "More activity means cells need more oxygen.",
+    "alternatives": [
+      "your body needs more oxygen for energy",
+      "your epiglottis needs to close longer",
+      "your platelets need to carry oxygen",
+      "your veins stop using valves"
+    ],
+    "correctAnswer": "your body needs more oxygen for energy",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 123,
+    "expression": "When does air get pulled into your chest?",
+    "usageExample": "Air gets pulled into your chest when your chest expands.",
+    "tip": "The sponge example shows air rushing in when space expands.",
+    "alternatives": [
+      "when your chest expands",
+      "when your blood clots",
+      "when veins close completely",
+      "when cilia die"
+    ],
+    "correctAnswer": "when your chest expands",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 124,
+    "expression": "When is air pushed out of your chest?",
+    "usageExample": "Air is pushed out when your chest contracts.",
+    "tip": "Contracting makes the chest space smaller.",
+    "alternatives": [
+      "when your chest contracts",
+      "when the left atrium receives blood",
+      "when platelets stop bleeding",
+      "when glucose enters plasma"
+    ],
+    "correctAnswer": "when your chest contracts",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 125,
+    "expression": "What muscle controls chest expansion and contraction during breathing?",
+    "usageExample": "The diaphragm controls the expanding and contracting motion of breathing.",
+    "tip": "The diaphragm is located under the rib cage.",
+    "alternatives": [
+      "the diaphragm",
+      "the aorta",
+      "the epiglottis",
+      "the plasma"
+    ],
+    "correctAnswer": "the diaphragm",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 126,
+    "expression": "What is the circulatory system compared to?",
+    "usageExample": "The circulatory system is like the transportation system of your body.",
+    "tip": "It moves materials around the body.",
+    "alternatives": [
+      "the body's transportation system",
+      "a flap that blocks food",
+      "a sponge full of air",
+      "a filter for dust only"
+    ],
+    "correctAnswer": "the body's transportation system",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 127,
+    "expression": "What does the circulatory system distribute?",
+    "usageExample": "The circulatory system carries nutrients, sugars, and oxygen to different parts of the body.",
+    "tip": "It delivers useful materials to body cells.",
+    "alternatives": [
+      "nutrients, sugars, and oxygen",
+      "only dust and bacteria",
+      "only food in the throat",
+      "only cartilage and mucus"
+    ],
+    "correctAnswer": "nutrients, sugars, and oxygen",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 128,
+    "expression": "What does the circulatory system collect for removal?",
+    "usageExample": "The circulatory system collects waste so it can be removed from the body.",
+    "tip": "Delivery and cleanup are both jobs of circulation.",
+    "alternatives": [
+      "waste",
+      "vocal cords",
+      "cartilage rings",
+      "new alveoli"
+    ],
+    "correctAnswer": "waste",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 129,
+    "expression": "If the circulatory system is transportation, what is blood?",
+    "usageExample": "If the circulatory system is the transportation system, blood is the vehicle.",
+    "tip": "Blood actually carries the transported materials.",
+    "alternatives": [
+      "the vehicle",
+      "the road sign",
+      "the traffic light",
+      "the fuel pump only"
+    ],
+    "correctAnswer": "the vehicle",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 130,
+    "expression": "What does blood transport?",
+    "usageExample": "Blood transports oxygen, nutrients, waste, and other substances.",
+    "tip": "Blood carries both useful materials and wastes.",
+    "alternatives": [
+      "oxygen, nutrients, waste, and other substances",
+      "only air through the trachea",
+      "only sound through vocal cords",
+      "only food to the stomach"
+    ],
+    "correctAnswer": "oxygen, nutrients, waste, and other substances",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 131,
+    "expression": "Where is body waste transported by blood?",
+    "usageExample": "Waste from your body is picked up and transported by blood to your kidneys.",
+    "tip": "The kidneys help remove waste from the blood.",
+    "alternatives": [
+      "to the kidneys",
+      "to the larynx",
+      "to the epiglottis",
+      "to the bronchi"
+    ],
+    "correctAnswer": "to the kidneys",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 132,
+    "expression": "Where is carbon dioxide waste carried before it is exhaled?",
+    "usageExample": "Carbon dioxide waste is carried in the blood to the lungs, where it is exhaled.",
+    "tip": "Carbon dioxide leaves the body through the respiratory system.",
+    "alternatives": [
+      "to the lungs",
+      "to the vocal cords",
+      "to the bones",
+      "to the stomach"
+    ],
+    "correctAnswer": "to the lungs",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 133,
+    "expression": "What is plasma?",
+    "usageExample": "Plasma is the liquid in your blood that carries most substances that need to be transported.",
+    "tip": "Plasma is the liquid part of blood.",
+    "alternatives": [
+      "the liquid in blood that carries most transported substances",
+      "a chamber on the right side of the heart",
+      "a tiny air sac in the lung",
+      "a flap that prevents choking"
+    ],
+    "correctAnswer": "the liquid in blood that carries most transported substances",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 134,
+    "expression": "Which substances can plasma carry?",
+    "usageExample": "Plasma carries substances such as glucose, nutrients, minerals, vitamins, carbon dioxide, and waste.",
+    "tip": "Plasma carries many dissolved materials.",
+    "alternatives": [
+      "glucose, nutrients, minerals, vitamins, carbon dioxide, and waste",
+      "only cartilage and cilia",
+      "only bronchi and bronchioles",
+      "only atria and ventricles"
+    ],
+    "correctAnswer": "glucose, nutrients, minerals, vitamins, carbon dioxide, and waste",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 135,
+    "expression": "What do red blood cells do?",
+    "usageExample": "Red blood cells carry oxygen to your body's cells.",
+    "tip": "Red blood cells are the oxygen carriers.",
+    "alternatives": [
+      "carry oxygen to body cells",
+      "fight disease as immune cells",
+      "form one-way valves",
+      "move air through vocal cords"
+    ],
+    "correctAnswer": "carry oxygen to body cells",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 136,
+    "expression": "What do white blood cells do?",
+    "usageExample": "White blood cells are cells from your immune system that fight disease.",
+    "tip": "White blood cells defend the body.",
+    "alternatives": [
+      "fight disease",
+      "carry oxygen to cells",
+      "clot blood after a cut",
+      "move air into alveoli"
+    ],
+    "correctAnswer": "fight disease",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 137,
+    "expression": "What do platelets do?",
+    "usageExample": "Platelets are cell fragments that clot blood and help stop bleeding when you get a cut.",
+    "tip": "Platelets help form clots.",
+    "alternatives": [
+      "clot blood to stop bleeding",
+      "carry oxygen from the lungs",
+      "keep the trachea firm",
+      "exchange gases in alveoli"
+    ],
+    "correctAnswer": "clot blood to stop bleeding",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 138,
+    "expression": "What is the heart's job in the circulatory system?",
+    "usageExample": "The heart is the engine of the circulatory system and pumps blood to different parts of the body.",
+    "tip": "The heart powers blood movement.",
+    "alternatives": [
+      "to pump blood to the body",
+      "to trap dust before the lungs",
+      "to make air sacs expand",
+      "to break down glucose directly"
+    ],
+    "correctAnswer": "to pump blood to the body",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 139,
+    "expression": "How many chambers does the heart have?",
+    "usageExample": "The heart is made of four chambers.",
+    "tip": "There are two atria and two ventricles.",
+    "alternatives": [
+      "four",
+      "two",
+      "six",
+      "eight"
+    ],
+    "correctAnswer": "four",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 140,
+    "expression": "Which chambers make up the heart?",
+    "usageExample": "The heart has a left and right atrium and a left and right ventricle.",
+    "tip": "The chamber names are atrium and ventricle on each side.",
+    "alternatives": [
+      "left and right atrium, left and right ventricle",
+      "pharynx, larynx, trachea, bronchi",
+      "plasma, red cells, white cells, platelets",
+      "arteries, veins, capillaries, valves"
+    ],
+    "correctAnswer": "left and right atrium, left and right ventricle",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 141,
+    "expression": "Where does oxygen-rich blood from the lungs go first in the heart?",
+    "usageExample": "Oxygen-rich blood flows from the lungs to the left side of the heart, first through the left atrium.",
+    "tip": "The left atrium receives oxygenated blood from the lungs.",
+    "alternatives": [
+      "the left atrium",
+      "the right ventricle",
+      "the epiglottis",
+      "the trachea"
+    ],
+    "correctAnswer": "the left atrium",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 142,
+    "expression": "After the left atrium, where does oxygen-rich blood move?",
+    "usageExample": "Oxygen-rich blood moves from the left atrium to the left ventricle.",
+    "tip": "The left ventricle pumps oxygenated blood toward the body.",
+    "alternatives": [
+      "the left ventricle",
+      "the right atrium",
+      "the bronchioles",
+      "the capillaries of the kidneys only"
+    ],
+    "correctAnswer": "the left ventricle",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 143,
+    "expression": "What is the aorta?",
+    "usageExample": "Blood is pumped to the rest of the body through the aorta, a large powerful artery.",
+    "tip": "The aorta is the major artery leaving the heart.",
+    "alternatives": [
+      "a large powerful artery",
+      "a tiny air sac",
+      "a blood-clotting fragment",
+      "a throat passageway"
+    ],
+    "correctAnswer": "a large powerful artery",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 144,
+    "expression": "What does oxygenated blood do as it moves through the body?",
+    "usageExample": "Oxygenated blood moves through the body, releasing oxygen and collecting carbon dioxide.",
+    "tip": "Oxygen is dropped off and carbon dioxide is picked up.",
+    "alternatives": [
+      "releases oxygen and collects carbon dioxide",
+      "blocks food from the airway",
+      "keeps the trachea firm",
+      "turns into mucus"
+    ],
+    "correctAnswer": "releases oxygen and collects carbon dioxide",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 145,
+    "expression": "Where does deoxygenated blood return to the heart?",
+    "usageExample": "Deoxygenated blood returns to the heart through the right atrium.",
+    "tip": "The right side receives blood that needs oxygen again.",
+    "alternatives": [
+      "the right atrium",
+      "the left atrium",
+      "the larynx",
+      "the alveoli"
+    ],
+    "correctAnswer": "the right atrium",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 146,
+    "expression": "From which chamber is deoxygenated blood pumped back to the lungs?",
+    "usageExample": "Deoxygenated blood gets pumped back to the lungs from the right ventricle.",
+    "tip": "The right ventricle sends blood to the lungs for oxygenation.",
+    "alternatives": [
+      "the right ventricle",
+      "the left ventricle",
+      "the pharynx",
+      "the aorta only"
+    ],
+    "correctAnswer": "the right ventricle",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 147,
+    "expression": "What happens to blood once it reaches the lungs again?",
+    "usageExample": "In the lungs, blood collects oxygen and releases carbon dioxide, starting the process over again.",
+    "tip": "The lungs reset the blood for another trip through the body.",
+    "alternatives": [
+      "it collects oxygen and releases carbon dioxide",
+      "it turns into platelets",
+      "it closes the epiglottis",
+      "it becomes cartilage"
+    ],
+    "correctAnswer": "it collects oxygen and releases carbon dioxide",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 148,
+    "expression": "What are blood vessels compared to?",
+    "usageExample": "Blood vessels are like the roads and highways of the circulation system.",
+    "tip": "They are the pathways blood travels through.",
+    "alternatives": [
+      "roads and highways of circulation",
+      "the engine of breathing",
+      "the liquid part of blood",
+      "tiny air sacs"
+    ],
+    "correctAnswer": "roads and highways of circulation",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 149,
+    "expression": "Which blood vessels carry blood away from the heart?",
+    "usageExample": "Blood vessels that carry blood away from the heart are called arteries.",
+    "tip": "Arteries carry blood away.",
+    "alternatives": [
+      "arteries",
+      "veins",
+      "alveoli",
+      "cilia"
+    ],
+    "correctAnswer": "arteries",
+    "version": "v1",
+    "chapter": 39
+  },
+  {
+    "id": 150,
+    "expression": "Why do veins have one-way valves?",
+    "usageExample": "Veins have one-way valves that allow blood to move in only one direction back toward the heart.",
+    "tip": "Valves keep returning blood moving the right way.",
+    "alternatives": [
+      "to keep blood moving one direction back to the heart",
+      "to make oxygen enter the alveoli",
+      "to trap bacteria in the trachea",
+      "to carry sound through vocal cords"
+    ],
+    "correctAnswer": "to keep blood moving one direction back to the heart",
+    "version": "v1",
+    "chapter": 39
+  }
+]

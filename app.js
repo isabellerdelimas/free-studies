@@ -50,7 +50,7 @@ const elements = {
 
 async function loadQuestions() {
   try {
-    const response = await fetch("data/english-expressions.json");
+    const response = await fetch("data/free-studies.json");
     if (!response.ok) {
       throw new Error("Could not load expressions.");
     }

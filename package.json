@@ -1,0 +1,13 @@
+{
+  "name": "free-studies",
+  "version": "1.0.0",
+  "description": "A small static study app for practicing English expressions and phrasal verbs.",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/multiplayer.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
