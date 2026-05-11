@@ -5,7 +5,7 @@ const { extname, join, normalize, resolve, sep } = require("node:path");
 
 const HOST = process.env.HOST || "127.0.0.1";
 const PORT = Number(process.env.PORT || 5173);
-const ROOT = resolve(__dirname);
+const ROOT = resolve(__dirname, "..");
 
 const contentTypes = {
   ".css": "text/css; charset=utf-8",

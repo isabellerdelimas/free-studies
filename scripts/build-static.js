@@ -3,7 +3,7 @@ const { join } = require("node:path");
 
 const root = join(__dirname, "..");
 const dist = join(root, "dist");
-const staticEntries = ["index.html", "quiz.js", "styles.css", "data", "images", "favicon.svg"];
+const staticEntries = ["index.html", "quiz.js", "styles.css", "data", "images"];
 const ignoredFiles = new Set([".DS_Store"]);
 
 async function buildStaticSite() {

@@ -4,12 +4,6 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/favicon.png",
-      "destination": "/favicon.svg"
-    }
-  ],
   "headers": [
     {
       "source": "/data/(.*)",

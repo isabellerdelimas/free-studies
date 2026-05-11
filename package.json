@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "npm test && node scripts/build-static.js",
-    "start": "node server.js",
+    "start": "node scripts/local-server.js",
     "test": "node test/multiplayer.test.js"
   },
   "engines": {
