@@ -8,7 +8,7 @@ const {
   getPlayerCountOptions,
   getQuestionCountOptions,
   getRoundSize,
-} = require("../app.js");
+} = require("../quiz.js");
 
 assert.deepEqual(getPlayerCountOptions(150, 6), [1, 2, 3, 4, 5, 6]);
 assert.deepEqual(getPlayerCountOptions(3, 6), [1, 2, 3]);
