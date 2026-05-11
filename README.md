@@ -38,5 +38,5 @@ npm test
 ## Deploy on Vercel
 
 This project is configured as a static Vercel deployment from the repository root.
-Vercel runs `npm run build`, which executes the test suite, then publishes the
-static files in this directory.
+Vercel runs `npm run build`, which executes the test suite and copies the static
+site files into `dist/` for publishing.
