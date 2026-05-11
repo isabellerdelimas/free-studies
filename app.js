@@ -35,7 +35,7 @@ const elements = {
   questionNumber: hasDocument ? document.querySelector("#questionNumber") : null,
   turnLabel: hasDocument ? document.querySelector("#turnLabel") : null,
   modeLabel: hasDocument ? document.querySelector("#modeLabel") : null,
-  expressionText: hasDocument ? document.querySelector("#expressionText") : null,
+  questionText: hasDocument ? document.querySelector("#questionText") : null,
   usageText: hasDocument ? document.querySelector("#usageText") : null,
   alternatives: hasDocument ? document.querySelector("#alternatives") : null,
   roundSummary: hasDocument ? document.querySelector("#roundSummary") : null,
@@ -52,7 +52,7 @@ async function loadQuestions() {
   try {
     const response = await fetch("data/free-studies.json");
     if (!response.ok) {
-      throw new Error("Could not load expressions.");
+      throw new Error("Could not load questions.");
     }
 
     state.allQuestions = await response.json();
@@ -175,8 +175,8 @@ function renderQuestion() {
   if (state.queue.length === 0) {
     elements.questionNumber.textContent = "No questions";
     elements.turnLabel.textContent = "";
-    elements.modeLabel.textContent = "All expressions";
-    elements.expressionText.textContent = "No expressions found";
+    elements.modeLabel.textContent = "Science questions";
+    elements.questionText.textContent = "No questions found";
     elements.usageText.textContent = "Check the JSON file and refresh the page.";
     elements.alternatives.innerHTML = "";
     elements.feedback.classList.add("hidden");
@@ -193,10 +193,10 @@ function renderQuestion() {
   elements.nextButton.textContent = "Next";
   elements.questionNumber.textContent = `Question ${state.currentIndex + 1}`;
   elements.turnLabel.textContent = `${formatPossessive(getCurrentPlayer().name)} turn`;
-  elements.modeLabel.textContent = "All expressions";
-  elements.expressionText.textContent = question.expression;
+  elements.modeLabel.textContent = "Science questions";
+  elements.questionText.textContent = question.question;
   elements.usageText.textContent = question.usageExample;
-  setFeedback("Choose the meaning that best matches the expression.", "");
+  setFeedback("Choose the answer that best matches the question.", "");
 
   elements.alternatives.innerHTML = "";
   shuffle([...question.alternatives]).forEach((alternative) => {
@@ -227,7 +227,7 @@ function chooseAnswer(button, alternative) {
     state.streak = 0;
     state.missedIds.add(question.id);
     state.roundMisses.push({
-      question: question.expression,
+      question: question.question,
       usageExample: question.usageExample,
       answerGiven: alternative,
       correctAnswer: question.correctAnswer,
@@ -289,7 +289,7 @@ function renderScoresView(leaders = getLeaders(state.players)) {
   elements.questionNumber.textContent = "Round complete";
   elements.turnLabel.textContent = "";
   elements.modeLabel.textContent = "Scores";
-  elements.expressionText.textContent = "Final scores";
+  elements.questionText.textContent = "Final scores";
   elements.usageText.textContent =
     leaders.length === 1
       ? `${leaders[0].name} wins with ${leaders[0].score} point${leaders[0].score === 1 ? "" : "s"}.`
@@ -330,7 +330,7 @@ function renderMissedView() {
   elements.questionNumber.textContent = "Round complete";
   elements.turnLabel.textContent = "";
   elements.modeLabel.textContent = "Missed";
-  elements.expressionText.textContent = "Missed answers";
+  elements.questionText.textContent = "Missed answers";
   elements.usageText.textContent =
     state.roundMisses.length === 0
       ? "No missed answers this round."

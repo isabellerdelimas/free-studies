@@ -1,9 +1,10 @@
 {
   "name": "free-studies",
   "version": "1.0.0",
-  "description": "A small static study app for practicing English expressions and phrasal verbs.",
+  "description": "A small static study quiz for science review.",
   "private": true,
   "scripts": {
+    "build": "npm test",
     "start": "node server.js",
     "test": "node test/multiplayer.test.js"
   },

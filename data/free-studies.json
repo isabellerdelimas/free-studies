@@ -1,7 +1,7 @@
 [
   {
+    "question": "What is science?",
     "id": 1,
-    "expression": "What is science?",
     "usageExample": "Science helps people understand the world by studying evidence and making observations.",
     "tip": "Science is based on evidence, observations, and explanations.",
     "alternatives": [
@@ -15,8 +15,8 @@
     "chapter": 1
   },
   {
+    "question": "What do scientists use to answer questions?",
     "id": 2,
-    "expression": "What do scientists use to answer questions?",
     "usageExample": "Scientists use evidence to answer questions about how things work.",
     "tip": "Evidence is information gathered through observations, tests, and research.",
     "alternatives": [
@@ -30,8 +30,8 @@
     "chapter": 1
   },
   {
+    "question": "Which branch of science studies living things?",
     "id": 3,
-    "expression": "Which branch of science studies living things?",
     "usageExample": "A biologist may study plants, animals, single-celled organisms, and other living things.",
     "tip": "Biology is the study of life.",
     "alternatives": [
@@ -45,8 +45,8 @@
     "chapter": 1
   },
   {
+    "question": "Which topics belong to life science?",
     "id": 4,
-    "expression": "Which topics belong to life science?",
     "usageExample": "Life science includes organisms such as plants, animals, and single-celled living things.",
     "tip": "Look for examples that are alive or were once alive.",
     "alternatives": [
@@ -60,8 +60,8 @@
     "chapter": 1
   },
   {
+    "question": "Which branch studies Earth and space?",
     "id": 5,
-    "expression": "Which branch studies Earth and space?",
     "usageExample": "Earth science looks at Earth, rocks, weather, oceans, planets, and stars.",
     "tip": "Earth science includes Earth and objects in space.",
     "alternatives": [
@@ -75,8 +75,8 @@
     "chapter": 1
   },
   {
+    "question": "Which examples fit earth science?",
     "id": 6,
-    "expression": "Which examples fit earth science?",
     "usageExample": "A scientist studying rocks, clouds, or planets is working in earth science.",
     "tip": "Earth science includes geology, weather, and astronomy topics.",
     "alternatives": [
@@ -90,8 +90,8 @@
     "chapter": 1
   },
   {
+    "question": "Which branch studies matter and energy?",
     "id": 7,
-    "expression": "Which branch studies matter and energy?",
     "usageExample": "Physical science studies matter, energy, and how they interact.",
     "tip": "Physics and chemistry are parts of physical science.",
     "alternatives": [
@@ -105,8 +105,8 @@
     "chapter": 1
   },
   {
+    "question": "What does physics study?",
     "id": 8,
-    "expression": "What does physics study?",
     "usageExample": "Physics studies energy, forces, motion, and how matter behaves.",
     "tip": "Physics often deals with motion, energy, and forces.",
     "alternatives": [
@@ -120,8 +120,8 @@
     "chapter": 1
   },
   {
+    "question": "What does chemistry study?",
     "id": 9,
-    "expression": "What does chemistry study?",
     "usageExample": "Chemistry studies matter and how it changes or transforms.",
     "tip": "Chemistry focuses on substances, materials, and changes in matter.",
     "alternatives": [
@@ -135,8 +135,8 @@
     "chapter": 1
   },
   {
+    "question": "What is scientific inquiry?",
     "id": 10,
-    "expression": "What is scientific inquiry?",
     "usageExample": "Scientific inquiry begins with a question and uses evidence to find an answer.",
     "tip": "Inquiry means asking and investigating.",
     "alternatives": [
@@ -150,8 +150,8 @@
     "chapter": 1
   },
   {
+    "question": "What usually starts a scientific investigation?",
     "id": 11,
-    "expression": "What usually starts a scientific investigation?",
     "usageExample": "A scientist may begin by asking why an object behaves in a certain way.",
     "tip": "Investigations commonly begin with questions.",
     "alternatives": [
@@ -165,8 +165,8 @@
     "chapter": 1
   },
   {
+    "question": "Why do scientists ask background research questions?",
     "id": 12,
-    "expression": "Why do scientists ask background research questions?",
     "usageExample": "Before testing, scientists learn what is already known about their topic.",
     "tip": "Background research helps scientists understand the problem better.",
     "alternatives": [
@@ -180,8 +180,8 @@
     "chapter": 1
   },
   {
+    "question": "What is a research question?",
     "id": 13,
-    "expression": "What is a research question?",
     "usageExample": "A research question identifies what the scientist wants to find out.",
     "tip": "Research questions guide the investigation.",
     "alternatives": [
@@ -195,8 +195,8 @@
     "chapter": 1
   },
   {
+    "question": "What makes a good research question?",
     "id": 14,
-    "expression": "What makes a good research question?",
     "usageExample": "A good research question can be investigated with observations, measurements, or tests.",
     "tip": "Good research questions can be studied with evidence.",
     "alternatives": [
@@ -210,8 +210,8 @@
     "chapter": 1
   },
   {
+    "question": "What is a hypothesis?",
     "id": 15,
-    "expression": "What is a hypothesis?",
     "usageExample": "A hypothesis is a prediction or proposed explanation that can be tested.",
     "tip": "A hypothesis is not just a guess; it should be testable.",
     "alternatives": [
@@ -225,8 +225,8 @@
     "chapter": 1
   },
   {
+    "question": "Why must a hypothesis be testable?",
     "id": 16,
-    "expression": "Why must a hypothesis be testable?",
     "usageExample": "Scientists need to check a hypothesis using observations or experiments.",
     "tip": "If it cannot be tested, science cannot gather evidence for it.",
     "alternatives": [
@@ -240,8 +240,8 @@
     "chapter": 1
   },
   {
+    "question": "What is a prediction?",
     "id": 17,
-    "expression": "What is a prediction?",
     "usageExample": "A prediction states what a scientist thinks will happen before an investigation is completed.",
     "tip": "Predictions look forward to an expected result.",
     "alternatives": [
@@ -255,8 +255,8 @@
     "chapter": 1
   },
   {
+    "question": "What is an observation?",
     "id": 18,
-    "expression": "What is an observation?",
     "usageExample": "A scientist may observe a plant growing taller or a liquid changing color.",
     "tip": "Observations use senses or tools to gather information.",
     "alternatives": [
@@ -270,8 +270,8 @@
     "chapter": 1
   },
   {
+    "question": "Which is a qualitative observation?",
     "id": 19,
-    "expression": "Which is a qualitative observation?",
     "usageExample": "Saying a flower is yellow describes a quality without using a number.",
     "tip": "Qualitative observations describe qualities.",
     "alternatives": [
@@ -285,8 +285,8 @@
     "chapter": 1
   },
   {
+    "question": "Which is a quantitative observation?",
     "id": 20,
-    "expression": "Which is a quantitative observation?",
     "usageExample": "Measuring a toy car at 15 centimeters gives a number.",
     "tip": "Quantitative observations use numbers or measurements.",
     "alternatives": [
@@ -300,8 +300,8 @@
     "chapter": 1
   },
   {
+    "question": "What is an experiment?",
     "id": 21,
-    "expression": "What is an experiment?",
     "usageExample": "An experiment tests a question or hypothesis by collecting evidence.",
     "tip": "Experiments are planned tests.",
     "alternatives": [
@@ -315,8 +315,8 @@
     "chapter": 1
   },
   {
+    "question": "What is data?",
     "id": 22,
-    "expression": "What is data?",
     "usageExample": "Measurements, counts, and observations collected during an investigation are data.",
     "tip": "Data is the information scientists collect.",
     "alternatives": [
@@ -330,8 +330,8 @@
     "chapter": 1
   },
   {
+    "question": "Why do scientists analyze results?",
     "id": 23,
-    "expression": "Why do scientists analyze results?",
     "usageExample": "After collecting data, scientists look for patterns and decide what the data means.",
     "tip": "Analyzing results helps scientists understand the evidence.",
     "alternatives": [
@@ -345,8 +345,8 @@
     "chapter": 1
   },
   {
+    "question": "What is a conclusion?",
     "id": 24,
-    "expression": "What is a conclusion?",
     "usageExample": "A conclusion explains what the investigation showed based on evidence.",
     "tip": "Conclusions should connect back to the question and evidence.",
     "alternatives": [
@@ -360,8 +360,8 @@
     "chapter": 1
   },
   {
+    "question": "What should scientists do if results do not support a hypothesis?",
     "id": 25,
-    "expression": "What should scientists do if results do not support a hypothesis?",
     "usageExample": "Scientists may revise the hypothesis or design a new investigation.",
     "tip": "A hypothesis can be changed when evidence does not support it.",
     "alternatives": [
@@ -375,8 +375,8 @@
     "chapter": 1
   },
   {
+    "question": "Why should experiments be repeated?",
     "id": 26,
-    "expression": "Why should experiments be repeated?",
     "usageExample": "Repeating a test helps scientists see whether the results are reliable.",
     "tip": "Repeated results are stronger than one-time results.",
     "alternatives": [
@@ -390,8 +390,8 @@
     "chapter": 1
   },
   {
+    "question": "Why do scientists share results?",
     "id": 27,
-    "expression": "Why do scientists share results?",
     "usageExample": "Sharing results lets others review, repeat, and build on the investigation.",
     "tip": "Science grows when results are communicated.",
     "alternatives": [
@@ -405,8 +405,8 @@
     "chapter": 1
   },
   {
+    "question": "What is a variable?",
     "id": 28,
-    "expression": "What is a variable?",
     "usageExample": "A variable is something in an experiment that can change, such as temperature or time.",
     "tip": "Variables are factors that may affect results.",
     "alternatives": [
@@ -420,8 +420,8 @@
     "chapter": 1
   },
   {
+    "question": "Why should scientists control variables?",
     "id": 29,
-    "expression": "Why should scientists control variables?",
     "usageExample": "Controlling variables helps scientists know what caused the results.",
     "tip": "A fair test changes only the factor being tested.",
     "alternatives": [
@@ -435,8 +435,8 @@
     "chapter": 1
   },
   {
+    "question": "What is a scientific law?",
     "id": 30,
-    "expression": "What is a scientific law?",
     "usageExample": "A law describes what happens in nature, often after many observations.",
     "tip": "A law describes a pattern; it does not usually explain why the pattern happens.",
     "alternatives": [
@@ -450,8 +450,8 @@
     "chapter": 1
   },
   {
+    "question": "What is a scientific theory?",
     "id": 31,
-    "expression": "What is a scientific theory?",
     "usageExample": "A theory explains why something happens and is supported by much evidence.",
     "tip": "In science, a theory is a strong explanation supported by evidence.",
     "alternatives": [
@@ -465,8 +465,8 @@
     "chapter": 1
   },
   {
+    "question": "How are laws and theories different?",
     "id": 32,
-    "expression": "How are laws and theories different?",
     "usageExample": "A law describes what happens, while a theory explains why it happens.",
     "tip": "Remember: laws describe, theories explain.",
     "alternatives": [
@@ -480,8 +480,8 @@
     "chapter": 1
   },
   {
+    "question": "What is a scientific model?",
     "id": 33,
-    "expression": "What is a scientific model?",
     "usageExample": "A model can represent something too large, too small, or too complex to study directly.",
     "tip": "Models help scientists understand and explain objects or systems.",
     "alternatives": [
@@ -495,8 +495,8 @@
     "chapter": 1
   },
   {
+    "question": "Why do scientists use models?",
     "id": 34,
-    "expression": "Why do scientists use models?",
     "usageExample": "A globe can model Earth when studying the whole planet directly would be difficult.",
     "tip": "Models make hard-to-study things easier to understand.",
     "alternatives": [
@@ -510,8 +510,8 @@
     "chapter": 1
   },
   {
+    "question": "Which is an example of a physical model?",
     "id": 35,
-    "expression": "Which is an example of a physical model?",
     "usageExample": "A globe is a physical model of Earth.",
     "tip": "Physical models are objects you can see or touch.",
     "alternatives": [
@@ -525,8 +525,8 @@
     "chapter": 1
   },
   {
+    "question": "Which is an example of a computer model?",
     "id": 36,
-    "expression": "Which is an example of a computer model?",
     "usageExample": "A weather simulation can use a computer to model storms.",
     "tip": "Computer models use technology to represent systems.",
     "alternatives": [
@@ -540,8 +540,8 @@
     "chapter": 1
   },
   {
+    "question": "Which is an example of a mathematical model?",
     "id": 37,
-    "expression": "Which is an example of a mathematical model?",
     "usageExample": "A formula can model a relationship between measurements.",
     "tip": "Mathematical models use numbers, equations, or graphs.",
     "alternatives": [
@@ -555,8 +555,8 @@
     "chapter": 1
   },
   {
+    "question": "Can models be perfect copies of real things?",
     "id": 38,
-    "expression": "Can models be perfect copies of real things?",
     "usageExample": "Models are useful, but they may leave out details from the real object or system.",
     "tip": "Models have limits.",
     "alternatives": [
@@ -570,8 +570,8 @@
     "chapter": 1
   },
   {
+    "question": "What does a model's limitation mean?",
     "id": 39,
-    "expression": "What does a model's limitation mean?",
     "usageExample": "A small model airplane may show shape but not exactly how a real airplane flies.",
     "tip": "Limitations are things a model cannot show accurately.",
     "alternatives": [
@@ -585,8 +585,8 @@
     "chapter": 1
   },
   {
+    "question": "What is a good reason to use a globe as a model?",
     "id": 40,
-    "expression": "What is a good reason to use a globe as a model?",
     "usageExample": "A globe helps show Earth's shape and continents in a smaller form.",
     "tip": "Globes are physical models of Earth.",
     "alternatives": [
@@ -600,8 +600,8 @@
     "chapter": 1
   },
   {
+    "question": "What does it mean to make a hypothesis?",
     "id": 41,
-    "expression": "What does it mean to make a hypothesis?",
     "usageExample": "A scientist may say, 'If plants get more sunlight, then they will grow taller.'",
     "tip": "Hypotheses are predictions or explanations that can be tested.",
     "alternatives": [
@@ -615,8 +615,8 @@
     "chapter": 1
   },
   {
+    "question": "What does it mean to test a hypothesis?",
     "id": 42,
-    "expression": "What does it mean to test a hypothesis?",
     "usageExample": "Scientists test a hypothesis by doing an experiment or collecting observations.",
     "tip": "Testing gathers evidence for or against a hypothesis.",
     "alternatives": [
@@ -630,8 +630,8 @@
     "chapter": 1
   },
   {
+    "question": "What does background research happen before?",
     "id": 43,
-    "expression": "What does background research happen before?",
     "usageExample": "Scientists often do background research before designing an investigation.",
     "tip": "Background research prepares the scientist for the experiment.",
     "alternatives": [
@@ -645,8 +645,8 @@
     "chapter": 1
   },
   {
+    "question": "What does 'make a conclusion' mean in science?",
     "id": 44,
-    "expression": "What does 'make a conclusion' mean in science?",
     "usageExample": "After comparing data, the scientist states whether the hypothesis was supported.",
     "tip": "A conclusion should be based on data.",
     "alternatives": [
@@ -660,8 +660,8 @@
     "chapter": 1
   },
   {
+    "question": "Which step is part of the scientific method?",
     "id": 45,
-    "expression": "Which step is part of the scientific method?",
     "usageExample": "The scientific method often includes asking a question, making a hypothesis, testing, and making a conclusion.",
     "tip": "The scientific method is a process for investigating questions.",
     "alternatives": [
@@ -675,8 +675,8 @@
     "chapter": 1
   },
   {
+    "question": "What should a scientist do after making observations?",
     "id": 46,
-    "expression": "What should a scientist do after making observations?",
     "usageExample": "After observing, a scientist can organize and analyze the information.",
     "tip": "Observations become data that can be studied.",
     "alternatives": [
@@ -690,8 +690,8 @@
     "chapter": 1
   },
   {
+    "question": "What does a scientific explanation use?",
     "id": 47,
-    "expression": "What does a scientific explanation use?",
     "usageExample": "A scientific explanation should use observations, data, and evidence.",
     "tip": "Explanations in science need evidence.",
     "alternatives": [
@@ -705,8 +705,8 @@
     "chapter": 1
   },
   {
+    "question": "Why is observation important in science?",
     "id": 48,
-    "expression": "Why is observation important in science?",
     "usageExample": "Observation helps scientists collect information about what is happening.",
     "tip": "Observation is one of the main ways scientists gather evidence.",
     "alternatives": [
@@ -720,8 +720,8 @@
     "chapter": 1
   },
   {
+    "question": "What is one purpose of scientific tools?",
     "id": 49,
-    "expression": "What is one purpose of scientific tools?",
     "usageExample": "Tools can help scientists measure, observe, and model things more accurately.",
     "tip": "Tools extend what people can observe or measure.",
     "alternatives": [
@@ -735,8 +735,8 @@
     "chapter": 1
   },
   {
+    "question": "What is the main goal of this chapter's science process?",
     "id": 50,
-    "expression": "What is the main goal of this chapter's science process?",
     "usageExample": "The chapter shows how scientists ask questions, test ideas, use models, and support conclusions with evidence.",
     "tip": "The process connects questions, evidence, testing, and explanations.",
     "alternatives": [
@@ -750,8 +750,8 @@
     "chapter": 1
   },
   {
+    "question": "What does the immune system do?",
     "id": 51,
-    "expression": "What does the immune system do?",
     "usageExample": "The immune system protects and fights against infection and disease.",
     "tip": "Think of the immune system as the body's defense team.",
     "alternatives": [
@@ -765,8 +765,8 @@
     "chapter": 40
   },
   {
+    "question": "What is a pathogen?",
     "id": 52,
-    "expression": "What is a pathogen?",
     "usageExample": "A pathogen may be a bacterium, virus, fungus, or protist that can cause disease.",
     "tip": "Pathogens are harmful invaders that can make organisms sick.",
     "alternatives": [
@@ -780,8 +780,8 @@
     "chapter": 40
   },
   {
+    "question": "Which group includes examples of pathogens?",
     "id": 53,
-    "expression": "Which group includes examples of pathogens?",
     "usageExample": "Bacteria, viruses, fungi, and protists can all include disease-causing pathogens.",
     "tip": "Look for tiny organisms or particles that can cause disease.",
     "alternatives": [
@@ -795,8 +795,8 @@
     "chapter": 40
   },
   {
+    "question": "What is nonspecific immunity?",
     "id": 54,
-    "expression": "What is nonspecific immunity?",
     "usageExample": "Nonspecific immunity includes defenses that protect your body against many kinds of pathogens.",
     "tip": "Nonspecific defenses respond broadly, not to one exact pathogen.",
     "alternatives": [
@@ -810,8 +810,8 @@
     "chapter": 40
   },
   {
+    "question": "Why are physical barriers called the first line of defense?",
     "id": 55,
-    "expression": "Why are physical barriers called the first line of defense?",
     "usageExample": "Physical barriers help stop pathogens before they enter the body.",
     "tip": "The first line acts before invaders get inside.",
     "alternatives": [
@@ -825,8 +825,8 @@
     "chapter": 40
   },
   {
+    "question": "How does skin help the immune system?",
     "id": 56,
-    "expression": "How does skin help the immune system?",
     "usageExample": "Skin provides a physical barrier that prevents many pathogens from entering your body.",
     "tip": "Skin works like the outside wall of a protected place.",
     "alternatives": [
@@ -840,8 +840,8 @@
     "chapter": 40
   },
   {
+    "question": "What do mucus and cilia in the respiratory system do?",
     "id": 57,
-    "expression": "What do mucus and cilia in the respiratory system do?",
     "usageExample": "Mucus and cilia trap and remove pathogens as they enter your airways.",
     "tip": "These defenses help clean the air passages.",
     "alternatives": [
@@ -855,8 +855,8 @@
     "chapter": 40
   },
   {
+    "question": "How do saliva and stomach acid help defend the body?",
     "id": 58,
-    "expression": "How do saliva and stomach acid help defend the body?",
     "usageExample": "Saliva and stomach acid can kill many types of bacteria.",
     "tip": "Some body fluids help destroy invaders chemically.",
     "alternatives": [
@@ -870,8 +870,8 @@
     "chapter": 40
   },
   {
+    "question": "What can happen if pathogens get past physical defenses?",
     "id": 59,
-    "expression": "What can happen if pathogens get past physical defenses?",
     "usageExample": "If pathogens enter through a cut, the body uses backup defenses like white blood cells.",
     "tip": "The immune system has more than one layer of protection.",
     "alternatives": [
@@ -885,8 +885,8 @@
     "chapter": 40
   },
   {
+    "question": "What are white blood cells?",
     "id": 60,
-    "expression": "What are white blood cells?",
     "usageExample": "White blood cells fight invaders that make it into the body.",
     "tip": "These cells are important immune system fighters.",
     "alternatives": [
@@ -900,8 +900,8 @@
     "chapter": 40
   },
   {
+    "question": "What do some white blood cells do to pathogens?",
     "id": 61,
-    "expression": "What do some white blood cells do to pathogens?",
     "usageExample": "Some white blood cells digest and destroy bacteria and other pathogens.",
     "tip": "Some immune cells destroy invaders by engulfing them.",
     "alternatives": [
@@ -915,8 +915,8 @@
     "chapter": 40
   },
   {
+    "question": "What is a macrophage?",
     "id": 62,
-    "expression": "What is a macrophage?",
     "usageExample": "Macrophages are white blood cells that engulf and destroy pathogens they encounter.",
     "tip": "Macrophages are immune cells that use a direct attack.",
     "alternatives": [
@@ -930,8 +930,8 @@
     "chapter": 40
   },
   {
+    "question": "Why are macrophages compared to strong defenders?",
     "id": 63,
-    "expression": "Why are macrophages compared to strong defenders?",
     "usageExample": "Macrophages use force to engulf and destroy pathogens.",
     "tip": "The chapter describes macrophages as using brute force.",
     "alternatives": [
@@ -945,8 +945,8 @@
     "chapter": 40
   },
   {
+    "question": "What are antibodies?",
     "id": 64,
-    "expression": "What are antibodies?",
     "usageExample": "The body produces antibodies in response to a pathogen.",
     "tip": "Antibodies help the body recognize and fight specific invaders.",
     "alternatives": [
@@ -960,8 +960,8 @@
     "chapter": 40
   },
   {
+    "question": "How can antibodies protect you if a pathogen returns?",
     "id": 65,
-    "expression": "How can antibodies protect you if a pathogen returns?",
     "usageExample": "Your body may keep antibodies ready to fight a pathogen if it comes back.",
     "tip": "Stored antibodies help the immune system respond faster later.",
     "alternatives": [
@@ -975,8 +975,8 @@
     "chapter": 40
   },
   {
+    "question": "What is active immunity?",
     "id": 66,
-    "expression": "What is active immunity?",
     "usageExample": "Active immunity happens when your body produces the antibodies that give you immunity.",
     "tip": "Active immunity means your own immune system does the work.",
     "alternatives": [
@@ -990,8 +990,8 @@
     "chapter": 40
   },
   {
+    "question": "What is passive immunity?",
     "id": 67,
-    "expression": "What is passive immunity?",
     "usageExample": "A baby can receive passive immunity from the mother during pregnancy and later from breast milk.",
     "tip": "Passive immunity is received rather than made by your own body.",
     "alternatives": [
@@ -1005,8 +1005,8 @@
     "chapter": 40
   },
   {
+    "question": "Which example shows passive immunity?",
     "id": 68,
-    "expression": "Which example shows passive immunity?",
     "usageExample": "A baby receives passive immunity from the mother during pregnancy and through breast milk.",
     "tip": "Look for antibodies received from someone else.",
     "alternatives": [
@@ -1020,8 +1020,8 @@
     "chapter": 40
   },
   {
+    "question": "What happens during a vaccination?",
     "id": 69,
-    "expression": "What happens during a vaccination?",
     "usageExample": "During vaccination, a small amount of an inactivated pathogen may be injected into the body.",
     "tip": "Vaccination prepares the immune system without causing the full disease.",
     "alternatives": [
@@ -1035,8 +1035,8 @@
     "chapter": 40
   },
   {
+    "question": "Why do vaccinations help protect the body?",
     "id": 70,
-    "expression": "Why do vaccinations help protect the body?",
     "usageExample": "Vaccinations cause an immune response that produces antibodies.",
     "tip": "Vaccines train the immune system for a future encounter.",
     "alternatives": [
@@ -1050,8 +1050,8 @@
     "chapter": 40
   },
   {
+    "question": "What remains in the blood after a vaccination response?",
     "id": 71,
-    "expression": "What remains in the blood after a vaccination response?",
     "usageExample": "After vaccination, antibodies can remain in the blood prepared to fight the real pathogen later.",
     "tip": "The immune system keeps useful defenses ready.",
     "alternatives": [
@@ -1065,8 +1065,8 @@
     "chapter": 40
   },
   {
+    "question": "What is inflammation?",
     "id": 72,
-    "expression": "What is inflammation?",
     "usageExample": "Redness and swelling after a scrape are signs of inflammation.",
     "tip": "Inflammation often makes an area red, puffy, warm, and tender.",
     "alternatives": [
@@ -1080,8 +1080,8 @@
     "chapter": 40
   },
   {
+    "question": "What can trigger inflammation?",
     "id": 73,
-    "expression": "What can trigger inflammation?",
     "usageExample": "When cells are damaged by infection or injury, they release chemicals that cause inflammation.",
     "tip": "Damaged cells signal the body to respond.",
     "alternatives": [
@@ -1095,8 +1095,8 @@
     "chapter": 40
   },
   {
+    "question": "Why does blood flow increase during inflammation?",
     "id": 74,
-    "expression": "Why does blood flow increase during inflammation?",
     "usageExample": "Increased blood flow helps more white blood cells reach the damaged area.",
     "tip": "More blood flow brings more immune cells to the problem.",
     "alternatives": [
@@ -1110,8 +1110,8 @@
     "chapter": 40
   },
   {
+    "question": "Which signs may appear during inflammation?",
     "id": 75,
-    "expression": "Which signs may appear during inflammation?",
     "usageExample": "An inflamed scrape can become red, puffy, warm, and tender.",
     "tip": "Inflammation often changes how an injured area looks and feels.",
     "alternatives": [
@@ -1125,8 +1125,8 @@
     "chapter": 40
   },
   {
+    "question": "What is the lymphatic system compared to in the chapter?",
     "id": 76,
-    "expression": "What is the lymphatic system compared to in the chapter?",
     "usageExample": "The lymphatic system is described as sort of like a drainpipe.",
     "tip": "It collects and filters fluid from the body.",
     "alternatives": [
@@ -1140,8 +1140,8 @@
     "chapter": 40
   },
   {
+    "question": "What is lymph?",
     "id": 77,
-    "expression": "What is lymph?",
     "usageExample": "The lymphatic system collects fluid called lymph from your body.",
     "tip": "Lymph is the fluid handled by the lymphatic system.",
     "alternatives": [
@@ -1155,8 +1155,8 @@
     "chapter": 40
   },
   {
+    "question": "What are lymph nodes?",
     "id": 78,
-    "expression": "What are lymph nodes?",
     "usageExample": "Lymph nodes are small lumps of tissue scattered throughout the body that filter lymph.",
     "tip": "Lymph nodes help clean and monitor body fluid.",
     "alternatives": [
@@ -1170,8 +1170,8 @@
     "chapter": 40
   },
   {
+    "question": "What type of white blood cell do lymph nodes produce?",
     "id": 79,
-    "expression": "What type of white blood cell do lymph nodes produce?",
     "usageExample": "Lymph nodes produce white blood cells called lymphocytes.",
     "tip": "The word lymphocyte starts with lymph because it belongs with the lymphatic system.",
     "alternatives": [
@@ -1185,8 +1185,8 @@
     "chapter": 40
   },
   {
+    "question": "What do lymphocytes do as blood passes through lymph nodes?",
     "id": 80,
-    "expression": "What do lymphocytes do as blood passes through lymph nodes?",
     "usageExample": "Lymphocytes attack and remove pathogens from your body.",
     "tip": "Lymphocytes are immune system fighters.",
     "alternatives": [
@@ -1200,8 +1200,8 @@
     "chapter": 40
   },
   {
+    "question": "Why can lymph nodes swell when you are sick?",
     "id": 81,
-    "expression": "Why can lymph nodes swell when you are sick?",
     "usageExample": "Neck lymph nodes may swell because many lymphocytes are fighting pathogens.",
     "tip": "Swollen lymph nodes can mean immune cells are active.",
     "alternatives": [
@@ -1215,8 +1215,8 @@
     "chapter": 40
   },
   {
+    "question": "What can cause human disease?",
     "id": 82,
-    "expression": "What can cause human disease?",
     "usageExample": "Human disease can be caused by many things, including pathogens and noninfectious causes.",
     "tip": "The chapter separates infectious and noninfectious diseases.",
     "alternatives": [
@@ -1230,8 +1230,8 @@
     "chapter": 40
   },
   {
+    "question": "Which diseases can certain bacteria cause?",
     "id": 83,
-    "expression": "Which diseases can certain bacteria cause?",
     "usageExample": "Certain species of bacteria can cause strep throat, ear infections, tuberculosis, or pneumonia.",
     "tip": "The chapter lists several bacterial diseases.",
     "alternatives": [
@@ -1245,8 +1245,8 @@
     "chapter": 40
   },
   {
+    "question": "Which diseases can viruses cause?",
     "id": 84,
-    "expression": "Which diseases can viruses cause?",
     "usageExample": "Viruses can cause the flu, colds, polio, measles, warts, or AIDS.",
     "tip": "Viruses are one category of pathogen.",
     "alternatives": [
@@ -1260,8 +1260,8 @@
     "chapter": 40
   },
   {
+    "question": "Which diseases can certain protists cause?",
     "id": 85,
-    "expression": "Which diseases can certain protists cause?",
     "usageExample": "Certain species of protists can cause malaria, dysentery, or giardiasis.",
     "tip": "Protists are another type of disease-causing organism.",
     "alternatives": [
@@ -1275,8 +1275,8 @@
     "chapter": 40
   },
   {
+    "question": "Which diseases can certain fungi cause?",
     "id": 86,
-    "expression": "Which diseases can certain fungi cause?",
     "usageExample": "Certain species of fungi can cause athlete's foot, yeast infections, or other diseases.",
     "tip": "Fungi include some pathogens too.",
     "alternatives": [
@@ -1290,8 +1290,8 @@
     "chapter": 40
   },
   {
+    "question": "What can antibiotic drugs treat best?",
     "id": 87,
-    "expression": "What can antibiotic drugs treat best?",
     "usageExample": "The chapter explains that bacteria can be killed and removed with antibiotic drugs.",
     "tip": "Antibiotics are for bacterial infections, not viral infections.",
     "alternatives": [
@@ -1305,8 +1305,8 @@
     "chapter": 40
   },
   {
+    "question": "Why can viral infections be harder to remove completely?",
     "id": 88,
-    "expression": "Why can viral infections be harder to remove completely?",
     "usageExample": "Once you have been infected with a virus, it often remains with you for life.",
     "tip": "The chapter contrasts viruses with bacteria treated by antibiotics.",
     "alternatives": [
@@ -1320,8 +1320,8 @@
     "chapter": 40
   },
   {
+    "question": "What is an infectious disease?",
     "id": 89,
-    "expression": "What is an infectious disease?",
     "usageExample": "An infectious disease can travel from one infected organism to another.",
     "tip": "Infectious diseases can spread.",
     "alternatives": [
@@ -1335,8 +1335,8 @@
     "chapter": 40
   },
   {
+    "question": "How can some infectious diseases spread?",
     "id": 90,
-    "expression": "How can some infectious diseases spread?",
     "usageExample": "Some diseases can spread through air, water, food, or physical contact.",
     "tip": "The chapter lists several paths for disease transmission.",
     "alternatives": [
@@ -1350,8 +1350,8 @@
     "chapter": 40
   },
   {
+    "question": "How can diseases like HIV spread?",
     "id": 91,
-    "expression": "How can diseases like HIV spread?",
     "usageExample": "Some diseases, like HIV, can spread through body fluids such as blood.",
     "tip": "Body fluids can carry certain pathogens.",
     "alternatives": [
@@ -1365,8 +1365,8 @@
     "chapter": 40
   },
   {
+    "question": "Where can bacteria and viruses survive outside the body?",
     "id": 92,
-    "expression": "Where can bacteria and viruses survive outside the body?",
     "usageExample": "Bacteria and viruses can survive on surfaces like doorknobs and handrails.",
     "tip": "Shared surfaces can carry pathogens.",
     "alternatives": [
@@ -1380,8 +1380,8 @@
     "chapter": 40
   },
   {
+    "question": "What is an easy and effective way to help prevent disease?",
     "id": 93,
-    "expression": "What is an easy and effective way to help prevent disease?",
     "usageExample": "Washing your hands helps keep you free from disease.",
     "tip": "Handwashing removes many germs from your hands.",
     "alternatives": [
@@ -1395,8 +1395,8 @@
     "chapter": 40
   },
   {
+    "question": "What are noninfectious diseases?",
     "id": 94,
-    "expression": "What are noninfectious diseases?",
     "usageExample": "Noninfectious diseases are not caused by pathogens and cannot be spread from person to person.",
     "tip": "Noninfectious means not spread by germs from one person to another.",
     "alternatives": [
@@ -1410,8 +1410,8 @@
     "chapter": 40
   },
   {
+    "question": "Which are examples of noninfectious diseases?",
     "id": 95,
-    "expression": "Which are examples of noninfectious diseases?",
     "usageExample": "Diabetes, genetic diseases, and cancer are examples of noninfectious diseases.",
     "tip": "These diseases do not spread from person to person through pathogens.",
     "alternatives": [
@@ -1425,8 +1425,8 @@
     "chapter": 40
   },
   {
+    "question": "Why is cancer considered noninfectious?",
     "id": 96,
-    "expression": "Why is cancer considered noninfectious?",
     "usageExample": "Cancer is not caused by pathogens and cannot be spread from person to person.",
     "tip": "Cancer comes from changes in body cells, not from catching a germ.",
     "alternatives": [
@@ -1440,8 +1440,8 @@
     "chapter": 40
   },
   {
+    "question": "What causes cells to become cancerous?",
     "id": 97,
-    "expression": "What causes cells to become cancerous?",
     "usageExample": "Cancer happens when cells have a mutation in their DNA that causes them to reproduce uncontrollably.",
     "tip": "A mutation is a change in DNA.",
     "alternatives": [
@@ -1455,8 +1455,8 @@
     "chapter": 40
   },
   {
+    "question": "What can cancerous cells eventually form?",
     "id": 98,
-    "expression": "What can cancerous cells eventually form?",
     "usageExample": "Cancerous cells can grow and eventually form tumors and growths.",
     "tip": "Uncontrolled cell reproduction can produce abnormal masses.",
     "alternatives": [
@@ -1470,8 +1470,8 @@
     "chapter": 40
   },
   {
+    "question": "Why can tumors interfere with the body?",
     "id": 99,
-    "expression": "Why can tumors interfere with the body?",
     "usageExample": "Tumors and growths can interfere with normal body processes.",
     "tip": "Abnormal growths can get in the way of how the body works.",
     "alternatives": [
@@ -1485,8 +1485,8 @@
     "chapter": 40
   },
   {
+    "question": "How may doctors fight cancer?",
     "id": 100,
-    "expression": "How may doctors fight cancer?",
     "usageExample": "Doctors may try to remove or kill cancerous cells with surgery, chemicals, or radiation.",
     "tip": "Cancer treatments try to get rid of abnormal cells.",
     "alternatives": [
@@ -1500,8 +1500,8 @@
     "chapter": 40
   },
   {
+    "question": "What is cellular respiration?",
     "id": 101,
-    "expression": "What is cellular respiration?",
     "usageExample": "Cellular respiration breaks down glucose and releases chemical energy for the body to use.",
     "tip": "It is the process cells use to get energy from sugar.",
     "alternatives": [
@@ -1515,8 +1515,8 @@
     "chapter": 39
   },
   {
+    "question": "Which simple sugar is broken down during cellular respiration?",
     "id": 102,
-    "expression": "Which simple sugar is broken down during cellular respiration?",
     "usageExample": "Glucose is the simple sugar that cells break down to release energy.",
     "tip": "The chapter names glucose as the sugar used for energy.",
     "alternatives": [
@@ -1530,8 +1530,8 @@
     "chapter": 39
   },
   {
+    "question": "Why does the body need oxygen for cellular respiration?",
     "id": 103,
-    "expression": "Why does the body need oxygen for cellular respiration?",
     "usageExample": "Your body needs oxygen to use sugar and burn calories for energy.",
     "tip": "The chapter compares oxygen use to a fire needing oxygen for combustion.",
     "alternatives": [
@@ -1545,8 +1545,8 @@
     "chapter": 39
   },
   {
+    "question": "What waste products are released by cellular respiration?",
     "id": 104,
-    "expression": "What waste products are released by cellular respiration?",
     "usageExample": "Cellular respiration uses oxygen and releases carbon dioxide and water as waste products.",
     "tip": "Look for the two wastes made after oxygen helps break down glucose.",
     "alternatives": [
@@ -1560,8 +1560,8 @@
     "chapter": 39
   },
   {
+    "question": "What delivery system carries oxygen from the lungs to cells?",
     "id": 105,
-    "expression": "What delivery system carries oxygen from the lungs to cells?",
     "usageExample": "Blood carries oxygen from the lungs to all your cells.",
     "tip": "The chapter calls blood the delivery system.",
     "alternatives": [
@@ -1575,8 +1575,8 @@
     "chapter": 39
   },
   {
+    "question": "What does blood carry back to the lungs from cells?",
     "id": 106,
-    "expression": "What does blood carry back to the lungs from cells?",
     "usageExample": "Blood returns to the lungs with carbon dioxide waste so it can be exhaled.",
     "tip": "This waste leaves the body when you breathe out.",
     "alternatives": [
@@ -1590,8 +1590,8 @@
     "chapter": 39
   },
   {
+    "question": "Where does air enter the respiratory tract?",
     "id": 107,
-    "expression": "Where does air enter the respiratory tract?",
     "usageExample": "You breathe air in through your mouth and nose.",
     "tip": "The first step of the respiratory tract is breathing in.",
     "alternatives": [
@@ -1605,8 +1605,8 @@
     "chapter": 39
   },
   {
+    "question": "What is the pharynx?",
     "id": 108,
-    "expression": "What is the pharynx?",
     "usageExample": "Air moves into the pharynx, a passageway in the throat that leads to both the stomach and lungs.",
     "tip": "The pharynx is a throat passageway.",
     "alternatives": [
@@ -1620,8 +1620,8 @@
     "chapter": 39
   },
   {
+    "question": "What does the epiglottis do?",
     "id": 109,
-    "expression": "What does the epiglottis do?",
     "usageExample": "The epiglottis prevents food from going into your airway.",
     "tip": "It acts like a flap in the back of the throat.",
     "alternatives": [
@@ -1635,8 +1635,8 @@
     "chapter": 39
   },
   {
+    "question": "What happens to the epiglottis when you breathe?",
     "id": 110,
-    "expression": "What happens to the epiglottis when you breathe?",
     "usageExample": "When you breathe, the epiglottis remains open so air can pass through.",
     "tip": "Breathing requires an open airway.",
     "alternatives": [
@@ -1650,8 +1650,8 @@
     "chapter": 39
   },
   {
+    "question": "What is the larynx?",
     "id": 111,
-    "expression": "What is the larynx?",
     "usageExample": "Air moves into the larynx, the part of the air passage where the vocal cords are located.",
     "tip": "The vocal cords are in the larynx.",
     "alternatives": [
@@ -1665,8 +1665,8 @@
     "chapter": 39
   },
   {
+    "question": "What is the trachea lined with?",
     "id": 112,
-    "expression": "What is the trachea lined with?",
     "usageExample": "The trachea is lined with cartilage to keep it firm and prevent collapse.",
     "tip": "Cartilage helps the airway stay open.",
     "alternatives": [
@@ -1680,8 +1680,8 @@
     "chapter": 39
   },
   {
+    "question": "Why does the trachea have cartilage?",
     "id": 113,
-    "expression": "Why does the trachea have cartilage?",
     "usageExample": "Cartilage keeps the trachea firm so it does not collapse.",
     "tip": "The trachea needs to stay open for air to move.",
     "alternatives": [
@@ -1695,8 +1695,8 @@
     "chapter": 39
   },
   {
+    "question": "What do cilia and mucus in the trachea trap?",
     "id": 114,
-    "expression": "What do cilia and mucus in the trachea trap?",
     "usageExample": "Tiny hairlike cilia and mucus trap bacteria, dust, and particles that should not enter the lungs.",
     "tip": "Cilia and mucus help clean the airway.",
     "alternatives": [
@@ -1710,8 +1710,8 @@
     "chapter": 39
   },
   {
+    "question": "What are bronchi?",
     "id": 115,
-    "expression": "What are bronchi?",
     "usageExample": "Air moves into tubes leading to your lungs called bronchi.",
     "tip": "Bronchi are the larger tubes that branch toward the lungs.",
     "alternatives": [
@@ -1725,8 +1725,8 @@
     "chapter": 39
   },
   {
+    "question": "What do bronchi branch into?",
     "id": 116,
-    "expression": "What do bronchi branch into?",
     "usageExample": "The bronchi branch into smaller tubes called bronchioles.",
     "tip": "The word bronchi is compared to branch.",
     "alternatives": [
@@ -1740,8 +1740,8 @@
     "chapter": 39
   },
   {
+    "question": "What do bronchioles connect directly to?",
     "id": 117,
-    "expression": "What do bronchioles connect directly to?",
     "usageExample": "Bronchioles connect directly to alveoli, which are tiny air sacs.",
     "tip": "Alveoli sit at the ends of the smallest air tubes.",
     "alternatives": [
@@ -1755,8 +1755,8 @@
     "chapter": 39
   },
   {
+    "question": "What are alveoli?",
     "id": 118,
-    "expression": "What are alveoli?",
     "usageExample": "Alveoli are millions of tiny air sacs connected to the bronchioles.",
     "tip": "These tiny sacs are where gases move between air and blood.",
     "alternatives": [
@@ -1770,8 +1770,8 @@
     "chapter": 39
   },
   {
+    "question": "Where does oxygen from the alveoli go?",
     "id": 119,
-    "expression": "Where does oxygen from the alveoli go?",
     "usageExample": "Oxygen from air in the alveoli moves into the blood in the capillaries.",
     "tip": "Capillaries are tiny blood vessels next to the alveoli.",
     "alternatives": [
@@ -1785,8 +1785,8 @@
     "chapter": 39
   },
   {
+    "question": "What happens to carbon dioxide waste in the alveoli?",
     "id": 120,
-    "expression": "What happens to carbon dioxide waste in the alveoli?",
     "usageExample": "Carbon dioxide waste moves from the blood into the air in the alveoli to be exhaled.",
     "tip": "Carbon dioxide leaves when you breathe out.",
     "alternatives": [
@@ -1800,8 +1800,8 @@
     "chapter": 39
   },
   {
+    "question": "What is breathing?",
     "id": 121,
-    "expression": "What is breathing?",
     "usageExample": "Breathing is the mechanical process of taking in air.",
     "tip": "The chapter separates breathing from cellular respiration.",
     "alternatives": [
@@ -1815,8 +1815,8 @@
     "chapter": 39
   },
   {
+    "question": "Why do you breathe faster during exercise?",
     "id": 122,
-    "expression": "Why do you breathe faster during exercise?",
     "usageExample": "When you exercise, your body needs more oxygen to burn more calories for energy.",
     "tip": "More activity means cells need more oxygen.",
     "alternatives": [
@@ -1830,8 +1830,8 @@
     "chapter": 39
   },
   {
+    "question": "When does air get pulled into your chest?",
     "id": 123,
-    "expression": "When does air get pulled into your chest?",
     "usageExample": "Air gets pulled into your chest when your chest expands.",
     "tip": "The sponge example shows air rushing in when space expands.",
     "alternatives": [
@@ -1845,8 +1845,8 @@
     "chapter": 39
   },
   {
+    "question": "When is air pushed out of your chest?",
     "id": 124,
-    "expression": "When is air pushed out of your chest?",
     "usageExample": "Air is pushed out when your chest contracts.",
     "tip": "Contracting makes the chest space smaller.",
     "alternatives": [
@@ -1860,8 +1860,8 @@
     "chapter": 39
   },
   {
+    "question": "What muscle controls chest expansion and contraction during breathing?",
     "id": 125,
-    "expression": "What muscle controls chest expansion and contraction during breathing?",
     "usageExample": "The diaphragm controls the expanding and contracting motion of breathing.",
     "tip": "The diaphragm is located under the rib cage.",
     "alternatives": [
@@ -1875,8 +1875,8 @@
     "chapter": 39
   },
   {
+    "question": "What is the circulatory system compared to?",
     "id": 126,
-    "expression": "What is the circulatory system compared to?",
     "usageExample": "The circulatory system is like the transportation system of your body.",
     "tip": "It moves materials around the body.",
     "alternatives": [
@@ -1890,8 +1890,8 @@
     "chapter": 39
   },
   {
+    "question": "What does the circulatory system distribute?",
     "id": 127,
-    "expression": "What does the circulatory system distribute?",
     "usageExample": "The circulatory system carries nutrients, sugars, and oxygen to different parts of the body.",
     "tip": "It delivers useful materials to body cells.",
     "alternatives": [
@@ -1905,8 +1905,8 @@
     "chapter": 39
   },
   {
+    "question": "What does the circulatory system collect for removal?",
     "id": 128,
-    "expression": "What does the circulatory system collect for removal?",
     "usageExample": "The circulatory system collects waste so it can be removed from the body.",
     "tip": "Delivery and cleanup are both jobs of circulation.",
     "alternatives": [
@@ -1920,8 +1920,8 @@
     "chapter": 39
   },
   {
+    "question": "If the circulatory system is transportation, what is blood?",
     "id": 129,
-    "expression": "If the circulatory system is transportation, what is blood?",
     "usageExample": "If the circulatory system is the transportation system, blood is the vehicle.",
     "tip": "Blood actually carries the transported materials.",
     "alternatives": [
@@ -1935,8 +1935,8 @@
     "chapter": 39
   },
   {
+    "question": "What does blood transport?",
     "id": 130,
-    "expression": "What does blood transport?",
     "usageExample": "Blood transports oxygen, nutrients, waste, and other substances.",
     "tip": "Blood carries both useful materials and wastes.",
     "alternatives": [
@@ -1950,8 +1950,8 @@
     "chapter": 39
   },
   {
+    "question": "Where is body waste transported by blood?",
     "id": 131,
-    "expression": "Where is body waste transported by blood?",
     "usageExample": "Waste from your body is picked up and transported by blood to your kidneys.",
     "tip": "The kidneys help remove waste from the blood.",
     "alternatives": [
@@ -1965,8 +1965,8 @@
     "chapter": 39
   },
   {
+    "question": "Where is carbon dioxide waste carried before it is exhaled?",
     "id": 132,
-    "expression": "Where is carbon dioxide waste carried before it is exhaled?",
     "usageExample": "Carbon dioxide waste is carried in the blood to the lungs, where it is exhaled.",
     "tip": "Carbon dioxide leaves the body through the respiratory system.",
     "alternatives": [
@@ -1980,8 +1980,8 @@
     "chapter": 39
   },
   {
+    "question": "What is plasma?",
     "id": 133,
-    "expression": "What is plasma?",
     "usageExample": "Plasma is the liquid in your blood that carries most substances that need to be transported.",
     "tip": "Plasma is the liquid part of blood.",
     "alternatives": [
@@ -1995,8 +1995,8 @@
     "chapter": 39
   },
   {
+    "question": "Which substances can plasma carry?",
     "id": 134,
-    "expression": "Which substances can plasma carry?",
     "usageExample": "Plasma carries substances such as glucose, nutrients, minerals, vitamins, carbon dioxide, and waste.",
     "tip": "Plasma carries many dissolved materials.",
     "alternatives": [
@@ -2010,8 +2010,8 @@
     "chapter": 39
   },
   {
+    "question": "What do red blood cells do?",
     "id": 135,
-    "expression": "What do red blood cells do?",
     "usageExample": "Red blood cells carry oxygen to your body's cells.",
     "tip": "Red blood cells are the oxygen carriers.",
     "alternatives": [
@@ -2025,8 +2025,8 @@
     "chapter": 39
   },
   {
+    "question": "What do white blood cells do?",
     "id": 136,
-    "expression": "What do white blood cells do?",
     "usageExample": "White blood cells are cells from your immune system that fight disease.",
     "tip": "White blood cells defend the body.",
     "alternatives": [
@@ -2040,8 +2040,8 @@
     "chapter": 39
   },
   {
+    "question": "What do platelets do?",
     "id": 137,
-    "expression": "What do platelets do?",
     "usageExample": "Platelets are cell fragments that clot blood and help stop bleeding when you get a cut.",
     "tip": "Platelets help form clots.",
     "alternatives": [
@@ -2055,8 +2055,8 @@
     "chapter": 39
   },
   {
+    "question": "What is the heart's job in the circulatory system?",
     "id": 138,
-    "expression": "What is the heart's job in the circulatory system?",
     "usageExample": "The heart is the engine of the circulatory system and pumps blood to different parts of the body.",
     "tip": "The heart powers blood movement.",
     "alternatives": [
@@ -2070,8 +2070,8 @@
     "chapter": 39
   },
   {
+    "question": "How many chambers does the heart have?",
     "id": 139,
-    "expression": "How many chambers does the heart have?",
     "usageExample": "The heart is made of four chambers.",
     "tip": "There are two atria and two ventricles.",
     "alternatives": [
@@ -2085,8 +2085,8 @@
     "chapter": 39
   },
   {
+    "question": "Which chambers make up the heart?",
     "id": 140,
-    "expression": "Which chambers make up the heart?",
     "usageExample": "The heart has a left and right atrium and a left and right ventricle.",
     "tip": "The chamber names are atrium and ventricle on each side.",
     "alternatives": [
@@ -2100,8 +2100,8 @@
     "chapter": 39
   },
   {
+    "question": "Where does oxygen-rich blood from the lungs go first in the heart?",
     "id": 141,
-    "expression": "Where does oxygen-rich blood from the lungs go first in the heart?",
     "usageExample": "Oxygen-rich blood flows from the lungs to the left side of the heart, first through the left atrium.",
     "tip": "The left atrium receives oxygenated blood from the lungs.",
     "alternatives": [
@@ -2115,8 +2115,8 @@
     "chapter": 39
   },
   {
+    "question": "After the left atrium, where does oxygen-rich blood move?",
     "id": 142,
-    "expression": "After the left atrium, where does oxygen-rich blood move?",
     "usageExample": "Oxygen-rich blood moves from the left atrium to the left ventricle.",
     "tip": "The left ventricle pumps oxygenated blood toward the body.",
     "alternatives": [
@@ -2130,8 +2130,8 @@
     "chapter": 39
   },
   {
+    "question": "What is the aorta?",
     "id": 143,
-    "expression": "What is the aorta?",
     "usageExample": "Blood is pumped to the rest of the body through the aorta, a large powerful artery.",
     "tip": "The aorta is the major artery leaving the heart.",
     "alternatives": [
@@ -2145,8 +2145,8 @@
     "chapter": 39
   },
   {
+    "question": "What does oxygenated blood do as it moves through the body?",
     "id": 144,
-    "expression": "What does oxygenated blood do as it moves through the body?",
     "usageExample": "Oxygenated blood moves through the body, releasing oxygen and collecting carbon dioxide.",
     "tip": "Oxygen is dropped off and carbon dioxide is picked up.",
     "alternatives": [
@@ -2160,8 +2160,8 @@
     "chapter": 39
   },
   {
+    "question": "Where does deoxygenated blood return to the heart?",
     "id": 145,
-    "expression": "Where does deoxygenated blood return to the heart?",
     "usageExample": "Deoxygenated blood returns to the heart through the right atrium.",
     "tip": "The right side receives blood that needs oxygen again.",
     "alternatives": [
@@ -2175,8 +2175,8 @@
     "chapter": 39
   },
   {
+    "question": "From which chamber is deoxygenated blood pumped back to the lungs?",
     "id": 146,
-    "expression": "From which chamber is deoxygenated blood pumped back to the lungs?",
     "usageExample": "Deoxygenated blood gets pumped back to the lungs from the right ventricle.",
     "tip": "The right ventricle sends blood to the lungs for oxygenation.",
     "alternatives": [
@@ -2190,8 +2190,8 @@
     "chapter": 39
   },
   {
+    "question": "What happens to blood once it reaches the lungs again?",
     "id": 147,
-    "expression": "What happens to blood once it reaches the lungs again?",
     "usageExample": "In the lungs, blood collects oxygen and releases carbon dioxide, starting the process over again.",
     "tip": "The lungs reset the blood for another trip through the body.",
     "alternatives": [
@@ -2205,8 +2205,8 @@
     "chapter": 39
   },
   {
+    "question": "What are blood vessels compared to?",
     "id": 148,
-    "expression": "What are blood vessels compared to?",
     "usageExample": "Blood vessels are like the roads and highways of the circulation system.",
     "tip": "They are the pathways blood travels through.",
     "alternatives": [
@@ -2220,8 +2220,8 @@
     "chapter": 39
   },
   {
+    "question": "Which blood vessels carry blood away from the heart?",
     "id": 149,
-    "expression": "Which blood vessels carry blood away from the heart?",
     "usageExample": "Blood vessels that carry blood away from the heart are called arteries.",
     "tip": "Arteries carry blood away.",
     "alternatives": [
@@ -2235,8 +2235,8 @@
     "chapter": 39
   },
   {
+    "question": "Why do veins have one-way valves?",
     "id": 150,
-    "expression": "Why do veins have one-way valves?",
     "usageExample": "Veins have one-way valves that allow blood to move in only one direction back toward the heart.",
     "tip": "Valves keep returning blood moving the right way.",
     "alternatives": [

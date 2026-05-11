@@ -1,3 +1,17 @@
 [
-  {"id":1,"expression":"give up","usageExample":"She wanted to give up after the second failed attempt, but her coach encouraged her to try again.","tip":"Use this when someone stops trying or quits something.","alternatives":["stop trying","start celebrating","speak louder","arrive early"],"correctAnswer":"stop trying", "chapter": 1, "version":"v1"}
+  {
+    "id": 1,
+    "question": "What is science?",
+    "usageExample": "Science helps people understand the world by studying evidence and making observations.",
+    "tip": "Science is based on evidence, observations, and explanations.",
+    "alternatives": [
+      "the study of the natural world using evidence",
+      "a list of random guesses",
+      "a type of art project",
+      "a story with no testing"
+    ],
+    "correctAnswer": "the study of the natural world using evidence",
+    "chapter": 1,
+    "version": "v1"
+  }
 ]
