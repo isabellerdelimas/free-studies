@@ -2248,5 +2248,4505 @@
     "correctAnswer": "to keep blood moving one direction back to the heart",
     "version": "v1",
     "chapter": 39
+  },
+  {
+    "question": "What should a scientific procedure include?",
+    "id": 151,
+    "usageExample": "A clear procedure lets another scientist repeat the experiment and evaluate the results.",
+    "tip": "Procedures explain exactly how to carry out an experiment.",
+    "alternatives": [
+      "a detailed step-by-step list and needed materials",
+      "a final grade only",
+      "only the scientist's opinion",
+      "a list of unrelated facts"
+    ],
+    "correctAnswer": "a detailed step-by-step list and needed materials",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "Why should another scientist be able to repeat an experiment?",
+    "id": 152,
+    "usageExample": "Repeatable procedures help scientists see whether results are reliable.",
+    "tip": "Repeatability is a key part of scientific testing.",
+    "alternatives": [
+      "to check and evaluate the results",
+      "to change every variable",
+      "to avoid collecting data",
+      "to make the experiment shorter"
+    ],
+    "correctAnswer": "to check and evaluate the results",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What is a control in an experiment?",
+    "id": 153,
+    "usageExample": "In the goldfish experiment, the usual feeding schedule could be the control.",
+    "tip": "A control is the standard used for comparison.",
+    "alternatives": [
+      "a trial where variables are held constant for comparison",
+      "the variable changed on purpose",
+      "a graph of the results",
+      "a random observation after the test"
+    ],
+    "correctAnswer": "a trial where variables are held constant for comparison",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What are constants in an experiment?",
+    "id": 154,
+    "usageExample": "Tank size, water quality, and fish type can be constants in a fish-feeding experiment.",
+    "tip": "Constants are held steady so one variable can be tested.",
+    "alternatives": [
+      "factors that stay the same",
+      "results that change every time",
+      "the question being tested",
+      "the final conclusion only"
+    ],
+    "correctAnswer": "factors that stay the same",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What is a variable in an experiment?",
+    "id": 155,
+    "usageExample": "Changing feeding frequency is a variable that may affect fish health.",
+    "tip": "Variables are factors that may influence the outcome.",
+    "alternatives": [
+      "a factor that can change the results",
+      "a step that must never be observed",
+      "a finished answer",
+      "a unit of measurement only"
+    ],
+    "correctAnswer": "a factor that can change the results",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "Which variable does a scientist change on purpose?",
+    "id": 156,
+    "usageExample": "A scientist may choose how often to water a plant to test growth.",
+    "tip": "Independent means the investigator controls the change.",
+    "alternatives": [
+      "independent variable",
+      "dependent variable",
+      "constant",
+      "control group only"
+    ],
+    "correctAnswer": "independent variable",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "Which variable is measured as the result of an experiment?",
+    "id": 157,
+    "usageExample": "Plant height after watering is a dependent variable.",
+    "tip": "The dependent variable responds to the independent variable.",
+    "alternatives": [
+      "dependent variable",
+      "independent variable",
+      "constant",
+      "procedure title"
+    ],
+    "correctAnswer": "dependent variable",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "Why are all other factors held constant in a controlled experiment?",
+    "id": 158,
+    "usageExample": "If only food frequency changes, fish health results can be connected to that factor.",
+    "tip": "Constants help isolate the effect of one variable.",
+    "alternatives": [
+      "to show that the changed variable caused the result",
+      "to make several causes happen at once",
+      "to hide the results",
+      "to avoid using a control"
+    ],
+    "correctAnswer": "to show that the changed variable caused the result",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "In the goldfish example, what was the independent variable?",
+    "id": 159,
+    "usageExample": "The class compared feeding daily with feeding every other day.",
+    "tip": "The independent variable is what the class changed on purpose.",
+    "alternatives": [
+      "how frequently the fish were fed",
+      "the type of fish",
+      "the tank size",
+      "the water quality"
+    ],
+    "correctAnswer": "how frequently the fish were fed",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "In the goldfish example, what was the dependent variable?",
+    "id": 160,
+    "usageExample": "Fish health was observed after the feeding schedule was changed.",
+    "tip": "The dependent variable is the measured outcome.",
+    "alternatives": [
+      "the health of the fish after two weeks",
+      "the location of the tank",
+      "the type of food",
+      "the water temperature"
+    ],
+    "correctAnswer": "the health of the fish after two weeks",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What makes data good during an experiment?",
+    "id": 161,
+    "usageExample": "Measuring plant height carefully each week creates useful data.",
+    "tip": "Good data is recorded carefully and accurately.",
+    "alternatives": [
+      "specific, detailed, and accurate observations",
+      "only guesses written later",
+      "unclear descriptions",
+      "measurements with no labels"
+    ],
+    "correctAnswer": "specific, detailed, and accurate observations",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "When should observations be recorded for best accuracy?",
+    "id": 162,
+    "usageExample": "Recording measurements as they happen helps prevent forgotten details.",
+    "tip": "Reliable data depends on timely recording.",
+    "alternatives": [
+      "during the experiment",
+      "weeks after the experiment",
+      "only before the experiment starts",
+      "only after the conclusion is written"
+    ],
+    "correctAnswer": "during the experiment",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What is a table useful for during an experiment?",
+    "id": 163,
+    "usageExample": "A plant-growth table can compare several plants across weeks.",
+    "tip": "Tables organize data so numbers can be compared quickly.",
+    "alternatives": [
+      "recording data in rows and columns",
+      "showing only opinions",
+      "changing the independent variable",
+      "replacing all measurements"
+    ],
+    "correctAnswer": "recording data in rows and columns",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What does a line graph show best?",
+    "id": 164,
+    "usageExample": "A line graph can show plant growth over time.",
+    "tip": "Line graphs are useful for continuous change.",
+    "alternatives": [
+      "how one variable changes in relation to another",
+      "a list of materials only",
+      "a single vocabulary definition",
+      "unrelated pictures"
+    ],
+    "correctAnswer": "how one variable changes in relation to another",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "On a standard experiment line graph, where does the independent variable go?",
+    "id": 165,
+    "usageExample": "Time is often placed on the x-axis when graphing change over weeks.",
+    "tip": "The x-axis is horizontal and commonly shows the independent variable.",
+    "alternatives": [
+      "on the x-axis",
+      "on the y-axis",
+      "inside the title only",
+      "outside the graph"
+    ],
+    "correctAnswer": "on the x-axis",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "On a standard experiment line graph, where does the dependent variable go?",
+    "id": 166,
+    "usageExample": "Plant size can be plotted on the y-axis as it changes over time.",
+    "tip": "The y-axis commonly shows the measured result.",
+    "alternatives": [
+      "on the y-axis",
+      "on the x-axis",
+      "in the key only",
+      "nowhere on the graph"
+    ],
+    "correctAnswer": "on the y-axis",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "Why should graph scales use even increments?",
+    "id": 167,
+    "usageExample": "A scale of 5, 10, 15, 20 is easier to read than uneven jumps.",
+    "tip": "Even increments make graphs accurate and readable.",
+    "alternatives": [
+      "so measurements are clear and comparable",
+      "so the graph hides patterns",
+      "so numbers appear randomly",
+      "so the axes have no labels"
+    ],
+    "correctAnswer": "so measurements are clear and comparable",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What is a scatter plot used to show?",
+    "id": 168,
+    "usageExample": "A scatter plot can compare hours studied with test scores.",
+    "tip": "Scatter plots use paired values to show relationships.",
+    "alternatives": [
+      "the relationship between two sets of data",
+      "only the steps of a procedure",
+      "the materials list",
+      "one unmeasured opinion"
+    ],
+    "correctAnswer": "the relationship between two sets of data",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What is an ordered pair?",
+    "id": 169,
+    "usageExample": "The point (4.5, 90) can show hours studied and test score.",
+    "tip": "Ordered pairs place an x-value and a y-value together.",
+    "alternatives": [
+      "a pair of numbers where the order matters",
+      "a paragraph in a conclusion",
+      "a type of control trial",
+      "a list of constants"
+    ],
+    "correctAnswer": "a pair of numbers where the order matters",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What does quantitative data usually include?",
+    "id": 170,
+    "usageExample": "Plant height measured in centimeters is quantitative data.",
+    "tip": "Quantitative data is numerical.",
+    "alternatives": [
+      "numbers or measurements",
+      "only emotions",
+      "unlabeled drawings",
+      "random guesses"
+    ],
+    "correctAnswer": "numbers or measurements",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "Why are conclusions meaningless without reliable data?",
+    "id": 171,
+    "usageExample": "A conclusion about plant growth needs accurate measurements.",
+    "tip": "Scientific conclusions depend on trustworthy data.",
+    "alternatives": [
+      "because the evidence may not support them",
+      "because conclusions never need evidence",
+      "because graphs replace experiments",
+      "because variables do not matter"
+    ],
+    "correctAnswer": "because the evidence may not support them",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "Which graph works well for plant growth over several weeks?",
+    "id": 172,
+    "usageExample": "Plant growth changes continuously over time, making a line graph useful.",
+    "tip": "Line graphs show continuous change.",
+    "alternatives": [
+      "line graph",
+      "pie chart only",
+      "materials table only",
+      "unlabeled sketch"
+    ],
+    "correctAnswer": "line graph",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What does the key on a graph help identify?",
+    "id": 173,
+    "usageExample": "A key can show which plotted line belongs to Plant 1 or Plant 2.",
+    "tip": "Keys explain symbols, colors, or lines on a graph.",
+    "alternatives": [
+      "which data set or symbol is which",
+      "the control variables only",
+      "the procedure steps",
+      "the page number"
+    ],
+    "correctAnswer": "which data set or symbol is which",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What is the purpose of analyzing data?",
+    "id": 174,
+    "usageExample": "Scientists analyze tables and graphs to interpret what happened.",
+    "tip": "Analysis turns collected data into meaning.",
+    "alternatives": [
+      "to look for patterns and understand results",
+      "to erase measurements",
+      "to change the question after testing",
+      "to avoid making a conclusion"
+    ],
+    "correctAnswer": "to look for patterns and understand results",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What is the best reason to run a controlled experiment?",
+    "id": 175,
+    "usageExample": "A controlled experiment compares a standard trial with a trial that changes one factor.",
+    "tip": "Controlled experiments isolate cause and effect.",
+    "alternatives": [
+      "to test the influence of one variable",
+      "to make every factor change",
+      "to skip measurements",
+      "to prove a guess without evidence"
+    ],
+    "correctAnswer": "to test the influence of one variable",
+    "version": "v1",
+    "chapter": 2
+  },
+  {
+    "question": "What is a force?",
+    "id": 176,
+    "usageExample": "Pushing bike pedals applies a force that helps the wheels turn.",
+    "tip": "Force can change motion or shape.",
+    "alternatives": [
+      "a push or pull",
+      "a type of energy storage",
+      "a measurement of time",
+      "a chemical bond"
+    ],
+    "correctAnswer": "a push or pull",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What two properties does force always have?",
+    "id": 177,
+    "usageExample": "A push can be strong or weak and can point left, right, up, or down.",
+    "tip": "Magnitude means size.",
+    "alternatives": [
+      "magnitude and direction",
+      "temperature and color",
+      "mass and volume only",
+      "height and age"
+    ],
+    "correctAnswer": "magnitude and direction",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What is net force?",
+    "id": 178,
+    "usageExample": "Pulling a magnet from a fridge involves your pull and the magnetic force.",
+    "tip": "Net force combines forces, including direction.",
+    "alternatives": [
+      "the combination of all forces acting on an object",
+      "the mass of an object",
+      "the distance an object travels",
+      "the stored energy in a position"
+    ],
+    "correctAnswer": "the combination of all forces acting on an object",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "How do you combine forces acting in the same direction?",
+    "id": 179,
+    "usageExample": "Two people pushing a box the same way create a larger net force.",
+    "tip": "Same direction forces work together.",
+    "alternatives": [
+      "add them",
+      "subtract them",
+      "divide by time",
+      "ignore one force"
+    ],
+    "correctAnswer": "add them",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "How do you combine forces acting in opposite directions?",
+    "id": 180,
+    "usageExample": "A tug-of-war net force depends on the difference between the pulls.",
+    "tip": "Opposite forces work against each other.",
+    "alternatives": [
+      "subtract them",
+      "add them as if they match",
+      "multiply by velocity",
+      "turn them into heat"
+    ],
+    "correctAnswer": "subtract them",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What SI unit measures force?",
+    "id": 181,
+    "usageExample": "A small apple needs about one newton of force to hold against gravity.",
+    "tip": "The unit is named after Isaac Newton.",
+    "alternatives": [
+      "newton",
+      "joule",
+      "meter",
+      "hertz"
+    ],
+    "correctAnswer": "newton",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What does Newton's first law describe?",
+    "id": 182,
+    "usageExample": "A soccer ball stays still until kicked.",
+    "tip": "Newton's first law is also called the law of inertia.",
+    "alternatives": [
+      "objects keep their motion or rest unless acted on by net force",
+      "all forces are chemical",
+      "energy is destroyed in motion",
+      "temperature controls mass"
+    ],
+    "correctAnswer": "objects keep their motion or rest unless acted on by net force",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What is inertia?",
+    "id": 183,
+    "usageExample": "A moving object tends to keep moving until a force acts on it.",
+    "tip": "Inertia explains why objects resist changes in motion.",
+    "alternatives": [
+      "matter's resistance to a change in motion",
+      "the speed of a wave",
+      "the transfer of heat",
+      "the pull of a magnet only"
+    ],
+    "correctAnswer": "matter's resistance to a change in motion",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "Which object has more inertia if both move at the same velocity?",
+    "id": 184,
+    "usageExample": "A basketball is harder to stop than a tennis ball moving at the same speed.",
+    "tip": "More mass means more inertia.",
+    "alternatives": [
+      "the object with more mass",
+      "the object with less mass",
+      "the colder object",
+      "the brighter object"
+    ],
+    "correctAnswer": "the object with more mass",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What is momentum equal to?",
+    "id": 185,
+    "usageExample": "A heavy fast object has more momentum than a light slow object.",
+    "tip": "Momentum depends on both mass and velocity.",
+    "alternatives": [
+      "mass times velocity",
+      "force divided by time",
+      "height times temperature",
+      "frequency times wavelength"
+    ],
+    "correctAnswer": "mass times velocity",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What does conservation of momentum say?",
+    "id": 186,
+    "usageExample": "In pool, momentum transfers from the cue ball to another ball.",
+    "tip": "Momentum can transfer between objects.",
+    "alternatives": [
+      "momentum before and after a collision stays the same if energy is not lost",
+      "objects always stop after colliding",
+      "mass disappears in a collision",
+      "velocity never changes"
+    ],
+    "correctAnswer": "momentum before and after a collision stays the same if energy is not lost",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What does Newton's second law relate?",
+    "id": 187,
+    "usageExample": "More net force causes more acceleration for the same mass.",
+    "tip": "Newton's second law is often written using force, mass, and acceleration.",
+    "alternatives": [
+      "acceleration, net force, and mass",
+      "temperature, color, and volume",
+      "light, sound, and pitch",
+      "cells, tissues, and organs"
+    ],
+    "correctAnswer": "acceleration, net force, and mass",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What is the formula for acceleration from Newton's second law?",
+    "id": 188,
+    "usageExample": "A shopping cart accelerates more than a car under the same force.",
+    "tip": "Greater mass reduces acceleration for the same net force.",
+    "alternatives": [
+      "acceleration equals net force divided by mass",
+      "acceleration equals mass divided by color",
+      "acceleration equals heat plus light",
+      "acceleration equals wavelength times frequency"
+    ],
+    "correctAnswer": "acceleration equals net force divided by mass",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What is the formula for net force?",
+    "id": 189,
+    "usageExample": "The force needed depends on how much mass is accelerated.",
+    "tip": "Rearrange Newton's second law to solve for force.",
+    "alternatives": [
+      "mass times acceleration",
+      "mass plus temperature",
+      "velocity divided by wavelength",
+      "energy minus sound"
+    ],
+    "correctAnswer": "mass times acceleration",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "When does an object speed up?",
+    "id": 190,
+    "usageExample": "A tailwind can help a bike accelerate forward.",
+    "tip": "Force in the direction of motion increases speed.",
+    "alternatives": [
+      "when net force is in the same direction as velocity",
+      "when net force is opposite velocity",
+      "when balanced forces cancel",
+      "when mass becomes zero"
+    ],
+    "correctAnswer": "when net force is in the same direction as velocity",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "When does an object slow down?",
+    "id": 191,
+    "usageExample": "A headwind pushes opposite a bike's motion and slows it down.",
+    "tip": "Opposite net force reduces speed.",
+    "alternatives": [
+      "when net force is opposite the direction of velocity",
+      "when force and velocity point the same way",
+      "when no forces exist anywhere",
+      "when wavelength increases"
+    ],
+    "correctAnswer": "when net force is opposite the direction of velocity",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What is an unbalanced force?",
+    "id": 192,
+    "usageExample": "An unbalanced push can start a box moving.",
+    "tip": "Unbalanced forces change motion.",
+    "alternatives": [
+      "a net force in one direction",
+      "forces that cancel to zero",
+      "a force with no direction",
+      "a temperature change"
+    ],
+    "correctAnswer": "a net force in one direction",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What are balanced forces?",
+    "id": 193,
+    "usageExample": "Equal pushes from opposite sides can leave an object still.",
+    "tip": "Balanced forces do not create a net force.",
+    "alternatives": [
+      "forces that cancel each other so net force is zero",
+      "forces that always speed objects up",
+      "forces with no magnitude",
+      "forces only found in magnets"
+    ],
+    "correctAnswer": "forces that cancel each other so net force is zero",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What does Newton's third law state?",
+    "id": 194,
+    "usageExample": "Throwing a bowling ball forward pushes your body backward.",
+    "tip": "Forces occur in pairs.",
+    "alternatives": [
+      "for every action force there is an equal and opposite reaction force",
+      "objects with mass have no inertia",
+      "acceleration equals temperature",
+      "energy can be created from nothing"
+    ],
+    "correctAnswer": "for every action force there is an equal and opposite reaction force",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What are action-reaction pairs?",
+    "id": 195,
+    "usageExample": "A trampoline pushes you up as you push it down.",
+    "tip": "Newton's third law describes paired forces.",
+    "alternatives": [
+      "equal and opposite coupled forces",
+      "two forces in the same direction only",
+      "balanced forces with no objects",
+      "forces that destroy mass"
+    ],
+    "correctAnswer": "equal and opposite coupled forces",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "Why does Earth barely accelerate when you push on it while running?",
+    "id": 196,
+    "usageExample": "The same force produces much less acceleration in a huge mass.",
+    "tip": "Use Newton's second law: acceleration depends on mass.",
+    "alternatives": [
+      "Earth has a very large mass",
+      "Earth has no forces on it",
+      "your foot does not touch Earth",
+      "gravity stops all motion"
+    ],
+    "correctAnswer": "Earth has a very large mass",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What can a force change besides location?",
+    "id": 197,
+    "usageExample": "Squeezing an empty can changes its shape.",
+    "tip": "Motion can include a change in shape.",
+    "alternatives": [
+      "the shape of an object",
+      "the identity of atoms",
+      "the number of cells",
+      "the color of light only"
+    ],
+    "correctAnswer": "the shape of an object",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What force commonly slows a rolling soccer ball on grass?",
+    "id": 198,
+    "usageExample": "Grass rubs against the ball and reduces its motion.",
+    "tip": "Friction opposes motion between surfaces.",
+    "alternatives": [
+      "friction",
+      "photosynthesis",
+      "condensation",
+      "digestion"
+    ],
+    "correctAnswer": "friction",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "Why would a ball kicked in deep space keep moving for a long time?",
+    "id": 199,
+    "usageExample": "Without friction or air resistance, motion continues.",
+    "tip": "Newton's first law applies when net force is absent.",
+    "alternatives": [
+      "there is little outside force to stop it",
+      "it has no inertia",
+      "it loses all momentum instantly",
+      "there is too much friction"
+    ],
+    "correctAnswer": "there is little outside force to stop it",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What happens to acceleration if the same force is applied to a larger mass?",
+    "id": 200,
+    "usageExample": "A car accelerates less than a shopping cart under the same push.",
+    "tip": "More mass means less acceleration for the same force.",
+    "alternatives": [
+      "acceleration is smaller",
+      "acceleration is larger",
+      "acceleration becomes heat",
+      "acceleration is unrelated"
+    ],
+    "correctAnswer": "acceleration is smaller",
+    "version": "v1",
+    "chapter": 10
+  },
+  {
+    "question": "What is energy?",
+    "id": 201,
+    "usageExample": "Heat, sound, light, and motion are all forms of energy.",
+    "tip": "Energy can appear in different forms.",
+    "alternatives": [
+      "a property of matter that comes in many forms",
+      "a type of cell wall",
+      "only a kind of sound",
+      "a force with no motion"
+    ],
+    "correctAnswer": "a property of matter that comes in many forms",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What does the law of conservation of energy state?",
+    "id": 202,
+    "usageExample": "Sunlight can become chemical energy in plants.",
+    "tip": "Conserved means the total amount remains.",
+    "alternatives": [
+      "energy cannot be created or destroyed, only changed in form",
+      "energy disappears when used",
+      "energy exists only in living things",
+      "energy is the same as mass always"
+    ],
+    "correctAnswer": "energy cannot be created or destroyed, only changed in form",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What happens when a golfer hits a golf ball?",
+    "id": 203,
+    "usageExample": "The ball moves because energy from the swing is transferred.",
+    "tip": "Energy can move between objects.",
+    "alternatives": [
+      "energy transfers from the swing to the ball",
+      "energy is destroyed by the club",
+      "the ball loses all energy",
+      "gravity turns off"
+    ],
+    "correctAnswer": "energy transfers from the swing to the ball",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is mechanical energy based on?",
+    "id": 204,
+    "usageExample": "A ball rolling downhill has mechanical energy.",
+    "tip": "Mechanical energy includes kinetic and potential energy.",
+    "alternatives": [
+      "an object's motion or position",
+      "only its color",
+      "only its temperature",
+      "the number of atoms in oxygen"
+    ],
+    "correctAnswer": "an object's motion or position",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is kinetic energy?",
+    "id": 205,
+    "usageExample": "A kicked ball has kinetic energy while it moves.",
+    "tip": "Kinetic means moving.",
+    "alternatives": [
+      "energy of motion",
+      "stored energy",
+      "energy in chemical bonds only",
+      "energy from height only"
+    ],
+    "correctAnswer": "energy of motion",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is potential energy?",
+    "id": 206,
+    "usageExample": "A ball at the top of a hill stores energy because of its position.",
+    "tip": "Potential energy can be released later.",
+    "alternatives": [
+      "stored energy",
+      "energy of motion",
+      "sound moving through air",
+      "light reflected from a mirror"
+    ],
+    "correctAnswer": "stored energy",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is gravitational potential energy?",
+    "id": 207,
+    "usageExample": "A book on a high shelf has gravitational potential energy.",
+    "tip": "Height above the ground matters.",
+    "alternatives": [
+      "stored energy due to height and gravity",
+      "energy from vibrating molecules",
+      "energy from electron flow",
+      "energy from visible light only"
+    ],
+    "correctAnswer": "stored energy due to height and gravity",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "When a ball rolls down a hill, what energy change occurs?",
+    "id": 208,
+    "usageExample": "The ball's stored position energy becomes motion.",
+    "tip": "Energy changes form as motion begins.",
+    "alternatives": [
+      "potential energy changes into kinetic energy",
+      "kinetic energy changes into no energy",
+      "thermal energy becomes mass",
+      "sound becomes a cell"
+    ],
+    "correctAnswer": "potential energy changes into kinetic energy",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What affects the amount of kinetic energy an object has?",
+    "id": 209,
+    "usageExample": "A faster or heavier object has more kinetic energy.",
+    "tip": "Kinetic energy depends on moving mass.",
+    "alternatives": [
+      "mass and velocity",
+      "height and color only",
+      "temperature and taste",
+      "shape and age only"
+    ],
+    "correctAnswer": "mass and velocity",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What affects gravitational potential energy?",
+    "id": 210,
+    "usageExample": "A heavier object placed higher has more stored energy.",
+    "tip": "Potential energy increases with mass and height.",
+    "alternatives": [
+      "mass and height",
+      "sound and pitch",
+      "frequency and color only",
+      "oxygen and nitrogen"
+    ],
+    "correctAnswer": "mass and height",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is mechanical kinetic energy?",
+    "id": 211,
+    "usageExample": "A moving bicycle has mechanical kinetic energy.",
+    "tip": "Mechanical kinetic energy is motion energy.",
+    "alternatives": [
+      "energy of moving objects",
+      "stored energy in height",
+      "energy in chemical bonds",
+      "energy in atomic nuclei"
+    ],
+    "correctAnswer": "energy of moving objects",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is thermal energy?",
+    "id": 212,
+    "usageExample": "Warm molecules vibrate and transfer thermal energy.",
+    "tip": "Thermal energy is connected to molecular motion.",
+    "alternatives": [
+      "energy from vibrating molecules that affects temperature",
+      "energy stored in height",
+      "energy in a food label only",
+      "energy from a nucleus only"
+    ],
+    "correctAnswer": "energy from vibrating molecules that affects temperature",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is electromagnetic energy?",
+    "id": 213,
+    "usageExample": "Visible light is part of electromagnetic energy.",
+    "tip": "Light waves carry electromagnetic energy.",
+    "alternatives": [
+      "energy carried by light waves",
+      "energy only from muscles",
+      "stored energy in elastic materials",
+      "energy in soil layers"
+    ],
+    "correctAnswer": "energy carried by light waves",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is sound energy caused by?",
+    "id": 214,
+    "usageExample": "A vibrating speaker transfers sound energy through air molecules.",
+    "tip": "Sound needs matter to travel.",
+    "alternatives": [
+      "molecules bumping into each other to transmit sound",
+      "water turning to vapor",
+      "rocks oxidizing",
+      "food moving through the stomach"
+    ],
+    "correctAnswer": "molecules bumping into each other to transmit sound",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is electric energy?",
+    "id": 215,
+    "usageExample": "An electric current involves moving electrons.",
+    "tip": "Electric energy depends on electron flow.",
+    "alternatives": [
+      "the flow of electrons",
+      "the flow of blood",
+      "the bending of waves",
+      "stored energy in height"
+    ],
+    "correctAnswer": "the flow of electrons",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Where is elastic energy stored?",
+    "id": 216,
+    "usageExample": "A stretched rubber band stores elastic energy.",
+    "tip": "Elastic materials store energy when deformed.",
+    "alternatives": [
+      "in stretched or compressed elastic materials",
+      "inside atomic nuclei only",
+      "in moving water only",
+      "in visible color"
+    ],
+    "correctAnswer": "in stretched or compressed elastic materials",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Where is nuclear energy stored?",
+    "id": 217,
+    "usageExample": "Radioactive atoms store energy in their nuclei.",
+    "tip": "Nuclear energy is atomic nucleus energy.",
+    "alternatives": [
+      "in the nuclei of atoms",
+      "in cell walls",
+      "in soil horizons",
+      "in the stomach"
+    ],
+    "correctAnswer": "in the nuclei of atoms",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What happens during nuclear fission?",
+    "id": 218,
+    "usageExample": "Nuclear power plants use fission to release energy.",
+    "tip": "Fission means splitting.",
+    "alternatives": [
+      "atoms are split and energy is released",
+      "water condenses into clouds",
+      "sound reflects as an echo",
+      "plants make glucose"
+    ],
+    "correctAnswer": "atoms are split and energy is released",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is chemical energy?",
+    "id": 219,
+    "usageExample": "Food and fuels store chemical energy in bonds.",
+    "tip": "Chemical energy is potential energy before bonds release it.",
+    "alternatives": [
+      "energy stored in chemical bonds",
+      "energy stored only in height",
+      "energy from reflected sound",
+      "energy in a graph scale"
+    ],
+    "correctAnswer": "energy stored in chemical bonds",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Which items are sources of chemical energy?",
+    "id": 220,
+    "usageExample": "Fuel sources contain stored energy in chemical bonds.",
+    "tip": "Look for materials that can be used as fuel.",
+    "alternatives": [
+      "food, oil, gas, firewood, and coal",
+      "mirrors, lenses, and prisms",
+      "sand, deltas, and maps only",
+      "nerves, glands, and bones"
+    ],
+    "correctAnswer": "food, oil, gas, firewood, and coal",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Why can kinetic energy transfer in a collision?",
+    "id": 221,
+    "usageExample": "One bumper car can make another car move.",
+    "tip": "Collisions can transfer motion energy.",
+    "alternatives": [
+      "moving objects can pass energy to other objects",
+      "collisions destroy all motion",
+      "only light can move energy",
+      "mass always becomes zero"
+    ],
+    "correctAnswer": "moving objects can pass energy to other objects",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What happens to total energy in a closed system?",
+    "id": 222,
+    "usageExample": "Energy may change forms but the total amount stays the same.",
+    "tip": "Conservation means total energy is not lost.",
+    "alternatives": [
+      "it remains conserved",
+      "it always disappears",
+      "it doubles every second",
+      "it turns only into sound"
+    ],
+    "correctAnswer": "it remains conserved",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Why does a bowling ball dropped from the same height have more potential energy than a tennis ball?",
+    "id": 223,
+    "usageExample": "More mass increases gravitational potential energy.",
+    "tip": "Potential energy depends partly on mass.",
+    "alternatives": [
+      "it has more mass",
+      "it has less height",
+      "it is brighter",
+      "it has less matter"
+    ],
+    "correctAnswer": "it has more mass",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Why can a higher book have more potential energy than a lower book?",
+    "id": 224,
+    "usageExample": "A book on the top shelf stores more gravitational potential energy.",
+    "tip": "Height increases gravitational potential energy.",
+    "alternatives": [
+      "it has farther to fall",
+      "it has less mass",
+      "it has no gravity",
+      "it is on a shelf"
+    ],
+    "correctAnswer": "it has farther to fall",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is an energy transformation?",
+    "id": 225,
+    "usageExample": "Light energy in plants can become chemical energy.",
+    "tip": "Energy transformations keep total energy conserved.",
+    "alternatives": [
+      "a change from one form of energy to another",
+      "a loss of all energy",
+      "a graphing mistake",
+      "a type of soil layer"
+    ],
+    "correctAnswer": "a change from one form of energy to another",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is temperature scientifically?",
+    "id": 226,
+    "usageExample": "Hot cocoa has faster-moving molecules than cold chocolate milk.",
+    "tip": "Temperature is about average molecular motion.",
+    "alternatives": [
+      "the average kinetic energy of molecules in a substance",
+      "the total mass of a substance",
+      "the sum of all potential energy only",
+      "the color of a substance"
+    ],
+    "correctAnswer": "the average kinetic energy of molecules in a substance",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What happens to molecules when a substance gets hotter?",
+    "id": 227,
+    "usageExample": "Molecules in hot cocoa move faster than in cold milk.",
+    "tip": "Faster molecular motion means higher temperature.",
+    "alternatives": [
+      "they move faster",
+      "they stop moving",
+      "they lose all kinetic energy",
+      "they become larger atoms"
+    ],
+    "correctAnswer": "they move faster",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What usually happens when materials heat up?",
+    "id": 228,
+    "usageExample": "Thermometer liquid expands at higher temperature.",
+    "tip": "Heating generally causes expansion.",
+    "alternatives": [
+      "they expand",
+      "they contract",
+      "they become weightless",
+      "they stop vibrating"
+    ],
+    "correctAnswer": "they expand",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What usually happens when materials cool down?",
+    "id": 229,
+    "usageExample": "Cooling thermometer liquid contracts.",
+    "tip": "Cooling usually reduces volume.",
+    "alternatives": [
+      "they contract",
+      "they expand forever",
+      "they turn into light",
+      "they gain infinite speed"
+    ],
+    "correctAnswer": "they contract",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "How do many thermometers work?",
+    "id": 230,
+    "usageExample": "Liquid in a thermometer rises as it expands from heat.",
+    "tip": "Thermometers rely on temperature-related expansion.",
+    "alternatives": [
+      "materials expand or contract with temperature",
+      "they measure color only",
+      "they count atoms directly",
+      "they use digestion"
+    ],
+    "correctAnswer": "materials expand or contract with temperature",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Which temperature scale is the SI unit for temperature?",
+    "id": 231,
+    "usageExample": "Scientists often use Kelvin for temperature measurements.",
+    "tip": "Kelvin is the SI temperature scale.",
+    "alternatives": [
+      "Kelvin",
+      "Fahrenheit",
+      "inch",
+      "decibel"
+    ],
+    "correctAnswer": "Kelvin",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is absolute zero?",
+    "id": 232,
+    "usageExample": "Nothing can get colder than molecules being stopped.",
+    "tip": "Absolute zero is 0 K.",
+    "alternatives": [
+      "the temperature where molecules stop moving",
+      "the boiling point of water",
+      "normal body temperature",
+      "room temperature"
+    ],
+    "correctAnswer": "the temperature where molecules stop moving",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is thermal energy?",
+    "id": 233,
+    "usageExample": "A stack of bricks can have more thermal energy than one brick.",
+    "tip": "Thermal energy is total molecular energy.",
+    "alternatives": [
+      "the sum of kinetic and potential energies of all molecules in a substance",
+      "the average kinetic energy only",
+      "the color of hot objects",
+      "energy only from sunlight"
+    ],
+    "correctAnswer": "the sum of kinetic and potential energies of all molecules in a substance",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "How is temperature different from thermal energy?",
+    "id": 234,
+    "usageExample": "Two objects may share temperature but have different total thermal energy.",
+    "tip": "Average and total are different ideas.",
+    "alternatives": [
+      "temperature is average kinetic energy, while thermal energy is total molecular energy",
+      "temperature is total energy, while thermal energy is only color",
+      "they are exactly the same in every way",
+      "thermal energy ignores molecules"
+    ],
+    "correctAnswer": "temperature is average kinetic energy, while thermal energy is total molecular energy",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is heat?",
+    "id": 235,
+    "usageExample": "A warm mug transfers thermal energy to a cooler hand.",
+    "tip": "Heat is energy in transit.",
+    "alternatives": [
+      "transfer of thermal energy from warmer to cooler objects",
+      "average molecular motion",
+      "stored chemical energy",
+      "the creation of new energy"
+    ],
+    "correctAnswer": "transfer of thermal energy from warmer to cooler objects",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Which direction does thermal energy naturally move?",
+    "id": 236,
+    "usageExample": "A hot stove transfers heat to a cooler hand.",
+    "tip": "Heat flows high to low temperature.",
+    "alternatives": [
+      "from warmer objects to cooler objects",
+      "from cooler objects to warmer objects only",
+      "toward lower mass always",
+      "toward brighter colors always"
+    ],
+    "correctAnswer": "from warmer objects to cooler objects",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "When does thermal energy transfer between objects stop?",
+    "id": 237,
+    "usageExample": "A hot drink and room air exchange heat until temperatures balance.",
+    "tip": "Heat transfer continues toward equilibrium.",
+    "alternatives": [
+      "when both objects reach the same temperature",
+      "when one object becomes invisible",
+      "when molecules become larger",
+      "when color changes"
+    ],
+    "correctAnswer": "when both objects reach the same temperature",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is conduction?",
+    "id": 238,
+    "usageExample": "Touching a hot stove transfers heat by conduction.",
+    "tip": "Conduction needs contact.",
+    "alternatives": [
+      "heat transfer through direct contact",
+      "heat transfer by electromagnetic rays",
+      "heat transfer by fluid motion",
+      "water vapor entering air"
+    ],
+    "correctAnswer": "heat transfer through direct contact",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What happens during conduction at the molecular level?",
+    "id": 239,
+    "usageExample": "Warm object molecules transfer energy to cooler object molecules.",
+    "tip": "Conduction occurs through collisions in contact.",
+    "alternatives": [
+      "faster molecules collide with slower molecules and transfer energy",
+      "molecules stop touching",
+      "light bends in water",
+      "clouds form droplets"
+    ],
+    "correctAnswer": "faster molecules collide with slower molecules and transfer energy",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is radiation?",
+    "id": 240,
+    "usageExample": "The sun warms Earth by radiation.",
+    "tip": "Radiation can travel through space.",
+    "alternatives": [
+      "heat transfer through electromagnetic rays",
+      "heat transfer only by touching",
+      "heat transfer only by moving water",
+      "the storage of food energy"
+    ],
+    "correctAnswer": "heat transfer through electromagnetic rays",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is convection?",
+    "id": 241,
+    "usageExample": "Warm air rising from a heater is convection.",
+    "tip": "Fluids include liquids and gases.",
+    "alternatives": [
+      "heat transfer through movement of a fluid",
+      "heat transfer through solid contact only",
+      "heat transfer through nuclear fission",
+      "a graph of temperature"
+    ],
+    "correctAnswer": "heat transfer through movement of a fluid",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is a convection current?",
+    "id": 242,
+    "usageExample": "Warm air rises, cools, and sinks in a room.",
+    "tip": "Convection currents circulate heated fluid.",
+    "alternatives": [
+      "a current in a fluid that moves heat around",
+      "a fixed joint in the skull",
+      "a table of temperatures",
+      "a kind of chemical bond"
+    ],
+    "correctAnswer": "a current in a fluid that moves heat around",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why does warm air rise in a convection current?",
+    "id": 243,
+    "usageExample": "Air near a heater rises before cooling and sinking.",
+    "tip": "Warm fluids often rise relative to cooler fluids.",
+    "alternatives": [
+      "heated air becomes less dense and moves upward",
+      "heated air becomes solid",
+      "gravity stops working",
+      "it loses all energy"
+    ],
+    "correctAnswer": "heated air becomes less dense and moves upward",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Which is an example of radiation?",
+    "id": 244,
+    "usageExample": "A fire can warm you without direct contact.",
+    "tip": "Radiation uses electromagnetic waves.",
+    "alternatives": [
+      "warmth felt from sitting near a fire",
+      "ice wedging in rocks",
+      "chewing food",
+      "a ligament holding bones"
+    ],
+    "correctAnswer": "warmth felt from sitting near a fire",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Which is an example of convection?",
+    "id": 245,
+    "usageExample": "Heated air rises and cooler air sinks.",
+    "tip": "Convection depends on fluid movement.",
+    "alternatives": [
+      "air moving around a room from a heater",
+      "a hand touching a stove",
+      "a book sitting on a shelf",
+      "a mirror reflecting light"
+    ],
+    "correctAnswer": "air moving around a room from a heater",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Which is an example of conduction?",
+    "id": 246,
+    "usageExample": "Direct contact with a hot pan transfers heat.",
+    "tip": "Conduction occurs through contact.",
+    "alternatives": [
+      "a hand touching a hot pan",
+      "sunlight warming Earth",
+      "wind moving warm air",
+      "water evaporating"
+    ],
+    "correctAnswer": "a hand touching a hot pan",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What does Celsius measure?",
+    "id": 247,
+    "usageExample": "Water freezes at 0 degrees Celsius.",
+    "tip": "Celsius is commonly used in metric measurements.",
+    "alternatives": [
+      "temperature on a metric scale",
+      "sound intensity",
+      "electric current",
+      "force"
+    ],
+    "correctAnswer": "temperature on a metric scale",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What does Fahrenheit measure?",
+    "id": 248,
+    "usageExample": "Human body temperature is about 98.6 degrees Fahrenheit.",
+    "tip": "Fahrenheit is another temperature scale.",
+    "alternatives": [
+      "temperature on a common U.S. scale",
+      "energy in bonds",
+      "wave frequency",
+      "blood sugar"
+    ],
+    "correctAnswer": "temperature on a common U.S. scale",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why can two objects have the same temperature but different thermal energy?",
+    "id": 249,
+    "usageExample": "A stack of bricks can have more thermal energy than one brick at the same temperature.",
+    "tip": "Thermal energy depends on total amount of matter too.",
+    "alternatives": [
+      "one may contain more molecules or total energy",
+      "temperature never involves molecules",
+      "thermal energy is only brightness",
+      "molecules do not move in matter"
+    ],
+    "correctAnswer": "one may contain more molecules or total energy",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What happens to thermal energy when you hold a cold object?",
+    "id": 250,
+    "usageExample": "Your hand loses thermal energy to the cold object.",
+    "tip": "Heat moves from warmer to cooler.",
+    "alternatives": [
+      "heat transfers from your warmer hand to the cooler object",
+      "cold transfers into your hand as a substance",
+      "energy is destroyed",
+      "the object produces ozone"
+    ],
+    "correctAnswer": "heat transfers from your warmer hand to the cooler object",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is a wave?",
+    "id": 251,
+    "usageExample": "Water ripples and sound waves both carry energy.",
+    "tip": "Waves transfer energy through oscillations.",
+    "alternatives": [
+      "an oscillation that carries energy",
+      "a fixed piece of matter",
+      "a kind of cell",
+      "a chemical bond"
+    ],
+    "correctAnswer": "an oscillation that carries energy",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is oscillation?",
+    "id": 252,
+    "usageExample": "A rope wave moves through repeated up-and-down motion.",
+    "tip": "Oscillation is repeated motion.",
+    "alternatives": [
+      "up-and-down or back-and-forth motion",
+      "a transfer of nutrients",
+      "a type of organ",
+      "the breaking down of rocks"
+    ],
+    "correctAnswer": "up-and-down or back-and-forth motion",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is a mechanical wave?",
+    "id": 253,
+    "usageExample": "Sound travels through air as a mechanical wave.",
+    "tip": "Mechanical waves need a medium.",
+    "alternatives": [
+      "a wave that moves through matter",
+      "a wave that needs no matter",
+      "a stored chemical energy",
+      "a layer of atmosphere"
+    ],
+    "correctAnswer": "a wave that moves through matter",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is an electromagnetic wave?",
+    "id": 254,
+    "usageExample": "Light from the sun crosses space to Earth.",
+    "tip": "Electromagnetic waves do not require matter.",
+    "alternatives": [
+      "a wave that can travel through a vacuum",
+      "a wave that must travel only through water",
+      "a moving bone joint",
+      "a soil layer"
+    ],
+    "correctAnswer": "a wave that can travel through a vacuum",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "Why can sound not travel through outer space?",
+    "id": 255,
+    "usageExample": "Sound needs molecules to vibrate from place to place.",
+    "tip": "Sound is a mechanical wave.",
+    "alternatives": [
+      "space lacks matter for sound waves to travel through",
+      "space has too much air",
+      "sound is not a wave",
+      "light blocks all sound"
+    ],
+    "correctAnswer": "space lacks matter for sound waves to travel through",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is amplitude?",
+    "id": 256,
+    "usageExample": "Taller ocean waves have larger amplitudes.",
+    "tip": "Amplitude relates to wave height and energy.",
+    "alternatives": [
+      "half the distance between a crest and a trough",
+      "the number of waves per second",
+      "the bending of waves around barriers",
+      "the speed of light"
+    ],
+    "correctAnswer": "half the distance between a crest and a trough",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What does a larger wave amplitude usually mean?",
+    "id": 257,
+    "usageExample": "Energetic ocean waves are taller than gentle ripples.",
+    "tip": "Amplitude is connected to wave energy.",
+    "alternatives": [
+      "more energy",
+      "less matter always",
+      "lower temperature only",
+      "no motion"
+    ],
+    "correctAnswer": "more energy",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is frequency?",
+    "id": 258,
+    "usageExample": "Ten waves in ten seconds has a higher frequency than two waves in ten seconds.",
+    "tip": "Frequency counts waves per time.",
+    "alternatives": [
+      "the number of waves passing a point each second",
+      "the distance between crest and trough",
+      "the reflection angle",
+      "the amount of nutrients"
+    ],
+    "correctAnswer": "the number of waves passing a point each second",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is wavelength?",
+    "id": 259,
+    "usageExample": "Crest-to-crest distance is a wavelength.",
+    "tip": "Wavelength measures wave spacing.",
+    "alternatives": [
+      "the distance from one matching point on a wave to the next",
+      "the loudness of sound only",
+      "the number of waves per second",
+      "the heat in a molecule"
+    ],
+    "correctAnswer": "the distance from one matching point on a wave to the next",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "How are frequency and wavelength related when wave speed stays the same?",
+    "id": 260,
+    "usageExample": "More waves passing in the same time must be closer together.",
+    "tip": "Frequency and wavelength are inversely related at constant speed.",
+    "alternatives": [
+      "higher frequency means shorter wavelength",
+      "higher frequency means longer wavelength",
+      "frequency does not affect wavelength",
+      "wavelength becomes zero"
+    ],
+    "correctAnswer": "higher frequency means shorter wavelength",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is the wave speed equation?",
+    "id": 261,
+    "usageExample": "The equation is often written as v = f x wavelength.",
+    "tip": "Wave speed combines frequency and wavelength.",
+    "alternatives": [
+      "wave speed equals frequency times wavelength",
+      "wave speed equals mass times acceleration",
+      "wave speed equals heat divided by time",
+      "wave speed equals force plus distance"
+    ],
+    "correctAnswer": "wave speed equals frequency times wavelength",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is reflection?",
+    "id": 262,
+    "usageExample": "A mirror works because light reflects from it.",
+    "tip": "Reflection is bouncing.",
+    "alternatives": [
+      "a wave bouncing off a surface",
+      "a wave bending through a new medium",
+      "a wave being absorbed by matter",
+      "a wave spreading around an opening"
+    ],
+    "correctAnswer": "a wave bouncing off a surface",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is an echo?",
+    "id": 263,
+    "usageExample": "Sound can bounce off a wall and return as an echo.",
+    "tip": "Echoes are sound reflections.",
+    "alternatives": [
+      "a reflected sound wave",
+      "a refracted light wave",
+      "a type of electromagnetic spectrum",
+      "a chemical reaction"
+    ],
+    "correctAnswer": "a reflected sound wave",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is refraction?",
+    "id": 264,
+    "usageExample": "A pencil looks bent in water because light refracts.",
+    "tip": "Refraction happens when wave speed changes in a new medium.",
+    "alternatives": [
+      "bending of waves as they travel through different mediums",
+      "bouncing off a surface",
+      "canceling waves only",
+      "storing energy in height"
+    ],
+    "correctAnswer": "bending of waves as they travel through different mediums",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is diffraction?",
+    "id": 265,
+    "usageExample": "Ocean waves spreading through a gap in a pier show diffraction.",
+    "tip": "Diffraction is wave spreading or bending around obstacles.",
+    "alternatives": [
+      "bending around a barrier or spreading past small openings",
+      "energy stored in bonds",
+      "water changing to vapor",
+      "a force pair"
+    ],
+    "correctAnswer": "bending around a barrier or spreading past small openings",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is interference?",
+    "id": 266,
+    "usageExample": "Trampoline motion can be stronger or weaker as waves combine.",
+    "tip": "Interference happens when waves meet.",
+    "alternatives": [
+      "the result of waves colliding with each other",
+      "the digestion of proteins",
+      "the formation of ozone",
+      "the storage of minerals"
+    ],
+    "correctAnswer": "the result of waves colliding with each other",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is constructive interference?",
+    "id": 267,
+    "usageExample": "Two matching waves can add together.",
+    "tip": "Constructive means building up.",
+    "alternatives": [
+      "waves combine to form a larger wave",
+      "waves cancel each other out",
+      "waves turn into cells",
+      "waves stop needing energy"
+    ],
+    "correctAnswer": "waves combine to form a larger wave",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is destructive interference?",
+    "id": 268,
+    "usageExample": "Some wave collisions reduce motion.",
+    "tip": "Destructive means reducing the combined wave.",
+    "alternatives": [
+      "waves cancel each other partly or completely",
+      "waves combine into a larger wave",
+      "waves become nutrients",
+      "waves create new matter"
+    ],
+    "correctAnswer": "waves cancel each other partly or completely",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is absorption of a wave?",
+    "id": 269,
+    "usageExample": "Ocean water absorbs sunlight as depth increases.",
+    "tip": "Absorbed wave energy enters matter.",
+    "alternatives": [
+      "transfer of energy from a wave to matter",
+      "bouncing of a wave from a mirror",
+      "bending of a wave around a barrier",
+      "naming a species"
+    ],
+    "correctAnswer": "transfer of energy from a wave to matter",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "Why does a red apple look red?",
+    "id": 270,
+    "usageExample": "We see the color that reaches our eyes.",
+    "tip": "Objects appear the color they reflect.",
+    "alternatives": [
+      "red light is reflected while other colors are absorbed",
+      "all colors are reflected equally",
+      "red light is absorbed and never seen",
+      "sound waves turn red"
+    ],
+    "correctAnswer": "red light is reflected while other colors are absorbed",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What kind of wave is an electromagnetic wave?",
+    "id": 271,
+    "usageExample": "Electromagnetic fields oscillate perpendicular to the wave direction.",
+    "tip": "Transverse waves oscillate across the direction of travel.",
+    "alternatives": [
+      "transverse wave",
+      "longitudinal wave only",
+      "standing digestive wave",
+      "mechanical wave only"
+    ],
+    "correctAnswer": "transverse wave",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "Which electromagnetic waves have the lowest energy?",
+    "id": 272,
+    "usageExample": "Radio waves are at the low-energy end of the spectrum.",
+    "tip": "Low energy means longer wavelength and lower frequency.",
+    "alternatives": [
+      "radio waves",
+      "gamma rays",
+      "X-rays",
+      "ultraviolet rays"
+    ],
+    "correctAnswer": "radio waves",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "Which electromagnetic waves have the highest energy?",
+    "id": 273,
+    "usageExample": "Gamma rays have the highest frequency and energy.",
+    "tip": "High energy means shorter wavelength and higher frequency.",
+    "alternatives": [
+      "gamma rays",
+      "radio waves",
+      "microwaves",
+      "infrared waves"
+    ],
+    "correctAnswer": "gamma rays",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What visible color has the longest wavelength?",
+    "id": 274,
+    "usageExample": "In visible light, red has a longer wavelength than violet.",
+    "tip": "ROY G. BIV starts with red.",
+    "alternatives": [
+      "red",
+      "violet",
+      "blue",
+      "indigo"
+    ],
+    "correctAnswer": "red",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is pitch?",
+    "id": 275,
+    "usageExample": "Higher-frequency sounds are perceived as higher pitch.",
+    "tip": "Pitch depends on frequency.",
+    "alternatives": [
+      "our perception of sound wave frequency",
+      "the bending of light in water",
+      "the transfer of heat by contact",
+      "the amount of stored chemical energy"
+    ],
+    "correctAnswer": "our perception of sound wave frequency",
+    "version": "v1",
+    "chapter": 15
+  },
+  {
+    "question": "What is weathering?",
+    "id": 276,
+    "usageExample": "A hard candy crushed into crumbs is like weathering.",
+    "tip": "Weathering breaks rock apart.",
+    "alternatives": [
+      "rocks breaking down into smaller pieces",
+      "sediment being dropped",
+      "water vapor forming clouds",
+      "food being chemically digested"
+    ],
+    "correctAnswer": "rocks breaking down into smaller pieces",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What are the two main types of weathering?",
+    "id": 277,
+    "usageExample": "Rocks can be broken by physical forces or chemical reactions.",
+    "tip": "Weathering can be physical or chemical.",
+    "alternatives": [
+      "mechanical and chemical",
+      "nervous and endocrine",
+      "kinetic and potential",
+      "evaporation and condensation"
+    ],
+    "correctAnswer": "mechanical and chemical",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is mechanical weathering?",
+    "id": 278,
+    "usageExample": "Ice wedging and abrasion are mechanical weathering.",
+    "tip": "Mechanical means physical.",
+    "alternatives": [
+      "physical forces breaking down rocks",
+      "chemical reactions dissolving rocks",
+      "sediment being deposited",
+      "water cycling through air"
+    ],
+    "correctAnswer": "physical forces breaking down rocks",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is ice wedging?",
+    "id": 279,
+    "usageExample": "Repeated freezing can widen cracks and split rock.",
+    "tip": "Water expands when it freezes.",
+    "alternatives": [
+      "water freezes in rock cracks and expands them",
+      "wind drops sand into dunes",
+      "oxygen reacts with iron",
+      "plants make glucose"
+    ],
+    "correctAnswer": "water freezes in rock cracks and expands them",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "How can plant roots weather rock?",
+    "id": 280,
+    "usageExample": "Roots growing into cracks can force rock apart.",
+    "tip": "Plant growth can be a mechanical force.",
+    "alternatives": [
+      "roots put pressure on rock and break it apart",
+      "roots turn rock into clouds",
+      "roots stop all erosion",
+      "roots remove gravity"
+    ],
+    "correctAnswer": "roots put pressure on rock and break it apart",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is abrasion?",
+    "id": 281,
+    "usageExample": "Sand blowing against rock acts like sandpaper.",
+    "tip": "Abrasion wears surfaces down by scraping.",
+    "alternatives": [
+      "particles carried by water or wind scrape rock surfaces",
+      "rocks dissolving in acid",
+      "sediment dropped by rivers",
+      "soil forming horizons"
+    ],
+    "correctAnswer": "particles carried by water or wind scrape rock surfaces",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is release of pressure weathering?",
+    "id": 282,
+    "usageExample": "Rocks exposed at the surface can crack as pressure is reduced.",
+    "tip": "Less pressure lets rock expand.",
+    "alternatives": [
+      "underground rocks expand and break as pressure decreases",
+      "rocks rust from oxygen",
+      "soil absorbs water vapor",
+      "glaciers deposit moraines"
+    ],
+    "correctAnswer": "underground rocks expand and break as pressure decreases",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is thermal stress?",
+    "id": 283,
+    "usageExample": "Daily temperature changes can stress rock.",
+    "tip": "Thermal means heat-related.",
+    "alternatives": [
+      "heating and cooling repeatedly expand and contract rock until it cracks",
+      "water condenses in clouds",
+      "wind deposits sediment",
+      "a joint rotating in a circle"
+    ],
+    "correctAnswer": "heating and cooling repeatedly expand and contract rock until it cracks",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is chemical weathering?",
+    "id": 284,
+    "usageExample": "Acids can corrode certain rocks.",
+    "tip": "Chemical weathering changes materials chemically.",
+    "alternatives": [
+      "chemical reactions breaking down rocks",
+      "only physical scraping of rock",
+      "sediment settling after erosion",
+      "mapping elevation lines"
+    ],
+    "correctAnswer": "chemical reactions breaking down rocks",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "How do natural acids weather rock?",
+    "id": 285,
+    "usageExample": "Carbon dioxide and water can form carbonic acid.",
+    "tip": "Acids dissolve or corrode minerals.",
+    "alternatives": [
+      "carbonic acid can corrode certain rocks such as limestone",
+      "they make rocks heavier only",
+      "they freeze in cracks",
+      "they create contour lines"
+    ],
+    "correctAnswer": "carbonic acid can corrode certain rocks such as limestone",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is oxidation?",
+    "id": 286,
+    "usageExample": "Rust forms when oxygen reacts with iron.",
+    "tip": "Oxidation involves oxygen.",
+    "alternatives": [
+      "oxygen reacting with rocks or metals to break them down",
+      "water freezing and expanding",
+      "sediment dropped by wind",
+      "soil layers forming from humus"
+    ],
+    "correctAnswer": "oxygen reacting with rocks or metals to break them down",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is soil made of?",
+    "id": 287,
+    "usageExample": "Soil supports plant life with minerals and organic material.",
+    "tip": "Soil is a mixture.",
+    "alternatives": [
+      "weathered rock, organic matter, water, and air",
+      "only pure sand",
+      "only liquid water",
+      "only decayed animals"
+    ],
+    "correctAnswer": "weathered rock, organic matter, water, and air",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What are soil horizons?",
+    "id": 288,
+    "usageExample": "Mature soils usually have more horizons.",
+    "tip": "Horizon means a soil layer.",
+    "alternatives": [
+      "layers of soil",
+      "types of waves",
+      "parts of a neuron",
+      "atmosphere gases"
+    ],
+    "correctAnswer": "layers of soil",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is humus?",
+    "id": 289,
+    "usageExample": "Humus returns nutrients to soil for plant growth.",
+    "tip": "Humus is decomposed organic material.",
+    "alternatives": [
+      "organic matter from decayed plants and animals",
+      "a mineral in compact bone",
+      "a gas in the atmosphere",
+      "a type of glacier"
+    ],
+    "correctAnswer": "organic matter from decayed plants and animals",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is erosion?",
+    "id": 290,
+    "usageExample": "Waves can erode a sand castle.",
+    "tip": "Erosion moves weathered material away.",
+    "alternatives": [
+      "removal of weathered material",
+      "breaking rock in place only",
+      "water changing to vapor",
+      "heat transfer by contact"
+    ],
+    "correctAnswer": "removal of weathered material",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What are the four main forces of erosion?",
+    "id": 291,
+    "usageExample": "Rivers, glaciers, landslides, and wind can all move sediment.",
+    "tip": "Erosion needs a transporting force.",
+    "alternatives": [
+      "water, ice, gravity, and wind",
+      "light, sound, heat, and motion",
+      "cells, tissues, organs, and systems",
+      "nitrogen, oxygen, argon, and ozone"
+    ],
+    "correctAnswer": "water, ice, gravity, and wind",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is runoff?",
+    "id": 292,
+    "usageExample": "Rainwater flowing downhill can carry sediment.",
+    "tip": "Runoff is water moving over land.",
+    "alternatives": [
+      "traveling water across Earth's surface",
+      "water stored only in clouds",
+      "a fixed soil horizon",
+      "a kind of rock rust"
+    ],
+    "correctAnswer": "traveling water across Earth's surface",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is sheet erosion?",
+    "id": 293,
+    "usageExample": "Water spread over a hill can wash sediment away.",
+    "tip": "Sheet flow moves as a broad layer.",
+    "alternatives": [
+      "a sheet of rainwater carrying loose sediment down a slope",
+      "a glacier dropping debris",
+      "oxygen reacting with iron",
+      "a map showing elevation"
+    ],
+    "correctAnswer": "a sheet of rainwater carrying loose sediment down a slope",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What are glaciers?",
+    "id": 294,
+    "usageExample": "Glaciers scrape rock and carry chunks away.",
+    "tip": "Glaciers are moving ice.",
+    "alternatives": [
+      "huge masses of ice that move across Earth's surface",
+      "clouds made of water vapor",
+      "triangular river deposits",
+      "lines on topographic maps"
+    ],
+    "correctAnswer": "huge masses of ice that move across Earth's surface",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is mass movement?",
+    "id": 295,
+    "usageExample": "Rock slides and mudflows are examples of mass movement.",
+    "tip": "Gravity pulls material downhill.",
+    "alternatives": [
+      "gravity-driven erosion of land",
+      "chemical weathering by acid",
+      "cloud formation by cooling",
+      "heat transfer by radiation"
+    ],
+    "correctAnswer": "gravity-driven erosion of land",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is a mudflow?",
+    "id": 296,
+    "usageExample": "Sediment that absorbs water can become heavy and slide downhill.",
+    "tip": "Mudflows are mass movements.",
+    "alternatives": [
+      "water-heavy sediment moving downhill as mud",
+      "wind-built sand hill",
+      "rust on iron-rich rock",
+      "a soil layer with humus"
+    ],
+    "correctAnswer": "water-heavy sediment moving downhill as mud",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is deposition?",
+    "id": 297,
+    "usageExample": "A river can drop sediment to form a delta.",
+    "tip": "Deposition is sediment being deposited.",
+    "alternatives": [
+      "water or wind dropping sediment",
+      "rocks breaking by ice",
+      "soil losing humus",
+      "light bending in water"
+    ],
+    "correctAnswer": "water or wind dropping sediment",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is a delta?",
+    "id": 298,
+    "usageExample": "Deltas form where rivers deposit sediment.",
+    "tip": "Deltas are deposition features.",
+    "alternatives": [
+      "a triangular area of nutrient-rich sediment deposited by a river",
+      "a line connecting equal elevation",
+      "a glacier groove",
+      "a rock crack filled with ice"
+    ],
+    "correctAnswer": "a triangular area of nutrient-rich sediment deposited by a river",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What do topographic maps show?",
+    "id": 299,
+    "usageExample": "Topographic maps show mountains, valleys, and elevation.",
+    "tip": "Topography means shape and features of land.",
+    "alternatives": [
+      "land height and terrain features",
+      "only weather forecasts",
+      "only digestive organs",
+      "only chemical formulas"
+    ],
+    "correctAnswer": "land height and terrain features",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What are contour lines?",
+    "id": 300,
+    "usageExample": "Close contour lines can show steep land.",
+    "tip": "Contour lines mark equal height.",
+    "alternatives": [
+      "lines connecting points of the same elevation",
+      "rivers of ice",
+      "soil organisms",
+      "waves of sound"
+    ],
+    "correctAnswer": "lines connecting points of the same elevation",
+    "version": "v1",
+    "chapter": 24
+  },
+  {
+    "question": "What is Earth's atmosphere?",
+    "id": 301,
+    "usageExample": "The atmosphere acts like a blanket around Earth.",
+    "tip": "Atmosphere means gases around a planet.",
+    "alternatives": [
+      "a thin layer of gas surrounding the planet",
+      "a layer of solid rock only",
+      "the water inside cells",
+      "a type of soil horizon"
+    ],
+    "correctAnswer": "a thin layer of gas surrounding the planet",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "How does the atmosphere help life on Earth?",
+    "id": 302,
+    "usageExample": "Oxygen, carbon dioxide, and protection from radiation help organisms survive.",
+    "tip": "The atmosphere supports livable conditions.",
+    "alternatives": [
+      "it traps enough heat, blocks harmful radiation, and provides needed gases",
+      "it removes all oxygen",
+      "it prevents all weather",
+      "it turns water into rock"
+    ],
+    "correctAnswer": "it traps enough heat, blocks harmful radiation, and provides needed gases",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What gases make up most of the atmosphere?",
+    "id": 303,
+    "usageExample": "Air is about 78 percent nitrogen and 21 percent oxygen.",
+    "tip": "Two gases make up nearly all air.",
+    "alternatives": [
+      "nitrogen and oxygen",
+      "hydrogen and methane",
+      "ozone and carbon monoxide only",
+      "carbon dioxide and argon only"
+    ],
+    "correctAnswer": "nitrogen and oxygen",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What are aerosols in the atmosphere?",
+    "id": 304,
+    "usageExample": "Dust, pollen, ash, and salt can be aerosols.",
+    "tip": "Aerosols are tiny particles.",
+    "alternatives": [
+      "solid particles suspended in air",
+      "only oxygen molecules",
+      "liquid water in oceans",
+      "layers of soil"
+    ],
+    "correctAnswer": "solid particles suspended in air",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What does water vapor help create?",
+    "id": 305,
+    "usageExample": "Water vapor can condense into clouds.",
+    "tip": "Water vapor is water in gas form.",
+    "alternatives": [
+      "clouds and weather",
+      "bone marrow",
+      "cell walls",
+      "contour lines"
+    ],
+    "correctAnswer": "clouds and weather",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What does ozone absorb?",
+    "id": 306,
+    "usageExample": "The ozone layer protects living things from UV rays.",
+    "tip": "Ozone helps block harmful UV radiation.",
+    "alternatives": [
+      "ultraviolet radiation from the sun",
+      "all oxygen from air",
+      "groundwater",
+      "sound waves"
+    ],
+    "correctAnswer": "ultraviolet radiation from the sun",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "Why is carbon dioxide called a greenhouse gas?",
+    "id": 307,
+    "usageExample": "Extra carbon dioxide contributes to global climate change.",
+    "tip": "Greenhouse gases hold heat.",
+    "alternatives": [
+      "it traps heat from the sun",
+      "it destroys all ozone",
+      "it is the most common gas",
+      "it makes oxygen directly for animals"
+    ],
+    "correctAnswer": "it traps heat from the sun",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "Which atmospheric layer is closest to Earth?",
+    "id": 308,
+    "usageExample": "Weather occurs mostly in the troposphere.",
+    "tip": "The troposphere touches Earth's surface.",
+    "alternatives": [
+      "troposphere",
+      "exosphere",
+      "thermosphere",
+      "mesosphere"
+    ],
+    "correctAnswer": "troposphere",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "Where does most weather occur?",
+    "id": 309,
+    "usageExample": "Clouds, storms, and most air molecules are in the troposphere.",
+    "tip": "Weather happens in the lowest layer.",
+    "alternatives": [
+      "troposphere",
+      "exosphere",
+      "ozone layer only",
+      "thermosphere"
+    ],
+    "correctAnswer": "troposphere",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "Where is the ozone layer located?",
+    "id": 310,
+    "usageExample": "The stratosphere warms higher up because ozone absorbs UV radiation.",
+    "tip": "The ozone layer is in the stratosphere.",
+    "alternatives": [
+      "near the top of the stratosphere",
+      "inside the exosphere only",
+      "below the ground",
+      "in the large intestine"
+    ],
+    "correctAnswer": "near the top of the stratosphere",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "In which layer do many meteors burn up?",
+    "id": 311,
+    "usageExample": "Shooting stars are meteors burning in the mesosphere.",
+    "tip": "Meso means middle.",
+    "alternatives": [
+      "mesosphere",
+      "troposphere",
+      "exosphere",
+      "groundwater"
+    ],
+    "correctAnswer": "mesosphere",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "Which atmospheric layer is the hottest?",
+    "id": 312,
+    "usageExample": "The thermosphere filters out gamma rays and X-rays.",
+    "tip": "Thermo relates to heat.",
+    "alternatives": [
+      "thermosphere",
+      "troposphere",
+      "stratosphere",
+      "mesosphere"
+    ],
+    "correctAnswer": "thermosphere",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "Which layer is outermost and fades into space?",
+    "id": 313,
+    "usageExample": "Satellites orbit Earth in the exosphere.",
+    "tip": "Exo means outside.",
+    "alternatives": [
+      "exosphere",
+      "troposphere",
+      "stratosphere",
+      "mesosphere"
+    ],
+    "correctAnswer": "exosphere",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What is the ionosphere made of?",
+    "id": 314,
+    "usageExample": "The ionosphere affects radio waves.",
+    "tip": "Ions are charged particles.",
+    "alternatives": [
+      "charged particles",
+      "only liquid water",
+      "solid rock fragments",
+      "digestive enzymes"
+    ],
+    "correctAnswer": "charged particles",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "Why can radio reception be better at night?",
+    "id": 315,
+    "usageExample": "Without sunlight, the ionosphere can reflect radio waves from city to city.",
+    "tip": "The ionosphere interacts with radio waves.",
+    "alternatives": [
+      "the ionosphere reflects radio waves at night",
+      "oxygen disappears at night",
+      "the exosphere becomes solid",
+      "clouds absorb all sound"
+    ],
+    "correctAnswer": "the ionosphere reflects radio waves at night",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What are CFCs known for damaging?",
+    "id": 316,
+    "usageExample": "Some refrigerators and aerosol sprays used chemicals that damaged ozone.",
+    "tip": "CFCs are linked to ozone depletion.",
+    "alternatives": [
+      "the ozone layer",
+      "bone marrow",
+      "soil horizons",
+      "the small intestine"
+    ],
+    "correctAnswer": "the ozone layer",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "Why is air pressure greatest near Earth's surface?",
+    "id": 317,
+    "usageExample": "Most air molecules are concentrated low in the atmosphere.",
+    "tip": "Air pressure decreases with altitude.",
+    "alternatives": [
+      "gravity pulls air molecules toward the surface",
+      "ozone pushes air downward",
+      "water vapor becomes rock",
+      "meteors add pressure"
+    ],
+    "correctAnswer": "gravity pulls air molecules toward the surface",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "Why is breathing harder at high altitude?",
+    "id": 318,
+    "usageExample": "Mountain climbers train to adjust to high-altitude air.",
+    "tip": "Higher altitude has thinner air.",
+    "alternatives": [
+      "air pressure is lower and there is less oxygen available",
+      "there is more soil in the air",
+      "gravity disappears",
+      "the ozone layer blocks oxygen"
+    ],
+    "correctAnswer": "air pressure is lower and there is less oxygen available",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "In the troposphere, what happens to temperature as altitude increases?",
+    "id": 319,
+    "usageExample": "The troposphere gets heat mainly from Earth's surface.",
+    "tip": "Farther from the warm surface is colder in the troposphere.",
+    "alternatives": [
+      "temperature decreases",
+      "temperature always increases",
+      "temperature stays exactly the same",
+      "molecules stop immediately"
+    ],
+    "correctAnswer": "temperature decreases",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "Why does temperature increase upward in the stratosphere?",
+    "id": 320,
+    "usageExample": "The ozone layer is high in the stratosphere.",
+    "tip": "Ozone absorption warms the upper stratosphere.",
+    "alternatives": [
+      "ozone absorbs radiation and heat from the sun",
+      "water vapor freezes all heat",
+      "meteors burn there",
+      "groundwater releases heat"
+    ],
+    "correctAnswer": "ozone absorbs radiation and heat from the sun",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What is the water cycle?",
+    "id": 321,
+    "usageExample": "Water moves through evaporation, condensation, precipitation, and runoff.",
+    "tip": "Water is recycled through different forms.",
+    "alternatives": [
+      "repeated movement of water through land and atmosphere",
+      "a process that creates new water from nothing",
+      "the breaking of rocks by ice",
+      "the flow of electrons"
+    ],
+    "correctAnswer": "repeated movement of water through land and atmosphere",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What is evaporation?",
+    "id": 322,
+    "usageExample": "Sunlight heats ocean water and turns it into vapor.",
+    "tip": "Evaporation creates water vapor.",
+    "alternatives": [
+      "liquid water changing to vapor through heating",
+      "gas changing to liquid by cooling",
+      "water falling from clouds",
+      "sediment being deposited"
+    ],
+    "correctAnswer": "liquid water changing to vapor through heating",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What is transpiration?",
+    "id": 323,
+    "usageExample": "Leaves can release water vapor to the atmosphere.",
+    "tip": "Transpiration is plant water vapor release.",
+    "alternatives": [
+      "plants releasing water vapor into the air",
+      "water droplets falling as rain",
+      "glaciers moving downhill",
+      "ozone absorbing UV rays"
+    ],
+    "correctAnswer": "plants releasing water vapor into the air",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What is condensation?",
+    "id": 324,
+    "usageExample": "Water vapor cools and forms tiny droplets in clouds.",
+    "tip": "Condensation forms liquid droplets.",
+    "alternatives": [
+      "gas changing into liquid through cooling",
+      "liquid changing into vapor through heating",
+      "water flowing below ground",
+      "sediment moving by wind"
+    ],
+    "correctAnswer": "gas changing into liquid through cooling",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What is precipitation?",
+    "id": 325,
+    "usageExample": "Cloud droplets grow heavy and fall to Earth.",
+    "tip": "Precipitation falls from clouds.",
+    "alternatives": [
+      "water falling from the atmosphere as rain, snow, hail, or sleet",
+      "water vapor leaving plant leaves",
+      "water flowing underground only",
+      "heat transfer by contact"
+    ],
+    "correctAnswer": "water falling from the atmosphere as rain, snow, hail, or sleet",
+    "version": "v1",
+    "chapter": 25
+  },
+  {
+    "question": "What is an organism?",
+    "id": 326,
+    "usageExample": "Plants, animals, bacteria, and fungi are organisms.",
+    "tip": "Organisms are living things.",
+    "alternatives": [
+      "anything living",
+      "only a rock",
+      "a type of wave",
+      "a soil layer"
+    ],
+    "correctAnswer": "anything living",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What is the most basic living unit?",
+    "id": 327,
+    "usageExample": "Living things are structured around cells.",
+    "tip": "Cells are the basic units of life.",
+    "alternatives": [
+      "cell",
+      "organ system",
+      "kingdom",
+      "contour line"
+    ],
+    "correctAnswer": "cell",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "Which is a characteristic of living things?",
+    "id": 328,
+    "usageExample": "Organisms grow and respond to their environments.",
+    "tip": "Living things share several traits.",
+    "alternatives": [
+      "they grow, change, and develop",
+      "they never use energy",
+      "they are always made of rock",
+      "they cannot respond to anything"
+    ],
+    "correctAnswer": "they grow, change, and develop",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What are stimuli?",
+    "id": 329,
+    "usageExample": "Sunlight and temperature can be stimuli.",
+    "tip": "Stimuli trigger responses.",
+    "alternatives": [
+      "things that cause reactions in organisms",
+      "soil layers",
+      "parts of waves",
+      "chemical bonds only"
+    ],
+    "correctAnswer": "things that cause reactions in organisms",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "Why do scientists classify organisms?",
+    "id": 330,
+    "usageExample": "Classification organizes living things by common features.",
+    "tip": "Classifying helps compare organisms.",
+    "alternatives": [
+      "to group them by shared structures and relatedness",
+      "to make every organism identical",
+      "to remove their names",
+      "to avoid studying cells"
+    ],
+    "correctAnswer": "to group them by shared structures and relatedness",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What is the broadest classification category listed?",
+    "id": 331,
+    "usageExample": "Domain is broader than kingdom.",
+    "tip": "Classification moves from broad to specific.",
+    "alternatives": [
+      "domain",
+      "species",
+      "genus",
+      "family"
+    ],
+    "correctAnswer": "domain",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What is the most specific classification category listed?",
+    "id": 332,
+    "usageExample": "A species is more specific than a genus.",
+    "tip": "Species is the narrowest listed group.",
+    "alternatives": [
+      "species",
+      "domain",
+      "kingdom",
+      "phylum"
+    ],
+    "correctAnswer": "species",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What is the correct order from broadest to most specific?",
+    "id": 333,
+    "usageExample": "The mnemonic begins Dear King Philip Came Over For Great Spaghetti.",
+    "tip": "Classification becomes more specific at each level.",
+    "alternatives": [
+      "domain, kingdom, phylum, class, order, family, genus, species",
+      "species, genus, family, order, class, phylum, kingdom, domain",
+      "kingdom, domain, class, phylum, order, species, family, genus",
+      "domain, species, kingdom, genus, phylum, class, order, family"
+    ],
+    "correctAnswer": "domain, kingdom, phylum, class, order, family, genus, species",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "Who developed binomial nomenclature?",
+    "id": 334,
+    "usageExample": "Linnaeus used Latin names to classify organisms.",
+    "tip": "Binomial nomenclature names organisms with two terms.",
+    "alternatives": [
+      "Carolus Linnaeus",
+      "Isaac Newton",
+      "Robert Hooke",
+      "Albert Einstein"
+    ],
+    "correctAnswer": "Carolus Linnaeus",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What does binomial nomenclature mean?",
+    "id": 335,
+    "usageExample": "Canis lupus is an example of a two-part scientific name.",
+    "tip": "Bi means two.",
+    "alternatives": [
+      "a naming system with two terms",
+      "a graph with two axes",
+      "a cell with two nuclei",
+      "a wave with two crests"
+    ],
+    "correctAnswer": "a naming system with two terms",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "In binomial nomenclature, what does the first word identify?",
+    "id": 336,
+    "usageExample": "In Canis lupus, Canis is the genus.",
+    "tip": "The first term is the genus.",
+    "alternatives": [
+      "genus",
+      "species only",
+      "kingdom",
+      "domain"
+    ],
+    "correctAnswer": "genus",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What is a species?",
+    "id": 337,
+    "usageExample": "Members of a species can reproduce with one another.",
+    "tip": "Species is the most specific category.",
+    "alternatives": [
+      "a group of organisms able to exchange genes or interbreed",
+      "the broadest group of organisms",
+      "a nonliving rock layer",
+      "a type of mechanical wave"
+    ],
+    "correctAnswer": "a group of organisms able to exchange genes or interbreed",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "Which kingdom is multicellular and makes food by photosynthesis?",
+    "id": 338,
+    "usageExample": "Plants use sunlight, carbon dioxide, and water to make food.",
+    "tip": "Plants are autotrophs.",
+    "alternatives": [
+      "plants",
+      "animals",
+      "fungi",
+      "archaebacteria"
+    ],
+    "correctAnswer": "plants",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What is photosynthesis?",
+    "id": 339,
+    "usageExample": "Plants make food through photosynthesis.",
+    "tip": "Photo means light.",
+    "alternatives": [
+      "production of energy using sunlight, carbon dioxide, and water",
+      "digestion by enzymes",
+      "classification by Latin names",
+      "erosion by wind"
+    ],
+    "correctAnswer": "production of energy using sunlight, carbon dioxide, and water",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What does autotroph mean?",
+    "id": 340,
+    "usageExample": "Plants are autotrophs because they make their own food.",
+    "tip": "Auto means self.",
+    "alternatives": [
+      "self-feeder",
+      "other-feeder",
+      "many-celled animal",
+      "organism with no cells"
+    ],
+    "correctAnswer": "self-feeder",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What does heterotroph mean?",
+    "id": 341,
+    "usageExample": "Animals and fungi are heterotrophs.",
+    "tip": "Heterotrophs get nutrition from others.",
+    "alternatives": [
+      "an organism that eats other organisms for food",
+      "an organism that makes food from sunlight",
+      "a soil layer",
+      "a virus protein coat"
+    ],
+    "correctAnswer": "an organism that eats other organisms for food",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "Which animals have backbones?",
+    "id": 342,
+    "usageExample": "Mammals, fish, amphibians, birds, and reptiles are vertebrates.",
+    "tip": "Vertebrates have vertebral columns.",
+    "alternatives": [
+      "vertebrates",
+      "invertebrates",
+      "protists",
+      "fungi"
+    ],
+    "correctAnswer": "vertebrates",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "Which animals lack backbones?",
+    "id": 343,
+    "usageExample": "Insects, spiders, worms, and many mollusks are invertebrates.",
+    "tip": "Invertebrates do not have backbones.",
+    "alternatives": [
+      "invertebrates",
+      "vertebrates",
+      "conifers",
+      "mammals only"
+    ],
+    "correctAnswer": "invertebrates",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What are arthropods?",
+    "id": 344,
+    "usageExample": "Lobsters, crabs, insects, and spiders are arthropods.",
+    "tip": "Arthropods are a large invertebrate group.",
+    "alternatives": [
+      "invertebrates with body sections and a hard outer covering",
+      "plants with cones",
+      "single-celled bacteria",
+      "viruses that infect bacteria"
+    ],
+    "correctAnswer": "invertebrates with body sections and a hard outer covering",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "Which kingdom includes mushrooms, yeast, and mold?",
+    "id": 345,
+    "usageExample": "Fungi are heterotrophs and can reproduce with spores.",
+    "tip": "Mushrooms are fungi.",
+    "alternatives": [
+      "fungi",
+      "plants",
+      "animals",
+      "eubacteria"
+    ],
+    "correctAnswer": "fungi",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "Which kingdom includes amoeba, algae, and paramecium?",
+    "id": 346,
+    "usageExample": "Protists are mostly single-celled and may be autotrophs or heterotrophs.",
+    "tip": "Amoebas and paramecia are protists.",
+    "alternatives": [
+      "protists",
+      "animals",
+      "plants",
+      "archaebacteria"
+    ],
+    "correctAnswer": "protists",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "Where do archaebacteria often live?",
+    "id": 347,
+    "usageExample": "Archaebacteria are single-celled organisms adapted to extremes.",
+    "tip": "Archaea can live in harsh environments.",
+    "alternatives": [
+      "extreme environments such as hot springs and very salty water",
+      "only inside bones",
+      "only in flower seeds",
+      "only in the troposphere"
+    ],
+    "correctAnswer": "extreme environments such as hot springs and very salty water",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What are eubacteria?",
+    "id": 348,
+    "usageExample": "Many harmless bacteria live in the mouth.",
+    "tip": "Eubacteria are common bacteria.",
+    "alternatives": [
+      "single-celled bacteria found in places such as soil, water, and living things",
+      "multicellular animals with backbones",
+      "plants that make seeds in flowers",
+      "fungi that make mushrooms only"
+    ],
+    "correctAnswer": "single-celled bacteria found in places such as soil, water, and living things",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What is a virus?",
+    "id": 349,
+    "usageExample": "A virus injects hereditary information into a host cell.",
+    "tip": "Viruses need host cells to replicate.",
+    "alternatives": [
+      "viral hereditary information enclosed in a protein coat",
+      "a multicellular plant",
+      "a soil horizon",
+      "a type of topographic map"
+    ],
+    "correctAnswer": "viral hereditary information enclosed in a protein coat",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What is immunity?",
+    "id": 350,
+    "usageExample": "Vaccines help the body acquire immunity.",
+    "tip": "Immunity helps protect against future infection.",
+    "alternatives": [
+      "the ability to resist infection again",
+      "the ability to make glucose from sunlight",
+      "the bending of waves",
+      "the transfer of heat"
+    ],
+    "correctAnswer": "the ability to resist infection again",
+    "version": "v1",
+    "chapter": 28
+  },
+  {
+    "question": "What are cells?",
+    "id": 351,
+    "usageExample": "Every living thing is made of cells.",
+    "tip": "Cells are life's basic units.",
+    "alternatives": [
+      "the basic building blocks of life",
+      "the largest organs only",
+      "rocks broken into sediment",
+      "waves of energy"
+    ],
+    "correctAnswer": "the basic building blocks of life",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What did Robert Hooke observe?",
+    "id": 352,
+    "usageExample": "Cells were discovered after microscopes were invented.",
+    "tip": "Hooke is linked to early cell observations.",
+    "alternatives": [
+      "one of the first cells using a microscope",
+      "the first law of motion",
+      "the ozone hole",
+      "the water cycle"
+    ],
+    "correctAnswer": "one of the first cells using a microscope",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "Which statement is part of cell theory?",
+    "id": 353,
+    "usageExample": "Plants, animals, fungi, and bacteria are made of cells.",
+    "tip": "Cell theory explains life at the cellular level.",
+    "alternatives": [
+      "all organisms are made of one or more cells",
+      "only animals are made of cells",
+      "cells never come from other cells",
+      "cells are larger than organs"
+    ],
+    "correctAnswer": "all organisms are made of one or more cells",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "Which statement is part of cell theory?",
+    "id": 354,
+    "usageExample": "Cells carry out the functions needed for life.",
+    "tip": "Cells are basic in both structure and function.",
+    "alternatives": [
+      "the cell is the basic unit of structure and function",
+      "the atom is the basic unit of classification",
+      "organs are smaller than cells",
+      "rocks are made of cells"
+    ],
+    "correctAnswer": "the cell is the basic unit of structure and function",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "Which statement is part of cell theory?",
+    "id": 355,
+    "usageExample": "Cells divide to make new cells.",
+    "tip": "New cells come from existing cells.",
+    "alternatives": [
+      "every cell comes from another existing cell",
+      "cells appear from nonliving air",
+      "cells never divide",
+      "only plant cells reproduce"
+    ],
+    "correctAnswer": "every cell comes from another existing cell",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What are organelles?",
+    "id": 356,
+    "usageExample": "Organelles process energy, digest materials, and handle genetic information.",
+    "tip": "Organelles are cell structures.",
+    "alternatives": [
+      "parts of a cell that perform functions",
+      "layers of atmosphere",
+      "types of joints",
+      "erosion forces"
+    ],
+    "correctAnswer": "parts of a cell that perform functions",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What does the cell membrane do?",
+    "id": 357,
+    "usageExample": "The cell membrane acts like a gate.",
+    "tip": "Every cell has a cell membrane.",
+    "alternatives": [
+      "holds the cell together and controls material flow in and out",
+      "makes sunlight into glucose only",
+      "stores calcium in bones",
+      "connects equal elevation points"
+    ],
+    "correctAnswer": "holds the cell together and controls material flow in and out",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What does semipermeable mean?",
+    "id": 358,
+    "usageExample": "The cell membrane is selectively permeable.",
+    "tip": "Semi means partly.",
+    "alternatives": [
+      "lets some substances through while keeping others out",
+      "lets everything through always",
+      "lets nothing through ever",
+      "breaks rocks chemically"
+    ],
+    "correctAnswer": "lets some substances through while keeping others out",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What is the cell wall?",
+    "id": 359,
+    "usageExample": "Plants, fungi, algae, and some bacteria have cell walls.",
+    "tip": "Cell walls add support and protection.",
+    "alternatives": [
+      "a tough, rigid outer layer that protects and shapes some cells",
+      "the control center of the cell",
+      "a storage bubble",
+      "the protein-making factory"
+    ],
+    "correctAnswer": "a tough, rigid outer layer that protects and shapes some cells",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What substance makes up many plant cell walls?",
+    "id": 360,
+    "usageExample": "Cellulose fibers allow water and materials through.",
+    "tip": "Cellulose is a carbohydrate in plant cell walls.",
+    "alternatives": [
+      "cellulose",
+      "insulin",
+      "ozone",
+      "bile"
+    ],
+    "correctAnswer": "cellulose",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What is cytoplasm?",
+    "id": 361,
+    "usageExample": "Organelles are suspended in cytoplasm.",
+    "tip": "Cytoplasm fills the cell interior.",
+    "alternatives": [
+      "jellylike substance inside the cell that contains structures and activities",
+      "the hereditary code only",
+      "the outermost skin layer",
+      "the flow of electrons"
+    ],
+    "correctAnswer": "jellylike substance inside the cell that contains structures and activities",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What does the cytoskeleton do?",
+    "id": 362,
+    "usageExample": "Protein fibers and tubes support the cell.",
+    "tip": "The cytoskeleton is the cell's internal framework.",
+    "alternatives": [
+      "maintains structure and helps things move around in the cell",
+      "absorbs ultraviolet radiation",
+      "breaks down food in the stomach",
+      "forms soil horizons"
+    ],
+    "correctAnswer": "maintains structure and helps things move around in the cell",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What do ribosomes make?",
+    "id": 363,
+    "usageExample": "Ribosomes follow directions from hereditary material to build proteins.",
+    "tip": "Ribosomes are protein factories.",
+    "alternatives": [
+      "proteins",
+      "water vapor",
+      "glucose from sunlight only",
+      "bone marrow"
+    ],
+    "correctAnswer": "proteins",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What is the nucleus?",
+    "id": 364,
+    "usageExample": "The nucleus contains DNA in chromosomes.",
+    "tip": "The nucleus controls cell activities.",
+    "alternatives": [
+      "the control center that houses chromosomes",
+      "the cell's outer gate",
+      "a storage bubble",
+      "the packaging center only"
+    ],
+    "correctAnswer": "the control center that houses chromosomes",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What is DNA?",
+    "id": 365,
+    "usageExample": "Chromosomes are made of DNA.",
+    "tip": "DNA stores hereditary instructions.",
+    "alternatives": [
+      "the code for genetic information",
+      "a heat transfer method",
+      "a layer of soil",
+      "a type of wave"
+    ],
+    "correctAnswer": "the code for genetic information",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What does the nucleolus do?",
+    "id": 366,
+    "usageExample": "The nucleolus is inside the nucleus.",
+    "tip": "Nucleolus is connected to ribosome production.",
+    "alternatives": [
+      "makes ribosomes and sends them to the cytoplasm",
+      "digests old cell parts",
+      "makes the cell wall",
+      "stores urine"
+    ],
+    "correctAnswer": "makes ribosomes and sends them to the cytoplasm",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What do vacuoles store?",
+    "id": 367,
+    "usageExample": "Plant cells can have a large central vacuole.",
+    "tip": "Vacuoles are storage bubbles.",
+    "alternatives": [
+      "water, food, and waste",
+      "ultraviolet rays",
+      "nerve impulses",
+      "contour lines"
+    ],
+    "correctAnswer": "water, food, and waste",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What does a lysosome do?",
+    "id": 368,
+    "usageExample": "Lysosomes digest old cell parts and invaders.",
+    "tip": "Lysosomes are like cleanup centers.",
+    "alternatives": [
+      "breaks down and recycles food, waste, and foreign particles",
+      "makes sunlight into sugar",
+      "stores calcium in bones",
+      "controls voluntary movement"
+    ],
+    "correctAnswer": "breaks down and recycles food, waste, and foreign particles",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What do mitochondria do?",
+    "id": 369,
+    "usageExample": "Muscle cells often have many mitochondria.",
+    "tip": "Mitochondria are powerhouses.",
+    "alternatives": [
+      "release energy from food using oxygen",
+      "make the cell wall",
+      "store hereditary information only",
+      "reflect light"
+    ],
+    "correctAnswer": "release energy from food using oxygen",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What does the endoplasmic reticulum do?",
+    "id": 370,
+    "usageExample": "The ER is the cell's transport facility.",
+    "tip": "ER moves and processes materials.",
+    "alternatives": [
+      "processes and moves materials through the cell",
+      "absorbs most water from chyme",
+      "connects bones at joints",
+      "measures temperature"
+    ],
+    "correctAnswer": "processes and moves materials through the cell",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What do Golgi bodies do?",
+    "id": 371,
+    "usageExample": "Golgi bodies handle products from the ER.",
+    "tip": "Golgi bodies are packaging centers.",
+    "alternatives": [
+      "package, sort, and distribute cell products",
+      "produce bile",
+      "absorb UV rays",
+      "create erosion"
+    ],
+    "correctAnswer": "package, sort, and distribute cell products",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What do chloroplasts do?",
+    "id": 372,
+    "usageExample": "Chloroplasts contain chlorophyll, the green pigment in plants.",
+    "tip": "Chloroplasts perform photosynthesis.",
+    "alternatives": [
+      "use sunlight to make glucose in plant cells",
+      "transmit nerve signals",
+      "filter blood",
+      "make sound waves"
+    ],
+    "correctAnswer": "use sunlight to make glucose in plant cells",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What is the main difference between prokaryotes and eukaryotes?",
+    "id": 373,
+    "usageExample": "Bacteria are prokaryotic; animals and plants are eukaryotic.",
+    "tip": "Look for membrane-bound structures.",
+    "alternatives": [
+      "prokaryotes lack membrane-bound nuclei and organelles, while eukaryotes have them",
+      "prokaryotes are always multicellular animals",
+      "eukaryotes have no DNA",
+      "prokaryotes have more organ systems"
+    ],
+    "correctAnswer": "prokaryotes lack membrane-bound nuclei and organelles, while eukaryotes have them",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "Which structures are found in plant cells but not animal cells?",
+    "id": 374,
+    "usageExample": "Plant cells use cell walls for support and chloroplasts for food production.",
+    "tip": "Plant cells have some extra structures.",
+    "alternatives": [
+      "cell walls and chloroplasts",
+      "nuclei and cell membranes",
+      "ribosomes and cytoplasm",
+      "mitochondria and DNA"
+    ],
+    "correctAnswer": "cell walls and chloroplasts",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What is the order of organization in multicellular organisms?",
+    "id": 375,
+    "usageExample": "Similar cells form tissues, tissues form organs, and organs form systems.",
+    "tip": "Organization builds from smallest to largest.",
+    "alternatives": [
+      "cells, tissues, organs, organ systems",
+      "organs, cells, systems, tissues",
+      "tissues, cells, organs, systems",
+      "systems, organs, cells, tissues"
+    ],
+    "correctAnswer": "cells, tissues, organs, organ systems",
+    "version": "v1",
+    "chapter": 29
+  },
+  {
+    "question": "What is the most basic unit of the body?",
+    "id": 376,
+    "usageExample": "Cells are like single workers in the body's organization.",
+    "tip": "Body organization begins with cells.",
+    "alternatives": [
+      "a cell",
+      "an organ system",
+      "an organ",
+      "a tissue"
+    ],
+    "correctAnswer": "a cell",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What are tissues?",
+    "id": 377,
+    "usageExample": "Muscle tissue is made of cells that help movement.",
+    "tip": "Tissues are groups of similar working cells.",
+    "alternatives": [
+      "groups of cells working together on a similar job",
+      "groups of organs only",
+      "single bones",
+      "layers of atmosphere"
+    ],
+    "correctAnswer": "groups of cells working together on a similar job",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What are organs?",
+    "id": 378,
+    "usageExample": "The heart, kidneys, and liver are organs.",
+    "tip": "Organs contain multiple tissues.",
+    "alternatives": [
+      "tissues working together to do a bigger job",
+      "single cells only",
+      "weathering forces",
+      "types of waves"
+    ],
+    "correctAnswer": "tissues working together to do a bigger job",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What are organ systems?",
+    "id": 379,
+    "usageExample": "The circulatory system moves blood, oxygen, and nutrients.",
+    "tip": "Organ systems coordinate multiple organs.",
+    "alternatives": [
+      "groups of organs working together for a task",
+      "groups of atoms in a mineral",
+      "single layers of skin",
+      "pairs of forces"
+    ],
+    "correctAnswer": "groups of organs working together for a task",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What is epithelial tissue?",
+    "id": 380,
+    "usageExample": "Skin is an example of epithelial tissue.",
+    "tip": "Epithelial tissue covers and lines surfaces.",
+    "alternatives": [
+      "outer body tissue and lining of some inner surfaces",
+      "tissue that only pumps the heart",
+      "tissue that connects bones only",
+      "tissue that relays messages only"
+    ],
+    "correctAnswer": "outer body tissue and lining of some inner surfaces",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What is connective tissue?",
+    "id": 381,
+    "usageExample": "Ligaments, bones, and cartilage are connective tissues.",
+    "tip": "Connective tissue supports and connects.",
+    "alternatives": [
+      "tissue that connects tissues and fills spaces",
+      "tissue that carries impulses only",
+      "tissue that digests food",
+      "tissue that makes waves"
+    ],
+    "correctAnswer": "tissue that connects tissues and fills spaces",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What is muscular tissue?",
+    "id": 382,
+    "usageExample": "Muscles move bones and internal organs.",
+    "tip": "Muscular tissue creates movement.",
+    "alternatives": [
+      "tissue that contracts and expands to create movement",
+      "tissue that only senses light",
+      "tissue that forms ozone",
+      "tissue that stores water vapor"
+    ],
+    "correctAnswer": "tissue that contracts and expands to create movement",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What is nervous tissue?",
+    "id": 383,
+    "usageExample": "Nerves send signals between body parts and the brain.",
+    "tip": "Nervous tissue communicates.",
+    "alternatives": [
+      "tissue that relays messages through the body",
+      "tissue that stores calcium only",
+      "tissue that produces bile",
+      "tissue that breaks rock"
+    ],
+    "correctAnswer": "tissue that relays messages through the body",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What is the largest organ of the body?",
+    "id": 384,
+    "usageExample": "Skin covers the body's outside surface.",
+    "tip": "Skin is an organ.",
+    "alternatives": [
+      "skin",
+      "heart",
+      "stomach",
+      "kidney"
+    ],
+    "correctAnswer": "skin",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "Which is a function of skin?",
+    "id": 385,
+    "usageExample": "Skin acts as a barrier against germs and injury.",
+    "tip": "Skin protects.",
+    "alternatives": [
+      "protecting the body from injury and bacteria",
+      "making bile",
+      "filtering blood with nephrons",
+      "classifying organisms"
+    ],
+    "correctAnswer": "protecting the body from injury and bacteria",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "How does skin help regulate temperature when the body is hot?",
+    "id": 386,
+    "usageExample": "Sweat evaporates and carries away thermal energy.",
+    "tip": "Dilation increases blood flow near the skin surface.",
+    "alternatives": [
+      "blood vessels dilate and sweating cools the body",
+      "blood vessels contract to increase heat loss",
+      "bones make more marrow",
+      "cartilage expands into muscles"
+    ],
+    "correctAnswer": "blood vessels dilate and sweating cools the body",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "How does skin help when the body is cold?",
+    "id": 387,
+    "usageExample": "Less blood near the skin surface helps conserve heat.",
+    "tip": "Contracting vessels limit heat loss.",
+    "alternatives": [
+      "blood vessels contract to reduce heat loss",
+      "sweat glands release more water",
+      "the epidermis disappears",
+      "muscles stop using energy"
+    ],
+    "correctAnswer": "blood vessels contract to reduce heat loss",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What is the epidermis?",
+    "id": 388,
+    "usageExample": "The epidermis is the skin surface layer.",
+    "tip": "Epi can mean upon or outer.",
+    "alternatives": [
+      "the outermost skin layer",
+      "the bottom fat layer",
+      "a type of bone marrow",
+      "a heart muscle"
+    ],
+    "correctAnswer": "the outermost skin layer",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What is found in the dermis?",
+    "id": 389,
+    "usageExample": "The dermis lies under the epidermis.",
+    "tip": "The dermis contains many skin structures.",
+    "alternatives": [
+      "blood vessels, nerve endings, hair follicles, and sweat and oil glands",
+      "only compact bone",
+      "only chloroplasts",
+      "only groundwater"
+    ],
+    "correctAnswer": "blood vessels, nerve endings, hair follicles, and sweat and oil glands",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What does the fatty layer do?",
+    "id": 390,
+    "usageExample": "Fat stored in the bottom layer helps cushion the body.",
+    "tip": "The fatty layer protects and insulates.",
+    "alternatives": [
+      "insulates and cushions the body",
+      "produces red blood cells",
+      "moves bones at joints",
+      "transmits optic signals"
+    ],
+    "correctAnswer": "insulates and cushions the body",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What does the muscular system control?",
+    "id": 391,
+    "usageExample": "Walking and heartbeat both involve muscles.",
+    "tip": "Muscles create movement.",
+    "alternatives": [
+      "body movement, both voluntary and involuntary",
+      "only skin color",
+      "only air pressure",
+      "only classification names"
+    ],
+    "correctAnswer": "body movement, both voluntary and involuntary",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What are voluntary muscles?",
+    "id": 392,
+    "usageExample": "Arm and leg muscles are voluntary.",
+    "tip": "Voluntary means controlled by choice.",
+    "alternatives": [
+      "muscles you can control",
+      "muscles you cannot control",
+      "bones at fixed joints",
+      "nerve cells"
+    ],
+    "correctAnswer": "muscles you can control",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What are involuntary muscles?",
+    "id": 393,
+    "usageExample": "The heart and stomach contain involuntary muscles.",
+    "tip": "Involuntary means automatic.",
+    "alternatives": [
+      "muscles you cannot consciously control",
+      "muscles attached only to fingers",
+      "all muscles in arms",
+      "cartilage in ears"
+    ],
+    "correctAnswer": "muscles you cannot consciously control",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What are skeletal muscles?",
+    "id": 394,
+    "usageExample": "Arm and leg muscles are skeletal muscles.",
+    "tip": "Skeletal muscles attach to bones.",
+    "alternatives": [
+      "voluntary muscles that move bones",
+      "involuntary muscles in the heart",
+      "smooth muscles in digestion",
+      "skin glands"
+    ],
+    "correctAnswer": "voluntary muscles that move bones",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What are tendons?",
+    "id": 395,
+    "usageExample": "Tendons help muscles pull on bones.",
+    "tip": "Tendons connect muscle to bone.",
+    "alternatives": [
+      "connective tissues that attach skeletal muscle to bones",
+      "tissues that connect bone to bone",
+      "cells that make proteins",
+      "glands that make hormones"
+    ],
+    "correctAnswer": "connective tissues that attach skeletal muscle to bones",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What are smooth muscles?",
+    "id": 396,
+    "usageExample": "The digestive tract uses smooth muscle.",
+    "tip": "Smooth muscles work automatically.",
+    "alternatives": [
+      "involuntary muscles in internal organs",
+      "voluntary muscles that move bones",
+      "muscles found only in the heart",
+      "outer skin tissue"
+    ],
+    "correctAnswer": "involuntary muscles in internal organs",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What are cardiac muscles?",
+    "id": 397,
+    "usageExample": "Cardiac muscle pumps the heart.",
+    "tip": "Cardiac refers to the heart.",
+    "alternatives": [
+      "involuntary muscles found only in the heart",
+      "voluntary arm muscles",
+      "muscles in the stomach only",
+      "connective tissue in joints"
+    ],
+    "correctAnswer": "involuntary muscles found only in the heart",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What does the skeletal system do?",
+    "id": 398,
+    "usageExample": "Bones protect organs such as the brain and lungs.",
+    "tip": "The skeleton has support, protection, movement, and storage roles.",
+    "alternatives": [
+      "supports the body, gives shape, protects organs, and stores minerals",
+      "digests carbohydrates",
+      "absorbs UV radiation",
+      "creates weather"
+    ],
+    "correctAnswer": "supports the body, gives shape, protects organs, and stores minerals",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What is cartilage?",
+    "id": 399,
+    "usageExample": "Cartilage is found at bone ends, ears, and nose.",
+    "tip": "Cartilage reduces friction between bones.",
+    "alternatives": [
+      "smooth, firm, flexible tissue that cushions joints",
+      "a hormone from the pancreas",
+      "a layer of atmosphere",
+      "a protein coat around a virus"
+    ],
+    "correctAnswer": "smooth, firm, flexible tissue that cushions joints",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What are ligaments?",
+    "id": 400,
+    "usageExample": "Ligaments stabilize knees and elbows.",
+    "tip": "Ligaments connect bone to bone.",
+    "alternatives": [
+      "connective tissue that holds bones together at joints",
+      "tissue that attaches muscle to bone",
+      "storage bubbles in cells",
+      "glands that release hormones"
+    ],
+    "correctAnswer": "connective tissue that holds bones together at joints",
+    "version": "v1",
+    "chapter": 36
+  },
+  {
+    "question": "What does the nervous system do?",
+    "id": 401,
+    "usageExample": "The nervous system sends information from senses to the brain.",
+    "tip": "The nervous system is a messaging system.",
+    "alternatives": [
+      "gathers and relays information and helps the body respond to stimuli",
+      "digests fats only",
+      "stores calcium in bones",
+      "moves sediment downhill"
+    ],
+    "correctAnswer": "gathers and relays information and helps the body respond to stimuli",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What organs are part of the nervous system?",
+    "id": 402,
+    "usageExample": "Eyes, ears, skin, and nerves help the nervous system sense and respond.",
+    "tip": "The nervous system includes control centers and signal pathways.",
+    "alternatives": [
+      "brain, spinal cord, nerves, and sensory organs",
+      "stomach, liver, pancreas, and intestine",
+      "bones, cartilage, and ligaments",
+      "kidneys, ureter, bladder, and urethra"
+    ],
+    "correctAnswer": "brain, spinal cord, nerves, and sensory organs",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What is the central nervous system?",
+    "id": 403,
+    "usageExample": "The CNS is the body's central control and relay system.",
+    "tip": "Central means the main control area.",
+    "alternatives": [
+      "the brain and spinal cord",
+      "all nerves outside the brain and spinal cord",
+      "only the sensory organs",
+      "the endocrine glands"
+    ],
+    "correctAnswer": "the brain and spinal cord",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What is the peripheral nervous system?",
+    "id": 404,
+    "usageExample": "Peripheral nerves connect the CNS to the rest of the body.",
+    "tip": "Peripheral means away from the center.",
+    "alternatives": [
+      "nerves outside the brain and spinal cord",
+      "only the brain",
+      "only the spinal cord",
+      "only endocrine glands"
+    ],
+    "correctAnswer": "nerves outside the brain and spinal cord",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What do sensory neurons do?",
+    "id": 405,
+    "usageExample": "Pain and temperature information travel through sensory neurons.",
+    "tip": "Sensory neurons send sense information inward.",
+    "alternatives": [
+      "carry information from senses to the brain or spinal cord",
+      "carry orders from brain to muscles only",
+      "produce hormones",
+      "digest food"
+    ],
+    "correctAnswer": "carry information from senses to the brain or spinal cord",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What do motor neurons do?",
+    "id": 406,
+    "usageExample": "Motor neurons tell muscles to move.",
+    "tip": "Motor neurons send action commands outward.",
+    "alternatives": [
+      "carry information from the brain to muscles or glands",
+      "receive smells only",
+      "produce insulin",
+      "absorb nutrients"
+    ],
+    "correctAnswer": "carry information from the brain to muscles or glands",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What does the somatic nervous system control?",
+    "id": 407,
+    "usageExample": "Running, walking, and chewing are somatic actions.",
+    "tip": "Somatic control is voluntary.",
+    "alternatives": [
+      "voluntary movements",
+      "involuntary digestion only",
+      "hormone release only",
+      "blood filtering"
+    ],
+    "correctAnswer": "voluntary movements",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What does the autonomic nervous system control?",
+    "id": 408,
+    "usageExample": "Breathing and digestion are autonomic functions.",
+    "tip": "Autonomic actions happen automatically.",
+    "alternatives": [
+      "involuntary movement and reflexes",
+      "only conscious walking",
+      "only taste buds",
+      "only bone growth"
+    ],
+    "correctAnswer": "involuntary movement and reflexes",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What is the brain's role in the nervous system?",
+    "id": 409,
+    "usageExample": "The brain processes sensory information and sends responses.",
+    "tip": "The brain controls the nervous system.",
+    "alternatives": [
+      "control center",
+      "storage organ for urine",
+      "organ that absorbs water",
+      "bone-making tissue"
+    ],
+    "correctAnswer": "control center",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What does the cerebrum control?",
+    "id": 410,
+    "usageExample": "Taste, sight, touch, sound, and smell are processed by the cerebrum.",
+    "tip": "The cerebrum handles conscious brain work.",
+    "alternatives": [
+      "thoughts, actions, and conscious perceptions",
+      "only breathing and heartbeat",
+      "only balance",
+      "only hormone production"
+    ],
+    "correctAnswer": "thoughts, actions, and conscious perceptions",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What does the brain stem control?",
+    "id": 411,
+    "usageExample": "The brain stem connects to the spinal cord.",
+    "tip": "Vital automatic functions depend on the brain stem.",
+    "alternatives": [
+      "involuntary vital processes such as breathing and heartbeat",
+      "only artistic thinking",
+      "only balance",
+      "only smell molecules"
+    ],
+    "correctAnswer": "involuntary vital processes such as breathing and heartbeat",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What does the cerebellum help with?",
+    "id": 412,
+    "usageExample": "The cerebellum helps coordinated movement.",
+    "tip": "Cerebellum helps balance and coordination.",
+    "alternatives": [
+      "coordination, balance, and motor control",
+      "blood sugar levels",
+      "chemical digestion",
+      "ozone absorption"
+    ],
+    "correctAnswer": "coordination, balance, and motor control",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What connects the left and right hemispheres of the cerebrum?",
+    "id": 413,
+    "usageExample": "The corpus callosum is a thick band of fibers.",
+    "tip": "It links the two brain hemispheres.",
+    "alternatives": [
+      "corpus callosum",
+      "optic nerve",
+      "ureter",
+      "cell wall"
+    ],
+    "correctAnswer": "corpus callosum",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What is a neuron?",
+    "id": 414,
+    "usageExample": "Neurons transmit impulses through the nervous system.",
+    "tip": "Neurons are nervous system cells.",
+    "alternatives": [
+      "a nerve cell",
+      "a hormone",
+      "a digestive enzyme",
+      "a bone cell only"
+    ],
+    "correctAnswer": "a nerve cell",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What are impulses?",
+    "id": 415,
+    "usageExample": "Neurons carry electrical impulses.",
+    "tip": "Impulses are nerve messages.",
+    "alternatives": [
+      "messages transmitted by neurons",
+      "pieces of food in the stomach",
+      "sediment deposits",
+      "types of vitamins"
+    ],
+    "correctAnswer": "messages transmitted by neurons",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What do dendrites do?",
+    "id": 416,
+    "usageExample": "Dendrites send received impulses toward the cell body.",
+    "tip": "Dendrites receive.",
+    "alternatives": [
+      "receive signals from other neurons",
+      "release bile",
+      "store urine",
+      "protect bones"
+    ],
+    "correctAnswer": "receive signals from other neurons",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What does the axon do?",
+    "id": 417,
+    "usageExample": "The axon passes a message toward the next neuron.",
+    "tip": "Axons send.",
+    "alternatives": [
+      "transmits signals away from the cell body",
+      "absorbs nutrients",
+      "makes ribosomes",
+      "filters blood"
+    ],
+    "correctAnswer": "transmits signals away from the cell body",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What is a synapse?",
+    "id": 418,
+    "usageExample": "Signals cross synapses with neurotransmitters.",
+    "tip": "Synapses are spaces between nerve cells.",
+    "alternatives": [
+      "the gap between neurons",
+      "the outer skin layer",
+      "a type of joint",
+      "a soil layer"
+    ],
+    "correctAnswer": "the gap between neurons",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What is a neurotransmitter?",
+    "id": 419,
+    "usageExample": "An axon releases neurotransmitters at a synapse.",
+    "tip": "Neurotransmitters carry messages chemically.",
+    "alternatives": [
+      "a chemical that transmits a signal to the next neuron",
+      "a nutrient from food",
+      "a mineral in bone",
+      "a gas in air"
+    ],
+    "correctAnswer": "a chemical that transmits a signal to the next neuron",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What do sensory receptors detect?",
+    "id": 420,
+    "usageExample": "Eyes, ears, nose, tongue, and skin contain sensory receptors.",
+    "tip": "Receptors detect environmental information.",
+    "alternatives": [
+      "stimuli such as temperature, texture, pressure, pain, smells, tastes, light, or sound",
+      "only blood sugar",
+      "only soil erosion",
+      "only water vapor"
+    ],
+    "correctAnswer": "stimuli such as temperature, texture, pressure, pain, smells, tastes, light, or sound",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What do the lens and cornea do?",
+    "id": 421,
+    "usageExample": "The retina receives focused light information.",
+    "tip": "The eye focuses light before sending signals.",
+    "alternatives": [
+      "bend and focus light onto the retina",
+      "produce insulin",
+      "filter urine",
+      "store calcium"
+    ],
+    "correctAnswer": "bend and focus light onto the retina",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What does the optic nerve do?",
+    "id": 422,
+    "usageExample": "The brain interprets optic nerve signals as images.",
+    "tip": "Optic relates to vision.",
+    "alternatives": [
+      "carries visual information to the brain",
+      "vibrates with sound waves",
+      "controls blood sugar",
+      "connects bones at joints"
+    ],
+    "correctAnswer": "carries visual information to the brain",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What are hormones?",
+    "id": 423,
+    "usageExample": "Hormones travel through the bloodstream.",
+    "tip": "The endocrine system uses chemical messages.",
+    "alternatives": [
+      "chemical messengers produced by endocrine glands",
+      "electrical impulses in nerves",
+      "sound waves in air",
+      "storage bubbles in cells"
+    ],
+    "correctAnswer": "chemical messengers produced by endocrine glands",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "How do endocrine glands release hormones?",
+    "id": 424,
+    "usageExample": "Blood carries hormones to body parts.",
+    "tip": "Endocrine glands secrete into blood.",
+    "alternatives": [
+      "directly into the bloodstream",
+      "through the ear canal",
+      "through the esophagus only",
+      "into bone marrow"
+    ],
+    "correctAnswer": "directly into the bloodstream",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What hormone does the pancreas produce to control blood sugar?",
+    "id": 425,
+    "usageExample": "Insulin helps regulate blood sugar levels.",
+    "tip": "The pancreas is an endocrine gland.",
+    "alternatives": [
+      "insulin",
+      "estrogen",
+      "progesterone",
+      "chlorophyll"
+    ],
+    "correctAnswer": "insulin",
+    "version": "v1",
+    "chapter": 37
+  },
+  {
+    "question": "What does the digestive system do?",
+    "id": 426,
+    "usageExample": "Digestion turns food into usable nutrients.",
+    "tip": "Digestive means food processing.",
+    "alternatives": [
+      "takes in food, breaks it down, and absorbs nutrients",
+      "filters blood and forms urine only",
+      "relays nerve impulses",
+      "supports bones"
+    ],
+    "correctAnswer": "takes in food, breaks it down, and absorbs nutrients",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What are nutrients used for?",
+    "id": 427,
+    "usageExample": "Proteins, fats, carbohydrates, vitamins, and minerals are nutrients.",
+    "tip": "Nutrients support body functions.",
+    "alternatives": [
+      "energy, growth, reproduction, and repair",
+      "only making ozone",
+      "only eroding rocks",
+      "only reflecting light"
+    ],
+    "correctAnswer": "energy, growth, reproduction, and repair",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What is mechanical digestion?",
+    "id": 428,
+    "usageExample": "Chewing and stomach churning are mechanical digestion.",
+    "tip": "Mechanical means physical.",
+    "alternatives": [
+      "physical breaking down of food",
+      "breaking down food with chemical reactions",
+      "filtering blood",
+      "exhaling carbon dioxide"
+    ],
+    "correctAnswer": "physical breaking down of food",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What is chemical digestion?",
+    "id": 429,
+    "usageExample": "Enzymes speed chemical digestion in the digestive tract.",
+    "tip": "Chemical digestion uses enzymes and chemicals.",
+    "alternatives": [
+      "breaking down food using chemical reactions",
+      "chewing food into smaller pieces",
+      "moving food by muscle squeezing",
+      "absorbing water in the large intestine only"
+    ],
+    "correctAnswer": "breaking down food using chemical reactions",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What are enzymes?",
+    "id": 430,
+    "usageExample": "Digestive enzymes help break down food.",
+    "tip": "Enzymes catalyze reactions.",
+    "alternatives": [
+      "special proteins that speed chemical reactions",
+      "solid particles in air",
+      "gaps between neurons",
+      "lines on a map"
+    ],
+    "correctAnswer": "special proteins that speed chemical reactions",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "Where does digestion begin?",
+    "id": 431,
+    "usageExample": "Chewing and saliva begin digestion in the mouth.",
+    "tip": "The first digestive stop is the mouth.",
+    "alternatives": [
+      "mouth",
+      "large intestine",
+      "bladder",
+      "kidney"
+    ],
+    "correctAnswer": "mouth",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What do salivary glands release?",
+    "id": 432,
+    "usageExample": "Saliva begins chemical digestion of carbohydrates.",
+    "tip": "Salivary glands make saliva.",
+    "alternatives": [
+      "saliva",
+      "bile",
+      "urine",
+      "insulin only"
+    ],
+    "correctAnswer": "saliva",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What does saliva help break down?",
+    "id": 433,
+    "usageExample": "Saliva starts chemical digestion in the mouth.",
+    "tip": "Saliva contains digestive chemicals.",
+    "alternatives": [
+      "carbohydrates into simple sugars",
+      "bones into calcium",
+      "air into oxygen",
+      "neurons into impulses"
+    ],
+    "correctAnswer": "carbohydrates into simple sugars",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What is peristalsis?",
+    "id": 434,
+    "usageExample": "The esophagus pushes food toward the stomach by peristalsis.",
+    "tip": "Peristalsis is muscular movement in the digestive tract.",
+    "alternatives": [
+      "squeezing muscle contractions that move food along",
+      "the production of bile",
+      "the filtering of blood",
+      "the bending of light"
+    ],
+    "correctAnswer": "squeezing muscle contractions that move food along",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What does the stomach do mechanically?",
+    "id": 435,
+    "usageExample": "The stomach is a muscular organ that mixes food.",
+    "tip": "Churning is mechanical digestion.",
+    "alternatives": [
+      "squeezes and churns food",
+      "absorbs most water",
+      "filters blood",
+      "stores urine"
+    ],
+    "correctAnswer": "squeezes and churns food",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What does the stomach produce when food mixes with digestive juices?",
+    "id": 436,
+    "usageExample": "Chyme is a pulpy mix of food and acid.",
+    "tip": "Chyme leaves the stomach for the small intestine.",
+    "alternatives": [
+      "chyme",
+      "urine",
+      "bile only",
+      "interferon"
+    ],
+    "correctAnswer": "chyme",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What is the first part of the small intestine called?",
+    "id": 437,
+    "usageExample": "The duodenum receives digestive juices from the liver and pancreas.",
+    "tip": "The duodenum starts the small intestine.",
+    "alternatives": [
+      "duodenum",
+      "rectum",
+      "esophagus",
+      "urethra"
+    ],
+    "correctAnswer": "duodenum",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What does bile help break up?",
+    "id": 438,
+    "usageExample": "Bile from the liver helps digest fats in the small intestine.",
+    "tip": "Bile acts on fats.",
+    "alternatives": [
+      "fats",
+      "bones",
+      "oxygen",
+      "neurons"
+    ],
+    "correctAnswer": "fats",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "Where does most digestion take place?",
+    "id": 439,
+    "usageExample": "The duodenum receives bile and pancreatic juices.",
+    "tip": "Most chemical digestion happens in the first small-intestine section.",
+    "alternatives": [
+      "duodenum",
+      "rectum",
+      "anus",
+      "bladder"
+    ],
+    "correctAnswer": "duodenum",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "Where are most nutrients absorbed into the bloodstream?",
+    "id": 440,
+    "usageExample": "Digested nutrients pass into blood from the small intestine.",
+    "tip": "Small intestine absorbs nutrients.",
+    "alternatives": [
+      "small intestine",
+      "esophagus",
+      "large intestine only",
+      "stomach only"
+    ],
+    "correctAnswer": "small intestine",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "Where is most water absorbed from chyme?",
+    "id": 441,
+    "usageExample": "As water is absorbed, undigested material hardens into waste.",
+    "tip": "Large intestine absorbs water.",
+    "alternatives": [
+      "large intestine",
+      "mouth",
+      "esophagus",
+      "stomach"
+    ],
+    "correctAnswer": "large intestine",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What are the rectum and anus responsible for?",
+    "id": 442,
+    "usageExample": "Waste leaves the body through the rectum and anus.",
+    "tip": "They are the final parts of the digestive tract.",
+    "alternatives": [
+      "expelling waste from the digestive tract",
+      "absorbing most nutrients",
+      "producing bile",
+      "filtering blood"
+    ],
+    "correctAnswer": "expelling waste from the digestive tract",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What do proteins help the body do?",
+    "id": 443,
+    "usageExample": "Proteins are made of amino acids.",
+    "tip": "Proteins support cell growth and repair.",
+    "alternatives": [
+      "rebuild and grow cells",
+      "provide only quick energy",
+      "filter blood",
+      "absorb UV rays"
+    ],
+    "correctAnswer": "rebuild and grow cells",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What do carbohydrates provide?",
+    "id": 444,
+    "usageExample": "Sugars, starches, and fibers are carbohydrates.",
+    "tip": "Carbohydrates are energy nutrients.",
+    "alternatives": [
+      "quick energy",
+      "only insulation and cushioning",
+      "only vitamins",
+      "only waste removal"
+    ],
+    "correctAnswer": "quick energy",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What do fats provide?",
+    "id": 445,
+    "usageExample": "Fats are found in fish, meat, nuts, oil, and eggs.",
+    "tip": "Fats store energy and protect the body.",
+    "alternatives": [
+      "energy, insulation, cushioning, and help absorbing some vitamins",
+      "only fast energy",
+      "only DNA instructions",
+      "only oxygen transport"
+    ],
+    "correctAnswer": "energy, insulation, cushioning, and help absorbing some vitamins",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What are vitamins?",
+    "id": 446,
+    "usageExample": "Different foods contain different vitamins.",
+    "tip": "Vitamins help body processes.",
+    "alternatives": [
+      "nutrients needed in small amounts for growth and cell function",
+      "minerals that make bones hard only",
+      "enzymes that move food",
+      "waste gases"
+    ],
+    "correctAnswer": "nutrients needed in small amounts for growth and cell function",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What are minerals?",
+    "id": 447,
+    "usageExample": "Calcium, sodium, iron, and iodine are minerals.",
+    "tip": "Minerals are inorganic nutrients the body needs.",
+    "alternatives": [
+      "nutrients needed to maintain proper body function",
+      "proteins that speed reactions only",
+      "solid particles in air",
+      "layers of soil"
+    ],
+    "correctAnswer": "nutrients needed to maintain proper body function",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What does the excretory system do?",
+    "id": 448,
+    "usageExample": "The body excretes undigested food, carbon dioxide, sweat, and urine.",
+    "tip": "Excretion removes waste.",
+    "alternatives": [
+      "removes waste to help maintain homeostasis",
+      "breaks down food into nutrients only",
+      "controls voluntary muscles",
+      "classifies organisms"
+    ],
+    "correctAnswer": "removes waste to help maintain homeostasis",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What is the main job of the urinary system?",
+    "id": 449,
+    "usageExample": "Kidneys filter the blood to make urine.",
+    "tip": "The urinary system handles liquid waste.",
+    "alternatives": [
+      "filters blood and removes waste and excess water, salt, and minerals",
+      "absorbs nutrients from food",
+      "transmits sensory impulses",
+      "protects organs with bone"
+    ],
+    "correctAnswer": "filters blood and removes waste and excess water, salt, and minerals",
+    "version": "v1",
+    "chapter": 38
+  },
+  {
+    "question": "What are nephrons?",
+    "id": 450,
+    "usageExample": "Blood is filtered by millions of nephrons.",
+    "tip": "Nephrons filter blood in kidneys.",
+    "alternatives": [
+      "tiny filtration units in the kidneys",
+      "taste sensors on the tongue",
+      "gaps between neurons",
+      "solid particles in air"
+    ],
+    "correctAnswer": "tiny filtration units in the kidneys",
+    "version": "v1",
+    "chapter": 38
   }
 ]
