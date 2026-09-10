@@ -16,6 +16,7 @@ const state = {
   locked: false,
   completed: false,
   selectedQuestionCount: 0,
+  selectedChapter: "all",
 };
 
 const elements = {
@@ -24,6 +25,8 @@ const elements = {
   setupForm: hasDocument ? document.querySelector("#setupForm") : null,
   playerCount: hasDocument ? document.querySelector("#playerCount") : null,
   playerFields: hasDocument ? document.querySelector("#playerFields") : null,
+  chapterSelect: hasDocument ? document.querySelector("#chapterSelect") : null,
+  chapterHint: hasDocument ? document.querySelector("#chapterHint") : null,
   questionCount: hasDocument ? document.querySelector("#questionCount") : null,
   questionCountHint: hasDocument ? document.querySelector("#questionCountHint") : null,
   setupError: hasDocument ? document.querySelector("#setupError") : null,
@@ -74,6 +77,7 @@ function initializeSetup() {
 
   elements.playerCount.value = "1";
   renderPlayerFields();
+  renderChapterOptions();
   renderQuestionCountOptions();
 }
 
@@ -105,7 +109,8 @@ function renderPlayerFields() {
 
 function renderQuestionCountOptions() {
   const playerCount = Number(elements.playerCount.value);
-  const options = getQuestionCountOptions(state.allQuestions.length, playerCount);
+  const availableQuestions = getSelectedQuestions().length;
+  const options = getQuestionCountOptions(availableQuestions, playerCount);
   const previousValue = Number(elements.questionCount.value);
 
   elements.questionCount.innerHTML = "";
@@ -120,7 +125,36 @@ function renderQuestionCountOptions() {
   elements.questionCount.value = options.includes(previousValue) ? previousValue : defaultCount;
 
   const questionsEach = Number(elements.questionCount.value) / playerCount;
-  elements.questionCountHint.textContent = `${questionsEach} turn${questionsEach === 1 ? "" : "s"} per player.`;
+  elements.questionCount.disabled = options.length === 0;
+  elements.questionCountHint.textContent =
+    options.length === 0
+      ? "Choose fewer players or another chapter."
+      : `${questionsEach} turn${questionsEach === 1 ? "" : "s"} per player.`;
+}
+
+function renderChapterOptions() {
+  const chapters = getChapterOptions(state.allQuestions);
+  elements.chapterSelect.innerHTML = "";
+
+  const allOption = document.createElement("option");
+  allOption.value = "all";
+  allOption.textContent = `All chapters (${state.allQuestions.length} questions)`;
+  elements.chapterSelect.append(allOption);
+
+  chapters.forEach(({ chapter, count }) => {
+    const option = document.createElement("option");
+    option.value = String(chapter);
+    option.textContent = `Chapter ${chapter} (${count} questions)`;
+    elements.chapterSelect.append(option);
+  });
+
+  elements.chapterSelect.value = state.selectedChapter;
+  updateChapterHint();
+}
+
+function updateChapterHint() {
+  const count = getSelectedQuestions().length;
+  elements.chapterHint.textContent = `${count} question${count === 1 ? "" : "s"} available.`;
 }
 
 function handleSetupSubmit(event) {
@@ -128,9 +162,15 @@ function handleSetupSubmit(event) {
 
   const playerCount = Number(elements.playerCount.value);
   const selectedQuestionCount = Number(elements.questionCount.value);
+  state.selectedChapter = elements.chapterSelect.value;
 
   if (!Number.isInteger(selectedQuestionCount) || selectedQuestionCount % playerCount !== 0) {
     showSetupError("Choose a question count that divides evenly between the players.");
+    return;
+  }
+
+  if (getSelectedQuestions().length < playerCount) {
+    showSetupError("Choose a chapter with at least one question per player.");
     return;
   }
 
@@ -150,13 +190,14 @@ function startPractice() {
   state.locked = false;
   state.completed = false;
   state.players = state.players.map((player) => ({ ...player, score: 0 }));
+  const questionPool = getSelectedQuestions();
 
   const roundSize = getRoundSize(
-    state.allQuestions.length,
-    state.selectedQuestionCount || state.allQuestions.length,
+    questionPool.length,
+    state.selectedQuestionCount || questionPool.length,
     state.players.length,
   );
-  state.queue = shuffle([...state.allQuestions]).slice(0, roundSize);
+  state.queue = shuffle([...questionPool]).slice(0, roundSize);
   elements.resultTabs.classList.add("hidden");
   updateResultTabs();
   renderQuestion();
@@ -175,7 +216,7 @@ function renderQuestion() {
   if (state.queue.length === 0) {
     elements.questionNumber.textContent = "No questions";
     elements.turnLabel.textContent = "";
-    elements.modeLabel.textContent = "Science questions";
+    elements.modeLabel.textContent = getChapterLabel(state.selectedChapter);
     elements.questionText.textContent = "No questions found";
     elements.usageText.textContent = "Check the JSON file and refresh the page.";
     elements.alternatives.innerHTML = "";
@@ -193,7 +234,7 @@ function renderQuestion() {
   elements.nextButton.textContent = "Next";
   elements.questionNumber.textContent = `Question ${state.currentIndex + 1}`;
   elements.turnLabel.textContent = `${formatPossessive(getCurrentPlayer().name)} turn`;
-  elements.modeLabel.textContent = "Science questions";
+  elements.modeLabel.textContent = getChapterLabel(state.selectedChapter);
   elements.questionText.textContent = question.question;
   elements.usageText.textContent = question.usageExample;
   setFeedback("Choose the answer that best matches the question.", "");
@@ -454,6 +495,10 @@ function showSetupPanel() {
   renderQuestionCountOptions();
 }
 
+function getSelectedQuestions() {
+  return getQuestionsForChapter(state.allQuestions, state.selectedChapter);
+}
+
 function getCurrentQuestion() {
   return state.queue[state.currentIndex];
 }
@@ -485,6 +530,27 @@ function getQuestionCountOptions(totalQuestions, playerCount) {
   return Array.from({ length: Math.floor(totalQuestions / playerCount) }, (_, index) => {
     return (index + 1) * playerCount;
   });
+}
+
+function getChapterOptions(questions) {
+  const counts = questions.reduce((chapterCounts, question) => {
+    chapterCounts.set(question.chapter, (chapterCounts.get(question.chapter) || 0) + 1);
+    return chapterCounts;
+  }, new Map());
+
+  return [...counts.entries()]
+    .sort(([chapterA], [chapterB]) => chapterA - chapterB)
+    .map(([chapter, count]) => ({ chapter, count }));
+}
+
+function getQuestionsForChapter(questions, chapter) {
+  if (chapter === "all") return questions;
+  const chapterNumber = Number(chapter);
+  return questions.filter((question) => question.chapter === chapterNumber);
+}
+
+function getChapterLabel(chapter) {
+  return chapter === "all" ? "All chapters" : `Chapter ${chapter}`;
 }
 
 function getDefaultQuestionCount(options, target) {
@@ -529,6 +595,11 @@ if (hasDocument) {
     renderPlayerFields();
     renderQuestionCountOptions();
   });
+  elements.chapterSelect.addEventListener("change", () => {
+    state.selectedChapter = elements.chapterSelect.value;
+    updateChapterHint();
+    renderQuestionCountOptions();
+  });
   elements.questionCount.addEventListener("change", renderQuestionCountOptions);
   elements.nextButton.addEventListener("click", nextQuestion);
   elements.tipButton.addEventListener("click", showTip);
@@ -545,10 +616,12 @@ if (typeof module !== "undefined") {
   module.exports = {
     buildPlayers,
     getDefaultQuestionCount,
+    getChapterOptions,
     getLeaders,
     getRoundSize,
     formatPossessive,
     getPlayerCountOptions,
     getQuestionCountOptions,
+    getQuestionsForChapter,
   };
 }

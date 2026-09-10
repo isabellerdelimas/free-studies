@@ -2,11 +2,13 @@ const assert = require("node:assert/strict");
 
 const {
   buildPlayers,
+  getChapterOptions,
   formatPossessive,
   getDefaultQuestionCount,
   getLeaders,
   getPlayerCountOptions,
   getQuestionCountOptions,
+  getQuestionsForChapter,
   getRoundSize,
 } = require("../quiz.js");
 
@@ -20,6 +22,21 @@ assert.equal(getDefaultQuestionCount(getQuestionCountOptions(10, 3), 4), 6);
 assert.equal(getRoundSize(150, 6, 3), 6);
 assert.equal(getRoundSize(5, 6, 3), 3);
 assert.equal(getRoundSize(2, 6, 3), 0);
+
+const chapterFixtures = [
+  { chapter: 2, question: "A" },
+  { chapter: 1, question: "B" },
+  { chapter: 2, question: "C" },
+];
+assert.deepEqual(getChapterOptions(chapterFixtures), [
+  { chapter: 1, count: 1 },
+  { chapter: 2, count: 2 },
+]);
+assert.deepEqual(getQuestionsForChapter(chapterFixtures, "all"), chapterFixtures);
+assert.deepEqual(getQuestionsForChapter(chapterFixtures, "2"), [
+  { chapter: 2, question: "A" },
+  { chapter: 2, question: "C" },
+]);
 
 assert.deepEqual(buildPlayers(1, [""]), [{ name: "You", score: 0 }]);
 assert.deepEqual(buildPlayers(3, ["Ana", "", "Mia"]), [
