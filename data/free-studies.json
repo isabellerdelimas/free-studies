@@ -6748,5 +6748,380 @@
     "correctAnswer": "tiny filtration units in the kidneys",
     "version": "v1",
     "chapter": 38
+  },
+  {
+    "question": "What are examples of forms of energy named in chapter 13?",
+    "id": 451,
+    "usageExample": "The chapter lists heat, sound, light, and motion as forms of energy.",
+    "tip": "Energy is not just motion; it can appear in several ways.",
+    "alternatives": [
+      "heat, sound, light, and motion",
+      "cells, tissues, organs, and systems",
+      "solids, liquids, gases, and plasma only",
+      "rocks, minerals, soil, and fossils"
+    ],
+    "correctAnswer": "heat, sound, light, and motion",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "In a system, what can happen to energy even though the amount remains the same?",
+    "id": 452,
+    "usageExample": "Energy may change from sunlight to chemical energy in plants.",
+    "tip": "Conservation means the total stays the same, not the form.",
+    "alternatives": [
+      "it can change forms and transfer between objects",
+      "it can disappear forever",
+      "it can become matter every time",
+      "it can stop all motion permanently"
+    ],
+    "correctAnswer": "it can change forms and transfer between objects",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What kind of energy transformation happens when sunlight helps plants grow?",
+    "id": 453,
+    "usageExample": "Plant leaves absorb light energy and store energy in food.",
+    "tip": "Think about energy entering leaves from the Sun.",
+    "alternatives": [
+      "light energy changes into stored chemical energy",
+      "sound energy changes into nuclear energy",
+      "electric energy changes into gravity",
+      "thermal energy changes into empty space"
+    ],
+    "correctAnswer": "light energy changes into stored chemical energy",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "How do people get stored chemical energy from plants?",
+    "id": 454,
+    "usageExample": "Eating vegetables transfers stored energy to our bodies.",
+    "tip": "Food is a source of chemical energy.",
+    "alternatives": [
+      "by eating plant foods",
+      "by bouncing light off leaves",
+      "by removing gravity from plants",
+      "by freezing all molecules"
+    ],
+    "correctAnswer": "by eating plant foods",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "When people run, what happens to stored chemical energy in the body?",
+    "id": 455,
+    "usageExample": "Your body changes energy from food into movement.",
+    "tip": "Running is motion, so think mechanical energy.",
+    "alternatives": [
+      "it changes into mechanical energy",
+      "it is destroyed completely",
+      "it becomes only sound energy",
+      "it turns into a nucleus"
+    ],
+    "correctAnswer": "it changes into mechanical energy",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "When you drop a pen, what energy change does the chapter describe?",
+    "id": 456,
+    "usageExample": "A pen held above the floor has stored energy before it falls.",
+    "tip": "Falling changes stored position energy into motion.",
+    "alternatives": [
+      "potential energy changes into kinetic energy",
+      "kinetic energy changes into chemical energy",
+      "sound energy changes into elastic energy",
+      "electric energy changes into nuclear energy"
+    ],
+    "correctAnswer": "potential energy changes into kinetic energy",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Why does a kicked ball have kinetic energy while it moves up a hill?",
+    "id": 457,
+    "usageExample": "The ball is moving after it is kicked.",
+    "tip": "Kinetic energy is energy of motion.",
+    "alternatives": [
+      "because it is moving",
+      "because it has no mass",
+      "because it is invisible",
+      "because gravity stops working"
+    ],
+    "correctAnswer": "because it is moving",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "As a ball slows and stops on a hill, what does some of its motion energy become?",
+    "id": 458,
+    "usageExample": "A ball higher on a hill has stored energy because of its position.",
+    "tip": "Energy can transfer between kinetic and potential forms.",
+    "alternatives": [
+      "potential energy in the ball's position",
+      "nuclear energy in radioactive atoms",
+      "electric energy from electrons",
+      "sound energy with no source"
+    ],
+    "correctAnswer": "potential energy in the ball's position",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Why is energy in a ball on a hill called gravitational potential energy?",
+    "id": 459,
+    "usageExample": "The ball can release stored energy as gravity pulls it downhill.",
+    "tip": "The stored energy is related to gravity and height.",
+    "alternatives": [
+      "it has stored energy that can be released because of gravity",
+      "it comes from electrons flowing through the ball",
+      "it is stored in chemical bonds only",
+      "it is caused by invisible light waves"
+    ],
+    "correctAnswer": "it has stored energy that can be released because of gravity",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What happens to energy when a ball rolls back down a hill?",
+    "id": 460,
+    "usageExample": "Stored energy in the ball's position becomes motion again.",
+    "tip": "The ball starts moving, so kinetic energy increases.",
+    "alternatives": [
+      "potential energy is converted back to kinetic energy",
+      "kinetic energy is converted into fossils",
+      "chemical energy is converted into cells",
+      "sound energy is converted into mass"
+    ],
+    "correctAnswer": "potential energy is converted back to kinetic energy",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "How do bumper cars show kinetic energy transfer?",
+    "id": 461,
+    "usageExample": "One moving bumper car can hit another and make it move.",
+    "tip": "A collision can pass motion energy from one object to another.",
+    "alternatives": [
+      "one moving car transfers energy to another car during a collision",
+      "both cars lose all energy before they touch",
+      "gravity disappears when the cars bump",
+      "light waves split atoms inside the cars"
+    ],
+    "correctAnswer": "one moving car transfers energy to another car during a collision",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "If two objects move at the same speed, which one has more kinetic energy?",
+    "id": 462,
+    "usageExample": "A bowling ball moving as fast as a tennis ball has more kinetic energy.",
+    "tip": "Kinetic energy depends on mass as well as velocity.",
+    "alternatives": [
+      "the object with more mass",
+      "the object with less mass",
+      "the object with no height",
+      "the object with fewer molecules"
+    ],
+    "correctAnswer": "the object with more mass",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "If two objects have the same mass, which one has more kinetic energy?",
+    "id": 463,
+    "usageExample": "A faster tennis ball has more kinetic energy than a slower one.",
+    "tip": "Velocity is part of kinetic energy.",
+    "alternatives": [
+      "the object with greater velocity",
+      "the object with lower velocity",
+      "the object that is not moving",
+      "the object with less motion"
+    ],
+    "correctAnswer": "the object with greater velocity",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Why would a tennis ball dropped from two feet hurt less than one dropped from a skyscraper?",
+    "id": 464,
+    "usageExample": "The higher drop gives the ball more time and distance to gain speed.",
+    "tip": "Greater height can lead to greater velocity as it falls.",
+    "alternatives": [
+      "the lower drop develops less velocity",
+      "the lower drop has more nuclear energy",
+      "the skyscraper ball has no mass",
+      "the lower drop creates more chemical bonds"
+    ],
+    "correctAnswer": "the lower drop develops less velocity",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "How can the arrangement of an object affect its potential energy?",
+    "id": 465,
+    "usageExample": "A book on a top shelf has more potential distance to fall than one on a bottom shelf.",
+    "tip": "Position and height are part of stored energy.",
+    "alternatives": [
+      "a higher arrangement can give it more potential energy",
+      "arrangement removes all stored energy",
+      "a lower arrangement always creates nuclear energy",
+      "arrangement only changes the object's color"
+    ],
+    "correctAnswer": "a higher arrangement can give it more potential energy",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is the main idea about the number of energy types?",
+    "id": 466,
+    "usageExample": "Some scientists group energy into two types, while others list more forms.",
+    "tip": "The chapter says the exact count matters less than understanding forms and changes.",
+    "alternatives": [
+      "energy comes in many forms and changes from one form to another",
+      "there is exactly one form of energy",
+      "energy cannot move between objects",
+      "only sound and heat are real energy"
+    ],
+    "correctAnswer": "energy comes in many forms and changes from one form to another",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Which form of kinetic energy is the energy of moving objects?",
+    "id": 467,
+    "usageExample": "A rolling ball and a moving cart have this kind of kinetic energy.",
+    "tip": "The chapter lists this under kinetic energies.",
+    "alternatives": [
+      "mechanical kinetic energy",
+      "elastic energy",
+      "chemical energy",
+      "gravitational potential energy"
+    ],
+    "correctAnswer": "mechanical kinetic energy",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "How is thermal energy connected to molecules?",
+    "id": 468,
+    "usageExample": "Warmer matter has molecules vibrating in ways that affect temperature.",
+    "tip": "Thermal energy has to do with vibrating molecules.",
+    "alternatives": [
+      "it comes from vibrating molecules that affect temperature",
+      "it comes from electrons flowing through wires only",
+      "it is stored only in stretched rubber bands",
+      "it is the splitting of radioactive atoms"
+    ],
+    "correctAnswer": "it comes from vibrating molecules that affect temperature",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What kinds of light waves carry electromagnetic energy?",
+    "id": 469,
+    "usageExample": "Visible light is electromagnetic energy, and some invisible waves are too.",
+    "tip": "The chapter says both visible and invisible light waves.",
+    "alternatives": [
+      "both visible and invisible light waves",
+      "only waves people can hear",
+      "only waves inside chemical bonds",
+      "only waves made by gravity"
+    ],
+    "correctAnswer": "both visible and invisible light waves",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "How is sound energy transmitted?",
+    "id": 470,
+    "usageExample": "Sound travels as molecules bump into each other.",
+    "tip": "Sound needs vibrations moving through matter.",
+    "alternatives": [
+      "by molecules bumping into each other",
+      "by atoms splitting in a nucleus",
+      "by books sitting on shelves",
+      "by fuel bonds staying unbroken"
+    ],
+    "correctAnswer": "by molecules bumping into each other",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What is electric energy made from?",
+    "id": 471,
+    "usageExample": "Electric current involves electrons moving through a path.",
+    "tip": "Look for the tiny charged particles mentioned in the chapter.",
+    "alternatives": [
+      "the flow of electrons",
+      "the height of an object",
+      "the stretching of elastic material",
+      "the distance a book can fall"
+    ],
+    "correctAnswer": "the flow of electrons",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Where is gravitational potential energy stored?",
+    "id": 472,
+    "usageExample": "A book on a high shelf stores energy because of its height.",
+    "tip": "This stored energy depends on height.",
+    "alternatives": [
+      "in the height of an object",
+      "in invisible light waves",
+      "in sound vibrations only",
+      "in flowing electrons"
+    ],
+    "correctAnswer": "in the height of an object",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "What kind of energy is stored in a stretched or compressed spring?",
+    "id": 473,
+    "usageExample": "A compressed spring can release stored energy when it expands.",
+    "tip": "Elastic materials store this energy when stretched or squeezed.",
+    "alternatives": [
+      "elastic energy",
+      "thermal energy",
+      "sound energy",
+      "nuclear energy"
+    ],
+    "correctAnswer": "elastic energy",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "How is electricity produced from nuclear energy in the chapter?",
+    "id": 474,
+    "usageExample": "Nuclear fission splits atoms and releases stored nuclear energy.",
+    "tip": "The process named in the chapter is fission.",
+    "alternatives": [
+      "atoms are split and energy is released",
+      "electrons stop flowing and energy disappears",
+      "plants absorb sound energy",
+      "rubber bands stretch without releasing energy"
+    ],
+    "correctAnswer": "atoms are split and energy is released",
+    "version": "v1",
+    "chapter": 13
+  },
+  {
+    "question": "Why is chemical energy considered potential energy before a bond breaks?",
+    "id": 475,
+    "usageExample": "Energy is stored in chemical bonds until it can be released.",
+    "tip": "Potential energy is stored energy.",
+    "alternatives": [
+      "because the energy is stored in the bond",
+      "because the energy is already moving as sound",
+      "because the bond has no stored energy",
+      "because gravity destroys the bond"
+    ],
+    "correctAnswer": "because the energy is stored in the bond",
+    "version": "v1",
+    "chapter": 13
   }
 ]
