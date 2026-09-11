@@ -1,4 +1,4 @@
-const { cp, mkdir, rm } = require("node:fs/promises");
+const { cp, mkdir, rm, stat } = require("node:fs/promises");
 const { join } = require("node:path");
 
 const root = join(__dirname, "..");
@@ -11,8 +11,18 @@ async function buildStaticSite() {
   await mkdir(dist, { recursive: true });
 
   await Promise.all(
-    staticEntries.map((entry) => {
-      return cp(join(root, entry), join(dist, entry), {
+    staticEntries.map(async (entry) => {
+      const sourcePath = join(root, entry);
+      const sourceExists = await stat(sourcePath)
+        .then(() => true)
+        .catch((error) => {
+          if (error.code === "ENOENT") return false;
+          throw error;
+        });
+
+      if (!sourceExists) return;
+
+      return cp(sourcePath, join(dist, entry), {
         filter: (source) => !ignoredFiles.has(source.split(/[\\/]/).pop()),
         recursive: true,
       });
