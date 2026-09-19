@@ -7123,5 +7123,755 @@
     "correctAnswer": "because the energy is stored in the bond",
     "version": "v1",
     "chapter": 13
+  },
+  {
+    "question": "What kind of energy do moving molecules have?",
+    "id": 476,
+    "usageExample": "Molecules in solids, liquids, and vapors are always moving, so they have kinetic energy.",
+    "tip": "Kinetic energy is energy of motion.",
+    "alternatives": [
+      "kinetic energy",
+      "chemical energy only",
+      "no energy",
+      "gravitational potential energy only"
+    ],
+    "correctAnswer": "kinetic energy",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why do hot cocoa molecules have more kinetic energy than cold chocolate milk molecules?",
+    "id": 477,
+    "usageExample": "Hot cocoa molecules zip around faster than molecules in a cold drink.",
+    "tip": "Faster molecular motion means more kinetic energy.",
+    "alternatives": [
+      "they move faster",
+      "they stop moving",
+      "they become larger molecules",
+      "they lose all motion"
+    ],
+    "correctAnswer": "they move faster",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Which states of matter have molecules that are always in motion?",
+    "id": 478,
+    "usageExample": "The chapter says molecules in a liquid, solid, or vapor are always moving.",
+    "tip": "Molecules move in all common states of matter.",
+    "alternatives": [
+      "solids, liquids, and vapors",
+      "only liquids",
+      "only solids",
+      "only vapors"
+    ],
+    "correctAnswer": "solids, liquids, and vapors",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What everyday idea of temperature is corrected by the scientific definition?",
+    "id": 479,
+    "usageExample": "People often describe temperature as hot or cold, but scientifically it is average molecular kinetic energy.",
+    "tip": "The everyday definition is about hot and cold.",
+    "alternatives": [
+      "how hot or cold something feels",
+      "how heavy something is",
+      "how bright something looks",
+      "how much space something takes"
+    ],
+    "correctAnswer": "how hot or cold something feels",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "If molecules in a substance slow down, what happens to its temperature?",
+    "id": 480,
+    "usageExample": "Cooling happens when molecular motion slows.",
+    "tip": "Temperature follows average molecular kinetic energy.",
+    "alternatives": [
+      "the temperature decreases",
+      "the temperature increases",
+      "the temperature becomes mass",
+      "the temperature cannot change"
+    ],
+    "correctAnswer": "the temperature decreases",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "If molecules in a substance speed up, what happens to its temperature?",
+    "id": 481,
+    "usageExample": "Heating a substance makes its molecules move faster on average.",
+    "tip": "Faster average molecular motion means higher temperature.",
+    "alternatives": [
+      "the temperature increases",
+      "the temperature decreases",
+      "the molecules stop",
+      "the substance loses all energy"
+    ],
+    "correctAnswer": "the temperature increases",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why does thermometer liquid rise at higher temperatures?",
+    "id": 482,
+    "usageExample": "A thermometer indicates higher temperature when its liquid expands.",
+    "tip": "Heating usually causes expansion.",
+    "alternatives": [
+      "the liquid expands when heated",
+      "the liquid freezes instantly",
+      "the glass shrinks into the liquid",
+      "gravity pulls the liquid upward"
+    ],
+    "correctAnswer": "the liquid expands when heated",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why does thermometer liquid fall at lower temperatures?",
+    "id": 483,
+    "usageExample": "Cooling causes thermometer liquid to contract and indicate a lower temperature.",
+    "tip": "Cooling usually causes contraction.",
+    "alternatives": [
+      "the liquid contracts when cooled",
+      "the liquid gains unlimited energy",
+      "the liquid turns into light",
+      "the scale disappears"
+    ],
+    "correctAnswer": "the liquid contracts when cooled",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What property of materials lets many thermometers measure temperature?",
+    "id": 484,
+    "usageExample": "Thermometers rely on materials changing size as temperature changes.",
+    "tip": "Heating and cooling change material volume.",
+    "alternatives": [
+      "expansion and contraction",
+      "photosynthesis",
+      "digestion",
+      "classification"
+    ],
+    "correctAnswer": "expansion and contraction",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What temperature is water boiling on the Celsius scale?",
+    "id": 485,
+    "usageExample": "The chapter's scale shows water boiling at 100\u00b0C.",
+    "tip": "Boiling water is the high water reference point.",
+    "alternatives": [
+      "100\u00b0C",
+      "0\u00b0C",
+      "25\u00b0C",
+      "-273.15\u00b0C"
+    ],
+    "correctAnswer": "100\u00b0C",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What temperature is water boiling on the Fahrenheit scale?",
+    "id": 486,
+    "usageExample": "The temperature chart lists boiling water at 212\u00b0F.",
+    "tip": "On Fahrenheit, water boils at 212 degrees.",
+    "alternatives": [
+      "212\u00b0F",
+      "32\u00b0F",
+      "77\u00b0F",
+      "-459.58\u00b0F"
+    ],
+    "correctAnswer": "212\u00b0F",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What temperature is water boiling on the Kelvin scale?",
+    "id": 487,
+    "usageExample": "The chapter's chart matches 100\u00b0C with 373.15 K.",
+    "tip": "Kelvin equals Celsius plus 273.15.",
+    "alternatives": [
+      "373.15 K",
+      "273.15 K",
+      "310.15 K",
+      "0 K"
+    ],
+    "correctAnswer": "373.15 K",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What temperature is water freezing on the Celsius scale?",
+    "id": 488,
+    "usageExample": "The temperature scale labels the freezing point of water at 0\u00b0C.",
+    "tip": "Freezing water is the zero point on Celsius.",
+    "alternatives": [
+      "0\u00b0C",
+      "100\u00b0C",
+      "37\u00b0C",
+      "25\u00b0C"
+    ],
+    "correctAnswer": "0\u00b0C",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What temperature is water freezing on the Kelvin scale?",
+    "id": 489,
+    "usageExample": "The chapter's scale pairs 0\u00b0C with 273.15 K.",
+    "tip": "Kelvin is Celsius plus 273.15.",
+    "alternatives": [
+      "273.15 K",
+      "0 K",
+      "373.15 K",
+      "310.15 K"
+    ],
+    "correctAnswer": "273.15 K",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "About what Celsius temperature is normal human body temperature?",
+    "id": 490,
+    "usageExample": "The chart lists human body temperature as 37\u00b0C.",
+    "tip": "Human body temperature is warmer than room temperature.",
+    "alternatives": [
+      "37\u00b0C",
+      "0\u00b0C",
+      "25\u00b0C",
+      "100\u00b0C"
+    ],
+    "correctAnswer": "37\u00b0C",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "About what Fahrenheit temperature is normal human body temperature?",
+    "id": 491,
+    "usageExample": "The chapter's scale shows human body temperature as 98.6\u00b0F.",
+    "tip": "This is the common Fahrenheit body temperature.",
+    "alternatives": [
+      "98.6\u00b0F",
+      "77\u00b0F",
+      "32\u00b0F",
+      "212\u00b0F"
+    ],
+    "correctAnswer": "98.6\u00b0F",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "About what Kelvin temperature is normal human body temperature?",
+    "id": 492,
+    "usageExample": "The temperature chart connects 37\u00b0C with 310.15 K.",
+    "tip": "Add 273.15 to Celsius to estimate Kelvin.",
+    "alternatives": [
+      "310.15 K",
+      "298.15 K",
+      "273.15 K",
+      "373.15 K"
+    ],
+    "correctAnswer": "310.15 K",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What Celsius temperature does the chapter use for room temperature?",
+    "id": 493,
+    "usageExample": "Room temperature is shown as 25\u00b0C in the chapter.",
+    "tip": "Room temperature is cooler than body temperature.",
+    "alternatives": [
+      "25\u00b0C",
+      "37\u00b0C",
+      "0\u00b0C",
+      "-273.15\u00b0C"
+    ],
+    "correctAnswer": "25\u00b0C",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What Fahrenheit temperature does the chapter use for room temperature?",
+    "id": 494,
+    "usageExample": "The chart labels room temperature as 77\u00b0F.",
+    "tip": "Room temperature is about 25\u00b0C.",
+    "alternatives": [
+      "77\u00b0F",
+      "98.6\u00b0F",
+      "212\u00b0F",
+      "-459.58\u00b0F"
+    ],
+    "correctAnswer": "77\u00b0F",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What Kelvin temperature does the chapter use for room temperature?",
+    "id": 495,
+    "usageExample": "The chart pairs room temperature, 25\u00b0C, with 298.15 K.",
+    "tip": "Kelvin equals Celsius plus 273.15.",
+    "alternatives": [
+      "298.15 K",
+      "310.15 K",
+      "273.15 K",
+      "0 K"
+    ],
+    "correctAnswer": "298.15 K",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is absolute zero on the Kelvin scale?",
+    "id": 496,
+    "usageExample": "The temperature chart marks absolute zero at 0 K.",
+    "tip": "The Kelvin scale starts at absolute zero.",
+    "alternatives": [
+      "0 K",
+      "273.15 K",
+      "298.15 K",
+      "373.15 K"
+    ],
+    "correctAnswer": "0 K",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is absolute zero on the Celsius scale?",
+    "id": 497,
+    "usageExample": "The chapter lists absolute zero as -273.15\u00b0C.",
+    "tip": "Absolute zero is far colder than water freezing.",
+    "alternatives": [
+      "-273.15\u00b0C",
+      "0\u00b0C",
+      "25\u00b0C",
+      "100\u00b0C"
+    ],
+    "correctAnswer": "-273.15\u00b0C",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is absolute zero on the Fahrenheit scale?",
+    "id": 498,
+    "usageExample": "The temperature scale lists absolute zero as -459.58\u00b0F.",
+    "tip": "Absolute zero is the lowest possible temperature.",
+    "alternatives": [
+      "-459.58\u00b0F",
+      "32\u00b0F",
+      "77\u00b0F",
+      "212\u00b0F"
+    ],
+    "correctAnswer": "-459.58\u00b0F",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why can temperature not get colder than absolute zero?",
+    "id": 499,
+    "usageExample": "At absolute zero, molecules stop moving, so they cannot get slower.",
+    "tip": "The chapter explains that stopped molecules cannot slow further.",
+    "alternatives": [
+      "molecules cannot move slower than stopped",
+      "molecules become hotter forever",
+      "water always boils there",
+      "thermometers stop expanding only"
+    ],
+    "correctAnswer": "molecules cannot move slower than stopped",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What temperature scale do scientists frequently use?",
+    "id": 500,
+    "usageExample": "The chapter says scientists frequently use Kelvin as the SI temperature unit.",
+    "tip": "Scientists often prefer SI units.",
+    "alternatives": [
+      "Kelvin",
+      "Fahrenheit only",
+      "Celsius only",
+      "decibel"
+    ],
+    "correctAnswer": "Kelvin",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "How do you convert Celsius to Kelvin?",
+    "id": 501,
+    "usageExample": "A Celsius temperature can be changed to Kelvin by adding 273.15.",
+    "tip": "Kelvin starts 273.15 degrees above Celsius at water freezing.",
+    "alternatives": [
+      "add 273.15",
+      "subtract 273.15",
+      "multiply by 100",
+      "divide by 32"
+    ],
+    "correctAnswer": "add 273.15",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "How do you convert Kelvin to Celsius?",
+    "id": 502,
+    "usageExample": "A Kelvin temperature can be converted to Celsius by subtracting 273.15.",
+    "tip": "Reverse the Celsius-to-Kelvin conversion.",
+    "alternatives": [
+      "subtract 273.15",
+      "add 273.15",
+      "multiply by 212",
+      "divide by 9"
+    ],
+    "correctAnswer": "subtract 273.15",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Which formula converts Celsius to Fahrenheit?",
+    "id": 503,
+    "usageExample": "To convert Celsius to Fahrenheit, multiply by 9/5 and add 32.",
+    "tip": "Fahrenheit has a different scale size and offset.",
+    "alternatives": [
+      "(C \u00d7 9/5) + 32",
+      "(F - 32) \u00d7 5/9",
+      "C + 273.15",
+      "K - 273.15"
+    ],
+    "correctAnswer": "(C \u00d7 9/5) + 32",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Which formula converts Fahrenheit to Celsius?",
+    "id": 504,
+    "usageExample": "To convert Fahrenheit to Celsius, subtract 32 and multiply by 5/9.",
+    "tip": "This reverses the Celsius-to-Fahrenheit formula.",
+    "alternatives": [
+      "(F - 32) \u00d7 5/9",
+      "(C \u00d7 9/5) + 32",
+      "F + 273.15",
+      "K \u00d7 32"
+    ],
+    "correctAnswer": "(F - 32) \u00d7 5/9",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What does thermal energy include that temperature alone does not?",
+    "id": 505,
+    "usageExample": "Thermal energy is the sum of molecular kinetic and potential energies.",
+    "tip": "Temperature is an average; thermal energy is a total.",
+    "alternatives": [
+      "the total kinetic and potential energy of all molecules",
+      "only the average kinetic energy",
+      "only the color of an object",
+      "only how hot something feels"
+    ],
+    "correctAnswer": "the total kinetic and potential energy of all molecules",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why can a stack of bricks have more thermal energy than one brick at the same temperature?",
+    "id": 506,
+    "usageExample": "More bricks contain more molecules and therefore more total energy.",
+    "tip": "Thermal energy depends on total matter, not only average motion.",
+    "alternatives": [
+      "the stack has more total molecular energy",
+      "the stack has a lower temperature",
+      "the single brick has no molecules",
+      "temperature and thermal energy are identical"
+    ],
+    "correctAnswer": "the stack has more total molecular energy",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What does the brick example teach about temperature and thermal energy?",
+    "id": 507,
+    "usageExample": "A single brick and stack of bricks may share temperature even though the stack has more thermal energy.",
+    "tip": "Same average can still mean different total.",
+    "alternatives": [
+      "objects can have the same temperature but different thermal energy",
+      "all objects with the same temperature have the same total energy",
+      "a single brick always has more energy than a stack",
+      "temperature is unrelated to molecules"
+    ],
+    "correctAnswer": "objects can have the same temperature but different thermal energy",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why does something feel hot to your hand?",
+    "id": 508,
+    "usageExample": "A hot object feels hot because thermal energy moves from it to your cooler hand.",
+    "tip": "Heat moves from warmer to cooler.",
+    "alternatives": [
+      "it is warmer than your hand and transfers thermal energy to it",
+      "it has no thermal energy",
+      "it is colder than your hand always",
+      "it absorbs your hand into a vacuum"
+    ],
+    "correctAnswer": "it is warmer than your hand and transfers thermal energy to it",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What does it mean when heat transfers from high to low energy?",
+    "id": 509,
+    "usageExample": "A warm substance transfers heat to a cooler substance until temperatures match.",
+    "tip": "High thermal energy flows toward lower thermal energy.",
+    "alternatives": [
+      "thermal energy moves from warmer substances to cooler ones",
+      "cooler substances always warm hotter ones first",
+      "energy is destroyed during transfer",
+      "molecules stop moving immediately"
+    ],
+    "correctAnswer": "thermal energy moves from warmer substances to cooler ones",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What must be true for direct-contact heat transfer to happen?",
+    "id": 510,
+    "usageExample": "Touching a hot stove is an example of heat moving by direct contact.",
+    "tip": "Direct contact is the clue for conduction.",
+    "alternatives": [
+      "the warmer and cooler objects touch",
+      "the objects must be in outer space",
+      "there must be no molecules",
+      "the objects must be the same temperature already"
+    ],
+    "correctAnswer": "the warmer and cooler objects touch",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "In conduction, which molecules transfer energy first?",
+    "id": 511,
+    "usageExample": "Faster molecules collide with slower molecules and pass energy along.",
+    "tip": "Warmer means faster-moving molecules.",
+    "alternatives": [
+      "faster molecules in the warmer object",
+      "slower molecules in the colder object only",
+      "molecules with no motion",
+      "molecules in empty space"
+    ],
+    "correctAnswer": "faster molecules in the warmer object",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why is touching a hot stove an example of conduction?",
+    "id": 512,
+    "usageExample": "Your hand touches the stove, allowing molecular collisions to transfer energy.",
+    "tip": "Conduction needs touching.",
+    "alternatives": [
+      "heat transfers through direct contact with the stove",
+      "heat travels only through empty space",
+      "warm air rises from the stove only",
+      "sunlight reflects off the stove"
+    ],
+    "correctAnswer": "heat transfers through direct contact with the stove",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What makes radiation different from conduction?",
+    "id": 513,
+    "usageExample": "The sun heats Earth by radiation even though it is far away.",
+    "tip": "Radiation can transfer energy without contact.",
+    "alternatives": [
+      "radiation transfers heat through electromagnetic rays instead of direct contact",
+      "radiation requires objects to touch",
+      "radiation happens only in liquids",
+      "radiation is the same as freezing"
+    ],
+    "correctAnswer": "radiation transfers heat through electromagnetic rays instead of direct contact",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why can the sun heat Earth even though space separates them?",
+    "id": 514,
+    "usageExample": "Solar energy reaches Earth by electromagnetic radiation.",
+    "tip": "Radiation does not require direct contact.",
+    "alternatives": [
+      "heat can transfer by radiation through electromagnetic rays",
+      "conduction carries heat through empty space",
+      "convection currents move through space from the sun",
+      "Earth touches the sun"
+    ],
+    "correctAnswer": "heat can transfer by radiation through electromagnetic rays",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Which heat transfer method warms you beside a fire without touching it?",
+    "id": 515,
+    "usageExample": "You can feel warmth from a fire across a short distance.",
+    "tip": "Electromagnetic rays can carry thermal energy.",
+    "alternatives": [
+      "radiation",
+      "conduction",
+      "digestion",
+      "classification"
+    ],
+    "correctAnswer": "radiation",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What kind of matter moves during convection?",
+    "id": 516,
+    "usageExample": "Convection transfers heat as air or water moves.",
+    "tip": "Fluids include gases and liquids.",
+    "alternatives": [
+      "a fluid such as air or water",
+      "only solid rock",
+      "only empty space",
+      "only a thermometer scale"
+    ],
+    "correctAnswer": "a fluid such as air or water",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What happens to warm air from a heater in a convection current?",
+    "id": 517,
+    "usageExample": "Warm air from a heater rises before cooling down.",
+    "tip": "Warm fluid tends to rise in convection.",
+    "alternatives": [
+      "it rises",
+      "it immediately becomes ice",
+      "it stops moving forever",
+      "it turns into a solid"
+    ],
+    "correctAnswer": "it rises",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What happens to air after it rises and cools in a convection current?",
+    "id": 518,
+    "usageExample": "The chapter describes warm air rising, cooling, and then sinking toward the floor.",
+    "tip": "Cooling air becomes part of the circulating current.",
+    "alternatives": [
+      "it sinks back down",
+      "it leaves Earth permanently",
+      "it becomes sunlight",
+      "it stops being matter"
+    ],
+    "correctAnswer": "it sinks back down",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "How can a ceiling fan affect convection in a room?",
+    "id": 519,
+    "usageExample": "A ceiling fan can improve air circulation in a room.",
+    "tip": "Fans move air, and convection depends on moving fluid.",
+    "alternatives": [
+      "it enhances the flow of air",
+      "it stops all heat transfer",
+      "it changes Celsius into Kelvin",
+      "it removes all molecules"
+    ],
+    "correctAnswer": "it enhances the flow of air",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is the main difference between conduction and convection?",
+    "id": 520,
+    "usageExample": "A hot pan touching your hand is conduction; warm air moving through a room is convection.",
+    "tip": "Compare contact with fluid movement.",
+    "alternatives": [
+      "conduction uses direct contact, while convection uses moving fluid",
+      "conduction uses hormones, while convection uses nerves",
+      "conduction is only temperature scales, while convection is only graphs",
+      "there is no difference"
+    ],
+    "correctAnswer": "conduction uses direct contact, while convection uses moving fluid",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is the main difference between convection and radiation?",
+    "id": 521,
+    "usageExample": "Warm air circulating is convection; sunlight heating Earth is radiation.",
+    "tip": "Look for moving fluid versus rays.",
+    "alternatives": [
+      "convection moves fluid, while radiation uses electromagnetic rays",
+      "convection uses no matter, while radiation uses only direct contact",
+      "both require solid objects touching",
+      "both are temperature scales"
+    ],
+    "correctAnswer": "convection moves fluid, while radiation uses electromagnetic rays",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "What is the main difference between conduction and radiation?",
+    "id": 522,
+    "usageExample": "Touching a stove is conduction; warmth from a fire can be radiation.",
+    "tip": "Contact is conduction; rays are radiation.",
+    "alternatives": [
+      "conduction needs direct contact, while radiation can travel as rays",
+      "conduction uses no matter, while radiation is only fluid movement",
+      "both happen only in thermometers",
+      "both require water to freeze"
+    ],
+    "correctAnswer": "conduction needs direct contact, while radiation can travel as rays",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "If two touching objects are different temperatures, what happens over time?",
+    "id": 523,
+    "usageExample": "Heat continues to transfer between substances until they reach the same temperature.",
+    "tip": "Thermal transfer moves toward equal temperature.",
+    "alternatives": [
+      "thermal energy transfers until their temperatures become the same",
+      "the warmer object always gets warmer",
+      "the cooler object always gets colder",
+      "both objects lose all molecules"
+    ],
+    "correctAnswer": "thermal energy transfers until their temperatures become the same",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Why is heat described as a transfer instead of a substance?",
+    "id": 524,
+    "usageExample": "Heat occurs when thermal energy moves between warmer and cooler objects.",
+    "tip": "Heat is energy in motion between objects.",
+    "alternatives": [
+      "it is thermal energy moving from one object to another",
+      "it is a new kind of matter",
+      "it is stored only in thermometers",
+      "it is the same as mass"
+    ],
+    "correctAnswer": "it is thermal energy moving from one object to another",
+    "version": "v1",
+    "chapter": 14
+  },
+  {
+    "question": "Which chapter 14 idea explains why a cup of hot cocoa cools on a table?",
+    "id": 525,
+    "usageExample": "Hot cocoa cools as heat moves into the cooler cup, table, and air.",
+    "tip": "Heat naturally flows from warmer to cooler.",
+    "alternatives": [
+      "thermal energy transfers from the warmer cocoa to cooler surroundings",
+      "the cocoa loses all molecules",
+      "temperature creates new matter",
+      "Kelvin stops working indoors"
+    ],
+    "correctAnswer": "thermal energy transfers from the warmer cocoa to cooler surroundings",
+    "version": "v1",
+    "chapter": 14
   }
 ]
