@@ -29,6 +29,7 @@ const elements = {
   subjectSelect: hasDocument ? document.querySelector("#subjectSelect") : null,
   subjectOptions: hasDocument ? document.querySelector("#subjectOptions") : null,
   subjectHint: hasDocument ? document.querySelector("#subjectHint") : null,
+  chapterSelectLabel: hasDocument ? document.querySelector("#chapterSelectLabel") : null,
   chapterSelect: hasDocument ? document.querySelector("#chapterSelect") : null,
   chapterOptions: hasDocument ? document.querySelector("#chapterOptions") : null,
   chapterHint: hasDocument ? document.querySelector("#chapterHint") : null,
@@ -47,9 +48,6 @@ const elements = {
   usageText: hasDocument ? document.querySelector("#usageText") : null,
   choicesLabel: hasDocument ? document.querySelector("#choicesLabel") : null,
   alternatives: hasDocument ? document.querySelector("#alternatives") : null,
-  typedAnswerForm: hasDocument ? document.querySelector("#typedAnswerForm") : null,
-  typedAnswer: hasDocument ? document.querySelector("#typedAnswer") : null,
-  typedAnswerButton: hasDocument ? document.querySelector("#typedAnswerButton") : null,
   roundSummary: hasDocument ? document.querySelector("#roundSummary") : null,
   missedSummary: hasDocument ? document.querySelector("#missedSummary") : null,
   feedback: hasDocument ? document.querySelector("#feedback") : null,
@@ -162,18 +160,20 @@ function renderSubjectOptions() {
 
 function renderChapterOptions() {
   const subjectQuestions = getQuestionsForSubject(state.allQuestions, state.selectedSubject);
-  const chapters = getChapterOptions(subjectQuestions);
+  const useUnits = usesUnits(state.selectedSubject);
+  const chapters = useUnits ? getUnitOptions(subjectQuestions) : getChapterOptions(subjectQuestions);
   elements.chapterOptions.innerHTML = "";
+  elements.chapterSelectLabel.textContent = useUnits ? "Choose which unit" : "Chapter";
 
   const allOption = document.createElement("option");
-  allOption.value = "All chapters";
-  allOption.label = `All chapters (${subjectQuestions.length} questions)`;
+  allOption.value = useUnits ? "All units" : "All chapters";
+  allOption.label = `${useUnits ? "All units" : "All chapters"} (${subjectQuestions.length} questions)`;
   elements.chapterOptions.append(allOption);
 
   chapters.forEach(({ chapter, count }) => {
     const option = document.createElement("option");
-    option.value = `Chapter ${chapter}`;
-    option.label = `Chapter ${chapter} (${count} questions)`;
+    option.value = `${useUnits ? "Unit" : "Chapter"} ${chapter}`;
+    option.label = `${useUnits ? "Unit" : "Chapter"} ${chapter} (${count} questions)`;
     elements.chapterOptions.append(option);
   });
 
@@ -181,7 +181,7 @@ function renderChapterOptions() {
     state.selectedChapter === "all" ||
     chapters.some(({ chapter }) => String(chapter) === String(state.selectedChapter));
   state.selectedChapter = hasSelectedChapter ? state.selectedChapter : "all";
-  elements.chapterSelect.value = getChapterInputValue(state.selectedChapter);
+  elements.chapterSelect.value = getChapterInputValue(state.selectedChapter, state.selectedSubject);
   updateChapterHint();
 }
 
@@ -203,7 +203,7 @@ function handleSetupSubmit(event) {
   const playerCount = Number(elements.playerCount.value);
   const selectedQuestionCount = Math.floor(Number(elements.questionCount.value));
   state.selectedSubject = normalizeSubject(elements.subjectSelect.value);
-  state.selectedChapter = normalizeChapter(elements.chapterSelect.value);
+  state.selectedChapter = normalizeChapter(elements.chapterSelect.value, state.selectedSubject);
   const availableQuestions = getSelectedQuestions().length;
 
   if (
@@ -268,7 +268,6 @@ function renderQuestion() {
     elements.usageText.textContent = "Check the JSON file and refresh the page.";
     elements.choicesLabel.classList.add("hidden");
     elements.alternatives.innerHTML = "";
-    elements.typedAnswerForm.classList.add("hidden");
     elements.feedback.classList.add("hidden");
     elements.tipButton.disabled = true;
     elements.nextButton.disabled = true;
@@ -287,10 +286,6 @@ function renderQuestion() {
   elements.questionText.textContent = question.question;
   elements.usageText.textContent = question.usageExample;
   elements.choicesLabel.classList.remove("hidden");
-  elements.typedAnswerForm.classList.remove("hidden");
-  elements.typedAnswer.value = "";
-  elements.typedAnswer.disabled = false;
-  elements.typedAnswerButton.disabled = false;
   setFeedback("Choose the answer that best matches the question.", "");
 
   elements.alternatives.innerHTML = "";
@@ -299,31 +294,17 @@ function renderQuestion() {
     button.className = "answer-button";
     button.type = "button";
     button.textContent = alternative;
-    button.addEventListener("click", () => chooseAnswer(alternative, button));
+    button.addEventListener("click", () => chooseAnswer(button, alternative));
     elements.alternatives.append(button);
   });
 }
 
-function handleTypedAnswerSubmit(event) {
-  event.preventDefault();
-  if (state.locked) return;
-
-  const typedAnswer = elements.typedAnswer.value.trim();
-  if (!typedAnswer) {
-    setFeedback("Type an answer or choose one of the answer choices.", "error");
-    elements.typedAnswer.focus();
-    return;
-  }
-
-  chooseAnswer(typedAnswer);
-}
-
-function chooseAnswer(answerGiven, button = null) {
+function chooseAnswer(button, alternative) {
   if (state.locked) return;
 
   const question = getCurrentQuestion();
   const currentPlayer = getCurrentPlayer();
-  const isCorrect = isCorrectAnswer(answerGiven, question.correctAnswer);
+  const isCorrect = alternative === question.correctAnswer;
   state.locked = true;
   state.answered += 1;
 
@@ -338,7 +319,7 @@ function chooseAnswer(answerGiven, button = null) {
     state.roundMisses.push({
       question: question.question,
       usageExample: question.usageExample,
-      answerGiven,
+      answerGiven: alternative,
       correctAnswer: question.correctAnswer,
       playerName: currentPlayer.name,
     });
@@ -352,13 +333,11 @@ function chooseAnswer(answerGiven, button = null) {
     answerButton.disabled = true;
     if (answerButton.textContent === question.correctAnswer) {
       answerButton.classList.add("correct");
-    } else if (button && answerButton === button) {
+    } else if (answerButton === button) {
       answerButton.classList.add("incorrect");
     }
   });
 
-  elements.typedAnswer.disabled = true;
-  elements.typedAnswerButton.disabled = true;
   elements.nextButton.disabled = false;
   elements.nextButton.textContent = state.answered >= state.queue.length ? "See results" : "Next";
   updateStats();
@@ -407,7 +386,6 @@ function renderScoresView(leaders = getLeaders(state.players)) {
       : `Tie game: ${leaders.map((player) => player.name).join(", ")}.`;
   elements.choicesLabel.classList.add("hidden");
   elements.alternatives.innerHTML = "";
-  elements.typedAnswerForm.classList.add("hidden");
   elements.missedSummary.classList.add("hidden");
   elements.missedSummary.innerHTML = "";
   renderRoundSummary(leaders);
@@ -450,7 +428,6 @@ function renderMissedView() {
       : `${state.roundMisses.length} missed answer${state.roundMisses.length === 1 ? "" : "s"} this round.`;
   elements.choicesLabel.classList.add("hidden");
   elements.alternatives.innerHTML = "";
-  elements.typedAnswerForm.classList.add("hidden");
   elements.roundSummary.classList.add("hidden");
   elements.roundSummary.innerHTML = "";
   elements.feedback.classList.add("hidden");
@@ -570,10 +547,10 @@ function showSetupPanel() {
 }
 
 function getSelectedQuestions() {
-  return getQuestionsForChapter(
-    getQuestionsForSubject(state.allQuestions, state.selectedSubject),
-    state.selectedChapter,
-  );
+  const subjectQuestions = getQuestionsForSubject(state.allQuestions, state.selectedSubject);
+  return usesUnits(state.selectedSubject)
+    ? getQuestionsForUnit(subjectQuestions, state.selectedChapter)
+    : getQuestionsForChapter(subjectQuestions, state.selectedChapter);
 }
 
 function getCurrentQuestion() {
@@ -629,6 +606,18 @@ function getChapterOptions(questions) {
     .map(([chapter, count]) => ({ chapter, count }));
 }
 
+function getUnitOptions(questions) {
+  const counts = questions.reduce((unitCounts, question) => {
+    const unit = getQuestionUnit(question);
+    unitCounts.set(unit, (unitCounts.get(unit) || 0) + 1);
+    return unitCounts;
+  }, new Map());
+
+  return [...counts.entries()]
+    .sort(([unitA], [unitB]) => unitA.localeCompare(unitB, undefined, { numeric: true }))
+    .map(([chapter, count]) => ({ chapter, count }));
+}
+
 function getSubjectOptions(questions) {
   const counts = questions.reduce((subjectCounts, question) => {
     const subject = normalizeSubject(question.subject);
@@ -655,12 +644,27 @@ function getQuestionsForChapter(questions, chapter) {
   return questions.filter((question) => question.chapter === chapterNumber);
 }
 
+function getQuestionsForUnit(questions, unit) {
+  if (unit === "all") return questions;
+  return questions.filter((question) => getQuestionUnit(question) === unit);
+}
+
+function getQuestionUnit(question) {
+  return String(question.unit || question.chapter);
+}
+
 function getModeLabel(subject, chapter) {
   const subjectLabel = getSubjectLabel(subject);
+  if (usesUnits(subject)) {
+    return chapter === "all" ? `${subjectLabel}: all units` : `${subjectLabel}: unit ${chapter}`;
+  }
   return chapter === "all" ? `${subjectLabel}: all chapters` : `${subjectLabel}: chapter ${chapter}`;
 }
 
-function getChapterInputValue(chapter) {
+function getChapterInputValue(chapter, subject = "science") {
+  if (usesUnits(subject)) {
+    return chapter === "all" ? "All units" : `Unit ${chapter}`;
+  }
   return chapter === "all" ? "All chapters" : `Chapter ${chapter}`;
 }
 
@@ -678,11 +682,15 @@ function normalizeSubject(subject) {
     .replace(/\s+/g, "-");
 }
 
-function normalizeChapter(chapter) {
+function normalizeChapter(chapter, subject = "science") {
   const value = String(chapter || "all").trim().toLowerCase();
-  if (!value || value === "all" || value === "all chapters") return "all";
-  const match = value.match(/\d+/);
+  if (!value || value === "all" || value === "all chapters" || value === "all units") return "all";
+  const match = usesUnits(subject) ? value.match(/\d+(?:\.\d+)?/) : value.match(/\d+/);
   return match ? match[0] : "all";
+}
+
+function usesUnits(subject) {
+  return normalizeSubject(subject) === "civics";
 }
 
 function getDefaultQuestionCount(options, target) {
@@ -714,18 +722,6 @@ function setFeedback(message, type) {
   elements.feedback.className = type ? `feedback ${type}` : "feedback";
 }
 
-function isCorrectAnswer(answerGiven, correctAnswer) {
-  return normalizeAnswer(answerGiven) === normalizeAnswer(correctAnswer);
-}
-
-function normalizeAnswer(answer) {
-  return String(answer)
-    .trim()
-    .toLowerCase()
-    .replace(/[’']/g, "'")
-    .replace(/\s+/g, " ");
-}
-
 function shuffle(items) {
   return items
     .map((item) => ({ item, sort: Math.random() }))
@@ -743,7 +739,7 @@ if (hasDocument) {
     state.selectedSubject = normalizeSubject(elements.subjectSelect.value);
     elements.subjectSelect.value = getSubjectLabel(state.selectedSubject);
     state.selectedChapter = "all";
-    elements.chapterSelect.value = getChapterInputValue(state.selectedChapter);
+    elements.chapterSelect.value = getChapterInputValue(state.selectedChapter, state.selectedSubject);
     updateSubjectHint();
     renderChapterOptions();
     renderQuestionCountOptions();
@@ -753,19 +749,20 @@ if (hasDocument) {
     if (getSubjectOptions(state.allQuestions).some(({ subject }) => subject === typedSubject)) {
       state.selectedSubject = typedSubject;
       state.selectedChapter = "all";
+      elements.chapterSelect.value = getChapterInputValue(state.selectedChapter, state.selectedSubject);
       updateSubjectHint();
       renderChapterOptions();
       renderQuestionCountOptions();
     }
   });
   elements.chapterSelect.addEventListener("change", () => {
-    state.selectedChapter = normalizeChapter(elements.chapterSelect.value);
-    elements.chapterSelect.value = getChapterInputValue(state.selectedChapter);
+    state.selectedChapter = normalizeChapter(elements.chapterSelect.value, state.selectedSubject);
+    elements.chapterSelect.value = getChapterInputValue(state.selectedChapter, state.selectedSubject);
     updateChapterHint();
     renderQuestionCountOptions();
   });
   elements.chapterSelect.addEventListener("input", () => {
-    state.selectedChapter = normalizeChapter(elements.chapterSelect.value);
+    state.selectedChapter = normalizeChapter(elements.chapterSelect.value, state.selectedSubject);
     updateChapterHint();
     renderQuestionCountOptions();
   });
@@ -780,7 +777,6 @@ if (hasDocument) {
         : `Type a number that divides evenly by ${playerCount}.`;
   });
   elements.nextButton.addEventListener("click", nextQuestion);
-  elements.typedAnswerForm.addEventListener("submit", handleTypedAnswerSubmit);
   elements.tipButton.addEventListener("click", showTip);
   elements.settingsButton.addEventListener("click", showSetupPanel);
   elements.shuffleButton.addEventListener("click", startPractice);
@@ -796,6 +792,7 @@ if (typeof module !== "undefined") {
     buildPlayers,
     getDefaultQuestionCount,
     getChapterOptions,
+    getUnitOptions,
     getModeLabel,
     getLeaders,
     getRoundSize,
@@ -803,13 +800,14 @@ if (typeof module !== "undefined") {
     getPlayerCountOptions,
     getQuestionCountOptions,
     getQuestionsForChapter,
+    getQuestionsForUnit,
     getQuestionsForSubject,
     getChapterInputValue,
+    getQuestionUnit,
     getSubjectLabel,
     getSubjectOptions,
     getValidQuestionCount,
-    isCorrectAnswer,
     normalizeChapter,
-    normalizeAnswer,
+    usesUnits,
   };
 }

@@ -32,7 +32,7 @@
           </div>
 
           <div class="field-row">
-            <label for="chapterSelect">Chapter</label>
+            <label id="chapterSelectLabel" for="chapterSelect">Chapter</label>
             <input id="chapterSelect" name="chapterSelect" type="text" list="chapterOptions" autocomplete="off" />
             <datalist id="chapterOptions"></datalist>
             <p id="chapterHint" class="field-hint"></p>
@@ -102,14 +102,6 @@
 
           <h2 id="questionText">Loading...</h2>
           <p id="usageText" class="usage"></p>
-
-          <form id="typedAnswerForm" class="typed-answer" aria-label="Type an answer">
-            <label for="typedAnswer">Type your answer</label>
-            <div class="typed-answer-row">
-              <input id="typedAnswer" name="typedAnswer" type="text" autocomplete="off" placeholder="Type your answer here" />
-              <button id="typedAnswerButton" class="secondary-button" type="submit">Check</button>
-            </div>
-          </form>
 
           <p id="choicesLabel" class="choices-label">Answer choices</p>
           <div id="alternatives" class="alternatives" aria-label="Answer choices"></div>

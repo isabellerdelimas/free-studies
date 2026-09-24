@@ -8,17 +8,19 @@ const {
   getLeaders,
   getModeLabel,
   getChapterInputValue,
+  getQuestionUnit,
   getPlayerCountOptions,
   getQuestionCountOptions,
   getQuestionsForChapter,
+  getQuestionsForUnit,
   getQuestionsForSubject,
   getRoundSize,
   getSubjectLabel,
   getSubjectOptions,
+  getUnitOptions,
   getValidQuestionCount,
-  isCorrectAnswer,
   normalizeChapter,
-  normalizeAnswer,
+  usesUnits,
 } = require("../quiz.js");
 
 assert.deepEqual(getPlayerCountOptions(150, 6), [1, 2, 3, 4, 5, 6]);
@@ -51,9 +53,9 @@ assert.deepEqual(getQuestionsForChapter(chapterFixtures, "2"), [
 
 const subjectFixtures = [
   { chapter: 1, question: "A" },
-  { chapter: 1, subject: "civics", question: "B" },
+  { chapter: 1, subject: "civics", unit: "1.3", question: "B" },
   { chapter: 2, subject: "science", question: "C" },
-  { chapter: 1, subject: "civics", question: "D" },
+  { chapter: 1, subject: "civics", unit: "1.3", question: "D" },
 ];
 assert.deepEqual(getSubjectOptions(subjectFixtures), [
   { subject: "science", count: 2 },
@@ -64,18 +66,31 @@ assert.deepEqual(getQuestionsForSubject(subjectFixtures, "science"), [
   { chapter: 2, subject: "science", question: "C" },
 ]);
 assert.deepEqual(getQuestionsForSubject(subjectFixtures, "civics"), [
-  { chapter: 1, subject: "civics", question: "B" },
-  { chapter: 1, subject: "civics", question: "D" },
+  { chapter: 1, subject: "civics", unit: "1.3", question: "B" },
+  { chapter: 1, subject: "civics", unit: "1.3", question: "D" },
+]);
+assert.deepEqual(getUnitOptions(getQuestionsForSubject(subjectFixtures, "civics")), [{ chapter: "1.3", count: 2 }]);
+assert.deepEqual(getQuestionsForUnit(getQuestionsForSubject(subjectFixtures, "civics"), "1.3"), [
+  { chapter: 1, subject: "civics", unit: "1.3", question: "B" },
+  { chapter: 1, subject: "civics", unit: "1.3", question: "D" },
 ]);
 assert.equal(getSubjectLabel("civics"), "Civics");
 assert.equal(getSubjectLabel(undefined), "Science");
 assert.equal(getModeLabel("science", "all"), "Science: all chapters");
-assert.equal(getModeLabel("civics", "1"), "Civics: chapter 1");
+assert.equal(getModeLabel("civics", "1.3"), "Civics: unit 1.3");
 assert.equal(getChapterInputValue("all"), "All chapters");
 assert.equal(getChapterInputValue("14"), "Chapter 14");
+assert.equal(getChapterInputValue("all", "civics"), "All units");
+assert.equal(getChapterInputValue("1.3", "civics"), "Unit 1.3");
 assert.equal(normalizeChapter("Chapter 14"), "14");
 assert.equal(normalizeChapter("14"), "14");
+assert.equal(normalizeChapter("Unit 1.3", "civics"), "1.3");
+assert.equal(normalizeChapter("1.3", "civics"), "1.3");
 assert.equal(normalizeChapter("All chapters"), "all");
+assert.equal(normalizeChapter("All units", "civics"), "all");
+assert.equal(getQuestionUnit({ chapter: 1, subject: "civics", unit: "1.3" }), "1.3");
+assert.equal(usesUnits("civics"), true);
+assert.equal(usesUnits("science"), false);
 
 assert.deepEqual(buildPlayers(1, [""]), [{ name: "You", score: 0 }]);
 assert.deepEqual(buildPlayers(3, ["Ana", "", "Mia"]), [
@@ -96,9 +111,5 @@ assert.deepEqual(
 assert.equal(formatPossessive("You"), "Your");
 assert.equal(formatPossessive("Ana"), "Ana's");
 assert.equal(formatPossessive("James"), "James'");
-
-assert.equal(normalizeAnswer("  The   STATES  "), "the states");
-assert.equal(isCorrectAnswer(" The states ", "the states"), true);
-assert.equal(isCorrectAnswer("the president", "the states"), false);
 
 console.log("multiplayer helper tests passed");
