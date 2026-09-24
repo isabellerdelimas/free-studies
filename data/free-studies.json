@@ -8273,5 +8273,405 @@
     "version": "v1",
     "chapter": 1,
     "subject": "civics"
+  },
+  {
+    "question": "What does \u201crepealed\u201d mean when talking about a law?",
+    "id": 551,
+    "usageExample": "The Sugar Act was repealed after colonial protest.",
+    "tip": "Repeal means to cancel or end a law.",
+    "alternatives": [
+      "ended or taken back",
+      "made more powerful",
+      "sent to trial",
+      "taxed without consent"
+    ],
+    "correctAnswer": "ended or taken back",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "In the notes, what did colonists do to protest the Sugar Act?",
+    "id": 552,
+    "usageExample": "Colonists refused to buy some British goods as a form of protest.",
+    "tip": "A boycott is a refusal to buy or use something.",
+    "alternatives": [
+      "boycotted British goods",
+      "joined Parliament",
+      "closed Boston Harbor",
+      "wrote the Articles of Confederation"
+    ],
+    "correctAnswer": "boycotted British goods",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Why did \u201cNo taxation without representation\u201d matter to colonists?",
+    "id": 553,
+    "usageExample": "The slogan was used against laws such as the Stamp Act.",
+    "tip": "Representation means having someone speak for you in government.",
+    "alternatives": [
+      "they believed taxes were unfair without a voice in Parliament",
+      "they wanted higher taxes on tea",
+      "they wanted British soldiers in homes",
+      "they wanted Parliament to choose state governors"
+    ],
+    "correctAnswer": "they believed taxes were unfair without a voice in Parliament",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which act came directly after the Sugar Act in the notes?",
+    "id": 554,
+    "usageExample": "The notes list the Sugar Act in 1764 and the Stamp Act in 1765.",
+    "tip": "Look at the timeline order.",
+    "alternatives": [
+      "Stamp Act",
+      "Tea Act",
+      "Intolerable Acts",
+      "Articles of Confederation"
+    ],
+    "correctAnswer": "Stamp Act",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which act came directly after the Stamp Act in the notes?",
+    "id": 555,
+    "usageExample": "The Declaratory Act was listed as 1766 after the 1765 Stamp Act.",
+    "tip": "The next year after 1765 was 1766.",
+    "alternatives": [
+      "Declaratory Act",
+      "Quartering Act",
+      "Boston Tea Party",
+      "Constitution"
+    ],
+    "correctAnswer": "Declaratory Act",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What does tyranny mean in the civics notes?",
+    "id": 556,
+    "usageExample": "The Declaratory Act was described as creating tyranny or absolute rule in the colonies.",
+    "tip": "Tyranny means harsh rule with too much power.",
+    "alternatives": [
+      "absolute or unfair rule",
+      "a peaceful vote",
+      "a type of boycott",
+      "a court jury"
+    ],
+    "correctAnswer": "absolute or unfair rule",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which British act was connected to the Boston Tea Party?",
+    "id": 557,
+    "usageExample": "The notes say the Boston Tea Party happened because of the Tea Act.",
+    "tip": "The clue is tea.",
+    "alternatives": [
+      "Tea Act",
+      "Sugar Act",
+      "Stamp Act",
+      "Declaratory Act"
+    ],
+    "correctAnswer": "Tea Act",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Why were colonists angry about the Tea Act even though it was not a direct tax?",
+    "id": 558,
+    "usageExample": "The Tea Act let the British East India Company avoid paying tax.",
+    "tip": "Colonists saw the tea policy as unfair.",
+    "alternatives": [
+      "it gave the British East India Company a tax advantage",
+      "it created America\u2019s first constitution",
+      "it let states collect taxes",
+      "it gave colonists trial by jury"
+    ],
+    "correctAnswer": "it gave the British East India Company a tax advantage",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What was one economic effect of closing Boston Harbor?",
+    "id": 559,
+    "usageExample": "The harbor closing blocked trade as punishment for the Boston Tea Party.",
+    "tip": "Harbors are important for trade.",
+    "alternatives": [
+      "it cut off trade",
+      "it increased colonial voting rights",
+      "it made the national government stronger",
+      "it created a Bill of Rights"
+    ],
+    "correctAnswer": "it cut off trade",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What did the Massachusetts Government Act do to town meetings in Boston?",
+    "id": 560,
+    "usageExample": "The notes say meetings in Boston became illegal unless the British gave permission.",
+    "tip": "This limited self-government.",
+    "alternatives": [
+      "made meetings illegal without British permission",
+      "required all meetings to be held at sea",
+      "gave colonists seats in Parliament",
+      "ended the Boston Tea Party"
+    ],
+    "correctAnswer": "made meetings illegal without British permission",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Why did colonists dislike the Quartering Act?",
+    "id": 561,
+    "usageExample": "Quartering is the housing of British soldiers in private homes.",
+    "tip": "Quartering is about lodging soldiers.",
+    "alternatives": [
+      "it could force them to house British soldiers",
+      "it ended all British taxes",
+      "it created state constitutions",
+      "it protected trade with the world"
+    ],
+    "correctAnswer": "it could force them to house British soldiers",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which grievance accused Britain of protecting soldiers from punishment?",
+    "id": 562,
+    "usageExample": "The notes quote a grievance about soldiers avoiding punishment after murders.",
+    "tip": "A mock trial means a fake or unfair trial.",
+    "alternatives": [
+      "protecting them by a mock trial",
+      "refusing to buy tea",
+      "creating a confederal system",
+      "adding a Bill of Rights"
+    ],
+    "correctAnswer": "protecting them by a mock trial",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which grievance complained that Britain changed colonial governments?",
+    "id": 563,
+    "usageExample": "The Declaration listed complaints about charters, laws, and forms of government.",
+    "tip": "Charters were important legal documents for colonial governments.",
+    "alternatives": [
+      "taking away charters and altering forms of government",
+      "giving colonies more votes",
+      "letting states collect taxes",
+      "allowing free trade everywhere"
+    ],
+    "correctAnswer": "taking away charters and altering forms of government",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which grievance complained that colonial legislatures were suspended?",
+    "id": 564,
+    "usageExample": "One grievance said Britain suspended legislatures and claimed power to legislate for them.",
+    "tip": "A legislature makes laws.",
+    "alternatives": [
+      "Britain claimed power to legislate for the colonies",
+      "colonists gained more control of taxes",
+      "states got too much power under the Constitution",
+      "the Bill of Rights was added too early"
+    ],
+    "correctAnswer": "Britain claimed power to legislate for the colonies",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What type of government system did the Articles of Confederation create?",
+    "id": 565,
+    "usageExample": "The Articles of Confederation gave more power to the states.",
+    "tip": "A confederal system keeps power mostly with the states.",
+    "alternatives": [
+      "confederal system",
+      "absolute monarchy",
+      "unitary system with no states",
+      "direct democracy with no laws"
+    ],
+    "correctAnswer": "confederal system",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Why was passing laws difficult under the Articles of Confederation?",
+    "id": 566,
+    "usageExample": "The notes say the Articles were too rigid because 9 of 13 states were needed to pass a law.",
+    "tip": "The requirement made action slow.",
+    "alternatives": [
+      "9 of 13 states had to agree",
+      "one governor had to approve every law",
+      "the British king had to sign them",
+      "only courts could write laws"
+    ],
+    "correctAnswer": "9 of 13 states had to agree",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Why was changing the Articles of Confederation very difficult?",
+    "id": 567,
+    "usageExample": "The notes say all 13 states were needed to change the Articles.",
+    "tip": "Unanimous agreement is hard to get.",
+    "alternatives": [
+      "all 13 states had to agree",
+      "only one state had to agree",
+      "the president could change them alone",
+      "Parliament could change them anytime"
+    ],
+    "correctAnswer": "all 13 states had to agree",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Why could the national government not enforce laws under the Articles?",
+    "id": 568,
+    "usageExample": "The Articles did not create an executive branch strong enough to enforce laws.",
+    "tip": "The executive branch carries out laws.",
+    "alternatives": [
+      "there was no executive branch",
+      "there were too many presidents",
+      "states had no power",
+      "there was no trade"
+    ],
+    "correctAnswer": "there was no executive branch",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Why could the national government not settle legal disputes under the Articles?",
+    "id": 569,
+    "usageExample": "The notes say there was no judicial branch to settle legal disputes.",
+    "tip": "The judicial branch handles courts and disputes.",
+    "alternatives": [
+      "there was no judicial branch",
+      "there was no legislative branch",
+      "there were too many taxes",
+      "the Tea Act was repealed"
+    ],
+    "correctAnswer": "there was no judicial branch",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What did Federalists think about the Bill of Rights at first?",
+    "id": 570,
+    "usageExample": "Federalists supported a new Constitution and did not believe a Bill of Rights was necessary at first.",
+    "tip": "Federalists trusted the stronger national framework more.",
+    "alternatives": [
+      "they did not think it was needed",
+      "they refused any new constitution unless it was added",
+      "they wanted only state governments",
+      "they wanted to keep the Articles unchanged"
+    ],
+    "correctAnswer": "they did not think it was needed",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What did Anti-Federalists want to do with the Articles of Confederation?",
+    "id": 571,
+    "usageExample": "Anti-Federalists wanted to adjust the Articles and protect rights.",
+    "tip": "They were cautious about a brand-new Constitution.",
+    "alternatives": [
+      "tweak them instead of replacing them",
+      "throw away all state power",
+      "give Britain control again",
+      "close Boston Harbor"
+    ],
+    "correctAnswer": "tweak them instead of replacing them",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What condition helped Anti-Federalists agree to the new Constitution?",
+    "id": 572,
+    "usageExample": "The notes say Anti-Federalists only agreed if a Bill of Rights was added.",
+    "tip": "The Bill of Rights protects individual rights.",
+    "alternatives": [
+      "adding a Bill of Rights",
+      "ending all state governments",
+      "bringing back the Tea Act",
+      "removing individual rights"
+    ],
+    "correctAnswer": "adding a Bill of Rights",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which group supported a strong national government?",
+    "id": 573,
+    "usageExample": "Federalists believed the new Constitution should create a strong national government.",
+    "tip": "Federal has to do with national government power.",
+    "alternatives": [
+      "Federalists",
+      "Anti-Federalists",
+      "British East India Company",
+      "Sons of Parliament"
+    ],
+    "correctAnswer": "Federalists",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which group emphasized states\u2019 rights?",
+    "id": 574,
+    "usageExample": "Anti-Federalists believed in states\u2019 rights and individual rights.",
+    "tip": "Anti-Federalists feared too much central power.",
+    "alternatives": [
+      "Anti-Federalists",
+      "Federalists",
+      "British soldiers",
+      "tax collectors only"
+    ],
+    "correctAnswer": "Anti-Federalists",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which document replaced the Articles of Confederation?",
+    "id": 575,
+    "usageExample": "Federalists supported a new Constitution because the Articles made the national government too weak.",
+    "tip": "The Constitution created the current federal system.",
+    "alternatives": [
+      "the U.S. Constitution",
+      "the Tea Act",
+      "the Townshend Acts",
+      "the Proclamation Line"
+    ],
+    "correctAnswer": "the U.S. Constitution",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
   }
 ]
