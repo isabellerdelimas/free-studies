@@ -7,6 +7,7 @@ const {
   getDefaultQuestionCount,
   getLeaders,
   getModeLabel,
+  getChapterInputValue,
   getPlayerCountOptions,
   getQuestionCountOptions,
   getQuestionsForChapter,
@@ -14,7 +15,9 @@ const {
   getRoundSize,
   getSubjectLabel,
   getSubjectOptions,
+  getValidQuestionCount,
   isCorrectAnswer,
+  normalizeChapter,
   normalizeAnswer,
 } = require("../quiz.js");
 
@@ -25,6 +28,8 @@ assert.deepEqual(getQuestionCountOptions(10, 1), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 assert.deepEqual(getQuestionCountOptions(10, 3), [3, 6, 9]);
 assert.equal(getDefaultQuestionCount(getQuestionCountOptions(10, 1), 4), 4);
 assert.equal(getDefaultQuestionCount(getQuestionCountOptions(10, 3), 4), 6);
+assert.equal(getValidQuestionCount(8, [3, 6, 9], 6), 6);
+assert.equal(getValidQuestionCount(9, [3, 6, 9], 6), 9);
 assert.equal(getRoundSize(150, 6, 3), 6);
 assert.equal(getRoundSize(5, 6, 3), 3);
 assert.equal(getRoundSize(2, 6, 3), 0);
@@ -66,6 +71,11 @@ assert.equal(getSubjectLabel("civics"), "Civics");
 assert.equal(getSubjectLabel(undefined), "Science");
 assert.equal(getModeLabel("science", "all"), "Science: all chapters");
 assert.equal(getModeLabel("civics", "1"), "Civics: chapter 1");
+assert.equal(getChapterInputValue("all"), "All chapters");
+assert.equal(getChapterInputValue("14"), "Chapter 14");
+assert.equal(normalizeChapter("Chapter 14"), "14");
+assert.equal(normalizeChapter("14"), "14");
+assert.equal(normalizeChapter("All chapters"), "all");
 
 assert.deepEqual(buildPlayers(1, [""]), [{ name: "You", score: 0 }]);
 assert.deepEqual(buildPlayers(3, ["Ana", "", "Mia"]), [

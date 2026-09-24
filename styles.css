@@ -145,6 +145,7 @@ h1 {
 }
 
 .field-row select,
+.field-row input,
 .player-field input,
 .typed-answer input {
   width: 100%;
@@ -159,6 +160,7 @@ h1 {
 }
 
 .field-row select:focus-visible,
+.field-row input:focus-visible,
 .player-field input:focus-visible,
 .typed-answer input:focus-visible {
   border-color: var(--accent);
@@ -278,11 +280,15 @@ h2 {
 .typed-answer {
   display: grid;
   gap: 8px;
-  margin: 0 0 18px;
+  margin: 18px 0;
+  padding: 16px;
+  border: 2px solid rgba(15, 118, 110, 0.22);
+  border-radius: 8px;
+  background: var(--accent-soft);
 }
 
 .typed-answer label {
-  color: var(--muted);
+  color: var(--accent-strong);
   font-size: 0.82rem;
   font-weight: 850;
   text-transform: uppercase;
@@ -292,6 +298,23 @@ h2 {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 10px;
+}
+
+.typed-answer input {
+  min-height: 54px;
+  font-size: 1.06rem;
+}
+
+.typed-answer input:disabled {
+  opacity: 0.72;
+}
+
+.typed-answer input::placeholder {
+  color: #65736f;
+}
+
+.typed-answer .secondary-button {
+  min-width: 96px;
 }
 
 .round-summary,
