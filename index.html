@@ -25,6 +25,12 @@
           <div id="playerFields" class="player-fields" aria-label="Player names"></div>
 
           <div class="field-row">
+            <label for="subjectSelect">Subject</label>
+            <select id="subjectSelect" name="subjectSelect"></select>
+            <p id="subjectHint" class="field-hint"></p>
+          </div>
+
+          <div class="field-row">
             <label for="chapterSelect">Chapter</label>
             <select id="chapterSelect" name="chapterSelect"></select>
             <p id="chapterHint" class="field-hint"></p>
@@ -48,7 +54,7 @@
         <header class="topbar">
           <div>
             <p class="eyebrow">Free Studies</p>
-            <h1>Practice science questions</h1>
+            <h1>Practice questions</h1>
           </div>
           <div class="score-grid" aria-label="Quiz statistics">
             <div>
@@ -95,7 +101,16 @@
           <h2 id="questionText">Loading...</h2>
           <p id="usageText" class="usage"></p>
 
+          <p id="choicesLabel" class="choices-label">Answer choices</p>
           <div id="alternatives" class="alternatives" aria-label="Answer choices"></div>
+
+          <form id="typedAnswerForm" class="typed-answer" aria-label="Type an answer">
+            <label for="typedAnswer">Type your answer</label>
+            <div class="typed-answer-row">
+              <input id="typedAnswer" name="typedAnswer" type="text" autocomplete="off" placeholder="Type here if you need to" />
+              <button id="typedAnswerButton" class="secondary-button" type="submit">Check</button>
+            </div>
+          </form>
           <div id="roundSummary" class="round-summary hidden" aria-label="Final scores"></div>
           <div id="missedSummary" class="missed-summary hidden" aria-label="Missed answers"></div>
 

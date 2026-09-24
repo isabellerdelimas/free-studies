@@ -16,6 +16,7 @@ const state = {
   locked: false,
   completed: false,
   selectedQuestionCount: 0,
+  selectedSubject: "science",
   selectedChapter: "all",
 };
 
@@ -25,6 +26,8 @@ const elements = {
   setupForm: hasDocument ? document.querySelector("#setupForm") : null,
   playerCount: hasDocument ? document.querySelector("#playerCount") : null,
   playerFields: hasDocument ? document.querySelector("#playerFields") : null,
+  subjectSelect: hasDocument ? document.querySelector("#subjectSelect") : null,
+  subjectHint: hasDocument ? document.querySelector("#subjectHint") : null,
   chapterSelect: hasDocument ? document.querySelector("#chapterSelect") : null,
   chapterHint: hasDocument ? document.querySelector("#chapterHint") : null,
   questionCount: hasDocument ? document.querySelector("#questionCount") : null,
@@ -40,7 +43,11 @@ const elements = {
   modeLabel: hasDocument ? document.querySelector("#modeLabel") : null,
   questionText: hasDocument ? document.querySelector("#questionText") : null,
   usageText: hasDocument ? document.querySelector("#usageText") : null,
+  choicesLabel: hasDocument ? document.querySelector("#choicesLabel") : null,
   alternatives: hasDocument ? document.querySelector("#alternatives") : null,
+  typedAnswerForm: hasDocument ? document.querySelector("#typedAnswerForm") : null,
+  typedAnswer: hasDocument ? document.querySelector("#typedAnswer") : null,
+  typedAnswerButton: hasDocument ? document.querySelector("#typedAnswerButton") : null,
   roundSummary: hasDocument ? document.querySelector("#roundSummary") : null,
   missedSummary: hasDocument ? document.querySelector("#missedSummary") : null,
   feedback: hasDocument ? document.querySelector("#feedback") : null,
@@ -77,6 +84,7 @@ function initializeSetup() {
 
   elements.playerCount.value = "1";
   renderPlayerFields();
+  renderSubjectOptions();
   renderChapterOptions();
   renderQuestionCountOptions();
 }
@@ -132,13 +140,33 @@ function renderQuestionCountOptions() {
       : `${questionsEach} turn${questionsEach === 1 ? "" : "s"} per player.`;
 }
 
+function renderSubjectOptions() {
+  const subjects = getSubjectOptions(state.allQuestions);
+  const previousSubject = state.selectedSubject;
+  elements.subjectSelect.innerHTML = "";
+
+  subjects.forEach(({ subject, count }) => {
+    const option = document.createElement("option");
+    option.value = subject;
+    option.textContent = `${getSubjectLabel(subject)} (${count} questions)`;
+    elements.subjectSelect.append(option);
+  });
+
+  state.selectedSubject = subjects.some(({ subject }) => subject === previousSubject)
+    ? previousSubject
+    : subjects[0]?.subject || "science";
+  elements.subjectSelect.value = state.selectedSubject;
+  updateSubjectHint();
+}
+
 function renderChapterOptions() {
-  const chapters = getChapterOptions(state.allQuestions);
+  const subjectQuestions = getQuestionsForSubject(state.allQuestions, state.selectedSubject);
+  const chapters = getChapterOptions(subjectQuestions);
   elements.chapterSelect.innerHTML = "";
 
   const allOption = document.createElement("option");
   allOption.value = "all";
-  allOption.textContent = `All chapters (${state.allQuestions.length} questions)`;
+  allOption.textContent = `All chapters (${subjectQuestions.length} questions)`;
   elements.chapterSelect.append(allOption);
 
   chapters.forEach(({ chapter, count }) => {
@@ -148,8 +176,19 @@ function renderChapterOptions() {
     elements.chapterSelect.append(option);
   });
 
+  const hasSelectedChapter =
+    state.selectedChapter === "all" ||
+    chapters.some(({ chapter }) => String(chapter) === String(state.selectedChapter));
+  state.selectedChapter = hasSelectedChapter ? state.selectedChapter : "all";
   elements.chapterSelect.value = state.selectedChapter;
   updateChapterHint();
+}
+
+function updateSubjectHint() {
+  const count = getQuestionsForSubject(state.allQuestions, state.selectedSubject).length;
+  elements.subjectHint.textContent = `${count} ${getSubjectLabel(state.selectedSubject).toLowerCase()} question${
+    count === 1 ? "" : "s"
+  } available.`;
 }
 
 function updateChapterHint() {
@@ -162,6 +201,7 @@ function handleSetupSubmit(event) {
 
   const playerCount = Number(elements.playerCount.value);
   const selectedQuestionCount = Number(elements.questionCount.value);
+  state.selectedSubject = elements.subjectSelect.value;
   state.selectedChapter = elements.chapterSelect.value;
 
   if (!Number.isInteger(selectedQuestionCount) || selectedQuestionCount % playerCount !== 0) {
@@ -216,10 +256,12 @@ function renderQuestion() {
   if (state.queue.length === 0) {
     elements.questionNumber.textContent = "No questions";
     elements.turnLabel.textContent = "";
-    elements.modeLabel.textContent = getChapterLabel(state.selectedChapter);
+    elements.modeLabel.textContent = getModeLabel(state.selectedSubject, state.selectedChapter);
     elements.questionText.textContent = "No questions found";
     elements.usageText.textContent = "Check the JSON file and refresh the page.";
+    elements.choicesLabel.classList.add("hidden");
     elements.alternatives.innerHTML = "";
+    elements.typedAnswerForm.classList.add("hidden");
     elements.feedback.classList.add("hidden");
     elements.tipButton.disabled = true;
     elements.nextButton.disabled = true;
@@ -234,9 +276,14 @@ function renderQuestion() {
   elements.nextButton.textContent = "Next";
   elements.questionNumber.textContent = `Question ${state.currentIndex + 1}`;
   elements.turnLabel.textContent = `${formatPossessive(getCurrentPlayer().name)} turn`;
-  elements.modeLabel.textContent = getChapterLabel(state.selectedChapter);
+  elements.modeLabel.textContent = getModeLabel(state.selectedSubject, state.selectedChapter);
   elements.questionText.textContent = question.question;
   elements.usageText.textContent = question.usageExample;
+  elements.choicesLabel.classList.remove("hidden");
+  elements.typedAnswerForm.classList.remove("hidden");
+  elements.typedAnswer.value = "";
+  elements.typedAnswer.disabled = false;
+  elements.typedAnswerButton.disabled = false;
   setFeedback("Choose the answer that best matches the question.", "");
 
   elements.alternatives.innerHTML = "";
@@ -245,17 +292,31 @@ function renderQuestion() {
     button.className = "answer-button";
     button.type = "button";
     button.textContent = alternative;
-    button.addEventListener("click", () => chooseAnswer(button, alternative));
+    button.addEventListener("click", () => chooseAnswer(alternative, button));
     elements.alternatives.append(button);
   });
 }
 
-function chooseAnswer(button, alternative) {
+function handleTypedAnswerSubmit(event) {
+  event.preventDefault();
+  if (state.locked) return;
+
+  const typedAnswer = elements.typedAnswer.value.trim();
+  if (!typedAnswer) {
+    setFeedback("Type an answer or choose one of the answer choices.", "error");
+    elements.typedAnswer.focus();
+    return;
+  }
+
+  chooseAnswer(typedAnswer);
+}
+
+function chooseAnswer(answerGiven, button = null) {
   if (state.locked) return;
 
   const question = getCurrentQuestion();
   const currentPlayer = getCurrentPlayer();
-  const isCorrect = alternative === question.correctAnswer;
+  const isCorrect = isCorrectAnswer(answerGiven, question.correctAnswer);
   state.locked = true;
   state.answered += 1;
 
@@ -270,7 +331,7 @@ function chooseAnswer(button, alternative) {
     state.roundMisses.push({
       question: question.question,
       usageExample: question.usageExample,
-      answerGiven: alternative,
+      answerGiven,
       correctAnswer: question.correctAnswer,
       playerName: currentPlayer.name,
     });
@@ -284,11 +345,13 @@ function chooseAnswer(button, alternative) {
     answerButton.disabled = true;
     if (answerButton.textContent === question.correctAnswer) {
       answerButton.classList.add("correct");
-    } else if (answerButton === button) {
+    } else if (button && answerButton === button) {
       answerButton.classList.add("incorrect");
     }
   });
 
+  elements.typedAnswer.disabled = true;
+  elements.typedAnswerButton.disabled = true;
   elements.nextButton.disabled = false;
   elements.nextButton.textContent = state.answered >= state.queue.length ? "See results" : "Next";
   updateStats();
@@ -335,7 +398,9 @@ function renderScoresView(leaders = getLeaders(state.players)) {
     leaders.length === 1
       ? `${leaders[0].name} wins with ${leaders[0].score} point${leaders[0].score === 1 ? "" : "s"}.`
       : `Tie game: ${leaders.map((player) => player.name).join(", ")}.`;
+  elements.choicesLabel.classList.add("hidden");
   elements.alternatives.innerHTML = "";
+  elements.typedAnswerForm.classList.add("hidden");
   elements.missedSummary.classList.add("hidden");
   elements.missedSummary.innerHTML = "";
   renderRoundSummary(leaders);
@@ -376,7 +441,9 @@ function renderMissedView() {
     state.roundMisses.length === 0
       ? "No missed answers this round."
       : `${state.roundMisses.length} missed answer${state.roundMisses.length === 1 ? "" : "s"} this round.`;
+  elements.choicesLabel.classList.add("hidden");
   elements.alternatives.innerHTML = "";
+  elements.typedAnswerForm.classList.add("hidden");
   elements.roundSummary.classList.add("hidden");
   elements.roundSummary.innerHTML = "";
   elements.feedback.classList.add("hidden");
@@ -496,7 +563,10 @@ function showSetupPanel() {
 }
 
 function getSelectedQuestions() {
-  return getQuestionsForChapter(state.allQuestions, state.selectedChapter);
+  return getQuestionsForChapter(
+    getQuestionsForSubject(state.allQuestions, state.selectedSubject),
+    state.selectedChapter,
+  );
 }
 
 function getCurrentQuestion() {
@@ -543,14 +613,46 @@ function getChapterOptions(questions) {
     .map(([chapter, count]) => ({ chapter, count }));
 }
 
+function getSubjectOptions(questions) {
+  const counts = questions.reduce((subjectCounts, question) => {
+    const subject = normalizeSubject(question.subject);
+    subjectCounts.set(subject, (subjectCounts.get(subject) || 0) + 1);
+    return subjectCounts;
+  }, new Map());
+
+  return [...counts.entries()]
+    .sort(([subjectA], [subjectB]) => {
+      if (subjectA === "science") return -1;
+      if (subjectB === "science") return 1;
+      return subjectA.localeCompare(subjectB);
+    })
+    .map(([subject, count]) => ({ subject, count }));
+}
+
+function getQuestionsForSubject(questions, subject) {
+  return questions.filter((question) => normalizeSubject(question.subject) === subject);
+}
+
 function getQuestionsForChapter(questions, chapter) {
   if (chapter === "all") return questions;
   const chapterNumber = Number(chapter);
   return questions.filter((question) => question.chapter === chapterNumber);
 }
 
-function getChapterLabel(chapter) {
-  return chapter === "all" ? "All chapters" : `Chapter ${chapter}`;
+function getModeLabel(subject, chapter) {
+  const subjectLabel = getSubjectLabel(subject);
+  return chapter === "all" ? `${subjectLabel}: all chapters` : `${subjectLabel}: chapter ${chapter}`;
+}
+
+function getSubjectLabel(subject) {
+  return normalizeSubject(subject)
+    .split("-")
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+function normalizeSubject(subject) {
+  return subject || "science";
 }
 
 function getDefaultQuestionCount(options, target) {
@@ -582,6 +684,18 @@ function setFeedback(message, type) {
   elements.feedback.className = type ? `feedback ${type}` : "feedback";
 }
 
+function isCorrectAnswer(answerGiven, correctAnswer) {
+  return normalizeAnswer(answerGiven) === normalizeAnswer(correctAnswer);
+}
+
+function normalizeAnswer(answer) {
+  return String(answer)
+    .trim()
+    .toLowerCase()
+    .replace(/[’']/g, "'")
+    .replace(/\s+/g, " ");
+}
+
 function shuffle(items) {
   return items
     .map((item) => ({ item, sort: Math.random() }))
@@ -595,6 +709,13 @@ if (hasDocument) {
     renderPlayerFields();
     renderQuestionCountOptions();
   });
+  elements.subjectSelect.addEventListener("change", () => {
+    state.selectedSubject = elements.subjectSelect.value;
+    state.selectedChapter = "all";
+    updateSubjectHint();
+    renderChapterOptions();
+    renderQuestionCountOptions();
+  });
   elements.chapterSelect.addEventListener("change", () => {
     state.selectedChapter = elements.chapterSelect.value;
     updateChapterHint();
@@ -602,6 +723,7 @@ if (hasDocument) {
   });
   elements.questionCount.addEventListener("change", renderQuestionCountOptions);
   elements.nextButton.addEventListener("click", nextQuestion);
+  elements.typedAnswerForm.addEventListener("submit", handleTypedAnswerSubmit);
   elements.tipButton.addEventListener("click", showTip);
   elements.settingsButton.addEventListener("click", showSetupPanel);
   elements.shuffleButton.addEventListener("click", startPractice);
@@ -617,11 +739,17 @@ if (typeof module !== "undefined") {
     buildPlayers,
     getDefaultQuestionCount,
     getChapterOptions,
+    getModeLabel,
     getLeaders,
     getRoundSize,
     formatPossessive,
     getPlayerCountOptions,
     getQuestionCountOptions,
     getQuestionsForChapter,
+    getQuestionsForSubject,
+    getSubjectLabel,
+    getSubjectOptions,
+    isCorrectAnswer,
+    normalizeAnswer,
   };
 }

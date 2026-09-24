@@ -7873,5 +7873,405 @@
     "correctAnswer": "thermal energy transfers from the warmer cocoa to cooler surroundings",
     "version": "v1",
     "chapter": 14
+  },
+  {
+    "question": "What does a grievance mean in civics?",
+    "id": 526,
+    "usageExample": "The Declaration of Independence listed grievances against the king.",
+    "tip": "A grievance is something people complain about as unfair.",
+    "alternatives": [
+      "a complaint",
+      "a celebration",
+      "a tax refund",
+      "a law that ends debate"
+    ],
+    "correctAnswer": "a complaint",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What did the Proclamation Line of 1763 prevent colonists from doing?",
+    "id": 527,
+    "usageExample": "The Proclamation Line limited where colonists could move after the French and Indian War.",
+    "tip": "It was a boundary line for colonial settlement.",
+    "alternatives": [
+      "settling west of the line",
+      "voting in Parliament",
+      "buying tea from Britain",
+      "forming state governments"
+    ],
+    "correctAnswer": "settling west of the line",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which English Bill of Rights idea was connected to the Proclamation Line notes?",
+    "id": 528,
+    "usageExample": "The notes connect the Proclamation Line to a complaint about standing armies in peacetime.",
+    "tip": "A standing army is a permanent army.",
+    "alternatives": [
+      "no standing armies during a time of peace",
+      "trial by jury for every tax collector",
+      "freedom from all trade",
+      "the right to write a constitution"
+    ],
+    "correctAnswer": "no standing armies during a time of peace",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What was the Sugar Act?",
+    "id": 529,
+    "usageExample": "Colonists boycotted British goods in response to acts like the Sugar Act.",
+    "tip": "The Sugar Act was one of the early British tax laws.",
+    "alternatives": [
+      "a British law that taxed sugar and molasses",
+      "a colonial law that ended all taxes",
+      "a plan to write the Constitution",
+      "a law closing Boston Harbor"
+    ],
+    "correctAnswer": "a British law that taxed sugar and molasses",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What does boycott mean?",
+    "id": 530,
+    "usageExample": "Colonists boycotted British goods to protest unfair laws.",
+    "tip": "A boycott is a refusal used as protest.",
+    "alternatives": [
+      "to refuse to buy or use something",
+      "to house soldiers",
+      "to write a charter",
+      "to vote for a governor"
+    ],
+    "correctAnswer": "to refuse to buy or use something",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What slogan did colonists use against British taxes?",
+    "id": 531,
+    "usageExample": "Colonists objected to being taxed when they had no representatives in Parliament.",
+    "tip": "Representation means having someone speak and vote for you in government.",
+    "alternatives": [
+      "No taxation without representation",
+      "All power to Parliament",
+      "No trade without soldiers",
+      "Tea must be taxed twice"
+    ],
+    "correctAnswer": "No taxation without representation",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What year was the Stamp Act passed?",
+    "id": 532,
+    "usageExample": "The Stamp Act was a 1765 law that angered colonists.",
+    "tip": "The Stamp Act came after the Sugar Act.",
+    "alternatives": [
+      "1765",
+      "1763",
+      "1773",
+      "1787"
+    ],
+    "correctAnswer": "1765",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Why did colonists object to the Stamp Act?",
+    "id": 533,
+    "usageExample": "The notes connect the Stamp Act to \u201cNo taxation without representation.\u201d",
+    "tip": "The key complaint was taxation without a voice in government.",
+    "alternatives": [
+      "they were taxed without representation in Parliament",
+      "it gave states too much power",
+      "it created the Bill of Rights",
+      "it ended the Boston Tea Party"
+    ],
+    "correctAnswer": "they were taxed without representation in Parliament",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What was the Declaratory Act?",
+    "id": 534,
+    "usageExample": "The notes describe the Declaratory Act as creating tyranny or absolute rule in the colonies.",
+    "tip": "Declaratory means Britain declared its power.",
+    "alternatives": [
+      "a British law claiming authority over the colonies",
+      "a colonial constitution",
+      "a law that created trial by jury",
+      "a boycott of British tea"
+    ],
+    "correctAnswer": "a British law claiming authority over the colonies",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What year was the Declaratory Act passed?",
+    "id": 535,
+    "usageExample": "The Declaratory Act came after the Stamp Act was repealed.",
+    "tip": "It was passed in 1766.",
+    "alternatives": [
+      "1766",
+      "1764",
+      "1774",
+      "1781"
+    ],
+    "correctAnswer": "1766",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What grievance was connected to the Townshend Acts in the notes?",
+    "id": 536,
+    "usageExample": "The notes quote a complaint about losing the benefits of trial by jury.",
+    "tip": "Trial by jury means a jury hears a legal case.",
+    "alternatives": [
+      "depriving colonists of trial by jury",
+      "closing all western settlement",
+      "requiring a Bill of Rights",
+      "making states stronger than Congress"
+    ],
+    "correctAnswer": "depriving colonists of trial by jury",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What year were the Townshend Acts passed?",
+    "id": 537,
+    "usageExample": "The Townshend Acts were listed as 1767 in the notes.",
+    "tip": "They came after the Declaratory Act.",
+    "alternatives": [
+      "1767",
+      "1763",
+      "1773",
+      "1789"
+    ],
+    "correctAnswer": "1767",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What did the Tea Act allow the British East India Company to avoid?",
+    "id": 538,
+    "usageExample": "The Tea Act helped the British East India Company avoid paying tax, angering colonists.",
+    "tip": "The Tea Act was about the tea trade, not a direct tea tax.",
+    "alternatives": [
+      "paying tax",
+      "holding trials",
+      "writing charters",
+      "housing soldiers"
+    ],
+    "correctAnswer": "paying tax",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What event did the Tea Act lead to?",
+    "id": 539,
+    "usageExample": "Colonists protested the Tea Act with the Boston Tea Party.",
+    "tip": "The protest involved tea in Boston Harbor.",
+    "alternatives": [
+      "the Boston Tea Party",
+      "the Constitutional Convention",
+      "the Articles of Confederation",
+      "the Proclamation Line"
+    ],
+    "correctAnswer": "the Boston Tea Party",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What year did the Boston Tea Party happen?",
+    "id": 540,
+    "usageExample": "The Boston Tea Party happened in 1773 after the Tea Act.",
+    "tip": "It happened the same year as the Tea Act.",
+    "alternatives": [
+      "1773",
+      "1765",
+      "1767",
+      "1776"
+    ],
+    "correctAnswer": "1773",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What were the Intolerable Acts?",
+    "id": 541,
+    "usageExample": "The Intolerable Acts included closing Boston Harbor after the Boston Tea Party.",
+    "tip": "Colonists saw these laws as harsh punishment.",
+    "alternatives": [
+      "British punishments for the Boston Tea Party",
+      "the first American constitution",
+      "a set of state-rights arguments",
+      "a plan to add the Bill of Rights"
+    ],
+    "correctAnswer": "British punishments for the Boston Tea Party",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What happened to Boston Harbor under the Intolerable Acts?",
+    "id": 542,
+    "usageExample": "Closing Boston Harbor cut off trade as punishment.",
+    "tip": "A blockade stops ships from freely entering or leaving.",
+    "alternatives": [
+      "it was closed and blockaded by British ships",
+      "it became the national capital",
+      "it was opened for free trade",
+      "it became a western settlement line"
+    ],
+    "correctAnswer": "it was closed and blockaded by British ships",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Who became governor of Massachusetts under the Intolerable Acts?",
+    "id": 543,
+    "usageExample": "The notes say General Thomas Gage became governor of Massachusetts.",
+    "tip": "Thomas Gage was a British general.",
+    "alternatives": [
+      "General Thomas Gage",
+      "George Washington",
+      "Benjamin Franklin",
+      "James Madison"
+    ],
+    "correctAnswer": "General Thomas Gage",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What was the Quartering Act?",
+    "id": 544,
+    "usageExample": "Quartering meant British soldiers could be housed in private homes.",
+    "tip": "Quartering is about lodging soldiers.",
+    "alternatives": [
+      "a law requiring housing for British soldiers",
+      "a law repealing the Sugar Act",
+      "a constitution with a weak national government",
+      "a law creating the Supreme Court"
+    ],
+    "correctAnswer": "a law requiring housing for British soldiers",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which grievance means Britain hurt colonial trade?",
+    "id": 545,
+    "usageExample": "One grievance complained that Britain cut off colonial trade.",
+    "tip": "Trade means buying and selling goods.",
+    "alternatives": [
+      "cutting off trade with all parts of the world",
+      "adding a Bill of Rights",
+      "creating a confederal system",
+      "letting states collect taxes"
+    ],
+    "correctAnswer": "cutting off trade with all parts of the world",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What were the Articles of Confederation?",
+    "id": 546,
+    "usageExample": "The Articles of Confederation created the first national government of the United States.",
+    "tip": "They came before the current U.S. Constitution.",
+    "alternatives": [
+      "America\u2019s first constitution",
+      "the first ten amendments",
+      "a British tax law",
+      "a protest in Boston Harbor"
+    ],
+    "correctAnswer": "America\u2019s first constitution",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Under the Articles of Confederation, who had more power?",
+    "id": 547,
+    "usageExample": "The Articles used a confederal system with strong states and a weak national government.",
+    "tip": "Confederal systems give more power to smaller governments.",
+    "alternatives": [
+      "the states",
+      "the president",
+      "the Supreme Court",
+      "the British Parliament"
+    ],
+    "correctAnswer": "the states",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "Which was a weakness of the national government under the Articles of Confederation?",
+    "id": 548,
+    "usageExample": "The national government under the Articles was too weak to collect taxes.",
+    "tip": "Money was one major problem under the Articles.",
+    "alternatives": [
+      "it could not collect taxes",
+      "it had too much executive power",
+      "it had too many federal courts",
+      "it could easily change laws alone"
+    ],
+    "correctAnswer": "it could not collect taxes",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What did Federalists want?",
+    "id": 549,
+    "usageExample": "Federalists supported replacing the Articles with a stronger Constitution.",
+    "tip": "Federalists favored stronger federal power.",
+    "alternatives": [
+      "a new constitution with a strong national government",
+      "to keep only the Articles of Confederation",
+      "to close Boston Harbor",
+      "to end all national power"
+    ],
+    "correctAnswer": "a new constitution with a strong national government",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
+  },
+  {
+    "question": "What did Anti-Federalists want protected?",
+    "id": 550,
+    "usageExample": "Anti-Federalists only agreed to the Constitution if a Bill of Rights was added.",
+    "tip": "Anti-Federalists worried about too much national power.",
+    "alternatives": [
+      "states\u2019 rights and individual rights",
+      "British tax power",
+      "a standing army in peacetime",
+      "Boston Harbor blockades"
+    ],
+    "correctAnswer": "states\u2019 rights and individual rights",
+    "version": "v1",
+    "chapter": 1,
+    "subject": "civics"
   }
 ]
