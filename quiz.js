@@ -417,7 +417,9 @@ function renderRoundSummary(leaders) {
       name.textContent = player.name;
 
       const score = document.createElement("span");
-      score.textContent = `${player.score}/${getTurnsPerPlayer()}`;
+      const turns = getTurnsPerPlayer();
+      const percentage = turns > 0 ? Math.round((player.score / turns) * 100) : 0;
+      score.textContent = `${player.score}/${turns} · ${percentage}% correct`;
 
       row.append(name, score);
       elements.roundSummary.append(row);
