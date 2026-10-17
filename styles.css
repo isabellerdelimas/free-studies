@@ -497,10 +497,24 @@ h2 {
   --accent-strong: var(--accent);
 }
 :root[data-theme="dark"], :root[data-theme="starbucks"] {
-  --page: #000;
-  --panel: #000;
-  --surface: #000;
-  --line: #383838;
+  color-scheme: dark;
+  --ink: #f0f4f3;
+  --muted: #bcc9c5;
+  --panel: #1b2026;
+  --surface: #242c34;
+  --page: #101419;
+  --line: #48525c;
+  --accent: color-mix(in srgb, var(--chosen-color) 45%, #ffffff);
+  --right: #86e4ad;
+  --right-soft: #173c2b;
+  --wrong: #ffaaa4;
+  --wrong-soft: #4a2328;
+}
+:root[data-theme="starbucks"] {
+  --page: #303437;
+  --panel: #3b4044;
+  --surface: #454b50;
+  --line: #697177;
 }
 body { background: radial-gradient(ellipse at top left, color-mix(in srgb, var(--chosen-color) 15%, transparent), transparent 65%), var(--page); }
 .topbar, .score-row, .missed-row, .feedback, .segmented-control { background: var(--surface); }
@@ -525,7 +539,7 @@ body { background: radial-gradient(ellipse at top left, color-mix(in srgb, var(-
 button:focus-visible, .theme-choice:focus-within { outline: 3px solid var(--focus); outline-offset: 3px; }
 @media (max-width: 600px) { .theme-modes { grid-template-columns: 1fr; } .theme-choice { grid-template-columns: 20px 1fr; padding: 14px; } .theme-choice span { grid-column: 2; } }
 
-:root[data-theme="starbucks"] body { background: #000; }
+:root[data-theme="starbucks"] body { background: var(--page); }
 :root[data-theme="starbucks"] :is(.primary-button, .secondary-button, .icon-button, .mode-button, .answer-button) {
   background: var(--chosen-color);
   color: #fff;
