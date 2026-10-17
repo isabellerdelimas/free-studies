@@ -27,11 +27,9 @@ const elements = {
   playerCount: hasDocument ? document.querySelector("#playerCount") : null,
   playerFields: hasDocument ? document.querySelector("#playerFields") : null,
   subjectSelect: hasDocument ? document.querySelector("#subjectSelect") : null,
-  subjectOptions: hasDocument ? document.querySelector("#subjectOptions") : null,
   subjectHint: hasDocument ? document.querySelector("#subjectHint") : null,
   chapterSelectLabel: hasDocument ? document.querySelector("#chapterSelectLabel") : null,
   chapterSelect: hasDocument ? document.querySelector("#chapterSelect") : null,
-  chapterOptions: hasDocument ? document.querySelector("#chapterOptions") : null,
   chapterHint: hasDocument ? document.querySelector("#chapterHint") : null,
   questionCount: hasDocument ? document.querySelector("#questionCount") : null,
   questionCountHint: hasDocument ? document.querySelector("#questionCountHint") : null,
@@ -142,46 +140,55 @@ function renderQuestionCountOptions() {
 function renderSubjectOptions() {
   const subjects = getSubjectOptions(state.allQuestions);
   const previousSubject = state.selectedSubject;
-  elements.subjectOptions.innerHTML = "";
+  elements.subjectSelect.innerHTML = "";
 
   subjects.forEach(({ subject, count }) => {
     const option = document.createElement("option");
-    option.value = getSubjectLabel(subject);
-    option.label = `${getSubjectLabel(subject)} (${count} questions)`;
-    elements.subjectOptions.append(option);
+    option.value = subject;
+    option.textContent = `${getSubjectLabel(subject)} (${count} questions)`;
+    elements.subjectSelect.append(option);
   });
 
   state.selectedSubject = subjects.some(({ subject }) => subject === previousSubject)
     ? previousSubject
     : subjects[0]?.subject || "science";
-  elements.subjectSelect.value = getSubjectLabel(state.selectedSubject);
+  elements.subjectSelect.value = state.selectedSubject;
   updateSubjectHint();
 }
 
 function renderChapterOptions() {
   const subjectQuestions = getQuestionsForSubject(state.allQuestions, state.selectedSubject);
   const useUnits = usesUnits(state.selectedSubject);
-  const chapters = useUnits ? getUnitOptions(subjectQuestions) : getChapterOptions(subjectQuestions);
-  elements.chapterOptions.innerHTML = "";
+  const chapterQuestions = subjectQuestions.filter((question) => !question.studyGuide);
+  const guideCount = subjectQuestions.filter((question) => question.studyGuide === "waves").length;
+  const chapters = useUnits ? getUnitOptions(subjectQuestions) : getChapterOptions(chapterQuestions);
+  elements.chapterSelect.innerHTML = "";
   elements.chapterSelectLabel.textContent = useUnits ? "Choose which unit" : "Chapter";
 
   const allOption = document.createElement("option");
-  allOption.value = useUnits ? "All units" : "All chapters";
-  allOption.label = `${useUnits ? "All units" : "All chapters"} (${subjectQuestions.length} questions)`;
-  elements.chapterOptions.append(allOption);
+  allOption.value = "all";
+  allOption.textContent = `${useUnits ? "All units" : "All chapters"} (${chapterQuestions.length} questions)`;
+  elements.chapterSelect.append(allOption);
 
   chapters.forEach(({ chapter, count }) => {
     const option = document.createElement("option");
-    option.value = `${useUnits ? "Unit" : "Chapter"} ${chapter}`;
-    option.label = `${useUnits ? "Unit" : "Chapter"} ${chapter} (${count} questions)`;
-    elements.chapterOptions.append(option);
+    option.value = String(chapter);
+    option.textContent = `${useUnits ? "Unit" : "Chapter"} ${chapter} (${count} questions)`;
+    elements.chapterSelect.append(option);
   });
 
+  if (guideCount) {
+    const option = document.createElement("option");
+    option.value = "study-guide";
+    option.textContent = `Study Guide: Waves (${guideCount} questions)`;
+    elements.chapterSelect.append(option);
+  }
   const hasSelectedChapter =
+    (state.selectedChapter === "study-guide" && guideCount > 0) ||
     state.selectedChapter === "all" ||
     chapters.some(({ chapter }) => String(chapter) === String(state.selectedChapter));
   state.selectedChapter = hasSelectedChapter ? state.selectedChapter : "all";
-  elements.chapterSelect.value = getChapterInputValue(state.selectedChapter, state.selectedSubject);
+  elements.chapterSelect.value = state.selectedChapter;
   updateChapterHint();
 }
 
@@ -202,8 +209,8 @@ function handleSetupSubmit(event) {
 
   const playerCount = Number(elements.playerCount.value);
   const selectedQuestionCount = Math.floor(Number(elements.questionCount.value));
-  state.selectedSubject = normalizeSubject(elements.subjectSelect.value);
-  state.selectedChapter = normalizeChapter(elements.chapterSelect.value, state.selectedSubject);
+  state.selectedSubject = elements.subjectSelect.value;
+  state.selectedChapter = elements.chapterSelect.value;
   const availableQuestions = getSelectedQuestions().length;
 
   if (
@@ -639,6 +646,8 @@ function getQuestionsForSubject(questions, subject) {
 }
 
 function getQuestionsForChapter(questions, chapter) {
+  if (chapter === "study-guide") return questions.filter((question) => question.studyGuide === "waves");
+  questions = questions.filter((question) => !question.studyGuide);
   if (chapter === "all") return questions;
   const chapterNumber = Number(chapter);
   return questions.filter((question) => question.chapter === chapterNumber);
@@ -654,6 +663,7 @@ function getQuestionUnit(question) {
 }
 
 function getModeLabel(subject, chapter) {
+  if (chapter === "study-guide") return "Study Guide: Waves";
   const subjectLabel = getSubjectLabel(subject);
   if (usesUnits(subject)) {
     return chapter === "all" ? `${subjectLabel}: all units` : `${subjectLabel}: unit ${chapter}`;
@@ -736,33 +746,14 @@ if (hasDocument) {
     renderQuestionCountOptions();
   });
   elements.subjectSelect.addEventListener("change", () => {
-    state.selectedSubject = normalizeSubject(elements.subjectSelect.value);
-    elements.subjectSelect.value = getSubjectLabel(state.selectedSubject);
+    state.selectedSubject = elements.subjectSelect.value;
     state.selectedChapter = "all";
-    elements.chapterSelect.value = getChapterInputValue(state.selectedChapter, state.selectedSubject);
     updateSubjectHint();
     renderChapterOptions();
     renderQuestionCountOptions();
   });
-  elements.subjectSelect.addEventListener("input", () => {
-    const typedSubject = normalizeSubject(elements.subjectSelect.value);
-    if (getSubjectOptions(state.allQuestions).some(({ subject }) => subject === typedSubject)) {
-      state.selectedSubject = typedSubject;
-      state.selectedChapter = "all";
-      elements.chapterSelect.value = getChapterInputValue(state.selectedChapter, state.selectedSubject);
-      updateSubjectHint();
-      renderChapterOptions();
-      renderQuestionCountOptions();
-    }
-  });
   elements.chapterSelect.addEventListener("change", () => {
-    state.selectedChapter = normalizeChapter(elements.chapterSelect.value, state.selectedSubject);
-    elements.chapterSelect.value = getChapterInputValue(state.selectedChapter, state.selectedSubject);
-    updateChapterHint();
-    renderQuestionCountOptions();
-  });
-  elements.chapterSelect.addEventListener("input", () => {
-    state.selectedChapter = normalizeChapter(elements.chapterSelect.value, state.selectedSubject);
+    state.selectedChapter = elements.chapterSelect.value;
     updateChapterHint();
     renderQuestionCountOptions();
   });
@@ -810,4 +801,73 @@ if (typeof module !== "undefined") {
     normalizeChapter,
     usesUnits,
   };
+}
+
+// Keep the welcome step on each visit, with the last colors preselected.
+if (hasDocument) {
+  const palette = { Green: '#00966b', Blue: '#377bd4', Red: '#d94a59', Purple: '#9462d4', Pink: '#db68a2', Orange: '#df8739', Yellow: '#dcbf44', Teal: '#22999e', Brown: '#997255', Gray: '#899099', Black: '#292c32', White: '#ffffff' };
+  const starbucksPalette = { Green: '#006241', Blue: '#174a8b', Purple: '#59328a', Red: '#922b3e' };
+  const pastels = { 'Baby pink': '#f5c7dd', 'Baby blue': '#bdddf7', 'Baby green': '#c5ebce', 'Baby purple': '#ded0f5', 'Baby yellow': '#fff0b5', 'Baby peach': '#ffdac1' };
+  let mode = 'starbucks';
+  let color = palette.Green;
+  try {
+    const saved = JSON.parse(localStorage.getItem('free-studies-theme'));
+    if (saved && ['starbucks', 'dark', 'light'].includes(saved.mode) && /^#[0-9a-f]{6}$/i.test(saved.color)) {
+      mode = saved.mode;
+      color = saved.color;
+    }
+  } catch (_) { /* Themes also work when browser storage is unavailable. */ }
+  const panel = document.querySelector('#themePanel');
+  const choices = document.querySelector('#colorChoices');
+  const custom = document.querySelector('#customColor');
+  function applyTheme() {
+    const root = document.documentElement;
+    root.dataset.theme = mode;
+    const rgb = color.match(/[0-9a-f]{2}/gi).map((part) => parseInt(part, 16));
+    const luminance = rgb.map((v) => { v /= 255; return v <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; }).reduce((sum, v, i) => sum + v * [0.2126, 0.7152, 0.0722][i], 0);
+    root.style.setProperty('--chosen-color', color);
+    root.style.setProperty('--on-accent', luminance > 0.179 ? '#101820' : '#ffffff');
+    custom.value = color;
+    choices.querySelectorAll('button').forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.color === color)));
+    try { localStorage.setItem('free-studies-theme', JSON.stringify({ mode, color })); } catch (_) {}
+  }
+  function renderColors() {
+    const colors = mode === 'starbucks' ? starbucksPalette : { ...palette, ...(mode === 'light' ? pastels : {}) };
+    if (mode === 'starbucks' && !Object.values(colors).includes(color)) {
+      const previousName = Object.keys(palette).find((name) => palette[name] === color);
+      color = starbucksPalette[previousName] || starbucksPalette.Green;
+    }
+    choices.replaceChildren();
+    Object.entries(colors).forEach(([name, value]) => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'color-choice';
+      button.dataset.color = value;
+      const swatch = document.createElement('span');
+      swatch.className = 'swatch';
+      swatch.style.background = value;
+      button.append(swatch, document.createTextNode(name));
+      button.addEventListener('click', () => { color = value; applyTheme(); });
+      choices.append(button);
+    });
+    document.querySelector('#customColorLabel').classList.toggle('hidden', mode === 'starbucks');
+    applyTheme();
+  }
+  document.querySelectorAll('[name="themeMode"]').forEach((radio) => {
+    radio.checked = radio.value === mode;
+    radio.addEventListener('change', () => { mode = radio.value; renderColors(); });
+  });
+  custom.addEventListener('input', () => { color = custom.value; applyTheme(); });
+  document.querySelector('#themeForm').addEventListener('submit', (event) => {
+    event.preventDefault();
+    panel.classList.add('hidden');
+    elements.setupPanel.classList.remove('hidden');
+    elements.playerCount.focus();
+  });
+  document.querySelector('#changeThemeButton').addEventListener('click', () => {
+    elements.setupPanel.classList.add('hidden');
+    panel.classList.remove('hidden');
+    panel.querySelector('input:checked').focus();
+  });
+  renderColors();
 }

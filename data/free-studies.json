@@ -9148,5 +9148,3405 @@
     "chapter": 1,
     "subject": "civics",
     "unit": "1.3"
+  },
+  {
+    "question": "What does a wave transfer from one place to another?",
+    "id": 601,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Particles can vibrate while energy travels onward.",
+    "alternatives": [
+      "Energy",
+      "Matter permanently along its entire path",
+      "Only air",
+      "Only water"
+    ],
+    "correctAnswer": "Energy",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What kind of wave is sound in air?",
+    "id": 602,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound needs matter, and its particles vibrate parallel to its travel.",
+    "alternatives": [
+      "A mechanical longitudinal wave",
+      "An electromagnetic transverse wave",
+      "An electromagnetic longitudinal wave",
+      "A wave that needs no medium"
+    ],
+    "correctAnswer": "A mechanical longitudinal wave",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which wave can travel through empty space?",
+    "id": 603,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Electromagnetic waves do not require matter to travel.",
+    "alternatives": [
+      "Light",
+      "Sound in air",
+      "Sound in water",
+      "Sound in steel"
+    ],
+    "correctAnswer": "Light",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "How do air particles vibrate in a sound wave?",
+    "id": 604,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Longitudinal means the vibrations line up with the direction of travel.",
+    "alternatives": [
+      "Parallel to the direction the wave travels",
+      "Perpendicular to the direction the wave travels",
+      "Only upward",
+      "They do not vibrate"
+    ],
+    "correctAnswer": "Parallel to the direction the wave travels",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "How do the fields in a light wave vibrate?",
+    "id": 605,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Light is a transverse electromagnetic wave.",
+    "alternatives": [
+      "Perpendicular to the direction of travel",
+      "Parallel to the direction of travel",
+      "Only in circles around the source",
+      "They remain still"
+    ],
+    "correctAnswer": "Perpendicular to the direction of travel",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which measurement is a wavelength?",
+    "id": 606,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Wavelength measures the distance between matching points on consecutive cycles.",
+    "alternatives": [
+      "The distance from one crest to the next crest",
+      "The height from rest to a crest",
+      "The number of cycles each second",
+      "The time a wave takes to reflect"
+    ],
+    "correctAnswer": "The distance from one crest to the next crest",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What does frequency measure?",
+    "id": 607,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Frequency counts how often a cycle passes a point.",
+    "alternatives": [
+      "The number of complete cycles per second",
+      "The distance between crests",
+      "The maximum displacement from rest",
+      "The total distance a wave travels"
+    ],
+    "correctAnswer": "The number of complete cycles per second",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which unit measures frequency?",
+    "id": 608,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "One hertz means one cycle each second.",
+    "alternatives": [
+      "Hertz (Hz)",
+      "Meters (m)",
+      "Seconds (s)",
+      "Kilograms (kg)"
+    ],
+    "correctAnswer": "Hertz (Hz)",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "If wave speed stays the same, what happens to wavelength when frequency increases?",
+    "id": 609,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "At a fixed speed, more cycles fit into the same distance when frequency rises.",
+    "alternatives": [
+      "Wavelength decreases",
+      "Wavelength increases",
+      "Wavelength must stay the same",
+      "Wavelength becomes zero"
+    ],
+    "correctAnswer": "Wavelength decreases",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is amplitude?",
+    "id": 610,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Measure from the rest position to the greatest displacement.",
+    "alternatives": [
+      "The maximum displacement from the rest position",
+      "The distance between two crests",
+      "The number of cycles each second",
+      "The speed of a wave"
+    ],
+    "correctAnswer": "The maximum displacement from the rest position",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What happens when the amplitude of a sound wave increases?",
+    "id": 611,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound amplitude affects loudness.",
+    "alternatives": [
+      "The sound becomes louder",
+      "The sound becomes quieter",
+      "The sound becomes light",
+      "The sound can travel through a vacuum"
+    ],
+    "correctAnswer": "The sound becomes louder",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What does a greater light-wave amplitude mean?",
+    "id": 612,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Light amplitude is related to intensity.",
+    "alternatives": [
+      "Brighter light",
+      "Dimmer light",
+      "A lower speed in a vacuum",
+      "A need for air to travel"
+    ],
+    "correctAnswer": "Brighter light",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "In which material does sound generally travel fastest?",
+    "id": 613,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound usually travels faster in solids than in liquids or gases.",
+    "alternatives": [
+      "A solid such as steel",
+      "Air",
+      "A vacuum",
+      "Water"
+    ],
+    "correctAnswer": "A solid such as steel",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Where does light travel fastest?",
+    "id": 614,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Light reaches about 300,000 kilometers per second in a vacuum.",
+    "alternatives": [
+      "In a vacuum",
+      "In glass",
+      "In water",
+      "In a diamond"
+    ],
+    "correctAnswer": "In a vacuum",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why do you see lightning before hearing thunder?",
+    "id": 615,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The different travel speeds produce the delay.",
+    "alternatives": [
+      "Light travels much faster than sound in air",
+      "Thunder always starts much later",
+      "Sound travels faster than light",
+      "Light needs air but sound does not"
+    ],
+    "correctAnswer": "Light travels much faster than sound in air",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is a compression in a sound wave?",
+    "id": 616,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Compressions are the crowded regions of a longitudinal wave.",
+    "alternatives": [
+      "A region where particles are close together",
+      "A region where particles are spread apart",
+      "The highest point of a transverse wave",
+      "A region with no energy"
+    ],
+    "correctAnswer": "A region where particles are close together",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is a rarefaction?",
+    "id": 617,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Rarefactions alternate with compressions.",
+    "alternatives": [
+      "A region where particles are spread apart",
+      "A region where particles are packed together",
+      "The highest point of a light wave",
+      "A reflected image"
+    ],
+    "correctAnswer": "A region where particles are spread apart",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is the highest point of a transverse wave called?",
+    "id": 618,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A crest is above the rest position.",
+    "alternatives": [
+      "A crest",
+      "A trough",
+      "A rarefaction",
+      "A compression"
+    ],
+    "correctAnswer": "A crest",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is the lowest point of a transverse wave called?",
+    "id": 619,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A trough is below the rest position.",
+    "alternatives": [
+      "A trough",
+      "A crest",
+      "A compression",
+      "A wavelength"
+    ],
+    "correctAnswer": "A trough",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A clear window lets you see objects sharply. What type of material is it?",
+    "id": 620,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Transparent materials transmit light with little scattering.",
+    "alternatives": [
+      "Transparent",
+      "Translucent",
+      "Opaque",
+      "A light source"
+    ],
+    "correctAnswer": "Transparent",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Frosted glass lets light through but makes objects look blurry. What is it?",
+    "id": 621,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Translucent materials scatter the light that passes through.",
+    "alternatives": [
+      "Translucent",
+      "Transparent",
+      "Opaque",
+      "A vacuum"
+    ],
+    "correctAnswer": "Translucent",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why does a wood block cast a shadow?",
+    "id": 622,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Opaque materials absorb or reflect incoming light.",
+    "alternatives": [
+      "It is opaque and blocks light from passing through",
+      "It is transparent",
+      "It lets all light pass straight through",
+      "It creates a vacuum behind itself"
+    ],
+    "correctAnswer": "It is opaque and blocks light from passing through",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which wave behavior produces an echo?",
+    "id": 623,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "An echo is sound bouncing back from a surface.",
+    "alternatives": [
+      "Reflection",
+      "Refraction",
+      "Transmission through a vacuum",
+      "Rarefaction alone"
+    ],
+    "correctAnswer": "Reflection",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A ray strikes a mirror at 30 degrees from the normal. What is its reflection angle from the normal?",
+    "id": 624,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The angle of reflection equals the angle of incidence, measured from the normal.",
+    "alternatives": [
+      "30 degrees",
+      "60 degrees",
+      "90 degrees",
+      "15 degrees"
+    ],
+    "correctAnswer": "30 degrees",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why can a straw appear bent where it enters water?",
+    "id": 625,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Refraction can change the direction of light crossing a boundary at an angle.",
+    "alternatives": [
+      "Light changes speed and bends between water and air",
+      "The straw must be broken",
+      "Sound reflects from the straw",
+      "Water stops all light"
+    ],
+    "correctAnswer": "Light changes speed and bends between water and air",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which part of the ear vibrates when sound reaches it through the ear canal?",
+    "id": 626,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The eardrum passes vibrations to the small bones of the middle ear.",
+    "alternatives": [
+      "The eardrum",
+      "The retina",
+      "The optic nerve",
+      "The pupil"
+    ],
+    "correctAnswer": "The eardrum",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What do the three tiny bones in the middle ear do?",
+    "id": 627,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "These bones are called ossicles.",
+    "alternatives": [
+      "Transfer vibrations toward the cochlea",
+      "Focus light onto the retina",
+      "Create light waves",
+      "Carry visual signals to the brain"
+    ],
+    "correctAnswer": "Transfer vibrations toward the cochlea",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Where do hair cells convert sound-related movement into electrical signals?",
+    "id": 628,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The cochlea contains fluid and sensory hair cells.",
+    "alternatives": [
+      "In the cochlea",
+      "In the pupil",
+      "In the cornea",
+      "On the outer ear"
+    ],
+    "correctAnswer": "In the cochlea",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which nerve carries hearing signals to the brain?",
+    "id": 629,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Auditory refers to hearing.",
+    "alternatives": [
+      "The auditory nerve",
+      "The optic nerve",
+      "The lens",
+      "The eardrum"
+    ],
+    "correctAnswer": "The auditory nerve",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which opening allows light to enter the eye?",
+    "id": 630,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Light passes through the cornea and then the pupil.",
+    "alternatives": [
+      "The pupil",
+      "The auditory nerve",
+      "The cochlea",
+      "The retina"
+    ],
+    "correctAnswer": "The pupil",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What does the lens of the eye do?",
+    "id": 631,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The lens helps form a focused image at the back of the eye.",
+    "alternatives": [
+      "Focuses incoming light onto the retina",
+      "Converts sound to vibrations",
+      "Carries signals to the brain",
+      "Blocks all incoming light"
+    ],
+    "correctAnswer": "Focuses incoming light onto the retina",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What do rods and cones in the retina do?",
+    "id": 632,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Rods and cones are light-sensitive photoreceptors.",
+    "alternatives": [
+      "Convert light into electrical signals",
+      "Vibrate the eardrum",
+      "Focus sound in the cochlea",
+      "Move the middle-ear bones"
+    ],
+    "correctAnswer": "Convert light into electrical signals",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which nerve carries visual signals to the brain?",
+    "id": 633,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Optic refers to vision.",
+    "alternatives": [
+      "The optic nerve",
+      "The auditory nerve",
+      "The pupil",
+      "The cornea"
+    ],
+    "correctAnswer": "The optic nerve",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A cork bobs as a wave passes. What does this show about wave motion?",
+    "id": 634,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Waves carry energy without carrying the medium along their entire path.",
+    "alternatives": [
+      "Energy can travel while matter moves around a resting position",
+      "All matter must travel with the wave",
+      "Waves cannot move energy",
+      "Only solid matter can vibrate"
+    ],
+    "correctAnswer": "Energy can travel while matter moves around a resting position",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why would a ringing bell be inaudible in a container with no air or other sound path?",
+    "id": 635,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A vacuum has no particles to transmit sound.",
+    "alternatives": [
+      "Sound needs a material medium",
+      "Sound needs bright light",
+      "Sound is an electromagnetic wave",
+      "Sound moves fastest in empty space"
+    ],
+    "correctAnswer": "Sound needs a material medium",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Sunlight reaches Earth across space. What does this demonstrate?",
+    "id": 636,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Electromagnetic waves can cross a vacuum.",
+    "alternatives": [
+      "Light can travel without a material medium",
+      "Space must contain air everywhere",
+      "Light is a sound wave",
+      "Light travels only through solids"
+    ],
+    "correctAnswer": "Light can travel without a material medium",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which pair contains only possible media for sound?",
+    "id": 637,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound can pass through solids, liquids, and gases.",
+    "alternatives": [
+      "Water and steel",
+      "Vacuum and air",
+      "Vacuum and glass",
+      "Empty space and water"
+    ],
+    "correctAnswer": "Water and steel",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is a medium in the study of mechanical waves?",
+    "id": 638,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A medium may be a solid, liquid, or gas.",
+    "alternatives": [
+      "The matter through which a wave travels",
+      "The middle height of a crest",
+      "The color of a light source",
+      "The number of echoes heard"
+    ],
+    "correctAnswer": "The matter through which a wave travels",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement correctly compares sound and light?",
+    "id": 639,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound is mechanical; light is electromagnetic.",
+    "alternatives": [
+      "Sound requires matter; light does not",
+      "Both require air",
+      "Neither can travel through water",
+      "Both are mechanical waves"
+    ],
+    "correctAnswer": "Sound requires matter; light does not",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A sound wave moves to the right. In which directions do air particles vibrate?",
+    "id": 640,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Air particles vibrate parallel to the sound wave's direction.",
+    "alternatives": [
+      "Left and right",
+      "Only upward",
+      "Only downward",
+      "Up and down perpendicular to travel"
+    ],
+    "correctAnswer": "Left and right",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A transverse wave travels horizontally along a rope. Which motion fits this wave?",
+    "id": 641,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Transverse displacement is perpendicular to wave travel.",
+    "alternatives": [
+      "The rope moves up and down",
+      "The rope moves only forward with the wave",
+      "The rope never moves",
+      "The rope disappears behind the wave"
+    ],
+    "correctAnswer": "The rope moves up and down",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which description best fits an electromagnetic wave?",
+    "id": 642,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Light transfers energy through oscillating electromagnetic fields.",
+    "alternatives": [
+      "A disturbance of electric and magnetic fields",
+      "A permanent stream of air particles",
+      "A vibration that always needs water",
+      "A row of colliding sound particles only"
+    ],
+    "correctAnswer": "A disturbance of electric and magnetic fields",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which description best fits a mechanical wave?",
+    "id": 643,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Mechanical waves depend on a material medium.",
+    "alternatives": [
+      "A disturbance traveling through matter",
+      "Light moving through empty space",
+      "An electrical signal with no medium",
+      "A wave that cannot carry energy"
+    ],
+    "correctAnswer": "A disturbance traveling through matter",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What do sound and visible light have in common?",
+    "id": 644,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Different kinds of waves can both carry energy.",
+    "alternatives": [
+      "Both transfer energy",
+      "Both are longitudinal waves",
+      "Both require air",
+      "Both travel at the same speed"
+    ],
+    "correctAnswer": "Both transfer energy",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which observation would provide evidence that sound travels through a solid?",
+    "id": 645,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A tabletop can carry vibrations to your ear.",
+    "alternatives": [
+      "Hearing a tap through a tabletop",
+      "Seeing sunlight through a window",
+      "Seeing a reflection in a mirror",
+      "Seeing a shadow on a wall"
+    ],
+    "correctAnswer": "Hearing a tap through a tabletop",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A swimmer hears a noise underwater. What carries the sound?",
+    "id": 646,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Liquids can serve as a medium for sound.",
+    "alternatives": [
+      "The water",
+      "A vacuum inside the water",
+      "Only the light above the pool",
+      "The swimmer's shadow"
+    ],
+    "correctAnswer": "The water",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What happens to a particular air particle as a sound wave passes?",
+    "id": 647,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The vibration is local even though wave energy travels onward.",
+    "alternatives": [
+      "It vibrates back and forth",
+      "It travels all the way from the speaker to the listener",
+      "It turns into light",
+      "It stays completely motionless"
+    ],
+    "correctAnswer": "It vibrates back and forth",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which comparison of vibration directions is correct?",
+    "id": 648,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The direction is compared with the wave's travel direction.",
+    "alternatives": [
+      "Longitudinal is parallel; transverse is perpendicular",
+      "Both are always parallel",
+      "Both are always perpendicular",
+      "Longitudinal is perpendicular; transverse is parallel"
+    ],
+    "correctAnswer": "Longitudinal is parallel; transverse is perpendicular",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why is light from a star visible even across mostly empty space?",
+    "id": 649,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Electromagnetic waves can travel through a vacuum.",
+    "alternatives": [
+      "Light is electromagnetic",
+      "Light is a mechanical compression",
+      "Light needs a solid bridge",
+      "Light is carried by sound"
+    ],
+    "correctAnswer": "Light is electromagnetic",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which wave would stop crossing a region if all matter were removed from that region?",
+    "id": 650,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound cannot cross a vacuum.",
+    "alternatives": [
+      "Sound",
+      "Visible light",
+      "Light from a flashlight",
+      "Light from the Sun"
+    ],
+    "correctAnswer": "Sound",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement about sound traveling through water is correct?",
+    "id": 651,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Particles in a liquid can transmit sound energy.",
+    "alternatives": [
+      "Water particles transfer the vibration",
+      "Water must first turn into air",
+      "The sound becomes electromagnetic",
+      "The sound needs an empty space in the water"
+    ],
+    "correctAnswer": "Water particles transfer the vibration",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A speaker makes nearby air vibrate. What is being produced?",
+    "id": 652,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound starts with vibrations transmitted through matter.",
+    "alternatives": [
+      "A mechanical disturbance",
+      "A vacuum that carries sound",
+      "Light waves only",
+      "A permanent flow of all air toward the listener"
+    ],
+    "correctAnswer": "A mechanical disturbance",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which question helps identify a wave as mechanical?",
+    "id": 653,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The need for a material medium distinguishes mechanical waves.",
+    "alternatives": [
+      "Does it require matter to travel?",
+      "Is it easy to see?",
+      "Does it move to the left?",
+      "Does it have a name?"
+    ],
+    "correctAnswer": "Does it require matter to travel?",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A student measures from one compression to the next compression. What is measured?",
+    "id": 654,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Successive compressions mark matching positions in successive cycles.",
+    "alternatives": [
+      "Wavelength",
+      "Amplitude",
+      "Frequency",
+      "Loudness"
+    ],
+    "correctAnswer": "Wavelength",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which pair of points can mark one complete wavelength on a transverse wave?",
+    "id": 655,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A wavelength joins consecutive matching points.",
+    "alternatives": [
+      "One trough and the next trough",
+      "A crest and its adjacent trough",
+      "Rest position and a crest",
+      "Rest position and a trough"
+    ],
+    "correctAnswer": "One trough and the next trough",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What does the distance from the rest line to a crest measure?",
+    "id": 656,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Amplitude is the greatest displacement from equilibrium.",
+    "alternatives": [
+      "Amplitude",
+      "Frequency",
+      "Wave speed",
+      "Number of cycles"
+    ],
+    "correctAnswer": "Amplitude",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why is crest-to-trough height not the amplitude of a symmetric wave?",
+    "id": 657,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "For a symmetric wave, crest-to-trough height is twice the amplitude.",
+    "alternatives": [
+      "It includes displacement on both sides of the rest line",
+      "It counts the cycles each second",
+      "It measures wave speed",
+      "It is always zero"
+    ],
+    "correctAnswer": "It includes displacement on both sides of the rest line",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave repeats more times each second. Which property increases?",
+    "id": 658,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Frequency counts complete cycles per second.",
+    "alternatives": [
+      "Frequency",
+      "Wavelength at a fixed speed",
+      "Distance to the source",
+      "Length of the medium"
+    ],
+    "correctAnswer": "Frequency",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Two waves have equal frequency. What must they have in common?",
+    "id": 659,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Equal frequency does not require equal amplitude or medium.",
+    "alternatives": [
+      "The same number of cycles per second",
+      "The same amplitude",
+      "The same brightness",
+      "The same medium"
+    ],
+    "correctAnswer": "The same number of cycles per second",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Two waves have equal amplitude. What measurement matches?",
+    "id": 660,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Amplitude measures displacement, not frequency.",
+    "alternatives": [
+      "Their maximum displacement from rest",
+      "Their cycles per second",
+      "Their speed in every material",
+      "Their total travel time"
+    ],
+    "correctAnswer": "Their maximum displacement from rest",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A student counts passing crests during one second. Which property can this estimate?",
+    "id": 661,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Each passing crest represents another cycle.",
+    "alternatives": [
+      "Frequency",
+      "Amplitude",
+      "Reflection angle",
+      "Transparency"
+    ],
+    "correctAnswer": "Frequency",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which tool would directly help measure the wavelength drawn on a diagram?",
+    "id": 662,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Wavelength is a distance.",
+    "alternatives": [
+      "A ruler",
+      "A balance",
+      "A thermometer",
+      "A color filter"
+    ],
+    "correctAnswer": "A ruler",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which unit is appropriate for wavelength?",
+    "id": 663,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Wavelength has units of length.",
+    "alternatives": [
+      "Centimeters",
+      "Hertz",
+      "Cycles per second",
+      "Kilograms"
+    ],
+    "correctAnswer": "Centimeters",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which unit is appropriate for a rope wave's amplitude?",
+    "id": 664,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Amplitude is a displacement measured in units of length.",
+    "alternatives": [
+      "Meters",
+      "Hertz",
+      "Cycles per second",
+      "Degrees Celsius"
+    ],
+    "correctAnswer": "Meters",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "At a fixed speed, a wave's frequency decreases. What happens to its wavelength?",
+    "id": 665,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Lower frequency means the cycles are farther apart at the same speed.",
+    "alternatives": [
+      "It gets longer",
+      "It gets shorter",
+      "It must become zero",
+      "It becomes an amplitude"
+    ],
+    "correctAnswer": "It gets longer",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Two waves travel at the same speed. Which has the higher frequency?",
+    "id": 666,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Shorter wavelength corresponds to higher frequency at a fixed speed.",
+    "alternatives": [
+      "The one with closer crests",
+      "The one with more widely spaced crests",
+      "The one drawn in darker ink",
+      "The one with the taller crest regardless of spacing"
+    ],
+    "correctAnswer": "The one with closer crests",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Two waves travel at the same speed. Which has the longer wavelength?",
+    "id": 667,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Frequency and wavelength vary inversely when speed stays constant.",
+    "alternatives": [
+      "The one with fewer cycles per second",
+      "The one with more cycles per second",
+      "The one with greater amplitude in every case",
+      "The one that reflects more"
+    ],
+    "correctAnswer": "The one with fewer cycles per second",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which change makes a sound louder without necessarily changing its frequency?",
+    "id": 668,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound amplitude affects loudness.",
+    "alternatives": [
+      "Increasing its amplitude",
+      "Decreasing its amplitude",
+      "Removing its medium",
+      "Increasing the distance to the listener"
+    ],
+    "correctAnswer": "Increasing its amplitude",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A dim lamp becomes brighter. Which wave property increases in the guide's model?",
+    "id": 669,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Greater light amplitude corresponds to greater intensity.",
+    "alternatives": [
+      "Amplitude",
+      "Wavelength necessarily",
+      "Travel speed in a vacuum",
+      "Time per second"
+    ],
+    "correctAnswer": "Amplitude",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A rope's crests become taller while their spacing stays the same. What changed?",
+    "id": 670,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Taller displacement from rest means greater amplitude.",
+    "alternatives": [
+      "Amplitude increased",
+      "Wavelength increased",
+      "Wavelength decreased",
+      "Frequency must be zero"
+    ],
+    "correctAnswer": "Amplitude increased",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Crests move closer together on a wave diagram. Which measurement decreases?",
+    "id": 671,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Wavelength is the spacing between adjacent crests.",
+    "alternatives": [
+      "Wavelength",
+      "Amplitude necessarily",
+      "Number of waves necessarily",
+      "Brightness necessarily"
+    ],
+    "correctAnswer": "Wavelength",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave has high amplitude but low frequency. Which description fits?",
+    "id": 672,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Amplitude and frequency describe different features.",
+    "alternatives": [
+      "Large displacement and few cycles per second",
+      "Small displacement and many cycles per second",
+      "Large displacement and many cycles per second",
+      "Small displacement and few cycles per second"
+    ],
+    "correctAnswer": "Large displacement and few cycles per second",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave has low amplitude but high frequency. Which description fits?",
+    "id": 673,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A high frequency does not require a large amplitude.",
+    "alternatives": [
+      "Small displacement and many cycles per second",
+      "Large displacement and few cycles per second",
+      "Large displacement and many cycles per second",
+      "Small displacement and few cycles per second"
+    ],
+    "correctAnswer": "Small displacement and many cycles per second",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What should a student count to find frequency accurately?",
+    "id": 674,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Frequency requires a cycle count and a time interval.",
+    "alternatives": [
+      "Complete cycles during a measured time",
+      "Only the tallest crest's height",
+      "The total length of the string",
+      "Only the color of the wave drawing"
+    ],
+    "correctAnswer": "Complete cycles during a measured time",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement avoids confusing amplitude and wavelength?",
+    "id": 675,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The two measurements describe different dimensions of a wave.",
+    "alternatives": [
+      "Amplitude is displacement; wavelength is cycle spacing",
+      "Amplitude and wavelength both count cycles per second",
+      "Amplitude is speed; wavelength is loudness",
+      "Amplitude is always the same as wavelength"
+    ],
+    "correctAnswer": "Amplitude is displacement; wavelength is cycle spacing",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement correctly describes a wave with a frequency of 1 Hz?",
+    "id": 676,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Hertz means cycles per second.",
+    "alternatives": [
+      "One complete cycle passes each second",
+      "One crest is one meter tall",
+      "One wavelength passes each minute",
+      "The wave cannot move energy"
+    ],
+    "correctAnswer": "One complete cycle passes each second",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave repeats the same number of times each second but grows taller. Which property stays unchanged?",
+    "id": 677,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The repetition rate is unchanged even when amplitude changes.",
+    "alternatives": [
+      "Frequency",
+      "Amplitude",
+      "Maximum displacement",
+      "Crest height above rest"
+    ],
+    "correctAnswer": "Frequency",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which measurement tells how far a particle moves from rest at its greatest displacement?",
+    "id": 678,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Amplitude uses the rest position as its reference.",
+    "alternatives": [
+      "Amplitude",
+      "Frequency",
+      "Wavelength",
+      "Wave travel distance"
+    ],
+    "correctAnswer": "Amplitude",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why should wavelength and frequency be compared at the same wave speed?",
+    "id": 679,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The inverse relationship assumes a constant speed.",
+    "alternatives": [
+      "Their relationship depends on the speed",
+      "Frequency cannot be measured otherwise",
+      "Amplitude must always be zero",
+      "Only stationary waves have wavelengths"
+    ],
+    "correctAnswer": "Their relationship depends on the speed",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which change would make sound quieter in the same setup?",
+    "id": 680,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Smaller sound amplitude means quieter sound.",
+    "alternatives": [
+      "Decreasing amplitude",
+      "Increasing amplitude",
+      "Turning sound into light",
+      "Increasing the number of ears nearby"
+    ],
+    "correctAnswer": "Decreasing amplitude",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is the rest position on a transverse-wave diagram?",
+    "id": 681,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Displacements are measured relative to the undisturbed position.",
+    "alternatives": [
+      "The position the medium would occupy without the disturbance",
+      "The highest crest",
+      "The deepest trough",
+      "The next compression"
+    ],
+    "correctAnswer": "The position the medium would occupy without the disturbance",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which sequence usually lists sound speeds from fastest to slowest?",
+    "id": 682,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound generally travels fastest in solids and slowest in gases.",
+    "alternatives": [
+      "Solid, liquid, gas",
+      "Gas, liquid, solid",
+      "Liquid, gas, solid",
+      "Vacuum, gas, solid"
+    ],
+    "correctAnswer": "Solid, liquid, gas",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which sequence lists these light travel speeds from fastest to slowest?",
+    "id": 683,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Light travels fastest in a vacuum and more slowly in water and ordinary glass.",
+    "alternatives": [
+      "Vacuum, water, ordinary glass",
+      "Ordinary glass, water, vacuum",
+      "Water, vacuum, ordinary glass",
+      "Water, ordinary glass, vacuum"
+    ],
+    "correctAnswer": "Vacuum, water, ordinary glass",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why can sound travel efficiently through a solid?",
+    "id": 684,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound energy is transmitted through interactions within the medium.",
+    "alternatives": [
+      "Connected particles pass vibrations to neighboring particles",
+      "Solids contain no matter",
+      "Sound changes into light in solids",
+      "Solid particles never interact"
+    ],
+    "correctAnswer": "Connected particles pass vibrations to neighboring particles",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why is a vacuum excluded from a list of media that carry sound?",
+    "id": 685,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound requires matter.",
+    "alternatives": [
+      "It lacks particles that can transmit vibrations",
+      "It contains too much water",
+      "Its particles are too close together",
+      "It reflects every color"
+    ],
+    "correctAnswer": "It lacks particles that can transmit vibrations",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which travels faster in air, a flashlight beam or a shout?",
+    "id": 686,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Light is much faster than sound in air.",
+    "alternatives": [
+      "The flashlight beam",
+      "The shout",
+      "They have equal speed",
+      "Neither travels through air"
+    ],
+    "correctAnswer": "The flashlight beam",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Two students are different distances from a lightning strike. Who hears the thunder later?",
+    "id": 687,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound takes longer to cover a greater distance.",
+    "alternatives": [
+      "The student farther away",
+      "The student closer to the strike",
+      "Both must hear it at the same moment",
+      "The student who sees brighter lightning regardless of distance"
+    ],
+    "correctAnswer": "The student farther away",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What explains a larger delay between lightning and thunder?",
+    "id": 688,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The delay increases with the distance sound travels.",
+    "alternatives": [
+      "The storm is farther away",
+      "The light has stopped moving",
+      "Sound now travels faster than light",
+      "The storm has no sound waves"
+    ],
+    "correctAnswer": "The storm is farther away",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why does hearing a distant hammer blow lag behind seeing it?",
+    "id": 689,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Light reaches you much sooner than sound from the same event.",
+    "alternatives": [
+      "Sound takes longer than light to reach you",
+      "The hammer makes sound only after several seconds",
+      "Light travels only through metal",
+      "Sound does not travel through air"
+    ],
+    "correctAnswer": "Sound takes longer than light to reach you",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement about changing media is correct?",
+    "id": 690,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The properties of the medium affect wave speed.",
+    "alternatives": [
+      "Wave speed can change when the medium changes",
+      "All waves keep one speed in all media",
+      "Sound always speeds up in a vacuum",
+      "Light always stops in transparent matter"
+    ],
+    "correctAnswer": "Wave speed can change when the medium changes",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Light enters water from a vacuum. What happens to its speed?",
+    "id": 691,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Light travels more slowly in water than in a vacuum.",
+    "alternatives": [
+      "It decreases",
+      "It increases above its vacuum speed",
+      "It becomes the speed of sound",
+      "It becomes zero in all water"
+    ],
+    "correctAnswer": "It decreases",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which comparison is correct for typical sound speeds?",
+    "id": 692,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound generally travels faster in liquids than in gases.",
+    "alternatives": [
+      "Sound is faster in water than in air",
+      "Sound is faster in air than in steel",
+      "Sound is fastest in a vacuum",
+      "Sound has the same speed in all materials"
+    ],
+    "correctAnswer": "Sound is faster in water than in air",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why can a rail carry the sound of a distant tap?",
+    "id": 693,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Solids can transmit mechanical vibrations.",
+    "alternatives": [
+      "Vibrations travel through its solid material",
+      "It creates a vacuum for the sound",
+      "It converts every sound into sunlight",
+      "Only air inside the metal carries the sound"
+    ],
+    "correctAnswer": "Vibrations travel through its solid material",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which information is needed to compare travel times over the same distance?",
+    "id": 694,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "For the same distance, a faster wave arrives sooner.",
+    "alternatives": [
+      "The waves' speeds",
+      "Only their colors",
+      "Only the source names",
+      "Only their amplitudes"
+    ],
+    "correctAnswer": "The waves' speeds",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "If light and sound begin together in air, which usually reaches a distant observer first?",
+    "id": 695,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The speed difference explains everyday light-and-sound delays.",
+    "alternatives": [
+      "Light",
+      "Sound",
+      "Whichever has smaller amplitude",
+      "Whichever has the longer name"
+    ],
+    "correctAnswer": "Light",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement about light in clear glass is accurate?",
+    "id": 696,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Transparent matter can transmit light while reducing its speed.",
+    "alternatives": [
+      "It can travel through the glass more slowly than through a vacuum",
+      "It always stops at the glass",
+      "It becomes sound in the glass",
+      "It travels faster than in a vacuum"
+    ],
+    "correctAnswer": "It can travel through the glass more slowly than through a vacuum",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What two regions alternate in a longitudinal sound wave?",
+    "id": 697,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Longitudinal waves contain regions of higher and lower particle density.",
+    "alternatives": [
+      "Compressions and rarefactions",
+      "Crests and shadows",
+      "Pupils and lenses",
+      "Reflections and retinas"
+    ],
+    "correctAnswer": "Compressions and rarefactions",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which part of a sound diagram has the greatest particle density?",
+    "id": 698,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Particles are closer together in compressions.",
+    "alternatives": [
+      "A compression",
+      "A rarefaction",
+      "An empty margin",
+      "A trough of light"
+    ],
+    "correctAnswer": "A compression",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which part of a sound diagram has the lowest particle density?",
+    "id": 699,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Particles are farther apart in rarefactions.",
+    "alternatives": [
+      "A rarefaction",
+      "A compression",
+      "A crest of light",
+      "A mirror surface"
+    ],
+    "correctAnswer": "A rarefaction",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A spring is pushed and pulled along its length. Which wave pattern can it model?",
+    "id": 700,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Pushing along the spring's length produces parallel vibrations.",
+    "alternatives": [
+      "Longitudinal compressions and rarefactions",
+      "Light passing through a lens only",
+      "A transverse wave with only crests",
+      "A wave requiring no medium"
+    ],
+    "correctAnswer": "Longitudinal compressions and rarefactions",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A rope is shaken perpendicular to its length. Which wave type can it model?",
+    "id": 701,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Transverse vibrations occur across the direction of travel.",
+    "alternatives": [
+      "Transverse",
+      "Longitudinal only",
+      "A sound wave in air",
+      "A wave with no displacement"
+    ],
+    "correctAnswer": "Transverse",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which diagram feature best identifies a longitudinal wave?",
+    "id": 702,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Particle spacing shows compressions and rarefactions.",
+    "alternatives": [
+      "Alternating crowded and spread-out particles",
+      "A labeled retina",
+      "Only upward crests and downward troughs",
+      "A beam bouncing from a mirror"
+    ],
+    "correctAnswer": "Alternating crowded and spread-out particles",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which diagram feature best identifies a transverse wave?",
+    "id": 703,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Transverse displacement is drawn across the direction of travel.",
+    "alternatives": [
+      "Crests and troughs above and below a rest line",
+      "Only crowded and spread-out particle regions",
+      "A line labeled auditory nerve",
+      "An opaque wall casting a shadow"
+    ],
+    "correctAnswer": "Crests and troughs above and below a rest line",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A compression passes a particle. Does that particle permanently stay in the compression?",
+    "id": 704,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The pattern travels while particles move locally.",
+    "alternatives": [
+      "No, it vibrates as the disturbance passes",
+      "Yes, it follows the compression forever",
+      "Yes, it turns into the wave",
+      "No, it disappears"
+    ],
+    "correctAnswer": "No, it vibrates as the disturbance passes",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is the relationship between adjacent crests and adjacent troughs in a repeating wave?",
+    "id": 705,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Consecutive matching points define a wavelength.",
+    "alternatives": [
+      "Both pairs are separated by one wavelength",
+      "Only trough spacing counts as wavelength",
+      "Only crest spacing counts as wavelength",
+      "Both pairs measure amplitude"
+    ],
+    "correctAnswer": "Both pairs are separated by one wavelength",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which point lies below the rest position in a transverse wave?",
+    "id": 706,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Troughs represent downward displacement.",
+    "alternatives": [
+      "A trough",
+      "A crest",
+      "A compression",
+      "A frequency"
+    ],
+    "correctAnswer": "A trough",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which point lies above the rest position in a transverse wave?",
+    "id": 707,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Crests represent upward displacement.",
+    "alternatives": [
+      "A crest",
+      "A trough",
+      "A rarefaction",
+      "A frequency"
+    ],
+    "correctAnswer": "A crest",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement describes a rarefaction correctly?",
+    "id": 708,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Rarefactions have lower particle density but are not empty space.",
+    "alternatives": [
+      "It contains matter with particles more spread out",
+      "It must be a perfect vacuum",
+      "It is the same as a crest",
+      "It has the most crowded particles"
+    ],
+    "correctAnswer": "It contains matter with particles more spread out",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What would a tightly bunched section of a spring represent in a sound model?",
+    "id": 709,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A compression is a region of closely packed particles.",
+    "alternatives": [
+      "A compression",
+      "A rarefaction",
+      "A pupil",
+      "A trough"
+    ],
+    "correctAnswer": "A compression",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What would a loosely spaced section of a spring represent in a sound model?",
+    "id": 710,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A rarefaction is a region of more widely spaced particles.",
+    "alternatives": [
+      "A rarefaction",
+      "A compression",
+      "A crest",
+      "A lens"
+    ],
+    "correctAnswer": "A rarefaction",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which comparison of wave labels is correct?",
+    "id": 711,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Different wave structures use different labels.",
+    "alternatives": [
+      "Crest and trough describe transverse waves; compression and rarefaction describe longitudinal waves",
+      "All four labels mean amplitude",
+      "Compression is always another name for crest",
+      "Rarefaction is always another name for reflection"
+    ],
+    "correctAnswer": "Crest and trough describe transverse waves; compression and rarefaction describe longitudinal waves",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which material would best let someone read a page clearly through it?",
+    "id": 712,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Transparent materials let light pass with little scattering.",
+    "alternatives": [
+      "Clear glass",
+      "Frosted glass",
+      "A wooden board",
+      "A brick"
+    ],
+    "correctAnswer": "Clear glass",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which material would allow light into a room while blurring the view?",
+    "id": 713,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Translucent materials transmit and scatter light.",
+    "alternatives": [
+      "Frosted glass",
+      "Clear glass",
+      "A brick wall",
+      "A metal sheet"
+    ],
+    "correctAnswer": "Frosted glass",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which material would best block a flashlight beam from passing through?",
+    "id": 714,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Opaque materials block transmission.",
+    "alternatives": [
+      "A wooden board",
+      "A clear window",
+      "Clear water",
+      "Clean air"
+    ],
+    "correctAnswer": "A wooden board",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why can you see a sharp view through a transparent window?",
+    "id": 715,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Transparent materials preserve a clear view.",
+    "alternatives": [
+      "Most transmitted light passes with little scattering",
+      "The window turns all light into sound",
+      "The window absorbs all light",
+      "The window blocks every light ray"
+    ],
+    "correctAnswer": "Most transmitted light passes with little scattering",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What happens to light passing through translucent material?",
+    "id": 716,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Scattering makes the view blurry.",
+    "alternatives": [
+      "Some is transmitted and scattered",
+      "All passes perfectly straight without scattering",
+      "None can ever pass",
+      "All becomes sound"
+    ],
+    "correctAnswer": "Some is transmitted and scattered",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement about an opaque object is correct?",
+    "id": 717,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Opaque objects absorb or reflect light instead of transmitting it.",
+    "alternatives": [
+      "Light does not pass through it",
+      "All light passes directly through it",
+      "It must be invisible",
+      "It must produce its own light"
+    ],
+    "correctAnswer": "Light does not pass through it",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What can happen to light that is not transmitted by an opaque surface?",
+    "id": 718,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Absorption and reflection explain why opaque materials block transmission.",
+    "alternatives": [
+      "It can be absorbed or reflected",
+      "It must become a sound wave",
+      "It must pass straight through",
+      "It must travel faster than in a vacuum"
+    ],
+    "correctAnswer": "It can be absorbed or reflected",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A lamp glows behind a screen, but no clear image is visible. Which category best fits the screen?",
+    "id": 719,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Translucent materials pass light while scattering it.",
+    "alternatives": [
+      "Translucent",
+      "Transparent",
+      "Perfectly opaque",
+      "A vacuum"
+    ],
+    "correctAnswer": "Translucent",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A book blocks a lamp from lighting part of a wall. What forms there?",
+    "id": 720,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A shadow forms where an opaque object blocks the light path.",
+    "alternatives": [
+      "A shadow",
+      "A compression",
+      "A lens",
+      "A rarefaction"
+    ],
+    "correctAnswer": "A shadow",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which observation shows that a material is transparent?",
+    "id": 721,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Transparent materials transmit light without much scattering.",
+    "alternatives": [
+      "A clear image can be seen through it",
+      "No light passes through it",
+      "It produces a dark shadow with no transmission",
+      "It lets light through but makes the image blurry"
+    ],
+    "correctAnswer": "A clear image can be seen through it",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which observation shows that a material is opaque?",
+    "id": 722,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Opaque materials block transmission.",
+    "alternatives": [
+      "You cannot shine light through it",
+      "You can see a clear image through it",
+      "It passes light with a blurry image",
+      "It bends every ray without blocking any"
+    ],
+    "correctAnswer": "You cannot shine light through it",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which category includes parchment paper in the guide?",
+    "id": 723,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The guide uses parchment paper as an example of scattered transmission.",
+    "alternatives": [
+      "Translucent",
+      "Transparent",
+      "Opaque",
+      "Electromagnetic"
+    ],
+    "correctAnswer": "Translucent",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which category includes a brick wall?",
+    "id": 724,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A brick wall blocks visible light from passing through.",
+    "alternatives": [
+      "Opaque",
+      "Transparent",
+      "Translucent",
+      "A vacuum"
+    ],
+    "correctAnswer": "Opaque",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which category includes clear water in the guide?",
+    "id": 725,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Clear water can transmit light and preserve a clear view.",
+    "alternatives": [
+      "Transparent",
+      "Opaque",
+      "Translucent in every case",
+      "A sound source"
+    ],
+    "correctAnswer": "Transparent",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What distinguishes translucent from transparent material?",
+    "id": 726,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Both transmit light, but scattering affects image clarity.",
+    "alternatives": [
+      "Translucent material scatters transmitted light more",
+      "Translucent material never passes any light",
+      "Transparent material always absorbs all light",
+      "Only translucent material contains matter"
+    ],
+    "correctAnswer": "Translucent material scatters transmitted light more",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is reflection?",
+    "id": 727,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Reflection sends a wave back into the region it came from.",
+    "alternatives": [
+      "A wave bouncing back from a surface",
+      "A wave bending because its speed changes between media",
+      "A count of cycles per second",
+      "The highest point on a wave"
+    ],
+    "correctAnswer": "A wave bouncing back from a surface",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is refraction?",
+    "id": 728,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A wave crossing between media at an angle can bend.",
+    "alternatives": [
+      "A change in wave direction as speed changes across a boundary",
+      "A wave bouncing back from a wall",
+      "A region of crowded air particles",
+      "The height of a crest"
+    ],
+    "correctAnswer": "A change in wave direction as speed changes across a boundary",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which example shows light reflection?",
+    "id": 729,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Mirror images form when light reflects from a smooth surface.",
+    "alternatives": [
+      "Seeing your face in a mirror",
+      "A straw appearing bent in water",
+      "Sound vibrating the eardrum",
+      "Light becoming electrical signals in the retina"
+    ],
+    "correctAnswer": "Seeing your face in a mirror",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which example shows light refraction?",
+    "id": 730,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Refraction involves transmission across a boundary and a speed change.",
+    "alternatives": [
+      "A beam bending as it enters water at an angle",
+      "An echo from a wall",
+      "Light bouncing off a mirror",
+      "A wood block stopping a beam"
+    ],
+    "correctAnswer": "A beam bending as it enters water at an angle",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "How are echoes and mirror images alike?",
+    "id": 731,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound and light can both reflect.",
+    "alternatives": [
+      "Both involve reflected waves",
+      "Both require the retina to detect sound",
+      "Both are caused only by refraction",
+      "Both need a vacuum"
+    ],
+    "correctAnswer": "Both involve reflected waves",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What happens to a sound wave that produces an echo?",
+    "id": 732,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Reflected sound can return to a listener.",
+    "alternatives": [
+      "It returns after bouncing from a surface",
+      "It becomes visible light",
+      "It travels through a vacuum",
+      "It stops before reaching any surface"
+    ],
+    "correctAnswer": "It returns after bouncing from a surface",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "From which reference line are incidence and reflection angles measured?",
+    "id": 733,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Both angles use the normal as their reference.",
+    "alternatives": [
+      "The normal, perpendicular to the surface",
+      "A line parallel to the surface",
+      "The edge of the paper only",
+      "The wave's amplitude"
+    ],
+    "correctAnswer": "The normal, perpendicular to the surface",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A ray hits a mirror along the normal. What is its angle of reflection?",
+    "id": 734,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "An incidence angle of zero gives a reflection angle of zero.",
+    "alternatives": [
+      "0 degrees",
+      "45 degrees",
+      "90 degrees",
+      "180 degrees"
+    ],
+    "correctAnswer": "0 degrees",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "If a ray's incidence angle increases, what happens to its reflection angle?",
+    "id": 735,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The two angles remain equal.",
+    "alternatives": [
+      "It increases by the same amount",
+      "It always becomes zero",
+      "It decreases by the same amount",
+      "It stays fixed at 90 degrees"
+    ],
+    "correctAnswer": "It increases by the same amount",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why should both reflection angles be measured from the same normal?",
+    "id": 736,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The law compares angles using a shared perpendicular reference.",
+    "alternatives": [
+      "So the angles can be compared using the law of reflection",
+      "So light will become sound",
+      "So the surface becomes transparent",
+      "So wavelength becomes amplitude"
+    ],
+    "correctAnswer": "So the angles can be compared using the law of reflection",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A beam crosses from air into water at an angle and changes direction. Which property change causes this?",
+    "id": 737,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Changing speed across a boundary causes refraction.",
+    "alternatives": [
+      "Its speed changes",
+      "Its source turns off",
+      "Its amplitude must become zero",
+      "Its energy stops moving"
+    ],
+    "correctAnswer": "Its speed changes",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which pair correctly matches a phenomenon with its cause?",
+    "id": 738,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Echoes bounce back; the straw's apparent bend comes from refracted light.",
+    "alternatives": [
+      "Echo: reflection; bent-looking straw: refraction",
+      "Echo: refraction; bent-looking straw: reflection",
+      "Echo: transparency; bent-looking straw: rarefaction",
+      "Echo: amplitude; bent-looking straw: compression"
+    ],
+    "correctAnswer": "Echo: reflection; bent-looking straw: refraction",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave changes direction by bouncing back without crossing into a new medium. Which behavior is this?",
+    "id": 739,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Reflection is a return from a boundary.",
+    "alternatives": [
+      "Reflection",
+      "Refraction",
+      "Frequency",
+      "Compression"
+    ],
+    "correctAnswer": "Reflection",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A student says reflection and refraction both mean bouncing. Which correction is best?",
+    "id": 740,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Bouncing and bending across a boundary are different behaviors.",
+    "alternatives": [
+      "Refraction involves bending during transmission between media",
+      "Reflection always means absorption",
+      "Refraction is a type of sound only",
+      "Reflection happens only in water"
+    ],
+    "correctAnswer": "Refraction involves bending during transmission between media",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why can a smooth mirror form a recognizable image?",
+    "id": 741,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Smooth surfaces can preserve the reflected pattern needed for an image.",
+    "alternatives": [
+      "It reflects light in an orderly pattern",
+      "It converts sound into light",
+      "It absorbs every incoming ray",
+      "It creates light inside the retina"
+    ],
+    "correctAnswer": "It reflects light in an orderly pattern",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What first funnels sound toward the ear canal?",
+    "id": 742,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The outer ear collects sound and directs it into the canal.",
+    "alternatives": [
+      "The outer ear",
+      "The retina",
+      "The lens",
+      "The optic nerve"
+    ],
+    "correctAnswer": "The outer ear",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What happens immediately after sound travels down the ear canal?",
+    "id": 743,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound waves cause the eardrum to vibrate.",
+    "alternatives": [
+      "The eardrum vibrates",
+      "The pupil focuses sound",
+      "The optic nerve carries sound",
+      "The retina moves the ossicles"
+    ],
+    "correctAnswer": "The eardrum vibrates",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which structure receives vibrations from the eardrum?",
+    "id": 744,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The ossicles transfer the eardrum's vibrations onward.",
+    "alternatives": [
+      "The middle-ear bones",
+      "The pupil",
+      "The retina",
+      "The cornea"
+    ],
+    "correctAnswer": "The middle-ear bones",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What fills the cochlea and moves in response to vibrations?",
+    "id": 745,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The cochlea's fluid movement stimulates sensory hair cells.",
+    "alternatives": [
+      "Fluid",
+      "A perfect vacuum",
+      "Only light",
+      "Only bone"
+    ],
+    "correctAnswer": "Fluid",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which sequence correctly traces sound processing?",
+    "id": 746,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound vibrations pass inward through the ear's structures.",
+    "alternatives": [
+      "Ear canal, eardrum, ossicles, cochlea",
+      "Cochlea, pupil, retina, eardrum",
+      "Retina, lens, cornea, ear canal",
+      "Optic nerve, ossicles, pupil, cochlea"
+    ],
+    "correctAnswer": "Ear canal, eardrum, ossicles, cochlea",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is sent from cochlear hair cells toward the brain?",
+    "id": 747,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sensory cells convert mechanical motion into electrical signals.",
+    "alternatives": [
+      "Electrical signals",
+      "A beam of visible light",
+      "Whole air particles from the source",
+      "A mirror image"
+    ],
+    "correctAnswer": "Electrical signals",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is the role of the brain in hearing?",
+    "id": 748,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The brain processes the signals received from the ear.",
+    "alternatives": [
+      "Interpreting signals from the auditory nerve",
+      "Creating a vacuum in the ear",
+      "Focusing light on the cochlea",
+      "Replacing the eardrum with a lens"
+    ],
+    "correctAnswer": "Interpreting signals from the auditory nerve",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which part of the hearing pathway converts movement into nerve signals?",
+    "id": 749,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Hair cells perform the sensory conversion.",
+    "alternatives": [
+      "Cochlear hair cells",
+      "The outer ear alone",
+      "The ear canal alone",
+      "The middle-ear bones alone"
+    ],
+    "correctAnswer": "Cochlear hair cells",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which pair belongs to the hearing system?",
+    "id": 750,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The cochlea and auditory nerve help process sound.",
+    "alternatives": [
+      "Cochlea and auditory nerve",
+      "Retina and optic nerve",
+      "Pupil and lens",
+      "Cornea and retina"
+    ],
+    "correctAnswer": "Cochlea and auditory nerve",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which pair belongs to the visual system?",
+    "id": 751,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The retina and optic nerve help process light.",
+    "alternatives": [
+      "Retina and optic nerve",
+      "Cochlea and ossicles",
+      "Eardrum and auditory nerve",
+      "Ear canal and cochlea"
+    ],
+    "correctAnswer": "Retina and optic nerve",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What protective structure does incoming light pass through before reaching the pupil?",
+    "id": 752,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The cornea is at the front of the eye.",
+    "alternatives": [
+      "The cornea",
+      "The cochlea",
+      "The auditory nerve",
+      "The eardrum"
+    ],
+    "correctAnswer": "The cornea",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Where is the retina located?",
+    "id": 753,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The lens focuses light onto the retina at the back of the eye.",
+    "alternatives": [
+      "At the back of the eye",
+      "Inside the ear canal",
+      "Outside the outer ear",
+      "Within the middle-ear bones"
+    ],
+    "correctAnswer": "At the back of the eye",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which sequence correctly traces incoming light in the eye?",
+    "id": 754,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Light enters at the front and is focused onto the back of the eye.",
+    "alternatives": [
+      "Cornea, pupil, lens, retina",
+      "Retina, cochlea, lens, pupil",
+      "Eardrum, pupil, optic nerve, cornea",
+      "Lens, ossicles, retina, cornea"
+    ],
+    "correctAnswer": "Cornea, pupil, lens, retina",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which structure is an opening rather than a light-sensitive cell layer?",
+    "id": 755,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The pupil is the adjustable opening through which light enters.",
+    "alternatives": [
+      "The pupil",
+      "The retina",
+      "The cochlea",
+      "The optic nerve"
+    ],
+    "correctAnswer": "The pupil",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What are photoreceptors?",
+    "id": 756,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Rods and cones are the retina's photoreceptor cells.",
+    "alternatives": [
+      "Cells that respond to light",
+      "Bones that transfer sound",
+      "Regions where particles crowd together",
+      "Materials that block all light"
+    ],
+    "correctAnswer": "Cells that respond to light",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What do the ear and eye both do before sending information to the brain?",
+    "id": 757,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Both sensory systems produce signals the brain can process.",
+    "alternatives": [
+      "Convert incoming stimulation into electrical signals",
+      "Turn every wave into sound",
+      "Send whole waves unchanged through nerves",
+      "Stop all energy from entering"
+    ],
+    "correctAnswer": "Convert incoming stimulation into electrical signals",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which pairing correctly matches a sensory cell with its organ?",
+    "id": 758,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Different sensory cells detect mechanical motion and light.",
+    "alternatives": [
+      "Hair cells: ear; rods and cones: eye",
+      "Hair cells: eye; rods and cones: ear",
+      "Hair cells: mirror; rods and cones: glass",
+      "Hair cells: pupil; rods and cones: eardrum"
+    ],
+    "correctAnswer": "Hair cells: ear; rods and cones: eye",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which pairing correctly matches a nerve with the sense it serves?",
+    "id": 759,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Auditory relates to sound; optic relates to sight.",
+    "alternatives": [
+      "Auditory nerve: hearing; optic nerve: vision",
+      "Auditory nerve: vision; optic nerve: hearing",
+      "Both nerves: hearing only",
+      "Both nerves: vision only"
+    ],
+    "correctAnswer": "Auditory nerve: hearing; optic nerve: vision",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement correctly compares the lens and retina?",
+    "id": 760,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Focusing and sensory conversion are different jobs.",
+    "alternatives": [
+      "The lens focuses light; the retina detects it",
+      "The retina focuses sound; the lens detects it",
+      "Both are small bones in the ear",
+      "The lens sends hearing signals to the brain"
+    ],
+    "correctAnswer": "The lens focuses light; the retina detects it",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement correctly compares the eardrum and cochlear hair cells?",
+    "id": 761,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The hearing pathway moves from vibration to sensory signals.",
+    "alternatives": [
+      "The eardrum vibrates; hair cells convert motion into electrical signals",
+      "Both focus light",
+      "Hair cells collect light; the eardrum detects color",
+      "The eardrum carries visual signals"
+    ],
+    "correctAnswer": "The eardrum vibrates; hair cells convert motion into electrical signals",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "An astronaut sees a nearby object collide outside a spacecraft but cannot hear it through the vacuum. Why?",
+    "id": 762,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Sound needs a material path, whereas light does not.",
+    "alternatives": [
+      "Light can cross the vacuum, but sound cannot",
+      "Sound moves too fast to hear",
+      "Light needs air while sound does not",
+      "The collision produces no energy"
+    ],
+    "correctAnswer": "Light can cross the vacuum, but sound cannot",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A lamp and a speaker are both turned up. Which wave change can explain brighter light and louder sound?",
+    "id": 763,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Amplitude relates to light intensity and sound loudness.",
+    "alternatives": [
+      "Greater amplitude",
+      "Smaller amplitude",
+      "A vacuum forming",
+      "A longer travel distance"
+    ],
+    "correctAnswer": "Greater amplitude",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A student labels the gap between two crests as frequency. What should the label be?",
+    "id": 764,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The gap is a distance, while frequency is a cycle rate.",
+    "alternatives": [
+      "Wavelength",
+      "Amplitude",
+      "Reflection",
+      "Rarefaction"
+    ],
+    "correctAnswer": "Wavelength",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A student calls a crowded region of air a trough. Which label should be used instead?",
+    "id": 765,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A crowded region in a longitudinal sound wave is a compression.",
+    "alternatives": [
+      "Compression",
+      "Crest",
+      "Refraction",
+      "Retina"
+    ],
+    "correctAnswer": "Compression",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A flashlight shines on a mirror and then onto a wall. What redirected the beam toward the wall?",
+    "id": 766,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The mirror bounces the light into a new direction.",
+    "alternatives": [
+      "Reflection at the mirror",
+      "Refraction in the auditory nerve",
+      "A compression inside the wall",
+      "Sound transmission through space"
+    ],
+    "correctAnswer": "Reflection at the mirror",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A beam passes through clear glass and is still visible on the other side. Which behavior occurred?",
+    "id": 767,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Transmission means light passes through a material.",
+    "alternatives": [
+      "Transmission",
+      "Complete absorption",
+      "Sound conversion",
+      "Complete blocking"
+    ],
+    "correctAnswer": "Transmission",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A glass door is replaced with a wooden door. What happens to the clear view through the door?",
+    "id": 768,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Material properties determine how much light passes through.",
+    "alternatives": [
+      "It is blocked because wood is opaque",
+      "It becomes clearer because wood is transparent",
+      "It becomes brighter because wood produces light",
+      "It stays the same because all solids transmit light"
+    ],
+    "correctAnswer": "It is blocked because wood is opaque",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why is a light ray's change of direction alone not enough to distinguish reflection from refraction?",
+    "id": 769,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Check whether the wave bounces back or crosses a boundary.",
+    "alternatives": [
+      "Both can change direction, but only refraction involves crossing between media",
+      "Neither can change direction",
+      "Only sound can change direction",
+      "Both always require a mirror"
+    ],
+    "correctAnswer": "Both can change direction, but only refraction involves crossing between media",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "An echo is quieter than the original shout. Which property of the returning sound is smaller at the listener?",
+    "id": 770,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Smaller amplitude corresponds to quieter sound.",
+    "alternatives": [
+      "Amplitude",
+      "Frequency necessarily",
+      "Speed in air necessarily",
+      "Number of particles in all the air"
+    ],
+    "correctAnswer": "Amplitude",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A classroom model uses a lens and a screen to represent an eye. What does the screen represent?",
+    "id": 771,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The retina is where the eye's lens focuses the image.",
+    "alternatives": [
+      "The retina",
+      "The eardrum",
+      "The pupil",
+      "The ear canal"
+    ],
+    "correctAnswer": "The retina",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A model uses a vibrating membrane to represent part of the ear. Which part does it best represent?",
+    "id": 772,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The eardrum is a membrane that vibrates in response to sound.",
+    "alternatives": [
+      "The eardrum",
+      "The lens",
+      "The retina",
+      "The optic nerve"
+    ],
+    "correctAnswer": "The eardrum",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which observation concerns frequency rather than amplitude?",
+    "id": 773,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Frequency describes repetition rate.",
+    "alternatives": [
+      "More wave cycles pass a point each second",
+      "The sound becomes louder",
+      "The light becomes brighter",
+      "A crest moves farther from rest"
+    ],
+    "correctAnswer": "More wave cycles pass a point each second",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which observation concerns amplitude rather than frequency?",
+    "id": 774,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Amplitude describes maximum displacement.",
+    "alternatives": [
+      "A rope moves farther from its rest position",
+      "More cycles pass each second",
+      "Fewer cycles pass each second",
+      "The time between passing crests gets shorter"
+    ],
+    "correctAnswer": "A rope moves farther from its rest position",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What information is missing if you know only that 20 wave cycles passed a point?",
+    "id": 775,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A cycle count needs a time interval to determine frequency.",
+    "alternatives": [
+      "How long the counting lasted",
+      "The student's name",
+      "The color of the diagram",
+      "The number of pages in the guide"
+    ],
+    "correctAnswer": "How long the counting lasted",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Why can counting only the number of crests in a drawing be misleading when comparing wavelengths?",
+    "id": 776,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Compare spacing using the same distance scale.",
+    "alternatives": [
+      "The drawings may show different total distances",
+      "Crests never repeat",
+      "Wavelength is measured in seconds",
+      "Only troughs can be measured"
+    ],
+    "correctAnswer": "The drawings may show different total distances",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which statement best distinguishes a wave from the medium carrying it?",
+    "id": 777,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "A disturbance and the material carrying it are different things.",
+    "alternatives": [
+      "The wave is a traveling disturbance; the medium is the matter it travels through",
+      "The wave is always a solid; the medium is always light",
+      "Both mean empty space",
+      "The medium travels permanently with every wave"
+    ],
+    "correctAnswer": "The wave is a traveling disturbance; the medium is the matter it travels through",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "What is the final destination of both auditory and optic nerve signals described in the guide?",
+    "id": 778,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Both pathways carry sensory information to the brain.",
+    "alternatives": [
+      "The brain",
+      "The outer ear",
+      "The cornea",
+      "The lens"
+    ],
+    "correctAnswer": "The brain",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which structure receives focused light before the optic nerve carries signals onward?",
+    "id": 779,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Retinal photoreceptors convert light to electrical signals.",
+    "alternatives": [
+      "The retina",
+      "The pupil",
+      "The eardrum",
+      "The auditory nerve"
+    ],
+    "correctAnswer": "The retina",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Which structure lies between the middle-ear bones and the auditory nerve in the hearing pathway?",
+    "id": 780,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The cochlea converts mechanical stimulation into sensory signals.",
+    "alternatives": [
+      "The cochlea",
+      "The lens",
+      "The cornea",
+      "The pupil"
+    ],
+    "correctAnswer": "The cochlea",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave completes 12 cycles in 3 seconds. What is its frequency?",
+    "id": 781,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Divide the number of cycles by the number of seconds.",
+    "alternatives": [
+      "4 Hz",
+      "36 Hz",
+      "9 Hz",
+      "15 Hz"
+    ],
+    "correctAnswer": "4 Hz",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave completes 30 cycles in 5 seconds. What is its frequency?",
+    "id": 782,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Frequency is cycles divided by elapsed time.",
+    "alternatives": [
+      "6 Hz",
+      "150 Hz",
+      "25 Hz",
+      "35 Hz"
+    ],
+    "correctAnswer": "6 Hz",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave has a frequency of 8 Hz. How many cycles pass in 2 seconds?",
+    "id": 783,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Multiply cycles per second by the number of seconds.",
+    "alternatives": [
+      "16 cycles",
+      "4 cycles",
+      "8 cycles",
+      "10 cycles"
+    ],
+    "correctAnswer": "16 cycles",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave completes 21 cycles in 7 seconds. Another completes 20 cycles in 4 seconds. Which has the higher frequency?",
+    "id": 784,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Compare cycles per second: 21 divided by 7 and 20 divided by 4.",
+    "alternatives": [
+      "The second wave, at 5 Hz",
+      "The first wave, at 3 Hz",
+      "Both have the same frequency",
+      "The first wave, at 21 Hz"
+    ],
+    "correctAnswer": "The second wave, at 5 Hz",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Four complete wavelengths span 20 centimeters on a drawing. How long is one wavelength?",
+    "id": 785,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Divide the total distance by the number of complete wavelengths.",
+    "alternatives": [
+      "5 centimeters",
+      "80 centimeters",
+      "16 centimeters",
+      "24 centimeters"
+    ],
+    "correctAnswer": "5 centimeters",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Three consecutive crests are at 2, 8, and 14 centimeters. What is the wavelength?",
+    "id": 786,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Use the distance between adjacent crests, not the first and third crests.",
+    "alternatives": [
+      "6 centimeters",
+      "12 centimeters",
+      "14 centimeters",
+      "2 centimeters"
+    ],
+    "correctAnswer": "6 centimeters",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Two neighboring compressions are at 4 and 13 centimeters. What is the wavelength?",
+    "id": 787,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Subtract the positions of consecutive compressions.",
+    "alternatives": [
+      "9 centimeters",
+      "17 centimeters",
+      "4 centimeters",
+      "13 centimeters"
+    ],
+    "correctAnswer": "9 centimeters",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave's rest line is at 0 centimeters and its crest is at 3 centimeters. What is its amplitude?",
+    "id": 788,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Amplitude is measured from the rest line to the crest.",
+    "alternatives": [
+      "3 centimeters",
+      "6 centimeters",
+      "0 centimeters",
+      "9 centimeters"
+    ],
+    "correctAnswer": "3 centimeters",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A symmetric wave's crest is 4 centimeters above rest and its trough is 4 centimeters below rest. What is its crest-to-trough height?",
+    "id": 789,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Add the displacement above rest to the displacement below rest.",
+    "alternatives": [
+      "8 centimeters",
+      "4 centimeters",
+      "2 centimeters",
+      "0 centimeters"
+    ],
+    "correctAnswer": "8 centimeters",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A symmetric wave has a crest-to-trough height of 10 centimeters. What is its amplitude?",
+    "id": 790,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Amplitude is half the full crest-to-trough height for a symmetric wave.",
+    "alternatives": [
+      "5 centimeters",
+      "10 centimeters",
+      "20 centimeters",
+      "0 centimeters"
+    ],
+    "correctAnswer": "5 centimeters",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A ray strikes a mirror at 20 degrees from the normal. What is its reflection angle from the normal?",
+    "id": 791,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Reflection and incidence angles measured from the normal are equal.",
+    "alternatives": [
+      "20 degrees",
+      "70 degrees",
+      "40 degrees",
+      "90 degrees"
+    ],
+    "correctAnswer": "20 degrees",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A reflected ray makes a 55-degree angle with the normal. What was its incidence angle?",
+    "id": 792,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The law of reflection works in both directions.",
+    "alternatives": [
+      "55 degrees",
+      "35 degrees",
+      "110 degrees",
+      "0 degrees"
+    ],
+    "correctAnswer": "55 degrees",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A ray's incidence angle changes from 15 to 40 degrees. By how much does its reflection angle increase?",
+    "id": 793,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The reflection angle changes by the same amount as the incidence angle.",
+    "alternatives": [
+      "25 degrees",
+      "55 degrees",
+      "15 degrees",
+      "40 degrees"
+    ],
+    "correctAnswer": "25 degrees",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Using the guide's estimate of 5 seconds per mile, how far away is a storm if thunder follows lightning by 10 seconds?",
+    "id": 794,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Divide the delay in seconds by 5 to estimate miles.",
+    "alternatives": [
+      "About 2 miles",
+      "About 5 miles",
+      "About 10 miles",
+      "About 50 miles"
+    ],
+    "correctAnswer": "About 2 miles",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Using the guide's estimate, what delay would you expect from a storm about 3 miles away?",
+    "id": 795,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Each mile adds about 5 seconds of sound travel time.",
+    "alternatives": [
+      "About 15 seconds",
+      "About 3 seconds",
+      "About 5 seconds",
+      "About 8 seconds"
+    ],
+    "correctAnswer": "About 15 seconds",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Two storms produce lightning-thunder delays of 5 and 20 seconds. Using the guide's estimate, how much farther away is the second storm?",
+    "id": 796,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The estimates are 1 mile and 4 miles; subtract to compare them.",
+    "alternatives": [
+      "About 3 miles farther",
+      "About 1 mile farther",
+      "About 5 miles farther",
+      "About 15 miles farther"
+    ],
+    "correctAnswer": "About 3 miles farther",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "Wave A has crests 2 centimeters above rest; wave B has crests 5 centimeters above rest. Which has greater amplitude, and by how much?",
+    "id": 797,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Compare each crest's displacement from rest.",
+    "alternatives": [
+      "Wave B by 3 centimeters",
+      "Wave A by 3 centimeters",
+      "Wave B by 7 centimeters",
+      "Both have equal amplitude"
+    ],
+    "correctAnswer": "Wave B by 3 centimeters",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "A wave produces 18 cycles in 6 seconds and then 18 cycles in 3 seconds. How did its frequency change?",
+    "id": 798,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "The same cycle count in half the time means twice the frequency.",
+    "alternatives": [
+      "It doubled from 3 Hz to 6 Hz",
+      "It halved from 6 Hz to 3 Hz",
+      "It stayed at 18 Hz",
+      "It increased from 6 Hz to 18 Hz"
+    ],
+    "correctAnswer": "It doubled from 3 Hz to 6 Hz",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "At the same wave speed, wave A has twice the frequency of wave B. How do their wavelengths compare?",
+    "id": 799,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "At a fixed speed, frequency and wavelength change inversely.",
+    "alternatives": [
+      "Wave A has half the wavelength of wave B",
+      "Wave A has twice the wavelength of wave B",
+      "Their wavelengths must be equal",
+      "Wave A has zero wavelength"
+    ],
+    "correctAnswer": "Wave A has half the wavelength of wave B",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
+  },
+  {
+    "question": "At the same wave speed, a wavelength doubles. What happens to the frequency?",
+    "id": 800,
+    "usageExample": "Waves study guide • Unit 1.4",
+    "tip": "Longer cycles pass less often when the speed stays the same.",
+    "alternatives": [
+      "It becomes half as large",
+      "It doubles",
+      "It stays unchanged",
+      "It becomes zero"
+    ],
+    "correctAnswer": "It becomes half as large",
+    "version": "v1",
+    "chapter": 0,
+    "subject": "science",
+    "studyGuide": "waves"
   }
 ]

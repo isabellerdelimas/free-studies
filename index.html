@@ -8,7 +8,21 @@
   </head>
   <body>
     <main class="app-shell">
-      <section id="setupPanel" class="practice-panel setup-panel" aria-label="Game setup">
+      <section id="themePanel" class="practice-panel" aria-labelledby="welcomeTitle">
+        <header class="topbar"><div><p class="eyebrow">Free Studies</p><h1 id="welcomeTitle">Make it your study space</h1></div></header>
+        <form id="themeForm" class="setup-form">
+          <p class="field-hint">Pick a mode and a color. Your choice previews instantly.</p>
+          <fieldset class="theme-fieldset"><legend>Choose your mode</legend><div class="theme-modes">
+            <label class="theme-choice"><input type="radio" name="themeMode" value="starbucks" checked><strong>Starbucks mode</strong><span>Black background, colored buttons</span></label>
+            <label class="theme-choice"><input type="radio" name="themeMode" value="dark"><strong>Dark mode</strong><span>Every color, after dark</span></label>
+            <label class="theme-choice"><input type="radio" name="themeMode" value="light"><strong>Light mode</strong><span>Bright colors + baby pastels</span></label>
+          </div></fieldset>
+          <fieldset class="theme-fieldset"><legend>Choose your color</legend><div id="colorChoices" class="color-choices"></div></fieldset>
+          <label id="customColorLabel" class="custom-color hidden">Any color <input id="customColor" type="color" value="#008060"></label>
+          <div class="actions"><button class="primary-button" type="submit">Continue to Free Studies</button></div>
+        </form>
+      </section>
+      <section id="setupPanel" class="practice-panel setup-panel hidden" aria-label="Game setup">
         <header class="topbar">
           <div>
             <p class="eyebrow">Free Studies</p>
@@ -16,6 +30,7 @@
           </div>
         </header>
 
+        <button id="changeThemeButton" class="secondary-button theme-change" type="button">Change colors</button>
         <form id="setupForm" class="setup-form">
           <div class="field-row">
             <label for="playerCount">Players</label>
@@ -26,15 +41,13 @@
 
           <div class="field-row">
             <label for="subjectSelect">Subject</label>
-            <input id="subjectSelect" name="subjectSelect" type="text" list="subjectOptions" autocomplete="off" />
-            <datalist id="subjectOptions"></datalist>
+            <select id="subjectSelect" name="subjectSelect"></select>
             <p id="subjectHint" class="field-hint"></p>
           </div>
 
           <div class="field-row">
             <label id="chapterSelectLabel" for="chapterSelect">Chapter</label>
-            <input id="chapterSelect" name="chapterSelect" type="text" list="chapterOptions" autocomplete="off" />
-            <datalist id="chapterOptions"></datalist>
+            <select id="chapterSelect" name="chapterSelect"></select>
             <p id="chapterHint" class="field-hint"></p>
           </div>
 

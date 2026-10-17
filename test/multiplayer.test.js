@@ -113,3 +113,11 @@ assert.equal(formatPossessive("Ana"), "Ana's");
 assert.equal(formatPossessive("James"), "James'");
 
 console.log("multiplayer helper tests passed");
+
+const data = require('../data/free-studies.json');
+const guide = getQuestionsForChapter(data, 'study-guide');
+assert.equal(guide.length, 200);
+assert.ok(guide.every((question) => question.studyGuide === 'waves'));
+assert.ok(getQuestionsForChapter(data, 'all').every((question) => !question.studyGuide));
+assert.ok(getQuestionsForChapter(data, '14').every((question) => !question.studyGuide));
+assert.equal(getModeLabel('science', 'study-guide'), 'Study Guide: Waves');

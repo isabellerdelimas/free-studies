@@ -486,3 +486,53 @@ h2 {
     width: 100%;
   }
 }
+
+/* Theme colors extend to every quiz, results, and setup surface. */
+:root {
+  --chosen-color: #00966b;
+  --on-accent: #fff;
+  --surface: color-mix(in srgb, var(--chosen-color) 5%, white);
+  --page: color-mix(in srgb, var(--chosen-color) 14%, #f7f8fa);
+  --accent: color-mix(in srgb, var(--chosen-color) 48%, #16211f);
+  --accent-strong: var(--accent);
+}
+:root[data-theme="dark"], :root[data-theme="starbucks"] {
+  --page: #000;
+  --panel: #000;
+  --surface: #000;
+  --line: #383838;
+}
+body { background: radial-gradient(ellipse at top left, color-mix(in srgb, var(--chosen-color) 15%, transparent), transparent 65%), var(--page); }
+.topbar, .score-row, .missed-row, .feedback, .segmented-control { background: var(--surface); }
+.score-grid div, .field-row select, .field-row input, .player-field input, .icon-button, .missed-detail, .answer-button, .secondary-button { background: var(--panel); }
+.usage, .missed-question p { color: var(--muted); }
+.progress-track { background: var(--line); }
+.primary-button, .mode-button.active, #progressBar { background: var(--chosen-color); color: var(--on-accent); }
+.theme-fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+.theme-fieldset legend { font-weight: 800; margin-bottom: 12px; }
+.theme-modes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.theme-choice { display: grid; gap: 10px; padding: 20px; border: 1px solid var(--line); border-radius: 10px; cursor: pointer; background: var(--surface); }
+.theme-choice span { color: var(--muted); font-size: .9rem; }
+.theme-choice:has(input:checked) { outline: 2px solid var(--accent); }
+.theme-choice input { margin: 0; accent-color: var(--chosen-color); width: 18px; height: 18px; }
+.color-choices { display: flex; flex-wrap: wrap; gap: 10px; }
+.color-choice { display: flex; align-items: center; gap: 8px; padding: 10px 14px; min-height: 44px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); cursor: pointer; }
+.color-choice[aria-pressed="true"] { outline: 2px solid var(--accent); }
+.swatch { width: 20px; height: 20px; border-radius: 50%; border: 1px solid #899099; }
+.custom-color { display: flex; align-items: center; gap: 14px; }
+.custom-color input { width: 64px; height: 44px; }
+.theme-change { margin: 20px 28px 0; min-height: 44px; }
+button:focus-visible, .theme-choice:focus-within { outline: 3px solid var(--focus); outline-offset: 3px; }
+@media (max-width: 600px) { .theme-modes { grid-template-columns: 1fr; } .theme-choice { grid-template-columns: 20px 1fr; padding: 14px; } .theme-choice span { grid-column: 2; } }
+
+:root[data-theme="starbucks"] body { background: #000; }
+:root[data-theme="starbucks"] :is(.primary-button, .secondary-button, .icon-button, .mode-button, .answer-button) {
+  background: var(--chosen-color);
+  color: #fff;
+}
+:root[data-theme="starbucks"] .color-choice[aria-pressed="true"] {
+  background: var(--chosen-color);
+  color: #fff;
+}
+:root[data-theme="starbucks"] .answer-button.correct { background: var(--right-soft); border-color: var(--right); }
+:root[data-theme="starbucks"] .answer-button.incorrect { background: var(--wrong-soft); border-color: var(--wrong); }
