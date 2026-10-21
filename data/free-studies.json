@@ -3762,7 +3762,8 @@
     ],
     "correctAnswer": "an oscillation that carries energy",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is oscillation?",
@@ -3777,7 +3778,8 @@
     ],
     "correctAnswer": "up-and-down or back-and-forth motion",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is a mechanical wave?",
@@ -3792,7 +3794,8 @@
     ],
     "correctAnswer": "a wave that moves through matter",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is an electromagnetic wave?",
@@ -3807,7 +3810,8 @@
     ],
     "correctAnswer": "a wave that can travel through a vacuum",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "Why can sound not travel through outer space?",
@@ -3822,7 +3826,8 @@
     ],
     "correctAnswer": "space lacks matter for sound waves to travel through",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is amplitude?",
@@ -3837,7 +3842,8 @@
     ],
     "correctAnswer": "half the distance between a crest and a trough",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What does a larger wave amplitude usually mean?",
@@ -3852,7 +3858,8 @@
     ],
     "correctAnswer": "more energy",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is frequency?",
@@ -3867,7 +3874,8 @@
     ],
     "correctAnswer": "the number of waves passing a point each second",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is wavelength?",
@@ -3882,7 +3890,8 @@
     ],
     "correctAnswer": "the distance from one matching point on a wave to the next",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "How are frequency and wavelength related when wave speed stays the same?",
@@ -3897,7 +3906,8 @@
     ],
     "correctAnswer": "higher frequency means shorter wavelength",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is the wave speed equation?",
@@ -3912,7 +3922,8 @@
     ],
     "correctAnswer": "wave speed equals frequency times wavelength",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is reflection?",
@@ -3927,7 +3938,8 @@
     ],
     "correctAnswer": "a wave bouncing off a surface",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is an echo?",
@@ -3942,7 +3954,8 @@
     ],
     "correctAnswer": "a reflected sound wave",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is refraction?",
@@ -3957,7 +3970,8 @@
     ],
     "correctAnswer": "bending of waves as they travel through different mediums",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is diffraction?",
@@ -3972,7 +3986,8 @@
     ],
     "correctAnswer": "bending around a barrier or spreading past small openings",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is interference?",
@@ -3987,7 +4002,8 @@
     ],
     "correctAnswer": "the result of waves colliding with each other",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is constructive interference?",
@@ -4002,7 +4018,8 @@
     ],
     "correctAnswer": "waves combine to form a larger wave",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is destructive interference?",
@@ -4017,7 +4034,8 @@
     ],
     "correctAnswer": "waves cancel each other partly or completely",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What is absorption of a wave?",
@@ -4032,7 +4050,8 @@
     ],
     "correctAnswer": "transfer of energy from a wave to matter",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "Why does a red apple look red?",
@@ -4047,7 +4066,8 @@
     ],
     "correctAnswer": "red light is reflected while other colors are absorbed",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "1.4"
   },
   {
     "question": "What kind of wave is an electromagnetic wave?",
@@ -4062,7 +4082,8 @@
     ],
     "correctAnswer": "transverse wave",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "2.1"
   },
   {
     "question": "Which electromagnetic waves have the lowest energy?",
@@ -4077,7 +4098,8 @@
     ],
     "correctAnswer": "radio waves",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "2.1"
   },
   {
     "question": "Which electromagnetic waves have the highest energy?",
@@ -4092,7 +4114,8 @@
     ],
     "correctAnswer": "gamma rays",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "2.1"
   },
   {
     "question": "What visible color has the longest wavelength?",
@@ -4107,7 +4130,8 @@
     ],
     "correctAnswer": "red",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "2.1"
   },
   {
     "question": "What is pitch?",
@@ -4122,7 +4146,8 @@
     ],
     "correctAnswer": "our perception of sound wave frequency",
     "version": "v1",
-    "chapter": 15
+    "chapter": 15,
+    "unit": "2.1"
   },
   {
     "question": "What is weathering?",
@@ -12548,5 +12573,245 @@
     "chapter": 0,
     "subject": "science",
     "studyGuide": "waves"
+  },
+  {
+    "question": "What are the three properties used to describe electromagnetic waves across the spectrum?",
+    "id": 801,
+    "usageExample": "The spectrum orders waves by wavelength, frequency, and energy.",
+    "tip": "Think about wave spacing, waves per second, and energy.",
+    "alternatives": [
+      "wavelength, frequency, and energy",
+      "mass, volume, and density",
+      "pitch, loudness, and echo",
+      "reflection, refraction, and absorption"
+    ],
+    "correctAnswer": "wavelength, frequency, and energy",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "How do the electric and magnetic fields move with respect to the motion of an electromagnetic wave?",
+    "id": 802,
+    "usageExample": "Electromagnetic waves are transverse waves with fields at right angles.",
+    "tip": "Perpendicular means at a 90-degree angle.",
+    "alternatives": [
+      "They oscillate perpendicular to the direction of travel and to each other.",
+      "They both oscillate parallel to the direction of travel.",
+      "They stay still while matter carries the wave.",
+      "They oscillate in the same direction as each other."
+    ],
+    "correctAnswer": "They oscillate perpendicular to the direction of travel and to each other.",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "Which electromagnetic waves have the longest wavelength?",
+    "id": 803,
+    "usageExample": "Radio waves occupy the longest-wavelength end of the electromagnetic spectrum.",
+    "tip": "Think of the low-frequency end of the spectrum.",
+    "alternatives": [
+      "radio waves",
+      "microwaves",
+      "visible light",
+      "gamma rays"
+    ],
+    "correctAnswer": "radio waves",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "Which electromagnetic waves have the shortest wavelength?",
+    "id": 804,
+    "usageExample": "Gamma rays occupy the shortest-wavelength end of the spectrum.",
+    "tip": "The shortest wavelengths correspond to the highest frequencies.",
+    "alternatives": [
+      "gamma rays",
+      "X-rays",
+      "ultraviolet waves",
+      "radio waves"
+    ],
+    "correctAnswer": "gamma rays",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "Which electromagnetic waves have the highest frequency?",
+    "id": 805,
+    "usageExample": "Gamma rays have the highest frequencies in the electromagnetic spectrum.",
+    "tip": "Look at the end of the spectrum with the shortest wavelengths.",
+    "alternatives": [
+      "gamma rays",
+      "X-rays",
+      "visible light",
+      "microwaves"
+    ],
+    "correctAnswer": "gamma rays",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "Which electromagnetic waves have the lowest frequency?",
+    "id": 806,
+    "usageExample": "Radio waves have the lowest frequencies and longest wavelengths.",
+    "tip": "Low frequency goes with long wavelength.",
+    "alternatives": [
+      "radio waves",
+      "infrared waves",
+      "ultraviolet waves",
+      "gamma rays"
+    ],
+    "correctAnswer": "radio waves",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "Which electromagnetic waves carry the most energy per photon?",
+    "id": 807,
+    "usageExample": "Each gamma-ray photon carries more energy than photons in lower-frequency bands.",
+    "tip": "Photon energy increases with frequency.",
+    "alternatives": [
+      "gamma rays",
+      "X-rays",
+      "microwaves",
+      "radio waves"
+    ],
+    "correctAnswer": "gamma rays",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "What happens to the energy per photon as an electromagnetic wave’s wavelength decreases?",
+    "id": 808,
+    "usageExample": "Shorter-wavelength photons have more energy than longer-wavelength photons.",
+    "tip": "Shorter wavelength means higher frequency.",
+    "alternatives": [
+      "It increases.",
+      "It decreases.",
+      "It stays the same.",
+      "It becomes zero."
+    ],
+    "correctAnswer": "It increases.",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "Besides cooking food, how are microwaves used to help us plan our day?",
+    "id": 809,
+    "usageExample": "Weather radar sends out microwaves and detects reflections from precipitation.",
+    "tip": "Think about checking the forecast before making plans.",
+    "alternatives": [
+      "Weather radar uses them to track precipitation and help forecast weather.",
+      "They make clouds disappear before outdoor events.",
+      "They produce visible rainbows to show the temperature.",
+      "They measure time by making a clock tick."
+    ],
+    "correctAnswer": "Weather radar uses them to track precipitation and help forecast weather.",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "What is another name for far infrared rays, and what is an example?",
+    "id": 810,
+    "usageExample": "Far infrared is often called thermal radiation; warm bodies emit infrared energy.",
+    "tip": "Think of radiation associated with warmth.",
+    "alternatives": [
+      "thermal radiation, such as infrared energy emitted by a warm human body",
+      "visible light, such as the blue light from a screen",
+      "ultraviolet radiation, such as rays that cause sunburn",
+      "radio waves, such as waves carrying music broadcasts"
+    ],
+    "correctAnswer": "thermal radiation, such as infrared energy emitted by a warm human body",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "Why can doctors use X-rays to see bones inside our bodies?",
+    "id": 811,
+    "usageExample": "Different amounts of X-ray absorption make bones stand out in an image.",
+    "tip": "Bone absorbs more X-rays than soft tissue.",
+    "alternatives": [
+      "Soft tissue lets more X-rays pass through than bone does, creating contrast.",
+      "Bones let all X-rays pass through while skin blocks them all.",
+      "X-rays turn bones into visible light sources.",
+      "X-rays reflect from the skin without entering the body."
+    ],
+    "correctAnswer": "Soft tissue lets more X-rays pass through than bone does, creating contrast.",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "How are gamma rays produced?",
+    "id": 812,
+    "usageExample": "An excited atomic nucleus can release energy as a gamma-ray photon.",
+    "tip": "Think about energy released from an atomic nucleus.",
+    "alternatives": [
+      "by changes in atomic nuclei, such as during radioactive decay",
+      "by ordinary sound vibrations in air",
+      "by reflecting visible light from a mirror",
+      "by bending radio waves around a wall"
+    ],
+    "correctAnswer": "by changes in atomic nuclei, such as during radioactive decay",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "Which color of visible light has the longest wavelength?",
+    "id": 813,
+    "usageExample": "The visible spectrum runs from longer red wavelengths to shorter violet wavelengths.",
+    "tip": "ROY G. BIV begins with the longest-wavelength color.",
+    "alternatives": [
+      "red",
+      "green",
+      "blue",
+      "violet"
+    ],
+    "correctAnswer": "red",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "What type of electromagnetic waves can some insects see but humans cannot?",
+    "id": 814,
+    "usageExample": "Bees can see ultraviolet patterns on flowers that human eyes cannot see.",
+    "tip": "These waves lie just beyond violet in the spectrum.",
+    "alternatives": [
+      "ultraviolet waves",
+      "radio waves",
+      "X-rays",
+      "gamma rays"
+    ],
+    "correctAnswer": "ultraviolet waves",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
+  },
+  {
+    "question": "How can gamma rays help people even though they can kill human cells?",
+    "id": 815,
+    "usageExample": "Some cancer treatments use targeted gamma radiation to destroy cancer cells while limiting harm to nearby tissue.",
+    "tip": "Think about destroying cells that grow uncontrollably.",
+    "alternatives": [
+      "They can be carefully targeted to destroy cancer cells.",
+      "They kill only harmful cells and never affect healthy cells.",
+      "They make every human cell grow faster.",
+      "They turn damaged cells into healthy cells without harming them."
+    ],
+    "correctAnswer": "They can be carefully targeted to destroy cancer cells.",
+    "version": "v1",
+    "chapter": 15,
+    "unit": "2.1"
   }
 ]

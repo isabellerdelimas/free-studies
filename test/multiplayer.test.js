@@ -92,6 +92,27 @@ assert.equal(getQuestionUnit({ chapter: 1, subject: "civics", unit: "1.3" }), "1
 assert.equal(usesUnits("civics"), true);
 assert.equal(usesUnits("science"), false);
 
+const scienceQuestions = getQuestionsForSubject(require("../data/free-studies.json"), "science");
+const chapter15 = getQuestionsForChapter(scienceQuestions, "15");
+const unit14 = getQuestionsForChapter(scienceQuestions, "15:1.4");
+const unit21 = getQuestionsForChapter(scienceQuestions, "15:2.1");
+assert.equal(unit14.length, 20);
+assert.equal(unit21.length, 20);
+assert.equal(chapter15.length, unit14.length + unit21.length);
+assert.equal(unit21.filter((question) => question.id >= 801).length, 15);
+assert.deepEqual(getChapterOptions(chapter15), [
+  { chapter: "15:1.4", count: 20 },
+  { chapter: "15:2.1", count: 20 },
+]);
+for (const selection of ["15:1.4", "15:2.1"]) {
+  assert.equal(normalizeChapter(selection), selection);
+  assert.equal(normalizeChapter(getChapterInputValue(selection)), selection);
+}
+assert.equal(getChapterInputValue("15:1.4"), "Chapter 15 — Unit 1.4 (pages 143–149)");
+assert.equal(getModeLabel("science", "15:2.1"), "Science: chapter 15 — Unit 2.1 (pages 150–157)");
+assert.ok(getQuestionsForChapter(scienceQuestions, "all").includes(unit21[0]));
+assert.ok(getQuestionsForChapter(scienceQuestions, "study-guide").every((question) => question.studyGuide === "waves"));
+
 assert.deepEqual(buildPlayers(1, [""]), [{ name: "You", score: 0 }]);
 assert.deepEqual(buildPlayers(3, ["Ana", "", "Mia"]), [
   { name: "Ana", score: 0 },

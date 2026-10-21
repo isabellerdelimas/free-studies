@@ -173,7 +173,7 @@ function renderChapterOptions() {
   chapters.forEach(({ chapter, count }) => {
     const option = document.createElement("option");
     option.value = String(chapter);
-    option.textContent = `${useUnits ? "Unit" : "Chapter"} ${chapter} (${count} questions)`;
+    option.textContent = `${useUnits ? `Unit ${chapter}` : getChapterInputValue(chapter)} (${count} questions)`;
     elements.chapterSelect.append(option);
   });
 
@@ -606,12 +606,14 @@ function getValidQuestionCount(value, options, fallback) {
 
 function getChapterOptions(questions) {
   const counts = questions.reduce((chapterCounts, question) => {
-    chapterCounts.set(question.chapter, (chapterCounts.get(question.chapter) || 0) + 1);
+    const chapter = question.chapter === 15 && question.unit
+      ? `15:${question.unit}` : question.chapter;
+    chapterCounts.set(chapter, (chapterCounts.get(chapter) || 0) + 1);
     return chapterCounts;
   }, new Map());
 
   return [...counts.entries()]
-    .sort(([chapterA], [chapterB]) => chapterA - chapterB)
+    .sort(([chapterA], [chapterB]) => String(chapterA).localeCompare(String(chapterB), undefined, { numeric: true }))
     .map(([chapter, count]) => ({ chapter, count }));
 }
 
@@ -651,6 +653,9 @@ function getQuestionsForChapter(questions, chapter) {
   if (chapter === "study-guide") return questions.filter((question) => question.studyGuide === "waves");
   questions = questions.filter((question) => !question.studyGuide);
   if (chapter === "all") return questions;
+  if (String(chapter).startsWith("15:")) {
+    return questions.filter((question) => question.chapter === 15 && question.unit === String(chapter).slice(3));
+  }
   const chapterNumber = Number(chapter);
   return questions.filter((question) => question.chapter === chapterNumber);
 }
@@ -670,13 +675,15 @@ function getModeLabel(subject, chapter) {
   if (usesUnits(subject)) {
     return chapter === "all" ? `${subjectLabel}: all units` : `${subjectLabel}: unit ${chapter}`;
   }
-  return chapter === "all" ? `${subjectLabel}: all chapters` : `${subjectLabel}: chapter ${chapter}`;
+  return chapter === "all" ? `${subjectLabel}: all chapters` : `${subjectLabel}: ${getChapterInputValue(chapter).replace(/^Chapter/, "chapter")}`;
 }
 
 function getChapterInputValue(chapter, subject = "science") {
   if (usesUnits(subject)) {
     return chapter === "all" ? "All units" : `Unit ${chapter}`;
   }
+  if (chapter === "15:1.4") return "Chapter 15 — Unit 1.4 (pages 143–149)";
+  if (chapter === "15:2.1") return "Chapter 15 — Unit 2.1 (pages 150–157)";
   return chapter === "all" ? "All chapters" : `Chapter ${chapter}`;
 }
 
@@ -697,6 +704,10 @@ function normalizeSubject(subject) {
 function normalizeChapter(chapter, subject = "science") {
   const value = String(chapter || "all").trim().toLowerCase();
   if (!value || value === "all" || value === "all chapters" || value === "all units") return "all";
+  if (!usesUnits(subject)) {
+    const splitChapter = value.match(/^(?:chapter\s+)?15\s*(?::|—\s*unit\s+)(1\.4|2\.1)(?:\s|$)/);
+    if (splitChapter) return `15:${splitChapter[1]}`;
+  }
   const match = usesUnits(subject) ? value.match(/\d+(?:\.\d+)?/) : value.match(/\d+/);
   return match ? match[0] : "all";
 }
