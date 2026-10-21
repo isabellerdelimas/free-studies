@@ -18,6 +18,7 @@ const state = {
   selectedQuestionCount: 0,
   selectedSubject: "science",
   selectedChapter: "all",
+  selectedChapterUnit: "",
 };
 
 const elements = {
@@ -31,6 +32,8 @@ const elements = {
   chapterSelectLabel: hasDocument ? document.querySelector("#chapterSelectLabel") : null,
   chapterSelect: hasDocument ? document.querySelector("#chapterSelect") : null,
   chapterHint: hasDocument ? document.querySelector("#chapterHint") : null,
+  chapterUnitField: hasDocument ? document.querySelector("#chapterUnitField") : null,
+  chapterUnitSelect: hasDocument ? document.querySelector("#chapterUnitSelect") : null,
   questionCount: hasDocument ? document.querySelector("#questionCount") : null,
   questionCountHint: hasDocument ? document.querySelector("#questionCountHint") : null,
   setupError: hasDocument ? document.querySelector("#setupError") : null,
@@ -131,7 +134,9 @@ function renderQuestionCountOptions() {
   elements.questionCount.disabled = options.length === 0;
   elements.questionCountHint.textContent =
     options.length === 0
-      ? "Choose fewer players or another chapter."
+      ? (needsChapterUnit() && !state.selectedChapterUnit
+        ? "Choose a unit to set the number of questions."
+        : "Choose fewer players or another chapter.")
       : `Type a multiple of ${playerCount}, up to ${maxQuestions}. ${questionsEach} turn${
           questionsEach === 1 ? "" : "s"
         } per player.`;
@@ -189,7 +194,24 @@ function renderChapterOptions() {
     chapters.some(({ chapter }) => String(chapter) === String(state.selectedChapter));
   state.selectedChapter = hasSelectedChapter ? state.selectedChapter : "all";
   elements.chapterSelect.value = state.selectedChapter;
+  renderChapterUnitChoice();
   updateChapterHint();
+}
+
+function needsChapterUnit() {
+  return state.selectedSubject === "science" && state.selectedChapter === "15";
+}
+
+function renderChapterUnitChoice() {
+  const visible = needsChapterUnit();
+  elements.chapterUnitField.classList.toggle("hidden", !visible);
+  elements.chapterUnitSelect.disabled = !visible;
+  elements.chapterUnitSelect.required = visible;
+  elements.chapterUnitSelect.value = state.selectedChapterUnit;
+}
+
+function getSelectedChapterKey() {
+  return needsChapterUnit() ? `15:${state.selectedChapterUnit}` : state.selectedChapter;
 }
 
 function updateSubjectHint() {
@@ -201,7 +223,9 @@ function updateSubjectHint() {
 
 function updateChapterHint() {
   const count = getSelectedQuestions().length;
-  elements.chapterHint.textContent = `${count} question${count === 1 ? "" : "s"} available.`;
+  elements.chapterHint.textContent = needsChapterUnit() && !state.selectedChapterUnit
+    ? "Choose unit 1.4 or unit 2.1 below."
+    : `${count} question${count === 1 ? "" : "s"} available.`;
 }
 
 function handleSetupSubmit(event) {
@@ -211,6 +235,11 @@ function handleSetupSubmit(event) {
   const selectedQuestionCount = Math.floor(Number(elements.questionCount.value));
   state.selectedSubject = elements.subjectSelect.value;
   state.selectedChapter = elements.chapterSelect.value;
+  state.selectedChapterUnit = elements.chapterUnitSelect.value;
+  if (needsChapterUnit() && !state.selectedChapterUnit) {
+    showSetupError("Choose unit 1.4 or unit 2.1 for Chapter 15.");
+    return;
+  }
   const availableQuestions = getSelectedQuestions().length;
 
   if (
@@ -270,7 +299,7 @@ function renderQuestion() {
   if (state.queue.length === 0) {
     elements.questionNumber.textContent = "No questions";
     elements.turnLabel.textContent = "";
-    elements.modeLabel.textContent = getModeLabel(state.selectedSubject, state.selectedChapter);
+    elements.modeLabel.textContent = getModeLabel(state.selectedSubject, getSelectedChapterKey());
     elements.questionText.textContent = "No questions found";
     elements.usageText.textContent = "Check the JSON file and refresh the page.";
     elements.choicesLabel.classList.add("hidden");
@@ -289,7 +318,7 @@ function renderQuestion() {
   elements.nextButton.textContent = "Next";
   elements.questionNumber.textContent = `Question ${state.currentIndex + 1}`;
   elements.turnLabel.textContent = `${formatPossessive(getCurrentPlayer().name)} turn`;
-  elements.modeLabel.textContent = getModeLabel(state.selectedSubject, state.selectedChapter);
+  elements.modeLabel.textContent = getModeLabel(state.selectedSubject, getSelectedChapterKey());
   elements.questionText.textContent = question.question;
   elements.usageText.textContent = question.usageExample;
   elements.choicesLabel.classList.remove("hidden");
@@ -559,7 +588,7 @@ function getSelectedQuestions() {
   const subjectQuestions = getQuestionsForSubject(state.allQuestions, state.selectedSubject);
   return usesUnits(state.selectedSubject)
     ? getQuestionsForUnit(subjectQuestions, state.selectedChapter)
-    : getQuestionsForChapter(subjectQuestions, state.selectedChapter);
+    : getQuestionsForChapter(subjectQuestions, getSelectedChapterKey());
 }
 
 function getCurrentQuestion() {
@@ -606,8 +635,7 @@ function getValidQuestionCount(value, options, fallback) {
 
 function getChapterOptions(questions) {
   const counts = questions.reduce((chapterCounts, question) => {
-    const chapter = question.chapter === 15 && question.unit
-      ? `15:${question.unit}` : question.chapter;
+    const chapter = question.chapter;
     chapterCounts.set(chapter, (chapterCounts.get(chapter) || 0) + 1);
     return chapterCounts;
   }, new Map());
@@ -761,12 +789,20 @@ if (hasDocument) {
   elements.subjectSelect.addEventListener("change", () => {
     state.selectedSubject = elements.subjectSelect.value;
     state.selectedChapter = "all";
+    state.selectedChapterUnit = "";
     updateSubjectHint();
     renderChapterOptions();
     renderQuestionCountOptions();
   });
   elements.chapterSelect.addEventListener("change", () => {
     state.selectedChapter = elements.chapterSelect.value;
+    state.selectedChapterUnit = "";
+    renderChapterUnitChoice();
+    updateChapterHint();
+    renderQuestionCountOptions();
+  });
+  elements.chapterUnitSelect.addEventListener("change", () => {
+    state.selectedChapterUnit = elements.chapterUnitSelect.value;
     updateChapterHint();
     renderQuestionCountOptions();
   });

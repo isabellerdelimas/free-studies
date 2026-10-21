@@ -101,8 +101,7 @@ assert.equal(unit21.length, 20);
 assert.equal(chapter15.length, unit14.length + unit21.length);
 assert.equal(unit21.filter((question) => question.id >= 801).length, 15);
 assert.deepEqual(getChapterOptions(chapter15), [
-  { chapter: "15:1.4", count: 20 },
-  { chapter: "15:2.1", count: 20 },
+  { chapter: 15, count: 40 },
 ]);
 for (const selection of ["15:1.4", "15:2.1"]) {
   assert.equal(normalizeChapter(selection), selection);
