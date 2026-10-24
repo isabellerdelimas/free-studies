@@ -168,17 +168,17 @@ function renderChapterOptions() {
   const guideCount = subjectQuestions.filter((question) => question.studyGuide === "waves").length;
   const chapters = useUnits ? getUnitOptions(subjectQuestions) : getChapterOptions(chapterQuestions);
   elements.chapterSelect.innerHTML = "";
-  elements.chapterSelectLabel.textContent = useUnits ? "Choose which unit" : "Chapter";
+  elements.chapterSelectLabel.textContent = state.selectedSubject === "math" ? "Lesson" : useUnits ? "Choose which unit" : "Chapter";
 
   const allOption = document.createElement("option");
   allOption.value = "all";
-  allOption.textContent = `${useUnits ? "All units" : "All chapters"} (${chapterQuestions.length} questions)`;
+  allOption.textContent = `${getChapterInputValue("all", state.selectedSubject)} (${chapterQuestions.length} questions)`;
   elements.chapterSelect.append(allOption);
 
   chapters.forEach(({ chapter, count }) => {
     const option = document.createElement("option");
     option.value = String(chapter);
-    option.textContent = `${useUnits ? `Unit ${chapter}` : getChapterInputValue(chapter)} (${count} questions)`;
+    option.textContent = `${getChapterInputValue(chapter, state.selectedSubject)} (${count} questions)`;
     elements.chapterSelect.append(option);
   });
 
@@ -348,7 +348,7 @@ function chooseAnswer(button, alternative) {
     currentPlayer.score += 1;
     state.streak += 1;
     state.missedIds.delete(question.id);
-    setFeedback(`Correct, ${currentPlayer.name}. ${question.tip}`, "success");
+    setFeedback(`Correct, ${currentPlayer.name}. ${question.explanation || question.tip}`, "success");
   } else {
     state.streak = 0;
     state.missedIds.add(question.id);
@@ -360,7 +360,7 @@ function chooseAnswer(button, alternative) {
       playerName: currentPlayer.name,
     });
     setFeedback(
-      `Not quite, ${currentPlayer.name}. Correct answer: ${question.correctAnswer}. ${question.tip}`,
+      `Not quite, ${currentPlayer.name}. Correct answer: ${question.correctAnswer}. ${question.explanation || question.tip}`,
       "error",
     );
   }
@@ -700,13 +700,25 @@ function getQuestionUnit(question) {
 function getModeLabel(subject, chapter) {
   if (chapter === "study-guide") return "Study Guide: Waves";
   const subjectLabel = getSubjectLabel(subject);
+  if (subject === "math") return `${subjectLabel}: ${getChapterInputValue(chapter, subject)}`;
   if (usesUnits(subject)) {
     return chapter === "all" ? `${subjectLabel}: all units` : `${subjectLabel}: unit ${chapter}`;
   }
   return chapter === "all" ? `${subjectLabel}: all chapters` : `${subjectLabel}: ${getChapterInputValue(chapter).replace(/^Chapter/, "chapter")}`;
 }
 
+const mathLessons = {
+  2: "Area & Perimeter",
+  3: "Solve Problems with Scale Factor",
+  4: "Currency Conversions",
+  5: "Converting Length, Mass, and Volume Between Systems",
+  6: "Converting Mass and Area",
+};
+
 function getChapterInputValue(chapter, subject = "science") {
+  if (subject === "math") {
+    return chapter === "all" ? "All lessons" : `Lesson ${chapter}${mathLessons[chapter] ? ` — ${mathLessons[chapter]}` : ""}`;
+  }
   if (usesUnits(subject)) {
     return chapter === "all" ? "All units" : `Unit ${chapter}`;
   }
@@ -731,7 +743,7 @@ function normalizeSubject(subject) {
 
 function normalizeChapter(chapter, subject = "science") {
   const value = String(chapter || "all").trim().toLowerCase();
-  if (!value || value === "all" || value === "all chapters" || value === "all units") return "all";
+  if (!value || value === "all" || value === "all chapters" || value === "all units" || value === "all lessons") return "all";
   if (!usesUnits(subject)) {
     const splitChapter = value.match(/^(?:chapter\s+)?15\s*(?::|—\s*unit\s+)(1\.4|2\.1)(?:\s|$)/);
     if (splitChapter) return `15:${splitChapter[1]}`;

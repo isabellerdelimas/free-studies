@@ -12813,5 +12813,855 @@
     "version": "v1",
     "chapter": 15,
     "unit": "2.1"
+  },
+  {
+    "id": 816,
+    "subject": "math",
+    "chapter": 2,
+    "question": "A rectangular art mat is 14 cm long and 5 cm wide. What is its perimeter?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Perimeter scales by k; area scales by k². For a triangle, area = base × perpendicular height ÷ 2.",
+    "explanation": "P = 2(14 + 5) = 38 cm.",
+    "alternatives": [
+      "38 cm",
+      "70 cm",
+      "19 cm",
+      "28 cm"
+    ],
+    "correctAnswer": "38 cm",
+    "version": "v1"
+  },
+  {
+    "id": 817,
+    "subject": "math",
+    "chapter": 2,
+    "question": "A rectangular garden bed is 9 m long and 7 m wide. What is its area?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Perimeter scales by k; area scales by k². For a triangle, area = base × perpendicular height ÷ 2.",
+    "explanation": "A = 9 × 7 = 63 m².",
+    "alternatives": [
+      "63 m²",
+      "32 m²",
+      "16 m²",
+      "126 m²"
+    ],
+    "correctAnswer": "63 m²",
+    "version": "v1"
+  },
+  {
+    "id": 818,
+    "subject": "math",
+    "chapter": 2,
+    "question": "A 15 cm by 10 cm rectangle becomes a 6 cm by 4 cm rectangle. What is the scale factor from the original to the new rectangle?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Perimeter scales by k; area scales by k². For a triangle, area = base × perpendicular height ÷ 2.",
+    "explanation": "Divide corresponding new and original sides: 6 ÷ 15 = 4 ÷ 10 = 2/5.",
+    "alternatives": [
+      "2/5",
+      "5/2",
+      "3/5",
+      "1/5"
+    ],
+    "correctAnswer": "2/5",
+    "version": "v1"
+  },
+  {
+    "id": 819,
+    "subject": "math",
+    "chapter": 2,
+    "question": "A shape has perimeter 46 cm. It is enlarged by a scale factor of 3. What is the new perimeter?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Perimeter scales by k; area scales by k². For a triangle, area = base × perpendicular height ÷ 2.",
+    "explanation": "Perimeter scales by the scale factor: 46 × 3 = 138 cm.",
+    "alternatives": [
+      "138 cm",
+      "414 cm",
+      "49 cm",
+      "15.33 cm"
+    ],
+    "correctAnswer": "138 cm",
+    "version": "v1"
+  },
+  {
+    "id": 820,
+    "subject": "math",
+    "chapter": 2,
+    "question": "A tile design has area 80 cm². Every length is scaled by 1/2. What is its new area?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Perimeter scales by k; area scales by k². For a triangle, area = base × perpendicular height ÷ 2.",
+    "explanation": "Area scales by the square of the scale factor: 80 × (1/2)² = 20 cm².",
+    "alternatives": [
+      "20 cm²",
+      "40 cm²",
+      "160 cm²",
+      "10 cm²"
+    ],
+    "correctAnswer": "20 cm²",
+    "version": "v1"
+  },
+  {
+    "id": 821,
+    "subject": "math",
+    "chapter": 2,
+    "question": "A triangle has base 10 cm and perpendicular height 7 cm. What is its area?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Perimeter scales by k; area scales by k². For a triangle, area = base × perpendicular height ÷ 2.",
+    "explanation": "Triangle area = base × height ÷ 2 = 10 × 7 ÷ 2 = 35 cm².",
+    "alternatives": [
+      "35 cm²",
+      "70 cm²",
+      "17 cm²",
+      "140 cm²"
+    ],
+    "correctAnswer": "35 cm²",
+    "version": "v1"
+  },
+  {
+    "id": 822,
+    "subject": "math",
+    "chapter": 2,
+    "question": "A triangle has sides 5 cm, 12 cm, and 13 cm. It is enlarged by a scale factor of 4. What is its new perimeter?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Perimeter scales by k; area scales by k². For a triangle, area = base × perpendicular height ÷ 2.",
+    "explanation": "Original perimeter = 5 + 12 + 13 = 30 cm. New perimeter = 30 × 4 = 120 cm.",
+    "alternatives": [
+      "120 cm",
+      "480 cm",
+      "60 cm",
+      "34 cm"
+    ],
+    "correctAnswer": "120 cm",
+    "version": "v1"
+  },
+  {
+    "id": 823,
+    "subject": "math",
+    "chapter": 2,
+    "question": "A triangle has area 18 cm². Every side is enlarged by a scale factor of 5. What is the new area?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Perimeter scales by k; area scales by k². For a triangle, area = base × perpendicular height ÷ 2.",
+    "explanation": "New area = 18 × 5² = 18 × 25 = 450 cm².",
+    "alternatives": [
+      "450 cm²",
+      "90 cm²",
+      "23 cm²",
+      "225 cm²"
+    ],
+    "correctAnswer": "450 cm²",
+    "version": "v1"
+  },
+  {
+    "id": 824,
+    "subject": "math",
+    "chapter": 2,
+    "question": "A figure is scaled by 3/4. What is the ratio of the new area to the original area?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Perimeter scales by k; area scales by k². For a triangle, area = base × perpendicular height ÷ 2.",
+    "explanation": "Square the length ratio: (3/4)² = 9/16, so the area ratio is 9:16.",
+    "alternatives": [
+      "9:16",
+      "3:4",
+      "4:3",
+      "16:9"
+    ],
+    "correctAnswer": "9:16",
+    "version": "v1"
+  },
+  {
+    "id": 825,
+    "subject": "math",
+    "chapter": 2,
+    "question": "A rectangle is 8 cm by 3 cm. It is enlarged by a scale factor of 1.5. What is its new area?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Perimeter scales by k; area scales by k². For a triangle, area = base × perpendicular height ÷ 2.",
+    "explanation": "The new sides are 12 cm and 4.5 cm. Their product is 54 cm².",
+    "alternatives": [
+      "54 cm²",
+      "36 cm²",
+      "24 cm²",
+      "72 cm²"
+    ],
+    "correctAnswer": "54 cm²",
+    "version": "v1"
+  },
+  {
+    "id": 826,
+    "subject": "math",
+    "chapter": 3,
+    "question": "A map uses 1 cm for 60 m. A path measures 7 cm on the map. How long is the actual path?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the given scale for every corresponding length. Check units before comparing measurements.",
+    "explanation": "7 × 60 = 420 m.",
+    "alternatives": [
+      "420 m",
+      "67 m",
+      "8.57 m",
+      "360 m"
+    ],
+    "correctAnswer": "420 m",
+    "version": "v1"
+  },
+  {
+    "id": 827,
+    "subject": "math",
+    "chapter": 3,
+    "question": "A building is 84 ft wide. A drawing uses 1 in. for 12 ft. How wide is the building on the drawing?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the given scale for every corresponding length. Check units before comparing measurements.",
+    "explanation": "Drawing width = 84 ÷ 12 = 7 in.",
+    "alternatives": [
+      "7 in.",
+      "1,008 in.",
+      "72 in.",
+      "12 in."
+    ],
+    "correctAnswer": "7 in.",
+    "version": "v1"
+  },
+  {
+    "id": 828,
+    "subject": "math",
+    "chapter": 3,
+    "question": "A rectangular campsite is 5 cm by 3 cm on a plan. The scale is 1 cm to 25 m. What is its actual perimeter?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the given scale for every corresponding length. Check units before comparing measurements.",
+    "explanation": "Actual sides are 125 m and 75 m. P = 2(125 + 75) = 400 m.",
+    "alternatives": [
+      "400 m",
+      "200 m",
+      "375 m",
+      "9,375 m"
+    ],
+    "correctAnswer": "400 m",
+    "version": "v1"
+  },
+  {
+    "id": 829,
+    "subject": "math",
+    "chapter": 3,
+    "question": "A stage is 4 in. by 2.5 in. on a drawing. Each inch represents 8 ft. What is the actual area?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the given scale for every corresponding length. Check units before comparing measurements.",
+    "explanation": "Actual sides are 32 ft and 20 ft. Area = 32 × 20 = 640 ft².",
+    "alternatives": [
+      "640 ft²",
+      "80 ft²",
+      "104 ft²",
+      "320 ft²"
+    ],
+    "correctAnswer": "640 ft²",
+    "version": "v1"
+  },
+  {
+    "id": 830,
+    "subject": "math",
+    "chapter": 3,
+    "question": "A rectangular deck is 3 in. by 2 in. on a plan using 1 in. to 9 ft. Will it fit in a 30 ft by 16 ft space with corresponding sides aligned?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the given scale for every corresponding length. Check units before comparing measurements.",
+    "explanation": "The deck is 27 ft by 18 ft. Its length fits, but its width does not.",
+    "alternatives": [
+      "No, its 18 ft width exceeds 16 ft.",
+      "Yes, both dimensions fit.",
+      "No, its 27 ft length exceeds 30 ft.",
+      "Yes, because only its length matters."
+    ],
+    "correctAnswer": "No, its 18 ft width exceeds 16 ft.",
+    "version": "v1"
+  },
+  {
+    "id": 831,
+    "subject": "math",
+    "chapter": 3,
+    "question": "A mural is 4 in. by 3 in. on a plan. Which scale makes the largest mural that fits a 44 ft by 30 ft wall with corresponding sides aligned?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the given scale for every corresponding length. Check units before comparing measurements.",
+    "explanation": "At 10 ft per inch the mural is 40 ft by 30 ft. Scales of 11 and 12 make it too tall; 8 makes a smaller mural.",
+    "alternatives": [
+      "1 in. to 10 ft",
+      "1 in. to 8 ft",
+      "1 in. to 11 ft",
+      "1 in. to 12 ft"
+    ],
+    "correctAnswer": "1 in. to 10 ft",
+    "version": "v1"
+  },
+  {
+    "id": 832,
+    "subject": "math",
+    "chapter": 3,
+    "question": "A model tower is 18 cm high and 6 cm wide. A real tower is 45 m high and 15 m wide. Do these two dimensions use the same scale?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the given scale for every corresponding length. Check units before comparing measurements.",
+    "explanation": "45 ÷ 18 = 2.5 and 15 ÷ 6 = 2.5 meters per centimeter. These two dimensions agree.",
+    "alternatives": [
+      "Yes, both use 1 cm to 2.5 m.",
+      "No, the height uses 1 cm to 3 m.",
+      "Yes, both use 1 cm to 7.5 m.",
+      "No, the width uses 1 cm to 5 m."
+    ],
+    "correctAnswer": "Yes, both use 1 cm to 2.5 m.",
+    "version": "v1"
+  },
+  {
+    "id": 833,
+    "subject": "math",
+    "chapter": 3,
+    "question": "A model boat is 10 cm long and 4 cm wide. The real boat is 30 m long and 9 m wide. Is the model proportional in these dimensions?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the given scale for every corresponding length. Check units before comparing measurements.",
+    "explanation": "Length uses 30 ÷ 10 = 3 m per cm; width uses 9 ÷ 4 = 2.25 m per cm. The scales differ.",
+    "alternatives": [
+      "No, the length and width use different scales.",
+      "Yes, both use 1 cm to 3 m.",
+      "Yes, both use 1 cm to 2.25 m.",
+      "Yes, because both model dimensions are smaller."
+    ],
+    "correctAnswer": "No, the length and width use different scales.",
+    "version": "v1"
+  },
+  {
+    "id": 834,
+    "subject": "math",
+    "chapter": 3,
+    "question": "A plan uses 1 cm to 40 m. What is the drawing-to-actual scale ratio when both lengths are in centimeters?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the given scale for every corresponding length. Check units before comparing measurements.",
+    "explanation": "40 m = 4,000 cm, so the same-unit ratio is 1:4,000.",
+    "alternatives": [
+      "1:4,000",
+      "1:40",
+      "40:1",
+      "1:400"
+    ],
+    "correctAnswer": "1:4,000",
+    "version": "v1"
+  },
+  {
+    "id": 835,
+    "subject": "math",
+    "chapter": 3,
+    "question": "A rectangular floor is 6 cm by 4 cm on a plan using 1 cm to 2 m. Flooring costs $7 per square meter. What is the total material cost?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the given scale for every corresponding length. Check units before comparing measurements.",
+    "explanation": "Actual area = (6 × 2)(4 × 2) = 96 m². Cost = 96 × 7 = $672.",
+    "alternatives": [
+      "$672",
+      "$168",
+      "$336",
+      "$96"
+    ],
+    "correctAnswer": "$672",
+    "version": "v1"
+  },
+  {
+    "id": 836,
+    "subject": "math",
+    "chapter": 4,
+    "question": "For a practice exchange, $160 USD buys 144 euros. What is the rate in euros per USD?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the stated practice exchange rate. Multiply to go from USD to the other currency; divide to reverse it. Assume no fees.",
+    "explanation": "144 ÷ 160 = 0.90 euros per USD.",
+    "alternatives": [
+      "0.90 euros per USD",
+      "1.11 euros per USD",
+      "16 euros per USD",
+      "9 euros per USD"
+    ],
+    "correctAnswer": "0.90 euros per USD",
+    "version": "v1"
+  },
+  {
+    "id": 837,
+    "subject": "math",
+    "chapter": 4,
+    "question": "Use the practice rate 1 USD = 1.40 CAD. How many Canadian dollars does 75 USD buy?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the stated practice exchange rate. Multiply to go from USD to the other currency; divide to reverse it. Assume no fees.",
+    "explanation": "75 × 1.40 = 105 CAD.",
+    "alternatives": [
+      "105 CAD",
+      "53.57 CAD",
+      "76.40 CAD",
+      "140 CAD"
+    ],
+    "correctAnswer": "105 CAD",
+    "version": "v1"
+  },
+  {
+    "id": 838,
+    "subject": "math",
+    "chapter": 4,
+    "question": "Use the practice rate 1 USD = 18 pesos. A museum ticket costs 324 pesos. What is its cost in USD?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the stated practice exchange rate. Multiply to go from USD to the other currency; divide to reverse it. Assume no fees.",
+    "explanation": "324 ÷ 18 = $18.",
+    "alternatives": [
+      "$18",
+      "$5,832",
+      "$306",
+      "$20"
+    ],
+    "correctAnswer": "$18",
+    "version": "v1"
+  },
+  {
+    "id": 839,
+    "subject": "math",
+    "chapter": 4,
+    "question": "Use the practice rate 1 USD = 0.80 euros. A notebook costs 12 euros. What is its cost in USD?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the stated practice exchange rate. Multiply to go from USD to the other currency; divide to reverse it. Assume no fees.",
+    "explanation": "12 ÷ 0.80 = $15.",
+    "alternatives": [
+      "$15",
+      "$9.60",
+      "$12.80",
+      "$10"
+    ],
+    "correctAnswer": "$15",
+    "version": "v1"
+  },
+  {
+    "id": 840,
+    "subject": "math",
+    "chapter": 4,
+    "question": "Use the practice rate 1 USD = 0.75 British pounds. What is the rate in USD per pound, rounded to the nearest cent?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the stated practice exchange rate. Multiply to go from USD to the other currency; divide to reverse it. Assume no fees.",
+    "explanation": "Reverse the rate: 1 ÷ 0.75 = 1.333… USD per pound, or $1.33.",
+    "alternatives": [
+      "$1.33 per pound",
+      "$0.75 per pound",
+      "$1.25 per pound",
+      "$0.25 per pound"
+    ],
+    "correctAnswer": "$1.33 per pound",
+    "version": "v1"
+  },
+  {
+    "id": 841,
+    "subject": "math",
+    "chapter": 4,
+    "question": "Use the practice rate 1 USD = 0.85 euros. Before calculating, how does the USD cost of an 8-euro game compare with $8?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the stated practice exchange rate. Multiply to go from USD to the other currency; divide to reverse it. Assume no fees.",
+    "explanation": "Each euro is worth more than one USD because one USD buys less than one euro. Divide 8 by 0.85 to convert.",
+    "alternatives": [
+      "It is more than $8.",
+      "It is less than $8.",
+      "It is exactly $8.",
+      "There is not enough information."
+    ],
+    "correctAnswer": "It is more than $8.",
+    "version": "v1"
+  },
+  {
+    "id": 842,
+    "subject": "math",
+    "chapter": 4,
+    "question": "Use the practice rate 1 USD = 5.20 Brazilian reais. How many reais does 36.50 USD buy?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the stated practice exchange rate. Multiply to go from USD to the other currency; divide to reverse it. Assume no fees.",
+    "explanation": "36.50 × 5.20 = 189.80 reais.",
+    "alternatives": [
+      "189.80 reais",
+      "7.02 reais",
+      "41.70 reais",
+      "182.50 reais"
+    ],
+    "correctAnswer": "189.80 reais",
+    "version": "v1"
+  },
+  {
+    "id": 843,
+    "subject": "math",
+    "chapter": 4,
+    "question": "Use the practice rate 1 USD = 0.92 Swiss francs. Convert 27.35 USD to francs, rounding to the nearest thousandth.",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the stated practice exchange rate. Multiply to go from USD to the other currency; divide to reverse it. Assume no fees.",
+    "explanation": "27.35 × 0.92 = 25.162 francs.",
+    "alternatives": [
+      "25.162 francs",
+      "29.728 francs",
+      "25.160 francs",
+      "28.270 francs"
+    ],
+    "correctAnswer": "25.162 francs",
+    "version": "v1"
+  },
+  {
+    "id": 844,
+    "subject": "math",
+    "chapter": 4,
+    "question": "Use the practice rate 1 USD = 1.60 AUD. You exchange 90 USD and spend 104 AUD. How much money remains in USD?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the stated practice exchange rate. Multiply to go from USD to the other currency; divide to reverse it. Assume no fees.",
+    "explanation": "90 × 1.60 = 144 AUD. Remaining: 144 − 104 = 40 AUD. Then 40 ÷ 1.60 = $25.",
+    "alternatives": [
+      "$25",
+      "$40",
+      "$65",
+      "$64"
+    ],
+    "correctAnswer": "$25",
+    "version": "v1"
+  },
+  {
+    "id": 845,
+    "subject": "math",
+    "chapter": 4,
+    "question": "For a practice exchange, 240 USD buys 31,200 yen. At the same rate, how many yen does 65 USD buy?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Use the stated practice exchange rate. Multiply to go from USD to the other currency; divide to reverse it. Assume no fees.",
+    "explanation": "31,200 ÷ 240 = 130 yen per USD. Then 65 × 130 = 8,450 yen.",
+    "alternatives": [
+      "8,450 yen",
+      "4,800 yen",
+      "130 yen",
+      "7,800 yen"
+    ],
+    "correctAnswer": "8,450 yen",
+    "version": "v1"
+  },
+  {
+    "id": 846,
+    "subject": "math",
+    "chapter": 5,
+    "question": "A ribbon is 48 inches long. Use 1 inch = 2.54 cm. What is its length in centimeters?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Choose the conversion factor that cancels the starting unit. For multiple steps, convert one unit at a time.",
+    "explanation": "48 × 2.54 = 121.92 cm.",
+    "alternatives": [
+      "121.92 cm",
+      "18.90 cm",
+      "50.54 cm",
+      "12.192 cm"
+    ],
+    "correctAnswer": "121.92 cm",
+    "version": "v1"
+  },
+  {
+    "id": 847,
+    "subject": "math",
+    "chapter": 5,
+    "question": "A beam is 24 feet long. Use 1 ft ≈ 0.305 m. What is its approximate length in meters?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Choose the conversion factor that cancels the starting unit. For multiple steps, convert one unit at a time.",
+    "explanation": "24 × 0.305 = 7.32 m.",
+    "alternatives": [
+      "7.32 m",
+      "78.69 m",
+      "73.2 m",
+      "24.305 m"
+    ],
+    "correctAnswer": "7.32 m",
+    "version": "v1"
+  },
+  {
+    "id": 848,
+    "subject": "math",
+    "chapter": 5,
+    "question": "A fabric strip is 85 cm long. Use 1 cm ≈ 0.39 inches. What is its approximate length in inches?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Choose the conversion factor that cancels the starting unit. For multiple steps, convert one unit at a time.",
+    "explanation": "85 × 0.39 = 33.15 inches.",
+    "alternatives": [
+      "33.15 in.",
+      "217.95 in.",
+      "331.5 in.",
+      "85.39 in."
+    ],
+    "correctAnswer": "33.15 in.",
+    "version": "v1"
+  },
+  {
+    "id": 849,
+    "subject": "math",
+    "chapter": 5,
+    "question": "A trail is 12 km long. Use 1 km ≈ 0.621 miles. What is its approximate length in miles?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Choose the conversion factor that cancels the starting unit. For multiple steps, convert one unit at a time.",
+    "explanation": "12 × 0.621 = 7.452 miles.",
+    "alternatives": [
+      "7.452 miles",
+      "19.324 miles",
+      "74.52 miles",
+      "12.621 miles"
+    ],
+    "correctAnswer": "7.452 miles",
+    "version": "v1"
+  },
+  {
+    "id": 850,
+    "subject": "math",
+    "chapter": 5,
+    "question": "A rope is 15 m long. Use 1 m ≈ 3.28 ft and 3 ft = 1 yd. What is its approximate length in yards?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Choose the conversion factor that cancels the starting unit. For multiple steps, convert one unit at a time.",
+    "explanation": "Convert to feet: 15 × 3.28 = 49.2. Convert to yards: 49.2 ÷ 3 = 16.4.",
+    "alternatives": [
+      "16.4 yd",
+      "49.2 yd",
+      "147.6 yd",
+      "5 yd"
+    ],
+    "correctAnswer": "16.4 yd",
+    "version": "v1"
+  },
+  {
+    "id": 851,
+    "subject": "math",
+    "chapter": 5,
+    "question": "A cable is 320 inches long. Use 1 inch = 2.54 cm and 100 cm = 1 m. What is its length in meters?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Choose the conversion factor that cancels the starting unit. For multiple steps, convert one unit at a time.",
+    "explanation": "320 × 2.54 = 812.8 cm. Divide by 100 to get 8.128 m.",
+    "alternatives": [
+      "8.128 m",
+      "812.8 m",
+      "81.28 m",
+      "1.260 m"
+    ],
+    "correctAnswer": "8.128 m",
+    "version": "v1"
+  },
+  {
+    "id": 852,
+    "subject": "math",
+    "chapter": 5,
+    "question": "A jug holds 4 US gallons. Use 1 US gallon ≈ 3.785 L. What is its approximate capacity in liters?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Choose the conversion factor that cancels the starting unit. For multiple steps, convert one unit at a time.",
+    "explanation": "4 × 3.785 = 15.14 L.",
+    "alternatives": [
+      "15.14 L",
+      "1.057 L",
+      "151.4 L",
+      "7.785 L"
+    ],
+    "correctAnswer": "15.14 L",
+    "version": "v1"
+  },
+  {
+    "id": 853,
+    "subject": "math",
+    "chapter": 5,
+    "question": "A tank holds 18.925 L. Use 1 US gallon ≈ 3.785 L. What is its approximate capacity in US gallons?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Choose the conversion factor that cancels the starting unit. For multiple steps, convert one unit at a time.",
+    "explanation": "18.925 ÷ 3.785 = 5 gallons.",
+    "alternatives": [
+      "5 gallons",
+      "71.631 gallons",
+      "15.14 gallons",
+      "50 gallons"
+    ],
+    "correctAnswer": "5 gallons",
+    "version": "v1"
+  },
+  {
+    "id": 854,
+    "subject": "math",
+    "chapter": 5,
+    "question": "A packet contains 2.75 g of powder. Use 1 g = 1,000 mg. How many milligrams is that?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Choose the conversion factor that cancels the starting unit. For multiple steps, convert one unit at a time.",
+    "explanation": "2.75 × 1,000 = 2,750 mg.",
+    "alternatives": [
+      "2,750 mg",
+      "0.00275 mg",
+      "275 mg",
+      "27,500 mg"
+    ],
+    "correctAnswer": "2,750 mg",
+    "version": "v1"
+  },
+  {
+    "id": 855,
+    "subject": "math",
+    "chapter": 5,
+    "question": "A small parcel has mass 6 ounces. Use 1 oz ≈ 28.35 g. What is its approximate mass in grams?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "Choose the conversion factor that cancels the starting unit. For multiple steps, convert one unit at a time.",
+    "explanation": "6 × 28.35 = 170.1 g.",
+    "alternatives": [
+      "170.1 g",
+      "4.725 g",
+      "0.212 g",
+      "34.35 g"
+    ],
+    "correctAnswer": "170.1 g",
+    "version": "v1"
+  },
+  {
+    "id": 856,
+    "subject": "math",
+    "chapter": 6,
+    "question": "A suitcase weighs 52 lb. Use 1 kg ≈ 2.204 lb. What is its mass in kilograms, rounded to the nearest tenth?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "For mass, use the stated rate. For area, square the length conversion factor.",
+    "explanation": "52 ÷ 2.204 ≈ 23.593 kg, which rounds to 23.6 kg.",
+    "alternatives": [
+      "23.6 kg",
+      "114.6 kg",
+      "24.0 kg",
+      "2.4 kg"
+    ],
+    "correctAnswer": "23.6 kg",
+    "version": "v1"
+  },
+  {
+    "id": 857,
+    "subject": "math",
+    "chapter": 6,
+    "question": "A package must weigh no more than 8 kg. Use 1 kg ≈ 2.204 lb. Which package exceeds the limit?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "For mass, use the stated rate. For area, square the length conversion factor.",
+    "explanation": "8 × 2.204 = 17.632 lb. Only 18 lb exceeds that limit.",
+    "alternatives": [
+      "An 18 lb package",
+      "A 16 lb package",
+      "A 12 lb package",
+      "An 8 lb package"
+    ],
+    "correctAnswer": "An 18 lb package",
+    "version": "v1"
+  },
+  {
+    "id": 858,
+    "subject": "math",
+    "chapter": 6,
+    "question": "A bag of flour weighs 7 lb. Use 1 lb ≈ 454 g. What is its approximate mass in grams?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "For mass, use the stated rate. For area, square the length conversion factor.",
+    "explanation": "7 × 454 = 3,178 g.",
+    "alternatives": [
+      "3,178 g",
+      "64.857 g",
+      "317.8 g",
+      "461 g"
+    ],
+    "correctAnswer": "3,178 g",
+    "version": "v1"
+  },
+  {
+    "id": 859,
+    "subject": "math",
+    "chapter": 6,
+    "question": "A metal part weighs 11 ounces. Use 16 oz = 1 lb. What is its weight in pounds, rounded to the nearest thousandth?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "For mass, use the stated rate. For area, square the length conversion factor.",
+    "explanation": "11 ÷ 16 = 0.6875 lb, which rounds to 0.688 lb.",
+    "alternatives": [
+      "0.688 lb",
+      "176.000 lb",
+      "1.455 lb",
+      "0.687 lb"
+    ],
+    "correctAnswer": "0.688 lb",
+    "version": "v1"
+  },
+  {
+    "id": 860,
+    "subject": "math",
+    "chapter": 6,
+    "question": "A crate has mass 12 kg. Use 1 kg ≈ 2.204 lb. What is its approximate weight in pounds?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "For mass, use the stated rate. For area, square the length conversion factor.",
+    "explanation": "12 × 2.204 = 26.448 lb.",
+    "alternatives": [
+      "26.448 lb",
+      "5.445 lb",
+      "14.204 lb",
+      "264.48 lb"
+    ],
+    "correctAnswer": "26.448 lb",
+    "version": "v1"
+  },
+  {
+    "id": 861,
+    "subject": "math",
+    "chapter": 6,
+    "question": "A rectangular nature reserve is 5 km long and 3 km wide. Use 1 km ≈ 0.62 miles. What is its approximate area in square miles?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "For mass, use the stated rate. For area, square the length conversion factor.",
+    "explanation": "Convert both sides: 5 × 0.62 = 3.1 mi and 3 × 0.62 = 1.86 mi. Area = 3.1 × 1.86 = 5.766 mi².",
+    "alternatives": [
+      "5.766 mi²",
+      "9.3 mi²",
+      "15 mi²",
+      "24.194 mi²"
+    ],
+    "correctAnswer": "5.766 mi²",
+    "version": "v1"
+  },
+  {
+    "id": 862,
+    "subject": "math",
+    "chapter": 6,
+    "question": "A square tile has area 2 square feet. Use 1 ft = 12 in. What is its area in square inches?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "For mass, use the stated rate. For area, square the length conversion factor.",
+    "explanation": "Square the length conversion: 1 ft² = 12² = 144 in². Then 2 × 144 = 288 in².",
+    "alternatives": [
+      "288 in²",
+      "24 in²",
+      "144 in²",
+      "48 in²"
+    ],
+    "correctAnswer": "288 in²",
+    "version": "v1"
+  },
+  {
+    "id": 863,
+    "subject": "math",
+    "chapter": 6,
+    "question": "A poster has area 4,500 cm². Use 1 m = 100 cm. What is its area in square meters?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "For mass, use the stated rate. For area, square the length conversion factor.",
+    "explanation": "1 m² = 100² = 10,000 cm². Divide 4,500 by 10,000 to get 0.45 m².",
+    "alternatives": [
+      "0.45 m²",
+      "45 m²",
+      "4.5 m²",
+      "450 m²"
+    ],
+    "correctAnswer": "0.45 m²",
+    "version": "v1"
+  },
+  {
+    "id": 864,
+    "subject": "math",
+    "chapter": 6,
+    "question": "A rug has area 8 yd². Use 1 yd = 3 ft. What is its area in square feet?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "For mass, use the stated rate. For area, square the length conversion factor.",
+    "explanation": "1 yd² = 3² = 9 ft². Then 8 × 9 = 72 ft².",
+    "alternatives": [
+      "72 ft²",
+      "24 ft²",
+      "64 ft²",
+      "2.667 ft²"
+    ],
+    "correctAnswer": "72 ft²",
+    "version": "v1"
+  },
+  {
+    "id": 865,
+    "subject": "math",
+    "chapter": 6,
+    "question": "A student converts 20 km² to mi² by multiplying by 0.62. Using 1 km ≈ 0.62 mi, what should the student do instead?",
+    "usageExample": "Use scratch paper to work out your answer. Round only when the problem asks you to.",
+    "tip": "For mass, use the stated rate. For area, square the length conversion factor.",
+    "explanation": "Area has two length dimensions, so square the length conversion: 20 × 0.62 × 0.62 = 7.688 mi².",
+    "alternatives": [
+      "Multiply 20 by 0.62² to get 7.688 mi².",
+      "Divide 20 by 0.62 to get about 32.258 mi².",
+      "Multiply 20 by 2 × 0.62 to get 24.8 mi².",
+      "Keep the area as 20 mi²."
+    ],
+    "correctAnswer": "Multiply 20 by 0.62² to get 7.688 mi².",
+    "version": "v1"
   }
 ]

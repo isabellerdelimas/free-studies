@@ -1,12 +1,15 @@
 # Free Studies
 
-A small static study quiz for science review.
+A small static study quiz for science, civics, and math review.
 
 The science questions are based on the book *Everything You Need to Ace Science in One Big Fat Notebook*.
 
 ## Features
 
-- 150 quiz entries loaded from `data/free-studies.json`
+- Subject-based quiz entries loaded from `data/free-studies.json`
+- 50 original Math problems across lessons 2–6: area and perimeter, scale factor, currency, and measurement conversions
+- Math hints before answering and worked solutions after answering
+- Currency problems use stated practice rates, not live exchange rates
 - Four alternatives per question
 - Instant feedback with the correct answer and a study tip
 - Score, streak, progress, shuffle, and missed-question review
