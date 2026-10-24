@@ -7,7 +7,7 @@ The science questions are based on the book *Everything You Need to Ace Science 
 ## Features
 
 - Subject-based quiz entries loaded from `data/free-studies.json`
-- 4,600 questions in total, with 200 in every selectable chapter, Math lesson, Civics unit, Chapter 15 unit, and the Waves study guide
+- 5,000 questions in total, with 200 in every selectable chapter, Math lesson, Civics unit, Chapter 15 unit, and the Waves study guide
 - 1,000 Math problems across lessons 2–6: area and perimeter, scale factor, currency, and measurement conversions
 - Adjustable rounds of up to 200 questions, without repeats
 - New practice questions have hints before answering and explanations after answering
@@ -16,6 +16,12 @@ The science questions are based on the book *Everything You Need to Ace Science 
 - Four alternatives per question
 - Instant feedback with the correct answer and a study tip
 - Score, streak, progress, shuffle, and missed-question review
+
+## Civics source boundaries
+
+- Unit 1.4: **Fifth Amendment only**, from pages 7–15 of *Copy of 1.4 bill of rights master.pdf*. Other amendments are excluded from the unit's coverage.
+- Unit 2.1: *2.1 Federalism master.pptx (1).pdf*, through slide 8 inclusive. Bellwork and its answers (slides 1–2), the test announcement (slide 3), and slides 9 onward are excluded. Practice uses the federal-system diagram, constitutional excerpts, cake comparison, powers chart, and vocabulary on slides 4–8.
+- Each new unit has 200 original practice questions with source-page metadata, hints, and answer explanations. Civics questions have no illustrations; visuals remain specific to Math.
 
 ## Run Locally
 

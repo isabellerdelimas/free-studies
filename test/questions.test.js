@@ -5,7 +5,7 @@ const {
   getChapterOptions, getUnitOptions, getQuestionCountOptions, getRoundSize,
 } = require('../quiz.js');
 
-assert.equal(questions.length, 4600);
+assert.equal(questions.length, 5000);
 assert.equal(new Set(questions.map(q => q.id)).size, questions.length, 'IDs must remain unique');
 const buckets = new Map();
 for (const q of questions) {
@@ -20,7 +20,7 @@ for (const q of questions) {
   }
   if (q.id > 865) assert.ok(q.explanation?.trim(), `Question ${q.id}: new questions need explanations`);
 }
-assert.equal(buckets.size, 23);
+assert.equal(buckets.size, 25);
 for (const [key, pool] of buckets) {
   assert.equal(pool.length, 200, `${key}: each practice set needs 200 questions`);
   assert.equal(new Set(pool.map(q => q.question.toLowerCase().trim())).size, 200, `${key}: repeated prompt`);
@@ -45,4 +45,17 @@ for (const subject of ['science', 'civics', 'math']) {
 for (const unit of ['15:1.4', '15:2.1']) {
   assert.equal(getQuestionsForChapter(getQuestionsForSubject(questions, 'science'), unit).length, 200);
 }
-console.log('Question bank: 23 sets of 200; unique prompts, valid choices, and selectable 200-question rounds verified.');
+for (const [unit, document, allowedPages] of [
+  ['1.4', 'Copy of 1.4 bill of rights master.pdf', [7, 8, 9, 10, 11, 12, 13, 14, 15]],
+  ['2.1', '2.1 Federalism master.pptx (1).pdf', [4, 5, 6, 7, 8]],
+]) {
+  const pool = getQuestionsForUnit(getQuestionsForSubject(questions, 'civics'), unit);
+  assert.equal(pool.length, 200);
+  for (const q of pool) {
+    assert.equal(q.source.document, document);
+    assert.ok(q.source.pages.length > 0);
+    assert.ok(q.source.pages.every(page => allowedPages.includes(page)),
+      `Question ${q.id}: outside the requested Civics slide boundaries`);
+  }
+}
+console.log('Question bank: 25 sets of 200; unique prompts, valid choices, Civics source boundaries, and selectable 200-question rounds verified.');
