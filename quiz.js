@@ -1,4 +1,5 @@
 const MAX_PLAYERS = 6;
+const MAX_QUESTIONS = 200;
 const DEFAULT_QUESTION_TARGET = 10;
 
 const hasDocument = typeof document !== "undefined";
@@ -139,7 +140,7 @@ function renderQuestionCountOptions() {
         : "Choose fewer players or another chapter.")
       : `Type a multiple of ${playerCount}, up to ${maxQuestions}. ${questionsEach} turn${
           questionsEach === 1 ? "" : "s"
-        } per player.`;
+        } per player. No repeated questions.`;
 }
 
 function renderSubjectOptions() {
@@ -234,7 +235,7 @@ function handleSetupSubmit(event) {
   event.preventDefault();
 
   const playerCount = Number(elements.playerCount.value);
-  const selectedQuestionCount = Math.floor(Number(elements.questionCount.value));
+  const selectedQuestionCount = Number(elements.questionCount.value);
   state.selectedSubject = elements.subjectSelect.value;
   state.selectedChapter = elements.chapterSelect.value;
   state.selectedChapterUnit = elements.chapterUnitSelect.value;
@@ -247,10 +248,10 @@ function handleSetupSubmit(event) {
   if (
     !Number.isInteger(selectedQuestionCount) ||
     selectedQuestionCount < playerCount ||
-    selectedQuestionCount > availableQuestions ||
+    selectedQuestionCount > Math.min(availableQuestions, MAX_QUESTIONS) ||
     selectedQuestionCount % playerCount !== 0
   ) {
-    showSetupError(`Type a question count from ${playerCount} to ${availableQuestions} that divides evenly between the players.`);
+    showSetupError(`Type a question count from ${playerCount} to ${Math.min(availableQuestions, MAX_QUESTIONS)} that divides evenly between the players.`);
     return;
   }
 
@@ -621,7 +622,7 @@ function getPlayerCountOptions(totalQuestions, maxPlayers) {
 }
 
 function getQuestionCountOptions(totalQuestions, playerCount) {
-  return Array.from({ length: Math.floor(totalQuestions / playerCount) }, (_, index) => {
+  return Array.from({ length: Math.floor(Math.min(totalQuestions, MAX_QUESTIONS) / playerCount) }, (_, index) => {
     return (index + 1) * playerCount;
   });
 }
@@ -763,7 +764,7 @@ function getDefaultQuestionCount(options, target) {
 }
 
 function getRoundSize(totalAvailable, selectedQuestionCount, playerCount) {
-  const requested = Math.min(totalAvailable, selectedQuestionCount);
+  const requested = Math.min(totalAvailable, selectedQuestionCount, MAX_QUESTIONS);
   return requested - (requested % playerCount);
 }
 
@@ -826,9 +827,9 @@ if (hasDocument) {
     const value = Number(elements.questionCount.value);
     const questionsEach = value / playerCount;
     elements.questionCountHint.textContent =
-      Number.isInteger(value) && value % playerCount === 0
+      Number.isInteger(value) && value >= playerCount && value <= Number(elements.questionCount.max) && value % playerCount === 0
         ? `${questionsEach} turn${questionsEach === 1 ? "" : "s"} per player.`
-        : `Type a number that divides evenly by ${playerCount}.`;
+        : `Type a number from ${playerCount} to ${elements.questionCount.max} that divides evenly by ${playerCount}.`;
   });
   elements.nextButton.addEventListener("click", nextQuestion);
   elements.tipButton.addEventListener("click", showTip);

@@ -141,3 +141,12 @@ assert.ok(guide.every((question) => question.studyGuide === 'waves'));
 assert.ok(getQuestionsForChapter(data, 'all').every((question) => !question.studyGuide));
 assert.ok(getQuestionsForChapter(data, '14').every((question) => !question.studyGuide));
 assert.equal(getModeLabel('science', 'study-guide'), 'Study Guide: Waves');
+
+// The round limit preserves unique questions and equal player turns.
+assert.equal(getQuestionCountOptions(500, 1).at(-1), 200);
+assert.equal(getQuestionCountOptions(500, 3).at(-1), 198);
+assert.equal(getRoundSize(500, 250, 1), 200);
+assert.equal(getRoundSize(500, 250, 3), 198);
+assert.equal(getQuestionCountOptions(10, 1).at(-1), 10);
+assert.equal(getRoundSize(10, 200, 1), 10);
+assert.deepEqual(getQuestionCountOptions(0, 1), []);
