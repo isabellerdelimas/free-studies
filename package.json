@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm test && node scripts/build-static.js",
     "start": "node scripts/local-server.js",
-    "test": "node test/multiplayer.test.js && node test/questions.test.js"
+    "test": "node test/multiplayer.test.js && node test/questions.test.js && node test/math-visuals.test.js"
   },
   "engines": {
     "node": ">=18"

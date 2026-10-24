@@ -47,6 +47,7 @@ const elements = {
   turnLabel: hasDocument ? document.querySelector("#turnLabel") : null,
   modeLabel: hasDocument ? document.querySelector("#modeLabel") : null,
   questionText: hasDocument ? document.querySelector("#questionText") : null,
+  mathVisual: hasDocument ? document.querySelector("#mathVisual") : null,
   usageText: hasDocument ? document.querySelector("#usageText") : null,
   choicesLabel: hasDocument ? document.querySelector("#choicesLabel") : null,
   alternatives: hasDocument ? document.querySelector("#alternatives") : null,
@@ -289,6 +290,12 @@ function startPractice() {
   renderQuestion();
 }
 
+function renderMathVisual(question) {
+  const html = typeof MathVisuals !== "undefined" ? MathVisuals.render(question) : "";
+  elements.mathVisual.innerHTML = html;
+  elements.mathVisual.classList.toggle("hidden", !html);
+}
+
 function renderQuestion() {
   updateStats();
   elements.feedback.classList.remove("hidden");
@@ -303,6 +310,7 @@ function renderQuestion() {
     elements.questionNumber.textContent = "No questions";
     elements.turnLabel.textContent = "";
     elements.modeLabel.textContent = getModeLabel(state.selectedSubject, getSelectedChapterKey());
+    renderMathVisual(null);
     elements.questionText.textContent = "No questions found";
     elements.usageText.textContent = "Check the JSON file and refresh the page.";
     elements.choicesLabel.classList.add("hidden");
@@ -322,6 +330,7 @@ function renderQuestion() {
   elements.questionNumber.textContent = `Question ${state.currentIndex + 1}`;
   elements.turnLabel.textContent = `${formatPossessive(getCurrentPlayer().name)} turn`;
   elements.modeLabel.textContent = getModeLabel(state.selectedSubject, getSelectedChapterKey());
+  renderMathVisual(question);
   elements.questionText.textContent = question.question;
   elements.usageText.textContent = question.usageExample;
   elements.choicesLabel.classList.remove("hidden");
@@ -357,6 +366,8 @@ function chooseAnswer(button, alternative) {
     state.missedIds.add(question.id);
     state.roundMisses.push({
       question: question.question,
+      subject: question.subject,
+      chapter: question.chapter,
       usageExample: question.usageExample,
       answerGiven: alternative,
       correctAnswer: question.correctAnswer,
@@ -415,6 +426,7 @@ function showCompletedRound() {
 }
 
 function renderScoresView(leaders = getLeaders(state.players)) {
+  renderMathVisual(null);
   elements.questionNumber.textContent = "Round complete";
   elements.turnLabel.textContent = "";
   elements.modeLabel.textContent = "Scores";
@@ -459,6 +471,7 @@ function renderRoundSummary(leaders) {
 }
 
 function renderMissedView() {
+  renderMathVisual(null);
   elements.questionNumber.textContent = "Round complete";
   elements.turnLabel.textContent = "";
   elements.modeLabel.textContent = "Missed";
@@ -503,6 +516,14 @@ function renderMissedSummary() {
     prompt.textContent = miss.usageExample;
 
     question.append(title, prompt);
+    const visual = typeof MathVisuals !== "undefined" ? MathVisuals.render(miss) : "";
+    if (visual) {
+      const figure = document.createElement("figure");
+      figure.className = "math-visual";
+      figure.setAttribute("aria-label", "Math problem picture");
+      figure.innerHTML = visual;
+      question.append(figure);
+    }
 
     const details = document.createElement("div");
     details.className = "missed-detail-grid";

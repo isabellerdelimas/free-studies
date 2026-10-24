@@ -550,3 +550,35 @@ button:focus-visible, .theme-choice:focus-within { outline: 3px solid var(--focu
 }
 :root[data-theme="starbucks"] .answer-button.correct { background: var(--right-soft); border-color: var(--right); }
 :root[data-theme="starbucks"] .answer-button.incorrect { background: var(--wrong-soft); border-color: var(--wrong); }
+
+/* A consistent, high-contrast drawing surface in every theme. */
+.math-visual {
+  margin: 24px 0;
+  padding: 22px;
+  border: 1px solid #b9cbd8;
+  border-radius: 18px;
+  background: #f8fbfd;
+  color: #16344b;
+}
+.math-visual-heading { font-size: 1.1rem; font-weight: 800; }
+.math-visual-rate { margin: 8px 0 18px; color: #245271; line-height: 1.5; font-weight: 650; }
+.math-diagrams { display: grid; grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1fr); align-items: center; gap: 6px; }
+.math-diagrams-single { grid-template-columns: minmax(0, 340px); justify-content: center; }
+.math-diagram-panel { min-width: 0; }
+.math-diagram-panel h3 { margin: 12px 0 0; text-align: center; font-size: 1rem; color: #16344b; }
+.math-diagram-panel svg { display: block; width: 100%; max-width: 340px; margin: 0 auto; overflow: visible; }
+.math-diagram-arrow { font-size: 30px; text-align: center; color: #35799a; }
+.diagram-shape { fill: #e0f1f6; stroke: #246c8d; stroke-width: 2.5; stroke-linejoin: round; }
+.diagram-line { fill: none; stroke: #246c8d; stroke-width: 2; }
+.diagram-guide { fill: none; stroke: #75a9bc; stroke-width: 1.5; stroke-dasharray: 5 4; }
+.diagram-label { fill: #16344b; font-size: 18px; font-weight: 650; font-family: system-ui, sans-serif; }
+.diagram-coin { fill: #fff3c7; stroke: #b58e37; stroke-width: 2; }
+.diagram-currency { fill: #886820; font-size: 28px; font-family: system-ui, sans-serif; }
+.diagram-water { fill: #a6dce8; stroke: #448ca7; stroke-width: 1.5; }
+.diagram-label-bg { fill: #f8fbfd; }
+.math-visual figcaption { color: #4e6574; font-size: 0.85rem; line-height: 1.5; margin-top: 8px; }
+@media (max-width: 600px) {
+  .math-visual { padding: 16px 12px; }
+  .math-diagrams { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .math-diagram-arrow { transform: rotate(90deg); line-height: 1; margin: 0 auto 8px; }
+}

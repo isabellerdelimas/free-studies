@@ -12,6 +12,7 @@ The science questions are based on the book *Everything You Need to Ace Science 
 - Adjustable rounds of up to 200 questions, without repeats
 - New practice questions have hints before answering and explanations after answering
 - Currency problems use stated practice rates, not live exchange rates
+- Every Math problem includes a labeled diagram of its given values, including in missed-answer review
 - Four alternatives per question
 - Instant feedback with the correct answer and a study tip
 - Score, streak, progress, shuffle, and missed-question review
