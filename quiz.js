@@ -32,6 +32,7 @@ const elements = {
   subjectHint: hasDocument ? document.querySelector("#subjectHint") : null,
   chapterSelectLabel: hasDocument ? document.querySelector("#chapterSelectLabel") : null,
   chapterSelect: hasDocument ? document.querySelector("#chapterSelect") : null,
+  civicsUnit21Button: hasDocument ? document.querySelector("#civicsUnit21Button") : null,
   chapterHint: hasDocument ? document.querySelector("#chapterHint") : null,
   chapterUnitField: hasDocument ? document.querySelector("#chapterUnitField") : null,
   chapterUnitSelect: hasDocument ? document.querySelector("#chapterUnitSelect") : null,
@@ -205,6 +206,9 @@ function needsChapterUnit() {
 }
 
 function renderChapterUnitChoice() {
+  const isCivics = state.selectedSubject === "civics";
+  elements.civicsUnit21Button.classList.toggle("hidden", !isCivics);
+  elements.civicsUnit21Button.setAttribute("aria-pressed", String(isCivics && state.selectedChapter === "2.1"));
   const visible = needsChapterUnit();
   elements.chapterUnitField.classList.toggle("hidden", !visible);
   elements.chapterUnitSelect.disabled = !visible;
@@ -838,6 +842,10 @@ if (hasDocument) {
     renderChapterUnitChoice();
     updateChapterHint();
     renderQuestionCountOptions();
+  });
+  elements.civicsUnit21Button.addEventListener("click", () => {
+    elements.chapterSelect.value = "2.1";
+    elements.chapterSelect.dispatchEvent(new Event("change"));
   });
   elements.chapterUnitSelect.addEventListener("change", () => {
     state.selectedChapterUnit = elements.chapterUnitSelect.value;
