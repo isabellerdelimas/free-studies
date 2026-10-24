@@ -172,7 +172,7 @@ function renderChapterOptions() {
 
   const allOption = document.createElement("option");
   allOption.value = "all";
-  allOption.textContent = `${getChapterInputValue("all", state.selectedSubject)} (${chapterQuestions.length} questions)`;
+  allOption.textContent = `ALL CHAPTERS? (${chapterQuestions.length} questions)`;
   elements.chapterSelect.append(allOption);
 
   chapters.forEach(({ chapter, count }) => {
@@ -225,6 +225,8 @@ function updateChapterHint() {
   const count = getSelectedQuestions().length;
   elements.chapterHint.textContent = needsChapterUnit() && !state.selectedChapterUnit
     ? "Choose unit 1.4 or unit 2.1 below."
+    : state.selectedChapter === "all"
+    ? `Mix questions from all chapters in ${getSubjectLabel(state.selectedSubject)} (${count} available).`
     : `${count} question${count === 1 ? "" : "s"} available.`;
 }
 
