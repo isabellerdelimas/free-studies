@@ -7,8 +7,10 @@ The science questions are based on the book *Everything You Need to Ace Science 
 ## Features
 
 - Subject-based quiz entries loaded from `data/free-studies.json`
-- 50 original Math problems across lessons 2–6: area and perimeter, scale factor, currency, and measurement conversions
-- Math hints before answering and worked solutions after answering
+- 4,600 questions in total, with 200 in every selectable chapter, Math lesson, Civics unit, Chapter 15 unit, and the Waves study guide
+- 1,000 Math problems across lessons 2–6: area and perimeter, scale factor, currency, and measurement conversions
+- Adjustable rounds of up to 200 questions, without repeats
+- New practice questions have hints before answering and explanations after answering
 - Currency problems use stated practice rates, not live exchange rates
 - Four alternatives per question
 - Instant feedback with the correct answer and a study tip

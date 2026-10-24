@@ -96,12 +96,12 @@ const scienceQuestions = getQuestionsForSubject(require("../data/free-studies.js
 const chapter15 = getQuestionsForChapter(scienceQuestions, "15");
 const unit14 = getQuestionsForChapter(scienceQuestions, "15:1.4");
 const unit21 = getQuestionsForChapter(scienceQuestions, "15:2.1");
-assert.equal(unit14.length, 20);
-assert.equal(unit21.length, 20);
+assert.equal(unit14.length, 200);
+assert.equal(unit21.length, 200);
 assert.equal(chapter15.length, unit14.length + unit21.length);
-assert.equal(unit21.filter((question) => question.id >= 801).length, 15);
+assert.equal(unit21.filter((question) => question.id >= 801 && question.id <= 815).length, 15);
 assert.deepEqual(getChapterOptions(chapter15), [
-  { chapter: 15, count: 40 },
+  { chapter: 15, count: 400 },
 ]);
 for (const selection of ["15:1.4", "15:2.1"]) {
   assert.equal(normalizeChapter(selection), selection);
