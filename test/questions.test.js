@@ -3,11 +3,35 @@ const questions = require('../data/free-studies.json');
 const {
   getQuestionsForSubject, getQuestionsForChapter, getQuestionsForUnit,
   getChapterOptions, getUnitOptions, getQuestionCountOptions, getRoundSize,
+  getPracticeSelectionOptions, getQuestionsForSelections,
 } = require('../quiz.js');
 
 assert.equal(questions.length, 5400);
 assert.equal(new Set(questions.map(q => q.id)).size, questions.length, 'IDs must remain unique');
 const buckets = new Map();
+// Custom selections must combine only checked topics, without duplicating questions.
+for (const [subject, selections, count] of [
+  ['science', ['22', '23'], 400],
+  ['science', ['15:1.4', '23'], 400],
+  ['science', ['15:1.4', '15:2.1'], 400],
+  ['science', ['22', '22'], 200],
+  ['science', ['study-guide', '22'], 400],
+  ['civics', ['1.4', '2.1'], 400],
+  ['math', ['2', '6'], 400],
+  ['science', [], 0],
+  ['math', ['22'], 0],
+]) {
+  const pool = getQuestionsForSelections(questions, subject, selections);
+  assert.equal(pool.length, count);
+  assert.equal(new Set(pool.map(q => q.id)).size, pool.length);
+  assert.ok(pool.every(q => (q.subject || 'science') === subject));
+}
+const scienceChoices = getPracticeSelectionOptions(questions, 'science');
+assert.ok(scienceChoices.some(choice => choice.key === '15:1.4'));
+assert.ok(scienceChoices.some(choice => choice.key === '15:2.1'));
+assert.ok(!scienceChoices.some(choice => choice.key === '15'));
+assert.deepEqual(getQuestionsForSelections(questions, 'science', ['22', '23']),
+  questions.filter(q => (q.subject || 'science') === 'science' && [22, 23].includes(q.chapter)));
 for (const q of questions) {
   const key = [q.subject || 'science', q.chapter, q.unit || '', q.studyGuide || ''].join(':');
   if (!buckets.has(key)) buckets.set(key, []);

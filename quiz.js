@@ -20,6 +20,7 @@ const state = {
   selectedSubject: "science",
   selectedChapter: "all",
   selectedChapterUnit: "",
+  selectedChapters: [],
 };
 
 const elements = {
@@ -33,6 +34,8 @@ const elements = {
   chapterSelectLabel: hasDocument ? document.querySelector("#chapterSelectLabel") : null,
   chapterSelect: hasDocument ? document.querySelector("#chapterSelect") : null,
   civicsUnit21Button: hasDocument ? document.querySelector("#civicsUnit21Button") : null,
+  chapterChoices: hasDocument ? document.querySelector("#chapterChoices") : null,
+  chapterChoicesList: hasDocument ? document.querySelector("#chapterChoicesList") : null,
   chapterHint: hasDocument ? document.querySelector("#chapterHint") : null,
   chapterUnitField: hasDocument ? document.querySelector("#chapterUnitField") : null,
   chapterUnitSelect: hasDocument ? document.querySelector("#chapterUnitSelect") : null,
@@ -139,6 +142,7 @@ function renderQuestionCountOptions() {
     options.length === 0
       ? (needsChapterUnit() && !state.selectedChapterUnit
         ? "Choose a unit to set the number of questions."
+        : state.selectedChapter === "selected" ? "Select at least one topic to set the number of questions."
         : "Choose fewer players or another chapter.")
       : `Type a multiple of ${playerCount}, up to ${maxQuestions}. ${questionsEach} turn${
           questionsEach === 1 ? "" : "s"
@@ -178,6 +182,11 @@ function renderChapterOptions() {
   allOption.textContent = `ALL CHAPTERS? (${chapterQuestions.length} questions)`;
   elements.chapterSelect.append(allOption);
 
+  const customOption = document.createElement("option");
+  customOption.value = "selected";
+  customOption.textContent = "SELECT THESE";
+  elements.chapterSelect.append(customOption);
+
   chapters.forEach(({ chapter, count }) => {
     const option = document.createElement("option");
     option.value = String(chapter);
@@ -194,11 +203,57 @@ function renderChapterOptions() {
   const hasSelectedChapter =
     (state.selectedChapter === "study-guide" && guideCount > 0) ||
     state.selectedChapter === "all" ||
+    state.selectedChapter === "selected" ||
     chapters.some(({ chapter }) => String(chapter) === String(state.selectedChapter));
   state.selectedChapter = hasSelectedChapter ? state.selectedChapter : "all";
   elements.chapterSelect.value = state.selectedChapter;
+  renderChapterChoices();
   renderChapterUnitChoice();
   updateChapterHint();
+}
+
+function renderChapterChoices() {
+  elements.chapterChoicesList.replaceChildren();
+  getPracticeSelectionOptions(state.allQuestions, state.selectedSubject).forEach(({ key, count }) => {
+    const label = document.createElement("label");
+    label.className = "chapter-choice";
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.value = key;
+    checkbox.checked = state.selectedChapters.includes(key);
+    const text = document.createElement("span");
+    text.textContent = `${key === "study-guide" ? "Study Guide: Waves" : getChapterInputValue(key, state.selectedSubject)} (${count} questions)`;
+    checkbox.addEventListener("change", () => {
+      state.selectedChapters = [...elements.chapterChoicesList.querySelectorAll("input:checked")].map(input => input.value);
+      elements.setupError.classList.add("hidden");
+      updateChapterHint();
+      renderQuestionCountOptions();
+    });
+    label.append(checkbox, text);
+    elements.chapterChoicesList.append(label);
+  });
+}
+
+function getPracticeSelectionKey(question, subject) {
+  if (usesUnits(subject)) return getQuestionUnit(question);
+  if (question.studyGuide === "waves") return "study-guide";
+  if (subject === "science" && question.chapter === 15 && question.unit) return `15:${question.unit}`;
+  return String(question.chapter);
+}
+
+function getPracticeSelectionOptions(questions, subject) {
+  const counts = new Map();
+  getQuestionsForSubject(questions, subject).forEach(question => {
+    const key = getPracticeSelectionKey(question, subject);
+    counts.set(key, (counts.get(key) || 0) + 1);
+  });
+  return [...counts].sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true }))
+    .map(([key, count]) => ({ key, count }));
+}
+
+function getQuestionsForSelections(questions, subject, selections) {
+  const keys = new Set(selections);
+  return getQuestionsForSubject(questions, subject).filter(question => keys.has(getPracticeSelectionKey(question, subject)));
 }
 
 function needsChapterUnit() {
@@ -206,6 +261,7 @@ function needsChapterUnit() {
 }
 
 function renderChapterUnitChoice() {
+  elements.chapterChoices.classList.toggle("hidden", state.selectedChapter !== "selected");
   const isCivics = state.selectedSubject === "civics";
   elements.civicsUnit21Button.classList.toggle("hidden", !isCivics);
   elements.civicsUnit21Button.setAttribute("aria-pressed", String(isCivics && state.selectedChapter === "2.1"));
@@ -229,6 +285,12 @@ function updateSubjectHint() {
 
 function updateChapterHint() {
   const count = getSelectedQuestions().length;
+  if (state.selectedChapter === "selected") {
+    elements.chapterHint.textContent = state.selectedChapters.length
+      ? `${state.selectedChapters.length} selected · ${count} questions available. Your round will mix these choices.`
+      : "Check the chapters, units, or lessons you want to practice below.";
+    return;
+  }
   elements.chapterHint.textContent = needsChapterUnit() && !state.selectedChapterUnit
     ? "Choose unit 1.4 or unit 2.1 below."
     : state.selectedChapter === "all"
@@ -249,6 +311,10 @@ function handleSetupSubmit(event) {
     return;
   }
   const availableQuestions = getSelectedQuestions().length;
+  if (state.selectedChapter === "selected" && !availableQuestions) {
+    showSetupError("Select at least one chapter, unit, or lesson below SELECT THESE.");
+    return;
+  }
 
   if (
     !Number.isInteger(selectedQuestionCount) ||
@@ -613,6 +679,9 @@ function showSetupPanel() {
 }
 
 function getSelectedQuestions() {
+  if (state.selectedChapter === "selected") {
+    return getQuestionsForSelections(state.allQuestions, state.selectedSubject, state.selectedChapters);
+  }
   const subjectQuestions = getQuestionsForSubject(state.allQuestions, state.selectedSubject);
   return usesUnits(state.selectedSubject)
     ? getQuestionsForUnit(subjectQuestions, state.selectedChapter)
@@ -726,6 +795,7 @@ function getQuestionUnit(question) {
 }
 
 function getModeLabel(subject, chapter) {
+  if (chapter === "selected") return `${getSubjectLabel(subject)}: selected topics`;
   if (chapter === "study-guide") return "Study Guide: Waves";
   const subjectLabel = getSubjectLabel(subject);
   if (subject === "math") return `${subjectLabel}: ${getChapterInputValue(chapter, subject)}`;
@@ -832,6 +902,7 @@ if (hasDocument) {
   });
   elements.subjectSelect.addEventListener("change", () => {
     state.selectedSubject = elements.subjectSelect.value;
+    state.selectedChapters = [];
     state.selectedChapter = "all";
     state.selectedChapterUnit = "";
     updateSubjectHint();
@@ -889,6 +960,8 @@ if (typeof module !== "undefined") {
     getQuestionCountOptions,
     getQuestionsForChapter,
     getQuestionsForUnit,
+    getPracticeSelectionOptions,
+    getQuestionsForSelections,
     getQuestionsForSubject,
     getChapterInputValue,
     getQuestionUnit,

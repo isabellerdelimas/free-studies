@@ -137,6 +137,29 @@ h1 {
   gap: 8px;
 }
 
+.chapter-choices {
+  min-width: 0;
+  margin: 0;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+
+.chapter-choices legend { font-weight: 850; padding: 0 6px; }
+.chapter-choices .field-hint { margin: 0 0 12px; }
+.chapter-choices-list { display: grid; gap: 8px; }
+.chapter-choice {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.chapter-choice:has(input:checked) { background: var(--panel); outline: 1px solid var(--accent); }
+.chapter-choice input { width: 20px; height: 20px; flex: 0 0 20px; accent-color: var(--accent); }
+
 .field-row label,
 .player-field label {
   color: var(--muted);

@@ -10,6 +10,7 @@ The science questions are based on the book *Everything You Need to Ace Science 
 - 5,400 questions in total, with 200 in every selectable chapter, Math lesson, Civics unit, Chapter 15 unit, and the Waves study guide
 - 1,000 Math problems across lessons 2–6: area and perimeter, scale factor, currency, and measurement conversions
 - Adjustable rounds of up to 200 questions, without repeats
+- Choose SELECT THESE in the chapter/unit/lesson menu to check multiple topics and mix them in one round; Chapter 15 units can be selected separately
 - New practice questions have hints before answering and explanations after answering
 - Currency problems use stated practice rates, not live exchange rates
 - Every Math problem includes a labeled diagram of its given values, including in missed-answer review
