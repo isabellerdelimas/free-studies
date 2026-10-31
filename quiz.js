@@ -754,6 +754,8 @@ function getChapterInputValue(chapter, subject = "science") {
   }
   if (chapter === "15:1.4") return "Chapter 15 — Unit 1.4 (pages 143–149)";
   if (chapter === "15:2.1") return "Chapter 15 — Unit 2.1 (pages 150–157)";
+  if (String(chapter) === "22") return "Chapter 22 — Minerals, Rocks, and Earth’s Structure";
+  if (String(chapter) === "23") return "Chapter 23 — Earth’s Crust in Motion";
   return chapter === "all" ? "All chapters" : `Chapter ${chapter}`;
 }
 

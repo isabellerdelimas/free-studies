@@ -5,7 +5,7 @@ const {
   getChapterOptions, getUnitOptions, getQuestionCountOptions, getRoundSize,
 } = require('../quiz.js');
 
-assert.equal(questions.length, 5000);
+assert.equal(questions.length, 5400);
 assert.equal(new Set(questions.map(q => q.id)).size, questions.length, 'IDs must remain unique');
 const buckets = new Map();
 for (const q of questions) {
@@ -20,7 +20,7 @@ for (const q of questions) {
   }
   if (q.id > 865) assert.ok(q.explanation?.trim(), `Question ${q.id}: new questions need explanations`);
 }
-assert.equal(buckets.size, 25);
+assert.equal(buckets.size, 27);
 for (const [key, pool] of buckets) {
   assert.equal(pool.length, 200, `${key}: each practice set needs 200 questions`);
   assert.equal(new Set(pool.map(q => q.question.toLowerCase().trim())).size, 200, `${key}: repeated prompt`);
@@ -58,4 +58,14 @@ for (const [unit, document, allowedPages] of [
       `Question ${q.id}: outside the requested Civics slide boundaries`);
   }
 }
-console.log('Question bank: 25 sets of 200; unique prompts, valid choices, Civics source boundaries, and selectable 200-question rounds verified.');
+for (const [chapter, firstPage, lastPage] of [[22, 228, 236], [23, 239, 248]]) {
+  const pool = getQuestionsForChapter(getQuestionsForSubject(questions, 'science'), String(chapter));
+  assert.equal(pool.length, 200);
+  for (const q of pool) {
+    assert.ok(q.source.images.length > 0);
+    assert.ok(q.source.pages.length > 0);
+    assert.ok(q.source.pages.every(page => page >= firstPage && page <= lastPage),
+      `Question ${q.id}: outside the supplied Science pages`);
+  }
+}
+console.log('Question bank: 27 sets of 200; unique prompts, valid choices, source boundaries, and selectable 200-question rounds verified.');
