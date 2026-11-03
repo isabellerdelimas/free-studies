@@ -6,7 +6,7 @@ const {
   getPracticeSelectionOptions, getQuestionsForSelections,
 } = require('../quiz.js');
 
-assert.equal(questions.length, 5400);
+assert.equal(questions.length, 5600);
 assert.equal(new Set(questions.map(q => q.id)).size, questions.length, 'IDs must remain unique');
 const buckets = new Map();
 // Custom selections must combine only checked topics, without duplicating questions.
@@ -17,6 +17,8 @@ for (const [subject, selections, count] of [
   ['science', ['22', '22'], 200],
   ['science', ['study-guide', '22'], 400],
   ['civics', ['1.4', '2.1'], 400],
+  ['civics', ['2.2'], 200],
+  ['civics', ['2.1', '2.2'], 400],
   ['math', ['2', '6'], 400],
   ['science', [], 0],
   ['math', ['22'], 0],
@@ -44,7 +46,7 @@ for (const q of questions) {
   }
   if (q.id > 865) assert.ok(q.explanation?.trim(), `Question ${q.id}: new questions need explanations`);
 }
-assert.equal(buckets.size, 27);
+assert.equal(buckets.size, 28);
 for (const [key, pool] of buckets) {
   assert.equal(pool.length, 200, `${key}: each practice set needs 200 questions`);
   assert.equal(new Set(pool.map(q => q.question.toLowerCase().trim())).size, 200, `${key}: repeated prompt`);
@@ -72,6 +74,7 @@ for (const unit of ['15:1.4', '15:2.1']) {
 for (const [unit, document, allowedPages] of [
   ['1.4', 'Copy of 1.4 bill of rights master.pdf', [7, 8, 9, 10, 11, 12, 13, 14, 15]],
   ['2.1', '2.1 Federalism master.pptx (1).pdf', [4, 5, 6, 7, 8]],
+  ['2.2', 'Copy of Legislative Branch 25.pdf', [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]],
 ]) {
   const pool = getQuestionsForUnit(getQuestionsForSubject(questions, 'civics'), unit);
   assert.equal(pool.length, 200);
@@ -92,4 +95,4 @@ for (const [chapter, firstPage, lastPage] of [[22, 228, 236], [23, 239, 248]]) {
       `Question ${q.id}: outside the supplied Science pages`);
   }
 }
-console.log('Question bank: 27 sets of 200; unique prompts, valid choices, source boundaries, and selectable 200-question rounds verified.');
+console.log('Question bank: 28 sets of 200; unique prompts, valid choices, source boundaries, and selectable 200-question rounds verified.');

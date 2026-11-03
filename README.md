@@ -7,7 +7,7 @@ The science questions are based on the book *Everything You Need to Ace Science 
 ## Features
 
 - Subject-based quiz entries loaded from `data/free-studies.json`
-- 5,400 questions in total, with 200 in every selectable chapter, Math lesson, Civics unit, Chapter 15 unit, and the Waves study guide
+- 5,600 questions in total, with 200 in every selectable chapter, Math lesson, Civics unit, Chapter 15 unit, and the Waves study guide
 - 1,000 Math problems across lessons 2–6: area and perimeter, scale factor, currency, and measurement conversions
 - Adjustable rounds of up to 200 questions, without repeats
 - Choose SELECT THESE in the chapter/unit/lesson menu to check multiple topics and mix them in one round; Chapter 15 units can be selected separately
@@ -29,6 +29,8 @@ The science questions are based on the book *Everything You Need to Ace Science 
 
 - Unit 1.4: **Fifth Amendment only**, from pages 7–15 of *Copy of 1.4 bill of rights master.pdf*. Other amendments are excluded from the unit's coverage.
 - Unit 2.1: *2.1 Federalism master.pptx (1).pdf*, through slide 8 inclusive. Bellwork and its answers (slides 1–2), the test announcement (slide 3), and slides 9 onward are excluded. Practice uses the federal-system diagram, constitutional excerpts, cake comparison, powers chart, and vocabulary on slides 4–8.
+- Unit 2.2: *Copy of Legislative Branch 25.pdf*, with short multiple-choice questions modeled on the eight supplied examples. Covers legislative structure, congressional qualifications and powers, types of law, and impeachment. Hypothetical qualification and vote-count examples use stated values.
+- Unit 2.2 uses precise wording where the slides simplify: citizenship need not be by birth or naturalization specifically; revenue bills originate in the House; confirmation applies to nominations requiring Senate consent; the chief justice presides in presidential impeachment trials; conviction requires two-thirds of senators present. See the official [House qualifications](https://www.house.gov/the-house-explained), [Senate qualifications](https://www.senate.gov/senators/qualifications_termsofservice.htm), [revenue-bill rule](https://history.house.gov/Institution/Origins-Development/Power-of-the-Purse/Power-of-the-Purse/), and [impeachment rules](https://www.senate.gov/about/powers-procedures/impeachment.htm).
 - Each new unit has 200 original practice questions with source-page metadata, hints, and answer explanations. Civics questions have no illustrations; visuals remain specific to Math.
 
 ## Run Locally

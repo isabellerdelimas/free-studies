@@ -820,6 +820,7 @@ function getChapterInputValue(chapter, subject = "science") {
   if (usesUnits(subject)) {
     if (String(chapter) === "1.4") return "Unit 1.4 — Fifth Amendment only";
     if (String(chapter) === "2.1") return "Unit 2.1 — Federalism (through slide 8)";
+    if (String(chapter) === "2.2") return "Unit 2.2 — Legislative Branch";
     return chapter === "all" ? "All units" : `Unit ${chapter}`;
   }
   if (chapter === "15:1.4") return "Chapter 15 — Unit 1.4 (pages 143–149)";

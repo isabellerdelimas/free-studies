@@ -97764,5 +97764,4822 @@
         "IMG_8010.HEIC"
       ]
     }
+  },
+  {
+    "id": 5401,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Article I of the U.S. Constitution establishes which branch?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Connect Article I with Congress.",
+    "explanation": "Article I establishes Congress, the federal legislative branch.",
+    "alternatives": [
+      "Legislative branch",
+      "Executive branch",
+      "Judicial branch",
+      "State court system"
+    ],
+    "correctAnswer": "Legislative branch",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5402,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which branch traces its creation to Article I?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Connect Article I with Congress.",
+    "explanation": "Article I establishes Congress, the federal legislative branch.",
+    "alternatives": [
+      "Legislative branch",
+      "Executive branch",
+      "Judicial branch",
+      "State court system"
+    ],
+    "correctAnswer": "Legislative branch",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5403,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Congress considers laws for a space program, an example in the slides. Which idea explains its ability to address technology unknown in 1787?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think about flexibility to carry out constitutional powers.",
+    "explanation": "The slides use a space program as an example of addressing new circumstances through implied powers connected to granted powers.",
+    "alternatives": [
+      "Implied powers under the Elastic Clause",
+      "A power to ignore all constitutional limits",
+      "A rule that only courts may address technology",
+      "A requirement that every law be listed word for word in the Constitution"
+    ],
+    "correctAnswer": "Implied powers under the Elastic Clause",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5404,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "The legislative branch primarily ______ laws.",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think about the work of a legislature.",
+    "explanation": "The legislative branch writes and passes laws.",
+    "alternatives": [
+      "Makes laws",
+      "Enforces laws",
+      "Interprets laws",
+      "Decides court appeals"
+    ],
+    "correctAnswer": "Makes laws",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5405,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which responsibility belongs to the legislative branch?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think about the work of a legislature.",
+    "explanation": "The legislative branch writes and passes laws.",
+    "alternatives": [
+      "Makes laws",
+      "Enforces laws",
+      "Interprets laws",
+      "Decides court appeals"
+    ],
+    "correctAnswer": "Makes laws",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5406,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "The slides list building highways as an example of which congressional power category?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Look at the examples beneath the Elastic Clause.",
+    "explanation": "The slides place highways and roads among examples of implied powers used to carry out granted national powers.",
+    "alternatives": [
+      "Implied powers",
+      "Judicial review",
+      "Presidential pardon powers",
+      "State-only reserved powers"
+    ],
+    "correctAnswer": "Implied powers",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5407,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which branch is responsible for enforcing federal laws?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Match enforcing laws to a branch.",
+    "explanation": "The executive branch enforces laws passed by the legislature.",
+    "alternatives": [
+      "Executive branch",
+      "Legislative branch",
+      "Judicial branch",
+      "Both chambers of Congress"
+    ],
+    "correctAnswer": "Executive branch",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5408,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Federal agencies carry out a law Congress has passed. Which branch is doing this work?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Match enforcing laws to a branch.",
+    "explanation": "The executive branch enforces laws passed by the legislature.",
+    "alternatives": [
+      "Executive branch",
+      "Legislative branch",
+      "Judicial branch",
+      "Both chambers of Congress"
+    ],
+    "correctAnswer": "Executive branch",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5409,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which example is listed under the Elastic Clause in the slides?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify the example used to illustrate necessary and proper means.",
+    "explanation": "Building dams appears among the slides’ examples of Congress using implied powers.",
+    "alternatives": [
+      "Building dams",
+      "Issuing a presidential pardon",
+      "Hearing an appeal in the Supreme Court",
+      "Electing a state governor"
+    ],
+    "correctAnswer": "Building dams",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5410,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which branch interprets federal laws?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of courts and judges.",
+    "explanation": "The judicial branch interprets laws in court cases.",
+    "alternatives": [
+      "Judicial branch",
+      "Legislative branch",
+      "Executive branch",
+      "House of Representatives"
+    ],
+    "correctAnswer": "Judicial branch",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5411,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A court decides what a law means in a dispute. Which branch is acting?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of courts and judges.",
+    "explanation": "The judicial branch interprets laws in court cases.",
+    "alternatives": [
+      "Judicial branch",
+      "Legislative branch",
+      "Executive branch",
+      "House of Representatives"
+    ],
+    "correctAnswer": "Judicial branch",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5412,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Congress addresses nuclear power, a subject unknown to the framers. Which principle from the slides is relevant?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "A new technology can require new means of carrying out existing powers.",
+    "explanation": "The slides list nuclear power as an example of using implied powers to address developments the framers could not foresee.",
+    "alternatives": [
+      "Implied powers can address new circumstances",
+      "Congress may act only on technologies known in 1787",
+      "Congress automatically takes over all court powers",
+      "State governors must write all federal laws"
+    ],
+    "correctAnswer": "Implied powers can address new circumstances",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5413,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A bicameral legislature has how many houses?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The prefix bi- means two.",
+    "explanation": "Bicameral means a legislature has two chambers.",
+    "alternatives": [
+      "Two houses",
+      "One house",
+      "Three houses",
+      "Four houses"
+    ],
+    "correctAnswer": "Two houses",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5414,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Congress is described as bicameral. What does that mean?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The prefix bi- means two.",
+    "explanation": "Bicameral means a legislature has two chambers.",
+    "alternatives": [
+      "Two houses",
+      "One house",
+      "Three houses",
+      "Four houses"
+    ],
+    "correctAnswer": "Two houses",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5415,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "The House and Senate are separate chambers. Which structure does this create?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The prefix bi- means two.",
+    "explanation": "Bicameral means a legislature has two chambers.",
+    "alternatives": [
+      "Two houses",
+      "One house",
+      "Three houses",
+      "Four houses"
+    ],
+    "correctAnswer": "Two houses",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5416,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which two bodies make up the U.S. Congress?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Both answers must be legislative chambers.",
+    "explanation": "Congress consists of the House of Representatives and the Senate.",
+    "alternatives": [
+      "House of Representatives and Senate",
+      "President and vice president",
+      "Supreme Court and Senate",
+      "Cabinet and House of Representatives"
+    ],
+    "correctAnswer": "House of Representatives and Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5417,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which pair belongs under “federal legislative branch” in an outline?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Both answers must be legislative chambers.",
+    "explanation": "Congress consists of the House of Representatives and the Senate.",
+    "alternatives": [
+      "House of Representatives and Senate",
+      "President and vice president",
+      "Supreme Court and Senate",
+      "Cabinet and House of Representatives"
+    ],
+    "correctAnswer": "House of Representatives and Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5418,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A visitor wants to see both chambers of Congress. Which two bodies are these?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Both answers must be legislative chambers.",
+    "explanation": "Congress consists of the House of Representatives and the Senate.",
+    "alternatives": [
+      "House of Representatives and Senate",
+      "President and vice president",
+      "Supreme Court and Senate",
+      "Cabinet and House of Representatives"
+    ],
+    "correctAnswer": "House of Representatives and Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5419,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "How many voting seats are in the House of Representatives?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Do not confuse the House with the smaller Senate.",
+    "explanation": "The House has 435 voting seats.",
+    "alternatives": [
+      "435",
+      "100",
+      "50",
+      "535"
+    ],
+    "correctAnswer": "435",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5420,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A complete diagram of voting House seats should show how many seats?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Do not confuse the House with the smaller Senate.",
+    "explanation": "The House has 435 voting seats.",
+    "alternatives": [
+      "435",
+      "100",
+      "50",
+      "535"
+    ],
+    "correctAnswer": "435",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5421,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which number belongs beside “House voting membership” on a study card?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Do not confuse the House with the smaller Senate.",
+    "explanation": "The House has 435 voting seats.",
+    "alternatives": [
+      "435",
+      "100",
+      "50",
+      "535"
+    ],
+    "correctAnswer": "435",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5422,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "How many seats are in the U.S. Senate?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Multiply two seats by fifty states.",
+    "explanation": "There are two senators for each of the 50 states, for 100 Senate seats.",
+    "alternatives": [
+      "100",
+      "435",
+      "50",
+      "535"
+    ],
+    "correctAnswer": "100",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5423,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which number belongs beside “total Senate membership”?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Multiply two seats by fifty states.",
+    "explanation": "There are two senators for each of the 50 states, for 100 Senate seats.",
+    "alternatives": [
+      "100",
+      "435",
+      "50",
+      "535"
+    ],
+    "correctAnswer": "100",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5424,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A chart includes two Senate seats for each state. How many seats does it show altogether?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Multiply two seats by fifty states.",
+    "explanation": "There are two senators for each of the 50 states, for 100 Senate seats.",
+    "alternatives": [
+      "100",
+      "435",
+      "50",
+      "535"
+    ],
+    "correctAnswer": "100",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5425,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "How many U.S. senators represent each state?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Senate representation is equal by state.",
+    "explanation": "Each state has two U.S. senators regardless of population.",
+    "alternatives": [
+      "2",
+      "1",
+      "4",
+      "6"
+    ],
+    "correctAnswer": "2",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5426,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A small state receives how many seats in the U.S. Senate?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Senate representation is equal by state.",
+    "explanation": "Each state has two U.S. senators regardless of population.",
+    "alternatives": [
+      "2",
+      "1",
+      "4",
+      "6"
+    ],
+    "correctAnswer": "2",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5427,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A large state receives how many seats in the U.S. Senate?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Senate representation is equal by state.",
+    "explanation": "Each state has two U.S. senators regardless of population.",
+    "alternatives": [
+      "2",
+      "1",
+      "4",
+      "6"
+    ],
+    "correctAnswer": "2",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5428,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What determines each state’s share of House seats?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think about how many people live in a state.",
+    "explanation": "House seats are apportioned among states according to population.",
+    "alternatives": [
+      "State population",
+      "State land area",
+      "Number of state parks",
+      "Number of state courts"
+    ],
+    "correctAnswer": "State population",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5429,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which factor explains why some states have more representatives than others?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think about how many people live in a state.",
+    "explanation": "House seats are apportioned among states according to population.",
+    "alternatives": [
+      "State population",
+      "State land area",
+      "Number of state parks",
+      "Number of state courts"
+    ],
+    "correctAnswer": "State population",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5430,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What information is most relevant when comparing states’ representation in the House?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think about how many people live in a state.",
+    "explanation": "House seats are apportioned among states according to population.",
+    "alternatives": [
+      "State population",
+      "State land area",
+      "Number of state parks",
+      "Number of state courts"
+    ],
+    "correctAnswer": "State population",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5431,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "How long is one term in the U.S. House?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "House terms are shorter than Senate terms.",
+    "explanation": "A representative serves a two-year term before seeking reelection.",
+    "alternatives": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": "2 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5432,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A representative completes one full term. How many years have passed?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "House terms are shorter than Senate terms.",
+    "explanation": "A representative serves a two-year term before seeking reelection.",
+    "alternatives": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": "2 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5433,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which term length should appear on a House of Representatives study card?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "House terms are shorter than Senate terms.",
+    "explanation": "A representative serves a two-year term before seeking reelection.",
+    "alternatives": [
+      "2 years",
+      "4 years",
+      "6 years",
+      "8 years"
+    ],
+    "correctAnswer": "2 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5434,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "How long is one term in the U.S. Senate?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The Senate term is three times the House term.",
+    "explanation": "A senator is elected to a six-year term.",
+    "alternatives": [
+      "6 years",
+      "2 years",
+      "4 years",
+      "8 years"
+    ],
+    "correctAnswer": "6 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5435,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A senator completes one full term. How many years have passed?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The Senate term is three times the House term.",
+    "explanation": "A senator is elected to a six-year term.",
+    "alternatives": [
+      "6 years",
+      "2 years",
+      "4 years",
+      "8 years"
+    ],
+    "correctAnswer": "6 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5436,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which term length should appear on a U.S. Senate study card?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The Senate term is three times the House term.",
+    "explanation": "A senator is elected to a six-year term.",
+    "alternatives": [
+      "6 years",
+      "2 years",
+      "4 years",
+      "8 years"
+    ],
+    "correctAnswer": "6 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5437,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which statement correctly describes congressional term limits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Distinguish the length of a term from a limit on terms.",
+    "explanation": "Members of both chambers may seek reelection without a fixed limit on the number of terms.",
+    "alternatives": [
+      "Neither chamber has a fixed term limit",
+      "Both chambers allow only two terms",
+      "Only the House has a two-term limit",
+      "Only the Senate allows one term"
+    ],
+    "correctAnswer": "Neither chamber has a fixed term limit",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": 5438,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A student says every member of Congress must leave after two terms. Which correction is accurate?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Distinguish the length of a term from a limit on terms.",
+    "explanation": "Members of both chambers may seek reelection without a fixed limit on the number of terms.",
+    "alternatives": [
+      "Neither chamber has a fixed term limit",
+      "Both chambers allow only two terms",
+      "Only the House has a two-term limit",
+      "Only the Senate allows one term"
+    ],
+    "correctAnswer": "Neither chamber has a fixed term limit",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": 5439,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What do the House and Senate have in common about the number of terms members may serve?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Distinguish the length of a term from a limit on terms.",
+    "explanation": "Members of both chambers may seek reelection without a fixed limit on the number of terms.",
+    "alternatives": [
+      "Neither chamber has a fixed term limit",
+      "Both chambers allow only two terms",
+      "Only the House has a two-term limit",
+      "Only the Senate allows one term"
+    ],
+    "correctAnswer": "Neither chamber has a fixed term limit",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": 5440,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What is the minimum age to serve in the U.S. House?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The House minimum age is lower than the Senate minimum.",
+    "explanation": "A representative must be at least 25 years old to serve.",
+    "alternatives": [
+      "25 years old",
+      "18 years old",
+      "30 years old",
+      "35 years old"
+    ],
+    "correctAnswer": "25 years old",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5441,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which age requirement belongs on a House qualifications chart?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The House minimum age is lower than the Senate minimum.",
+    "explanation": "A representative must be at least 25 years old to serve.",
+    "alternatives": [
+      "25 years old",
+      "18 years old",
+      "30 years old",
+      "35 years old"
+    ],
+    "correctAnswer": "25 years old",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5442,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person meets the House age requirement at the earliest possible age. How old is that person?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The House minimum age is lower than the Senate minimum.",
+    "explanation": "A representative must be at least 25 years old to serve.",
+    "alternatives": [
+      "25 years old",
+      "18 years old",
+      "30 years old",
+      "35 years old"
+    ],
+    "correctAnswer": "25 years old",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5443,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What is the minimum age to serve in the U.S. Senate?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The Senate minimum is five years above the House minimum.",
+    "explanation": "A senator must be at least 30 years old to serve.",
+    "alternatives": [
+      "30 years old",
+      "18 years old",
+      "25 years old",
+      "35 years old"
+    ],
+    "correctAnswer": "30 years old",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5444,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which age requirement belongs on a Senate qualifications chart?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The Senate minimum is five years above the House minimum.",
+    "explanation": "A senator must be at least 30 years old to serve.",
+    "alternatives": [
+      "30 years old",
+      "18 years old",
+      "25 years old",
+      "35 years old"
+    ],
+    "correctAnswer": "30 years old",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5445,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person meets the Senate age requirement at the earliest possible age. How old is that person?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The Senate minimum is five years above the House minimum.",
+    "explanation": "A senator must be at least 30 years old to serve.",
+    "alternatives": [
+      "30 years old",
+      "18 years old",
+      "25 years old",
+      "35 years old"
+    ],
+    "correctAnswer": "30 years old",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5446,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "For how long must a representative have been a U.S. citizen?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Match seven years with the House.",
+    "explanation": "House members must have been U.S. citizens for at least seven years; citizenship need not be by birth.",
+    "alternatives": [
+      "7 years",
+      "9 years",
+      "2 years",
+      "14 years"
+    ],
+    "correctAnswer": "7 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5447,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What citizenship duration belongs on a House qualifications chart?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Match seven years with the House.",
+    "explanation": "House members must have been U.S. citizens for at least seven years; citizenship need not be by birth.",
+    "alternatives": [
+      "7 years",
+      "9 years",
+      "2 years",
+      "14 years"
+    ],
+    "correctAnswer": "7 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5448,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A naturalized citizen meets the House citizenship requirement after how many years of citizenship?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Match seven years with the House.",
+    "explanation": "House members must have been U.S. citizens for at least seven years; citizenship need not be by birth.",
+    "alternatives": [
+      "7 years",
+      "9 years",
+      "2 years",
+      "14 years"
+    ],
+    "correctAnswer": "7 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5449,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "For how long must a senator have been a U.S. citizen?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The Senate citizenship requirement is two years longer than the House requirement.",
+    "explanation": "Senators must have been U.S. citizens for at least nine years; citizenship need not be by birth.",
+    "alternatives": [
+      "9 years",
+      "7 years",
+      "2 years",
+      "14 years"
+    ],
+    "correctAnswer": "9 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5450,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What citizenship duration belongs on a Senate qualifications chart?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The Senate citizenship requirement is two years longer than the House requirement.",
+    "explanation": "Senators must have been U.S. citizens for at least nine years; citizenship need not be by birth.",
+    "alternatives": [
+      "9 years",
+      "7 years",
+      "2 years",
+      "14 years"
+    ],
+    "correctAnswer": "9 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5451,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A naturalized citizen meets the Senate citizenship requirement after how many years of citizenship?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The Senate citizenship requirement is two years longer than the House requirement.",
+    "explanation": "Senators must have been U.S. citizens for at least nine years; citizenship need not be by birth.",
+    "alternatives": [
+      "9 years",
+      "7 years",
+      "2 years",
+      "14 years"
+    ],
+    "correctAnswer": "9 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5452,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "In which chamber must bills for raising revenue originate?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Recall the House’s role in the power of the purse.",
+    "explanation": "Bills for raising revenue must originate in the House, although the Senate can propose amendments.",
+    "alternatives": [
+      "House of Representatives",
+      "Senate",
+      "Supreme Court",
+      "President’s cabinet"
+    ],
+    "correctAnswer": "House of Representatives",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5453,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A bill’s main purpose is to raise federal tax revenue. Where must it begin?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Recall the House’s role in the power of the purse.",
+    "explanation": "Bills for raising revenue must originate in the House, although the Senate can propose amendments.",
+    "alternatives": [
+      "House of Representatives",
+      "Senate",
+      "Supreme Court",
+      "President’s cabinet"
+    ],
+    "correctAnswer": "House of Representatives",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5454,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which chamber has the constitutional role of originating revenue bills?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Recall the House’s role in the power of the purse.",
+    "explanation": "Bills for raising revenue must originate in the House, although the Senate can propose amendments.",
+    "alternatives": [
+      "House of Representatives",
+      "Senate",
+      "Supreme Court",
+      "President’s cabinet"
+    ],
+    "correctAnswer": "House of Representatives",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5455,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which chamber formally impeaches federal officials?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Separate bringing charges from trying them.",
+    "explanation": "The House has the power to impeach, meaning to formally bring charges.",
+    "alternatives": [
+      "House of Representatives",
+      "Senate",
+      "Supreme Court",
+      "President’s cabinet"
+    ],
+    "correctAnswer": "House of Representatives",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        9
+      ]
+    }
+  },
+  {
+    "id": 5456,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which chamber votes on articles of impeachment before a Senate trial?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Separate bringing charges from trying them.",
+    "explanation": "The House has the power to impeach, meaning to formally bring charges.",
+    "alternatives": [
+      "House of Representatives",
+      "Senate",
+      "Supreme Court",
+      "President’s cabinet"
+    ],
+    "correctAnswer": "House of Representatives",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        9
+      ]
+    }
+  },
+  {
+    "id": 5457,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which body brings formal impeachment charges against a president?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Separate bringing charges from trying them.",
+    "explanation": "The House has the power to impeach, meaning to formally bring charges.",
+    "alternatives": [
+      "House of Representatives",
+      "Senate",
+      "Supreme Court",
+      "President’s cabinet"
+    ],
+    "correctAnswer": "House of Representatives",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        9
+      ]
+    }
+  },
+  {
+    "id": 5458,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which chamber gives advice and consent to presidential treaties?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "This treaty role belongs to the smaller chamber.",
+    "explanation": "The Senate gives advice and consent to treaties made by the president.",
+    "alternatives": [
+      "Senate",
+      "House acting alone",
+      "Supreme Court",
+      "State legislatures"
+    ],
+    "correctAnswer": "Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5459,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A president negotiates a treaty requiring congressional advice and consent. Which chamber considers it?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "This treaty role belongs to the smaller chamber.",
+    "explanation": "The Senate gives advice and consent to treaties made by the president.",
+    "alternatives": [
+      "Senate",
+      "House acting alone",
+      "Supreme Court",
+      "State legislatures"
+    ],
+    "correctAnswer": "Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5460,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which chamber’s special powers include consenting to treaties?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "This treaty role belongs to the smaller chamber.",
+    "explanation": "The Senate gives advice and consent to treaties made by the president.",
+    "alternatives": [
+      "Senate",
+      "House acting alone",
+      "Supreme Court",
+      "State legislatures"
+    ],
+    "correctAnswer": "Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5461,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which chamber confirms presidential nominations that require congressional approval?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of the chamber that also considers treaties.",
+    "explanation": "The Senate confirms presidential nominations to offices that require its advice and consent.",
+    "alternatives": [
+      "Senate",
+      "House acting alone",
+      "Supreme Court",
+      "State governors"
+    ],
+    "correctAnswer": "Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5462,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A president nominates a Supreme Court justice. Which chamber considers confirmation?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of the chamber that also considers treaties.",
+    "explanation": "The Senate confirms presidential nominations to offices that require its advice and consent.",
+    "alternatives": [
+      "Senate",
+      "House acting alone",
+      "Supreme Court",
+      "State governors"
+    ],
+    "correctAnswer": "Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5463,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which chamber votes on a president’s nominee for a cabinet position requiring confirmation?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of the chamber that also considers treaties.",
+    "explanation": "The Senate confirms presidential nominations to offices that require its advice and consent.",
+    "alternatives": [
+      "Senate",
+      "House acting alone",
+      "Supreme Court",
+      "State governors"
+    ],
+    "correctAnswer": "Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5464,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What is another name for the Elastic Clause?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of laws needed to carry out granted powers.",
+    "explanation": "The Elastic Clause is another name for the Necessary and Proper Clause.",
+    "alternatives": [
+      "Necessary and Proper Clause",
+      "Supremacy Clause",
+      "Equal Protection Clause",
+      "Free Exercise Clause"
+    ],
+    "correctAnswer": "Necessary and Proper Clause",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5465,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which clause is associated with Congress’s implied powers?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of laws needed to carry out granted powers.",
+    "explanation": "The Elastic Clause is another name for the Necessary and Proper Clause.",
+    "alternatives": [
+      "Necessary and Proper Clause",
+      "Supremacy Clause",
+      "Equal Protection Clause",
+      "Free Exercise Clause"
+    ],
+    "correctAnswer": "Necessary and Proper Clause",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5466,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A study card says “Elastic Clause.” Which name could replace it?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of laws needed to carry out granted powers.",
+    "explanation": "The Elastic Clause is another name for the Necessary and Proper Clause.",
+    "alternatives": [
+      "Necessary and Proper Clause",
+      "Supremacy Clause",
+      "Equal Protection Clause",
+      "Free Exercise Clause"
+    ],
+    "correctAnswer": "Necessary and Proper Clause",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5467,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Where is the Elastic Clause located in the Constitution?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Look in Article I’s list of congressional powers.",
+    "explanation": "The Necessary and Proper Clause appears in Article I, Section 8, Clause 18.",
+    "alternatives": [
+      "Article I, Section 8, Clause 18",
+      "Article I, Section 2, Clause 1",
+      "Article II, Section 1, Clause 1",
+      "Article III, Section 1"
+    ],
+    "correctAnswer": "Article I, Section 8, Clause 18",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5468,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which constitutional location belongs on a Necessary and Proper Clause study card?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Look in Article I’s list of congressional powers.",
+    "explanation": "The Necessary and Proper Clause appears in Article I, Section 8, Clause 18.",
+    "alternatives": [
+      "Article I, Section 8, Clause 18",
+      "Article I, Section 2, Clause 1",
+      "Article II, Section 1, Clause 1",
+      "Article III, Section 1"
+    ],
+    "correctAnswer": "Article I, Section 8, Clause 18",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5469,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A student searches for the clause authorizing necessary and proper laws. Which location should the student use?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Look in Article I’s list of congressional powers.",
+    "explanation": "The Necessary and Proper Clause appears in Article I, Section 8, Clause 18.",
+    "alternatives": [
+      "Article I, Section 8, Clause 18",
+      "Article I, Section 2, Clause 1",
+      "Article II, Section 1, Clause 1",
+      "Article III, Section 1"
+    ],
+    "correctAnswer": "Article I, Section 8, Clause 18",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5470,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What does the Necessary and Proper Clause allow Congress to make?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Connect implied powers to powers already granted.",
+    "explanation": "Implied powers help Congress carry out its constitutional powers in new circumstances; they are not unlimited.",
+    "alternatives": [
+      "Laws needed to carry out granted powers",
+      "Any law Congress wants without limits",
+      "Only laws imagined in 1787",
+      "Only laws approved by every state"
+    ],
+    "correctAnswer": "Laws needed to carry out granted powers",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5471,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which description best explains the purpose of implied powers?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Connect implied powers to powers already granted.",
+    "explanation": "Implied powers help Congress carry out its constitutional powers in new circumstances; they are not unlimited.",
+    "alternatives": [
+      "Laws needed to carry out granted powers",
+      "Any law Congress wants without limits",
+      "Only laws imagined in 1787",
+      "Only laws approved by every state"
+    ],
+    "correctAnswer": "Laws needed to carry out granted powers",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5472,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What kind of lawmaking flexibility does the Elastic Clause provide?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Connect implied powers to powers already granted.",
+    "explanation": "Implied powers help Congress carry out its constitutional powers in new circumstances; they are not unlimited.",
+    "alternatives": [
+      "Laws needed to carry out granted powers",
+      "Any law Congress wants without limits",
+      "Only laws imagined in 1787",
+      "Only laws approved by every state"
+    ],
+    "correctAnswer": "Laws needed to carry out granted powers",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5473,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which example from the slides illustrates an implied power?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Look for a means of carrying out an expressed military power.",
+    "explanation": "The slides use a military draft as an implied means of carrying out the power to raise armed forces.",
+    "alternatives": [
+      "A military draft",
+      "Running for local office",
+      "Filing a private lawsuit",
+      "The House bringing impeachment charges"
+    ],
+    "correctAnswer": "A military draft",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5474,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which action could Congress use as an implied means to raise an army?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Look for a means of carrying out an expressed military power.",
+    "explanation": "The slides use a military draft as an implied means of carrying out the power to raise armed forces.",
+    "alternatives": [
+      "A military draft",
+      "Running for local office",
+      "Filing a private lawsuit",
+      "The House bringing impeachment charges"
+    ],
+    "correctAnswer": "A military draft",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5475,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which choice best matches the slides’ example of the Elastic Clause in military affairs?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Look for a means of carrying out an expressed military power.",
+    "explanation": "The slides use a military draft as an implied means of carrying out the power to raise armed forces.",
+    "alternatives": [
+      "A military draft",
+      "Running for local office",
+      "Filing a private lawsuit",
+      "The House bringing impeachment charges"
+    ],
+    "correctAnswer": "A military draft",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5476,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Why did the framers include the Elastic Clause?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Consider changes since 1787.",
+    "explanation": "The framers could not predict every future problem, so the clause allows necessary and proper means of exercising granted powers.",
+    "alternatives": [
+      "Address new circumstances using granted powers",
+      "Replace the Constitution without an amendment",
+      "Transfer all court powers to Congress",
+      "Let each state veto federal laws"
+    ],
+    "correctAnswer": "Address new circumstances using granted powers",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5477,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What does the Elastic Clause help Congress do as technology changes?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Consider changes since 1787.",
+    "explanation": "The framers could not predict every future problem, so the clause allows necessary and proper means of exercising granted powers.",
+    "alternatives": [
+      "Address new circumstances using granted powers",
+      "Replace the Constitution without an amendment",
+      "Transfer all court powers to Congress",
+      "Let each state veto federal laws"
+    ],
+    "correctAnswer": "Address new circumstances using granted powers",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5478,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which purpose of the Necessary and Proper Clause is illustrated by new kinds of cybercrime?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Consider changes since 1787.",
+    "explanation": "The framers could not predict every future problem, so the clause allows necessary and proper means of exercising granted powers.",
+    "alternatives": [
+      "Address new circumstances using granted powers",
+      "Replace the Constitution without an amendment",
+      "Transfer all court powers to Congress",
+      "Let each state veto federal laws"
+    ],
+    "correctAnswer": "Address new circumstances using granted powers",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3
+      ]
+    }
+  },
+  {
+    "id": 5479,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which federal body has the power to declare war?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Declaring war is an enumerated legislative power.",
+    "explanation": "The Constitution grants Congress the power to declare war.",
+    "alternatives": [
+      "Congress",
+      "President alone",
+      "Supreme Court",
+      "State governors"
+    ],
+    "correctAnswer": "Congress",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "id": 5480,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A formal declaration of war falls within which body’s constitutional powers?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Declaring war is an enumerated legislative power.",
+    "explanation": "The Constitution grants Congress the power to declare war.",
+    "alternatives": [
+      "Congress",
+      "President alone",
+      "Supreme Court",
+      "State governors"
+    ],
+    "correctAnswer": "Congress",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "id": 5481,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which body should be linked to “declare war” on the legislative branch chart?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Declaring war is an enumerated legislative power.",
+    "explanation": "The Constitution grants Congress the power to declare war.",
+    "alternatives": [
+      "Congress",
+      "President alone",
+      "Supreme Court",
+      "State governors"
+    ],
+    "correctAnswer": "Congress",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "id": 5482,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What term describes powers specifically listed for Congress?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of powers expressly listed in the Constitution.",
+    "explanation": "Enumerated powers are specifically listed powers; the slides also call these delegated powers of the national government.",
+    "alternatives": [
+      "Enumerated powers",
+      "Reserved powers",
+      "Judicial precedents",
+      "Private legal rights"
+    ],
+    "correctAnswer": "Enumerated powers",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5483,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "The slides identify delegated national powers by what other term?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of powers expressly listed in the Constitution.",
+    "explanation": "Enumerated powers are specifically listed powers; the slides also call these delegated powers of the national government.",
+    "alternatives": [
+      "Enumerated powers",
+      "Reserved powers",
+      "Judicial precedents",
+      "Private legal rights"
+    ],
+    "correctAnswer": "Enumerated powers",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5484,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which distinction between enumerated and implied powers is correct?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Compare a stated power with the means used to exercise it.",
+    "explanation": "Enumerated powers are expressly granted, while implied powers provide necessary and proper means of exercising granted powers.",
+    "alternatives": [
+      "Enumerated powers are expressly listed; implied powers help carry them out",
+      "Enumerated powers belong only to states; implied powers belong only to courts",
+      "Implied powers allow Congress to ignore all limits",
+      "Enumerated powers were all created by judges"
+    ],
+    "correctAnswer": "Enumerated powers are expressly listed; implied powers help carry them out",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "id": 5485,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which listed action is an enumerated congressional power?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Look for a national monetary power.",
+    "explanation": "Coining money is one of the enumerated powers listed in the slides.",
+    "alternatives": [
+      "Coining money",
+      "Issuing local building permits",
+      "Choosing city park hours",
+      "Setting a school’s lunch menu"
+    ],
+    "correctAnswer": "Coining money",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5486,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which action belongs on the slides’ list of national economic powers?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Look for a national monetary power.",
+    "explanation": "Coining money is one of the enumerated powers listed in the slides.",
+    "alternatives": [
+      "Coining money",
+      "Issuing local building permits",
+      "Choosing city park hours",
+      "Setting a school’s lunch menu"
+    ],
+    "correctAnswer": "Coining money",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5487,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "The final slide shows 48 guilty votes and 52 not-guilty votes on one impeachment article. With all 100 senators present, why was there no conviction?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Compare the guilty total with the two-thirds threshold.",
+    "explanation": "The chart shows 48 guilty votes, short of the 67 needed when all 100 senators are present.",
+    "alternatives": [
+      "48 is below the required 67 guilty votes",
+      "A single not-guilty vote blocks conviction",
+      "The House must retry every Senate case",
+      "Only the president can authorize conviction"
+    ],
+    "correctAnswer": "48 is below the required 67 guilty votes",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9,
+        10
+      ]
+    }
+  },
+  {
+    "id": 5488,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Congress regulates interstate trade. What does interstate mean?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Interstate means between states.",
+    "explanation": "Interstate trade means trade across state boundaries, and Congress may regulate it.",
+    "alternatives": [
+      "Trade between states",
+      "Trade only inside one household",
+      "A city’s playground schedule",
+      "A school’s dress code"
+    ],
+    "correctAnswer": "Trade between states",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5489,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which activity is covered by the interstate part of Congress’s commerce power?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Interstate means between states.",
+    "explanation": "Interstate trade means trade across state boundaries, and Congress may regulate it.",
+    "alternatives": [
+      "Trade between states",
+      "Trade only inside one household",
+      "A city’s playground schedule",
+      "A school’s dress code"
+    ],
+    "correctAnswer": "Trade between states",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5490,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A company sells goods across state lines. Which kind of activity is Congress empowered to regulate?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Interstate means between states.",
+    "explanation": "Interstate trade means trade across state boundaries, and Congress may regulate it.",
+    "alternatives": [
+      "Trade between states",
+      "Trade only inside one household",
+      "A city’s playground schedule",
+      "A school’s dress code"
+    ],
+    "correctAnswer": "Trade between states",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5491,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which national service appears on the slides’ enumerated-powers list?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think about a national mail system.",
+    "explanation": "The slides list post offices among the national government’s enumerated powers.",
+    "alternatives": [
+      "Establishing post offices",
+      "Choosing every city’s mayor",
+      "Running every local school",
+      "Selecting every state judge"
+    ],
+    "correctAnswer": "Establishing post offices",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5492,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which action matches Congress’s listed postal power?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think about a national mail system.",
+    "explanation": "The slides list post offices among the national government’s enumerated powers.",
+    "alternatives": [
+      "Establishing post offices",
+      "Choosing every city’s mayor",
+      "Running every local school",
+      "Selecting every state judge"
+    ],
+    "correctAnswer": "Establishing post offices",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5493,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which responsibility connects Congress with the delivery of mail?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think about a national mail system.",
+    "explanation": "The slides list post offices among the national government’s enumerated powers.",
+    "alternatives": [
+      "Establishing post offices",
+      "Choosing every city’s mayor",
+      "Running every local school",
+      "Selecting every state judge"
+    ],
+    "correctAnswer": "Establishing post offices",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5494,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which kind of law protecting authors is listed among national powers?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of protection for authors’ original works.",
+    "explanation": "The slides identify copyright laws as a delegated national power.",
+    "alternatives": [
+      "Copyright laws",
+      "Local parking schedules",
+      "School uniform rules",
+      "Private club bylaws"
+    ],
+    "correctAnswer": "Copyright laws",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5495,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which item belongs beside “coin money” and “post offices” on the enumerated-powers list?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of protection for authors’ original works.",
+    "explanation": "The slides identify copyright laws as a delegated national power.",
+    "alternatives": [
+      "Copyright laws",
+      "Local parking schedules",
+      "School uniform rules",
+      "Private club bylaws"
+    ],
+    "correctAnswer": "Copyright laws",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5496,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A review chart asks for Congress’s listed power related to creative works. Which answer fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of protection for authors’ original works.",
+    "explanation": "The slides identify copyright laws as a delegated national power.",
+    "alternatives": [
+      "Copyright laws",
+      "Local parking schedules",
+      "School uniform rules",
+      "Private club bylaws"
+    ],
+    "correctAnswer": "Copyright laws",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5497,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which defense responsibility is listed as an enumerated power?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Connect national defense with Congress’s listed powers.",
+    "explanation": "Creating and maintaining armed forces is an enumerated national power in the slides.",
+    "alternatives": [
+      "Create and maintain armed forces",
+      "Select all state governors",
+      "Decide every civil lawsuit",
+      "Run all local fire departments"
+    ],
+    "correctAnswer": "Create and maintain armed forces",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5498,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which power provides the constitutional basis for legislation supporting an army?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Connect national defense with Congress’s listed powers.",
+    "explanation": "Creating and maintaining armed forces is an enumerated national power in the slides.",
+    "alternatives": [
+      "Create and maintain armed forces",
+      "Select all state governors",
+      "Decide every civil lawsuit",
+      "Run all local fire departments"
+    ],
+    "correctAnswer": "Create and maintain armed forces",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5499,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which item belongs with “declare war” in the national defense section of the notes?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Connect national defense with Congress’s listed powers.",
+    "explanation": "Creating and maintaining armed forces is an enumerated national power in the slides.",
+    "alternatives": [
+      "Create and maintain armed forces",
+      "Select all state governors",
+      "Decide every civil lawsuit",
+      "Run all local fire departments"
+    ],
+    "correctAnswer": "Create and maintain armed forces",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        7
+      ]
+    }
+  },
+  {
+    "id": 5500,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which chamber conducts impeachment trials?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The chamber that tries the charges is different from the one that brings them.",
+    "explanation": "After impeachment by the House, the Senate has the power to try the charges.",
+    "alternatives": [
+      "Senate",
+      "House of Representatives",
+      "President’s cabinet",
+      "State legislature"
+    ],
+    "correctAnswer": "Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5501,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "After the House impeaches an official, which chamber hears the case?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The chamber that tries the charges is different from the one that brings them.",
+    "explanation": "After impeachment by the House, the Senate has the power to try the charges.",
+    "alternatives": [
+      "Senate",
+      "House of Representatives",
+      "President’s cabinet",
+      "State legislature"
+    ],
+    "correctAnswer": "Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5502,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which body acts as the trial chamber in the impeachment process?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The chamber that tries the charges is different from the one that brings them.",
+    "explanation": "After impeachment by the House, the Senate has the power to try the charges.",
+    "alternatives": [
+      "Senate",
+      "House of Representatives",
+      "President’s cabinet",
+      "State legislature"
+    ],
+    "correctAnswer": "Senate",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5503,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What voting threshold does the House use to approve impeachment?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The House threshold differs from the Senate conviction threshold.",
+    "explanation": "The House approves articles of impeachment by a simple majority.",
+    "alternatives": [
+      "A simple majority",
+      "A two-thirds vote",
+      "A three-fourths vote",
+      "A unanimous vote"
+    ],
+    "correctAnswer": "A simple majority",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5504,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which voting rule applies when the House votes on an article of impeachment?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The House threshold differs from the Senate conviction threshold.",
+    "explanation": "The House approves articles of impeachment by a simple majority.",
+    "alternatives": [
+      "A simple majority",
+      "A two-thirds vote",
+      "A three-fourths vote",
+      "A unanimous vote"
+    ],
+    "correctAnswer": "A simple majority",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5505,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "The House considers formal charges against an official. What level of support is needed to impeach?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The House threshold differs from the Senate conviction threshold.",
+    "explanation": "The House approves articles of impeachment by a simple majority.",
+    "alternatives": [
+      "A simple majority",
+      "A two-thirds vote",
+      "A three-fourths vote",
+      "A unanimous vote"
+    ],
+    "correctAnswer": "A simple majority",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5506,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What Senate vote is required to convict in an impeachment trial?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The trial stage has a higher threshold than the charging stage.",
+    "explanation": "Conviction in a Senate impeachment trial requires two-thirds of the senators present.",
+    "alternatives": [
+      "Two-thirds of senators present",
+      "A simple majority of senators present",
+      "One-fourth of senators present",
+      "Every senator without exception"
+    ],
+    "correctAnswer": "Two-thirds of senators present",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5507,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which rule governs conviction after the Senate hears impeachment charges?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The trial stage has a higher threshold than the charging stage.",
+    "explanation": "Conviction in a Senate impeachment trial requires two-thirds of the senators present.",
+    "alternatives": [
+      "Two-thirds of senators present",
+      "A simple majority of senators present",
+      "One-fourth of senators present",
+      "Every senator without exception"
+    ],
+    "correctAnswer": "Two-thirds of senators present",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5508,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which threshold belongs next to “Senate conviction” on an impeachment flowchart?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The trial stage has a higher threshold than the charging stage.",
+    "explanation": "Conviction in a Senate impeachment trial requires two-thirds of the senators present.",
+    "alternatives": [
+      "Two-thirds of senators present",
+      "A simple majority of senators present",
+      "One-fourth of senators present",
+      "Every senator without exception"
+    ],
+    "correctAnswer": "Two-thirds of senators present",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5509,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Who presides over a president’s impeachment trial in the Senate?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Focus on a presidential impeachment trial.",
+    "explanation": "The chief justice presides when the Senate tries a president; this rule is specific to presidential trials.",
+    "alternatives": [
+      "Chief justice of the United States",
+      "Speaker of the House",
+      "Secretary of state",
+      "President being tried"
+    ],
+    "correctAnswer": "Chief justice of the United States",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5510,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A sitting president faces a Senate impeachment trial. Who leads the proceedings?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Focus on a presidential impeachment trial.",
+    "explanation": "The chief justice presides when the Senate tries a president; this rule is specific to presidential trials.",
+    "alternatives": [
+      "Chief justice of the United States",
+      "Speaker of the House",
+      "Secretary of state",
+      "President being tried"
+    ],
+    "correctAnswer": "Chief justice of the United States",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5511,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which official should appear as presiding officer on a presidential impeachment trial diagram?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Focus on a presidential impeachment trial.",
+    "explanation": "The chief justice presides when the Senate tries a president; this rule is specific to presidential trials.",
+    "alternatives": [
+      "Chief justice of the United States",
+      "Speaker of the House",
+      "Secretary of state",
+      "President being tried"
+    ],
+    "correctAnswer": "Chief justice of the United States",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5512,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which statement gives the correct order of congressional impeachment roles?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Remember the order: House, then Senate.",
+    "explanation": "The impeachment process divides the charging role and trial role between the two chambers.",
+    "alternatives": [
+      "The House brings charges and the Senate tries them",
+      "The Senate brings charges and the House tries them",
+      "The president brings charges and the cabinet tries them",
+      "The Supreme Court performs both steps"
+    ],
+    "correctAnswer": "The House brings charges and the Senate tries them",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5513,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which sequence correctly summarizes impeachment proceedings?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Remember the order: House, then Senate.",
+    "explanation": "The impeachment process divides the charging role and trial role between the two chambers.",
+    "alternatives": [
+      "The House brings charges and the Senate tries them",
+      "The Senate brings charges and the House tries them",
+      "The president brings charges and the cabinet tries them",
+      "The Supreme Court performs both steps"
+    ],
+    "correctAnswer": "The House brings charges and the Senate tries them",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5514,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A student swaps the House and Senate roles in impeachment. Which statement corrects the chart?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Remember the order: House, then Senate.",
+    "explanation": "The impeachment process divides the charging role and trial role between the two chambers.",
+    "alternatives": [
+      "The House brings charges and the Senate tries them",
+      "The Senate brings charges and the House tries them",
+      "The president brings charges and the cabinet tries them",
+      "The Supreme Court performs both steps"
+    ],
+    "correctAnswer": "The House brings charges and the Senate tries them",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5515,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What type of law is created by a legislature?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Focus on who creates the rule.",
+    "explanation": "Statutory law is law enacted by a legislative body such as Congress or a state legislature.",
+    "alternatives": [
+      "Statutory law",
+      "Common law",
+      "Military law only",
+      "Juvenile law only"
+    ],
+    "correctAnswer": "Statutory law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5516,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A rule is enacted by a city council. By its source, what type of law is it?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Focus on who creates the rule.",
+    "explanation": "Statutory law is law enacted by a legislative body such as Congress or a state legislature.",
+    "alternatives": [
+      "Statutory law",
+      "Common law",
+      "Military law only",
+      "Juvenile law only"
+    ],
+    "correctAnswer": "Statutory law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5517,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Congress passes a written law. Which category describes how that law was created?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Focus on who creates the rule.",
+    "explanation": "Statutory law is law enacted by a legislative body such as Congress or a state legislature.",
+    "alternatives": [
+      "Statutory law",
+      "Common law",
+      "Military law only",
+      "Juvenile law only"
+    ],
+    "correctAnswer": "Statutory law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5518,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What type of law develops through judicial precedent?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of judge-made precedent.",
+    "explanation": "Common law develops through judicial decisions and precedent, rather than being enacted as a statute.",
+    "alternatives": [
+      "Common law",
+      "Statutory law",
+      "Military law",
+      "Juvenile law"
+    ],
+    "correctAnswer": "Common law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5519,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which type of law is associated with earlier court rulings used as precedent?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of judge-made precedent.",
+    "explanation": "Common law develops through judicial decisions and precedent, rather than being enacted as a statute.",
+    "alternatives": [
+      "Common law",
+      "Statutory law",
+      "Military law",
+      "Juvenile law"
+    ],
+    "correctAnswer": "Common law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5520,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A legal rule develops through judges’ decisions rather than legislative enactment. Which category fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Think of judge-made precedent.",
+    "explanation": "Common law develops through judicial decisions and precedent, rather than being enacted as a statute.",
+    "alternatives": [
+      "Common law",
+      "Statutory law",
+      "Military law",
+      "Juvenile law"
+    ],
+    "correctAnswer": "Common law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5521,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Two neighbors dispute who must pay for damage to a fence, with no criminal charge. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Civil law addresses noncriminal disputes among people or organizations.",
+    "alternatives": [
+      "Civil law",
+      "Criminal law",
+      "Constitutional law",
+      "Common law"
+    ],
+    "correctAnswer": "Civil law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5522,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A customer sues a store for failing to honor a contract. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Civil law addresses noncriminal disputes among people or organizations.",
+    "alternatives": [
+      "Civil law",
+      "Criminal law",
+      "Constitutional law",
+      "Common law"
+    ],
+    "correctAnswer": "Civil law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5523,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Two companies disagree about payment under a business agreement. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Civil law addresses noncriminal disputes among people or organizations.",
+    "alternatives": [
+      "Civil law",
+      "Criminal law",
+      "Constitutional law",
+      "Common law"
+    ],
+    "correctAnswer": "Civil law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5524,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A tenant and landlord ask a court to settle a noncriminal deposit dispute. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Civil law addresses noncriminal disputes among people or organizations.",
+    "alternatives": [
+      "Civil law",
+      "Criminal law",
+      "Constitutional law",
+      "Common law"
+    ],
+    "correctAnswer": "Civil law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5525,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A homeowner seeks compensation from a contractor for unfinished work. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Civil law addresses noncriminal disputes among people or organizations.",
+    "alternatives": [
+      "Civil law",
+      "Criminal law",
+      "Constitutional law",
+      "Common law"
+    ],
+    "correctAnswer": "Civil law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5526,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A prosecutor charges an adult with theft and seeks punishment. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Criminal law addresses offenses prosecuted by government and their possible punishments.",
+    "alternatives": [
+      "Criminal law",
+      "Civil law",
+      "Constitutional law",
+      "Common law"
+    ],
+    "correctAnswer": "Criminal law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5527,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "An adult is tried for robbery and may receive a prison sentence. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Criminal law addresses offenses prosecuted by government and their possible punishments.",
+    "alternatives": [
+      "Criminal law",
+      "Civil law",
+      "Constitutional law",
+      "Common law"
+    ],
+    "correctAnswer": "Criminal law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5528,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "The government prosecutes an adult accused of intentionally setting a building on fire. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Criminal law addresses offenses prosecuted by government and their possible punishments.",
+    "alternatives": [
+      "Criminal law",
+      "Civil law",
+      "Constitutional law",
+      "Common law"
+    ],
+    "correctAnswer": "Criminal law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5529,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "An adult defendant faces punishment for violating a criminal assault statute. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Criminal law addresses offenses prosecuted by government and their possible punishments.",
+    "alternatives": [
+      "Criminal law",
+      "Civil law",
+      "Constitutional law",
+      "Common law"
+    ],
+    "correctAnswer": "Criminal law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5530,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A prosecutor asks a court to determine whether an adult committed fraud. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Criminal law addresses offenses prosecuted by government and their possible punishments.",
+    "alternatives": [
+      "Criminal law",
+      "Civil law",
+      "Constitutional law",
+      "Common law"
+    ],
+    "correctAnswer": "Criminal law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5531,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A court considers whether government action violates freedom of speech. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Constitutional law concerns constitutional rules and protections, including individual liberties.",
+    "alternatives": [
+      "Constitutional law",
+      "Civil law",
+      "Criminal law",
+      "Common law"
+    ],
+    "correctAnswer": "Constitutional law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5532,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person challenges a government policy as a violation of individual constitutional liberties. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Constitutional law concerns constitutional rules and protections, including individual liberties.",
+    "alternatives": [
+      "Constitutional law",
+      "Civil law",
+      "Criminal law",
+      "Common law"
+    ],
+    "correctAnswer": "Constitutional law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5533,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A court examines whether a law violates a constitutional protection. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Constitutional law concerns constitutional rules and protections, including individual liberties.",
+    "alternatives": [
+      "Constitutional law",
+      "Civil law",
+      "Criminal law",
+      "Common law"
+    ],
+    "correctAnswer": "Constitutional law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5534,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A lawsuit asks whether a government restriction is consistent with the Constitution. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Constitutional law concerns constitutional rules and protections, including individual liberties.",
+    "alternatives": [
+      "Constitutional law",
+      "Civil law",
+      "Criminal law",
+      "Common law"
+    ],
+    "correctAnswer": "Constitutional law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5535,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A judge reviews a claim that the government denied a constitutionally protected right. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Constitutional law concerns constitutional rules and protections, including individual liberties.",
+    "alternatives": [
+      "Constitutional law",
+      "Civil law",
+      "Criminal law",
+      "Common law"
+    ],
+    "correctAnswer": "Constitutional law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5536,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A judge uses earlier judicial decisions to develop a legal rule where no statute controls. By the source of the rule, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Common law develops through court decisions and precedent.",
+    "alternatives": [
+      "Common law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Common law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5537,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A court follows a legal principle established by prior court decisions. By the source of the rule, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Common law develops through court decisions and precedent.",
+    "alternatives": [
+      "Common law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Common law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5538,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A legal rule grows from a series of judicial rulings rather than a legislative vote. By the source of the rule, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Common law develops through court decisions and precedent.",
+    "alternatives": [
+      "Common law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Common law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5539,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A judge relies on precedent to explain a judge-made rule. By the source of the rule, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Common law develops through court decisions and precedent.",
+    "alternatives": [
+      "Common law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Common law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5540,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "An attorney cites a rule developed by courts over many cases, not enacted by lawmakers. By the source of the rule, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Common law develops through court decisions and precedent.",
+    "alternatives": [
+      "Common law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Common law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5541,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A 14-year-old’s case is handled in the juvenile justice system. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Juvenile law concerns proceedings under the legal system for minors; the scenario explicitly places the case in that system.",
+    "alternatives": [
+      "Juvenile law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Juvenile law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5542,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A 15-year-old appears in juvenile court for a hearing. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Juvenile law concerns proceedings under the legal system for minors; the scenario explicitly places the case in that system.",
+    "alternatives": [
+      "Juvenile law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Juvenile law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5543,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A court applies special juvenile procedures in a case involving a 16-year-old. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Juvenile law concerns proceedings under the legal system for minors; the scenario explicitly places the case in that system.",
+    "alternatives": [
+      "Juvenile law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Juvenile law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5544,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A 13-year-old’s alleged offense is handled under rules for minors. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Juvenile law concerns proceedings under the legal system for minors; the scenario explicitly places the case in that system.",
+    "alternatives": [
+      "Juvenile law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Juvenile law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5545,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A juvenile court reviews a legal proceeding involving a 17-year-old. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Juvenile law concerns proceedings under the legal system for minors; the scenario explicitly places the case in that system.",
+    "alternatives": [
+      "Juvenile law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Juvenile law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5546,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A service member faces a court-martial over military discipline. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Military law governs the conduct and discipline of service members.",
+    "alternatives": [
+      "Military law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Military law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5547,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "The armed forces apply rules governing a soldier’s conduct while in service. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Military law governs the conduct and discipline of service members.",
+    "alternatives": [
+      "Military law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Military law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5548,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A military tribunal considers an alleged violation of military duties. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Military law governs the conduct and discipline of service members.",
+    "alternatives": [
+      "Military law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Military law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5549,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "An officer faces disciplinary proceedings under military rules. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Military law governs the conduct and discipline of service members.",
+    "alternatives": [
+      "Military law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Military law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5550,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A case concerns a service member’s compliance with the armed forces’ code of conduct. By its main subject, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Military law governs the conduct and discipline of service members.",
+    "alternatives": [
+      "Military law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Military law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5551,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A state legislature enacts a new written law. By the source of the rule, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Statutory law is enacted by legislative bodies.",
+    "alternatives": [
+      "Statutory law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Statutory law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5552,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Congress creates a law through the legislative process. By the source of the rule, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Statutory law is enacted by legislative bodies.",
+    "alternatives": [
+      "Statutory law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Statutory law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5553,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A county council enacts a local ordinance. By the source of the rule, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Statutory law is enacted by legislative bodies.",
+    "alternatives": [
+      "Statutory law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Statutory law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5554,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A city council passes a written rule through a legislative vote. By the source of the rule, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Statutory law is enacted by legislative bodies.",
+    "alternatives": [
+      "Statutory law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Statutory law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5555,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A legislative body votes to adopt a new statute. By the source of the rule, which type of law best fits?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Identify whether the clue concerns a dispute, punishment, rights, age, military service, or the source of a rule.",
+    "explanation": "Statutory law is enacted by legislative bodies.",
+    "alternatives": [
+      "Statutory law",
+      "Civil law",
+      "Criminal law",
+      "Constitutional law"
+    ],
+    "correctAnswer": "Statutory law",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
+  },
+  {
+    "id": 5556,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 24 and has been a U.S. citizen for 8 years. Assuming state residency is satisfied, which requirements for serving in the House does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The House requires age 25 or older and at least 7 years of U.S. citizenship. This person meets only the citizenship requirement.",
+    "alternatives": [
+      "Only the citizenship requirement",
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Only the citizenship requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5557,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 25 and has been a U.S. citizen for 7 years. Assuming state residency is satisfied, which requirements for serving in the House does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The House requires age 25 or older and at least 7 years of U.S. citizenship. This person meets both requirements.",
+    "alternatives": [
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Both age and citizenship requirements",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5558,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 26 and has been a U.S. citizen for 6 years. Assuming state residency is satisfied, which requirements for serving in the House does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The House requires age 25 or older and at least 7 years of U.S. citizenship. This person meets only the age requirement.",
+    "alternatives": [
+      "Only the age requirement",
+      "Both age and citizenship requirements",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Only the age requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5559,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 29 and has been a U.S. citizen for 10 years. Assuming state residency is satisfied, which requirements for serving in the House does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The House requires age 25 or older and at least 7 years of U.S. citizenship. This person meets both requirements.",
+    "alternatives": [
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Both age and citizenship requirements",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5560,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 30 and has been a U.S. citizen for 9 years. Assuming state residency is satisfied, which requirements for serving in the House does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The House requires age 25 or older and at least 7 years of U.S. citizenship. This person meets both requirements.",
+    "alternatives": [
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Both age and citizenship requirements",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5561,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 31 and has been a U.S. citizen for 8 years. Assuming state residency is satisfied, which requirements for serving in the House does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The House requires age 25 or older and at least 7 years of U.S. citizenship. This person meets both requirements.",
+    "alternatives": [
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Both age and citizenship requirements",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5562,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 35 and has been a U.S. citizen for 12 years. Assuming state residency is satisfied, which requirements for serving in the House does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The House requires age 25 or older and at least 7 years of U.S. citizenship. This person meets both requirements.",
+    "alternatives": [
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Both age and citizenship requirements",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5563,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 28 and has been a U.S. citizen for 9 years. Assuming state residency is satisfied, which requirements for serving in the House does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The House requires age 25 or older and at least 7 years of U.S. citizenship. This person meets both requirements.",
+    "alternatives": [
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Both age and citizenship requirements",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5564,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 40 and has been a U.S. citizen for 5 years. Assuming state residency is satisfied, which requirements for serving in the House does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The House requires age 25 or older and at least 7 years of U.S. citizenship. This person meets only the age requirement.",
+    "alternatives": [
+      "Only the age requirement",
+      "Both age and citizenship requirements",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Only the age requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5565,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 32 and has been a U.S. citizen for 7 years. Assuming state residency is satisfied, which requirements for serving in the House does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The House requires age 25 or older and at least 7 years of U.S. citizenship. This person meets both requirements.",
+    "alternatives": [
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Both age and citizenship requirements",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5566,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 24 and has been a U.S. citizen for 8 years. Assuming state residency is satisfied, which requirements for serving in the Senate does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The Senate requires age 30 or older and at least 9 years of U.S. citizenship. This person meets neither requirement.",
+    "alternatives": [
+      "Neither age nor citizenship requirement",
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement"
+    ],
+    "correctAnswer": "Neither age nor citizenship requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5567,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 25 and has been a U.S. citizen for 7 years. Assuming state residency is satisfied, which requirements for serving in the Senate does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The Senate requires age 30 or older and at least 9 years of U.S. citizenship. This person meets neither requirement.",
+    "alternatives": [
+      "Neither age nor citizenship requirement",
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement"
+    ],
+    "correctAnswer": "Neither age nor citizenship requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5568,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 26 and has been a U.S. citizen for 6 years. Assuming state residency is satisfied, which requirements for serving in the Senate does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The Senate requires age 30 or older and at least 9 years of U.S. citizenship. This person meets neither requirement.",
+    "alternatives": [
+      "Neither age nor citizenship requirement",
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement"
+    ],
+    "correctAnswer": "Neither age nor citizenship requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5569,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 29 and has been a U.S. citizen for 10 years. Assuming state residency is satisfied, which requirements for serving in the Senate does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The Senate requires age 30 or older and at least 9 years of U.S. citizenship. This person meets only the citizenship requirement.",
+    "alternatives": [
+      "Only the citizenship requirement",
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Only the citizenship requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5570,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 30 and has been a U.S. citizen for 9 years. Assuming state residency is satisfied, which requirements for serving in the Senate does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The Senate requires age 30 or older and at least 9 years of U.S. citizenship. This person meets both requirements.",
+    "alternatives": [
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Both age and citizenship requirements",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5571,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 31 and has been a U.S. citizen for 8 years. Assuming state residency is satisfied, which requirements for serving in the Senate does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The Senate requires age 30 or older and at least 9 years of U.S. citizenship. This person meets only the age requirement.",
+    "alternatives": [
+      "Only the age requirement",
+      "Both age and citizenship requirements",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Only the age requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5572,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 35 and has been a U.S. citizen for 12 years. Assuming state residency is satisfied, which requirements for serving in the Senate does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The Senate requires age 30 or older and at least 9 years of U.S. citizenship. This person meets both requirements.",
+    "alternatives": [
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Both age and citizenship requirements",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5573,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 28 and has been a U.S. citizen for 9 years. Assuming state residency is satisfied, which requirements for serving in the Senate does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The Senate requires age 30 or older and at least 9 years of U.S. citizenship. This person meets only the citizenship requirement.",
+    "alternatives": [
+      "Only the citizenship requirement",
+      "Both age and citizenship requirements",
+      "Only the age requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Only the citizenship requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5574,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 40 and has been a U.S. citizen for 5 years. Assuming state residency is satisfied, which requirements for serving in the Senate does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The Senate requires age 30 or older and at least 9 years of U.S. citizenship. This person meets only the age requirement.",
+    "alternatives": [
+      "Only the age requirement",
+      "Both age and citizenship requirements",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Only the age requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5575,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A person is 32 and has been a U.S. citizen for 7 years. Assuming state residency is satisfied, which requirements for serving in the Senate does this person meet?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Check age and years of citizenship separately.",
+    "explanation": "The Senate requires age 30 or older and at least 9 years of U.S. citizenship. This person meets only the age requirement.",
+    "alternatives": [
+      "Only the age requirement",
+      "Both age and citizenship requirements",
+      "Only the citizenship requirement",
+      "Neither age nor citizenship requirement"
+    ],
+    "correctAnswer": "Only the age requirement",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5576,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 435 House members vote yes or no on an article of impeachment. If 210 vote yes, is the article approved?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "A simple majority is more than half.",
+    "explanation": "A simple majority of 435 is 218. Therefore 210 yes votes do not meet the threshold.",
+    "alternatives": [
+      "No; at least 218 yes votes are needed",
+      "Yes; at least 218 yes votes are needed",
+      "No; all 435 members must vote yes",
+      "Yes; any number of yes votes is enough"
+    ],
+    "correctAnswer": "No; at least 218 yes votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5577,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 435 House members vote yes or no on an article of impeachment. If 217 vote yes, is the article approved?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "A simple majority is more than half.",
+    "explanation": "A simple majority of 435 is 218. Therefore 217 yes votes do not meet the threshold.",
+    "alternatives": [
+      "No; at least 218 yes votes are needed",
+      "Yes; at least 218 yes votes are needed",
+      "No; all 435 members must vote yes",
+      "Yes; any number of yes votes is enough"
+    ],
+    "correctAnswer": "No; at least 218 yes votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5578,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 435 House members vote yes or no on an article of impeachment. If 218 vote yes, is the article approved?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "A simple majority is more than half.",
+    "explanation": "A simple majority of 435 is 218. Therefore 218 yes votes meet the threshold.",
+    "alternatives": [
+      "Yes; at least 218 yes votes are needed",
+      "No; at least 218 yes votes are needed",
+      "No; all 435 members must vote yes",
+      "Yes; any number of yes votes is enough"
+    ],
+    "correctAnswer": "Yes; at least 218 yes votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5579,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 435 House members vote yes or no on an article of impeachment. If 219 vote yes, is the article approved?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "A simple majority is more than half.",
+    "explanation": "A simple majority of 435 is 218. Therefore 219 yes votes meet the threshold.",
+    "alternatives": [
+      "Yes; at least 218 yes votes are needed",
+      "No; at least 218 yes votes are needed",
+      "No; all 435 members must vote yes",
+      "Yes; any number of yes votes is enough"
+    ],
+    "correctAnswer": "Yes; at least 218 yes votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5580,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 435 House members vote yes or no on an article of impeachment. If 230 vote yes, is the article approved?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "A simple majority is more than half.",
+    "explanation": "A simple majority of 435 is 218. Therefore 230 yes votes meet the threshold.",
+    "alternatives": [
+      "Yes; at least 218 yes votes are needed",
+      "No; at least 218 yes votes are needed",
+      "No; all 435 members must vote yes",
+      "Yes; any number of yes votes is enough"
+    ],
+    "correctAnswer": "Yes; at least 218 yes votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5581,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 435 House members vote yes or no on an article of impeachment. If 300 vote yes, is the article approved?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "A simple majority is more than half.",
+    "explanation": "A simple majority of 435 is 218. Therefore 300 yes votes meet the threshold.",
+    "alternatives": [
+      "Yes; at least 218 yes votes are needed",
+      "No; at least 218 yes votes are needed",
+      "No; all 435 members must vote yes",
+      "Yes; any number of yes votes is enough"
+    ],
+    "correctAnswer": "Yes; at least 218 yes votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5582,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 435 House members vote yes or no on an article of impeachment. If 200 vote yes, is the article approved?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "A simple majority is more than half.",
+    "explanation": "A simple majority of 435 is 218. Therefore 200 yes votes do not meet the threshold.",
+    "alternatives": [
+      "No; at least 218 yes votes are needed",
+      "Yes; at least 218 yes votes are needed",
+      "No; all 435 members must vote yes",
+      "Yes; any number of yes votes is enough"
+    ],
+    "correctAnswer": "No; at least 218 yes votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5583,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 100 senators are present for an impeachment trial. If 48 vote guilty, is the official convicted?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Round two-thirds up to the next whole vote when needed.",
+    "explanation": "Two-thirds of 100 requires at least 67 votes. Therefore 48 guilty votes fall short of the conviction threshold.",
+    "alternatives": [
+      "No; at least 67 guilty votes are needed",
+      "Yes; at least 67 guilty votes are needed",
+      "Yes; a simple majority is always enough",
+      "No; all 100 senators must vote guilty"
+    ],
+    "correctAnswer": "No; at least 67 guilty votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5584,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 100 senators are present for an impeachment trial. If 47 vote guilty, is the official convicted?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Round two-thirds up to the next whole vote when needed.",
+    "explanation": "Two-thirds of 100 requires at least 67 votes. Therefore 47 guilty votes fall short of the conviction threshold.",
+    "alternatives": [
+      "No; at least 67 guilty votes are needed",
+      "Yes; at least 67 guilty votes are needed",
+      "Yes; a simple majority is always enough",
+      "No; all 100 senators must vote guilty"
+    ],
+    "correctAnswer": "No; at least 67 guilty votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5585,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 100 senators are present for an impeachment trial. If 60 vote guilty, is the official convicted?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Round two-thirds up to the next whole vote when needed.",
+    "explanation": "Two-thirds of 100 requires at least 67 votes. Therefore 60 guilty votes fall short of the conviction threshold.",
+    "alternatives": [
+      "No; at least 67 guilty votes are needed",
+      "Yes; at least 67 guilty votes are needed",
+      "Yes; a simple majority is always enough",
+      "No; all 100 senators must vote guilty"
+    ],
+    "correctAnswer": "No; at least 67 guilty votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5586,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 100 senators are present for an impeachment trial. If 65 vote guilty, is the official convicted?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Round two-thirds up to the next whole vote when needed.",
+    "explanation": "Two-thirds of 100 requires at least 67 votes. Therefore 65 guilty votes fall short of the conviction threshold.",
+    "alternatives": [
+      "No; at least 67 guilty votes are needed",
+      "Yes; at least 67 guilty votes are needed",
+      "Yes; a simple majority is always enough",
+      "No; all 100 senators must vote guilty"
+    ],
+    "correctAnswer": "No; at least 67 guilty votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5587,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 100 senators are present for an impeachment trial. If 66 vote guilty, is the official convicted?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Round two-thirds up to the next whole vote when needed.",
+    "explanation": "Two-thirds of 100 requires at least 67 votes. Therefore 66 guilty votes fall short of the conviction threshold.",
+    "alternatives": [
+      "No; at least 67 guilty votes are needed",
+      "Yes; at least 67 guilty votes are needed",
+      "Yes; a simple majority is always enough",
+      "No; all 100 senators must vote guilty"
+    ],
+    "correctAnswer": "No; at least 67 guilty votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5588,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 100 senators are present for an impeachment trial. If 67 vote guilty, is the official convicted?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Round two-thirds up to the next whole vote when needed.",
+    "explanation": "Two-thirds of 100 requires at least 67 votes. Therefore 67 guilty votes meet the conviction threshold.",
+    "alternatives": [
+      "Yes; at least 67 guilty votes are needed",
+      "No; at least 67 guilty votes are needed",
+      "Yes; a simple majority is always enough",
+      "No; all 100 senators must vote guilty"
+    ],
+    "correctAnswer": "Yes; at least 67 guilty votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5589,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 100 senators are present for an impeachment trial. If 68 vote guilty, is the official convicted?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Round two-thirds up to the next whole vote when needed.",
+    "explanation": "Two-thirds of 100 requires at least 67 votes. Therefore 68 guilty votes meet the conviction threshold.",
+    "alternatives": [
+      "Yes; at least 67 guilty votes are needed",
+      "No; at least 67 guilty votes are needed",
+      "Yes; a simple majority is always enough",
+      "No; all 100 senators must vote guilty"
+    ],
+    "correctAnswer": "Yes; at least 67 guilty votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5590,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "All 100 senators are present for an impeachment trial. If 75 vote guilty, is the official convicted?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Round two-thirds up to the next whole vote when needed.",
+    "explanation": "Two-thirds of 100 requires at least 67 votes. Therefore 75 guilty votes meet the conviction threshold.",
+    "alternatives": [
+      "Yes; at least 67 guilty votes are needed",
+      "No; at least 67 guilty votes are needed",
+      "Yes; a simple majority is always enough",
+      "No; all 100 senators must vote guilty"
+    ],
+    "correctAnswer": "Yes; at least 67 guilty votes are needed",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5591,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which chamber has the longer term, and by how much?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Compare six years with two years.",
+    "explanation": "Senate terms last six years and House terms last two, a difference of four years.",
+    "alternatives": [
+      "Senate, by 4 years",
+      "House, by 4 years",
+      "Senate, by 2 years",
+      "Both terms are the same"
+    ],
+    "correctAnswer": "Senate, by 4 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": 5592,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which chamber has the higher minimum age, and by how much?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Subtract the House minimum from the Senate minimum.",
+    "explanation": "Senators must be at least 30 and representatives at least 25, a difference of five years.",
+    "alternatives": [
+      "Senate, by 5 years",
+      "House, by 5 years",
+      "Senate, by 10 years",
+      "Both require the same age"
+    ],
+    "correctAnswer": "Senate, by 5 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": 5593,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A representative serves three complete two-year terms. How many years of service is that?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Multiply the number of terms by the length of each term.",
+    "explanation": "Three terms times two years per term equals six years.",
+    "alternatives": [
+      "6 years",
+      "3 years",
+      "9 years",
+      "12 years"
+    ],
+    "correctAnswer": "6 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "id": 5594,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "A senator serves two complete six-year terms. How many years of service is that?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Each Senate term lasts six years.",
+    "explanation": "Two terms times six years per term equals twelve years.",
+    "alternatives": [
+      "12 years",
+      "6 years",
+      "8 years",
+      "2 years"
+    ],
+    "correctAnswer": "12 years",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        5
+      ]
+    }
+  },
+  {
+    "id": 5595,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Two states have very different populations. What is equal about their representation in Congress?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Separate population-based representation from equal state representation.",
+    "explanation": "Senate representation is equal by state, while House representation depends on population.",
+    "alternatives": [
+      "Each has two senators",
+      "Each has exactly two representatives",
+      "Each has the same number of House seats",
+      "Each has one senator"
+    ],
+    "correctAnswer": "Each has two senators",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": 5596,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which pair correctly matches a chamber with its age and citizenship requirements?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Keep House and Senate qualifications in separate columns.",
+    "explanation": "The House requires at least age 25 and seven years of citizenship; the Senate requires age 30 and nine years.",
+    "alternatives": [
+      "House: age 25 and 7 years of citizenship",
+      "House: age 30 and 9 years of citizenship",
+      "Senate: age 25 and 7 years of citizenship",
+      "Senate: age 18 and 2 years of citizenship"
+    ],
+    "correctAnswer": "House: age 25 and 7 years of citizenship",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": 5597,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which statement correctly describes a naturalized citizen’s opportunity to serve in Congress?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Years of citizenship matter; citizenship by birth is not required.",
+    "explanation": "Congress does not require citizenship by birth. Naturalized citizens must meet the same age, citizenship-duration, and state-residency requirements.",
+    "alternatives": [
+      "They can serve if they meet the applicable qualifications",
+      "Only citizens by birth can serve in either chamber",
+      "They may serve in the House but never the Senate",
+      "Naturalization automatically waives all age requirements"
+    ],
+    "correctAnswer": "They can serve if they meet the applicable qualifications",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        4,
+        5
+      ]
+    }
+  },
+  {
+    "id": 5598,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "The House has impeached an official. Does that vote alone mean the Senate has convicted the official?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Distinguish an accusation from a trial outcome.",
+    "explanation": "The House brings charges through impeachment. Conviction is a separate Senate decision after trial.",
+    "alternatives": [
+      "No; impeachment and conviction are separate steps",
+      "Yes; a House vote automatically counts as Senate conviction",
+      "Yes; the Senate has no role after impeachment",
+      "No; only a state governor can decide conviction"
+    ],
+    "correctAnswer": "No; impeachment and conviction are separate steps",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        9
+      ]
+    }
+  },
+  {
+    "id": 5599,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "Which pairing correctly connects an enumerated power with a related implied means?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "The means must help carry out the granted power.",
+    "explanation": "Raising armed forces is an enumerated power; the slides use a draft as an implied means of carrying it out.",
+    "alternatives": [
+      "Raise armed forces — establish a military draft",
+      "Coin money — choose all state judges",
+      "Establish post offices — abolish every court",
+      "Regulate interstate trade — cancel all elections"
+    ],
+    "correctAnswer": "Raise armed forces — establish a military draft",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        3,
+        7
+      ]
+    }
+  },
+  {
+    "id": 5600,
+    "subject": "civics",
+    "chapter": 2,
+    "unit": "2.2",
+    "question": "What is the best distinction between common law and statutory law?",
+    "usageExample": "Practice the legislative branch concepts from Unit 2.2.",
+    "tip": "Compare judge-made rules with legislature-made rules.",
+    "explanation": "The distinction here is the source of the rule: judicial precedent versus legislative enactment.",
+    "alternatives": [
+      "Common law develops through courts; statutory law is enacted by legislatures",
+      "Common law is enacted by Congress; statutory law comes only from judges",
+      "Common law concerns only children; statutory law concerns only soldiers",
+      "Common law and statutory law both require a military trial"
+    ],
+    "correctAnswer": "Common law develops through courts; statutory law is enacted by legislatures",
+    "version": "v1",
+    "source": {
+      "document": "Copy of Legislative Branch 25.pdf",
+      "pages": [
+        8
+      ]
+    }
   }
 ]
