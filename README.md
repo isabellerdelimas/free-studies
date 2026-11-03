@@ -60,12 +60,3 @@ npm test
 This project is configured as a static Vercel deployment from the repository root.
 Vercel runs `npm run build`, which executes the test suite and copies the static
 site files into `dist/` for publishing.
-
-## Plate Lab / Earth Builder
-
-- Play at `/simulators/plate-tectonics.html?game=1`, or use the Plate Lab link above the quiz.
-- Twelve interactive missions cover crust temperature, silica composition, thickness, Earth-layer density, and the eight worksheet boundary experiments. Complete each physical setup, then explain the observation to earn XP and up to three stars.
-- Progress is saved locally in the browser. Replays can improve scores; wrong answers reduce the attempt score by 20 XP and a hint by 15 XP, with a floor of 40 XP. No accounts or remote score collection.
-- The free-play worksheet lab remains at `/simulators/plate-tectonics.html`. It includes 0–50 Myr experiments, a 25 Myr pause, and downloadable observation notes.
-- The diagrams are conceptual teaching models, not a reproduction of PhET or predictions of real geological timing. The science references appear in the lab footer.
-- `npm run build` runs quiz, simulator, and game checks and packages the public files for Vercel. Source photographs in `images/` are intentionally excluded from the deployment.
