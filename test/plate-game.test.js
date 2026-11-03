@@ -32,6 +32,7 @@ el.missionMap.children[5].onclick(); assert.equal(el.missionTitle.textContent,'G
 el.gameAnswers.children[1].onclick();el.gameCheck.onclick();assert.equal(el.gameXP.textContent,0);
 assert(el.gameFeedback.textContent.includes('Complete the experiment'));
 el.temperature.value=800;el.temperature.oninput();
+assert(el.gameEvidence.textContent.startsWith("Experiment ready"),"readiness updates immediately after changing crust");
 el.gameAnswers.children[0].onclick();el.gameCheck.onclick();
 el.gameHint.onclick();el.gameHint.onclick();
 assert(el.gamePotential.textContent.startsWith('65 XP'));
