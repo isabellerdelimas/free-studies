@@ -605,3 +605,9 @@ button:focus-visible, .theme-choice:focus-within { outline: 3px solid var(--focu
   .math-diagrams { grid-template-columns: minmax(0, 1fr); gap: 0; }
   .math-diagram-arrow { transform: rotate(90deg); line-height: 1; margin: 0 auto 8px; }
 }
+
+.plate-lab-entry { display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px 22px; margin-bottom:20px; border-radius:16px; background:#183d3a; color:#f4f3da; text-decoration:none; border:1px solid #466c5c; }
+.plate-lab-entry span { display:grid; gap:4px; }
+.plate-lab-entry small { color:#d0ddc5; font-size:13px; }
+.plate-lab-entry b { white-space:nowrap; }
+.plate-lab-entry:focus-visible { outline:3px solid #c6a24e; outline-offset:4px; }
