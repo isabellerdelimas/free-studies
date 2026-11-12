@@ -7,7 +7,8 @@ The science questions are based on the book *Everything You Need to Ace Science 
 ## Features
 
 - Subject-based quiz entries loaded from `data/free-studies.json`
-- 5,800 questions in total, with 200 in every selectable chapter, Math lesson, Civics unit, Chapter 15 unit, and study guide
+- 5,800 stored questions, with 200 in each source set. Science rounds exclude numerical questions; their menus show the remaining concept-question counts. Math and Civics keep their full sets.
+- Science practice skips numeric values in prompts or choices, number-recall questions, calculations, and numerical ratio questions. Chapter numbers, unit labels, and source-page references do not affect eligibility.
 - 1,000 Math problems across lessons 2–6: area and perimeter, scale factor, currency, and measurement conversions
 - Adjustable rounds of up to 200 questions, without repeats
 - Choose SELECT THESE in the chapter/unit/lesson menu to check multiple topics and mix them in one round; Chapter 15 units can be selected separately

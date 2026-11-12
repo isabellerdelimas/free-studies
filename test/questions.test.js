@@ -4,6 +4,7 @@ const {
   getQuestionsForSubject, getQuestionsForChapter, getQuestionsForUnit,
   getChapterOptions, getUnitOptions, getQuestionCountOptions, getRoundSize,
   getPracticeSelectionOptions, getQuestionsForSelections,
+  getPlayableQuestions,
 } = require('../quiz.js');
 
 assert.equal(questions.length, 5800);
@@ -112,3 +113,30 @@ for (const q of plateGuide) {
 assert.deepEqual(getQuestionsForSelections(questions, 'science', ['study-guide:plate-tectonics']), plateGuide);
 assert.ok(getQuestionsForChapter(questions, 'all').every(q => !q.studyGuide));
 console.log('Question bank: 29 sets of 200; unique prompts, valid choices, source boundaries, and selectable 200-question rounds verified.');
+
+// The app loads this filtered bank before computing menus, rounds, and reviews.
+const playable = getPlayableQuestions(questions);
+const scienceConcepts = getQuestionsForSubject(playable, 'science');
+assert.ok(scienceConcepts.length > 0 && scienceConcepts.length < 4000);
+assert.ok(scienceConcepts.every(q => !/\d/.test([q.question, ...q.alternatives].join(' '))));
+for (const subject of ['math', 'civics']) {
+  assert.deepEqual(getQuestionsForSubject(playable, subject), getQuestionsForSubject(questions, subject));
+}
+for (const id of [139, 188, 189, 261, 799, 800, 5230, 5333, 5369]) {
+  assert.ok(!scienceConcepts.some(q => q.id === id), `Number-based question ${id} must not be playable`);
+}
+assert.ok(scienceConcepts.some(q => q.id === 3854), 'Anatomical halves are not a numerical question');
+assert.equal(getQuestionsForChapter(scienceConcepts, 'study-guide:plate-tectonics').length, 200);
+for (const { key, count } of getPracticeSelectionOptions(playable, 'science')) {
+  const pool = getQuestionsForSelections(playable, 'science', [key]);
+  assert.equal(pool.length, count);
+  assert.ok(pool.length > 0);
+  assert.equal(getRoundSize(pool.length, 200, 1), Math.min(200, count));
+  assert.ok(pool.every(q => scienceConcepts.includes(q)));
+}
+assert.deepEqual(getPlayableQuestions([
+  { question: 'How many legs?', correctAnswer: 'six', alternatives: ['six', 'two', 'four', 'eight'] },
+  { subject: 'science', question: 'Which process moves plates?', alternatives: ['Convection', 'Erosion', 'Weathering', 'Condensation'], unit: '2.2', source: { pages: [1] } },
+  { subject: 'math', question: 'What is 2 + 2?', alternatives: ['4'] },
+]).map(q => q.question), ['Which process moves plates?', 'What is 2 + 2?']);
+console.log(`Science concept-only practice: ${scienceConcepts.length} questions; Math and Civics unchanged.`);

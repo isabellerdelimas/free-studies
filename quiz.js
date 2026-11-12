@@ -72,12 +72,26 @@ async function loadQuestions() {
       throw new Error("Could not load questions.");
     }
 
-    state.allQuestions = await response.json();
+    state.allQuestions = getPlayableQuestions(await response.json());
     initializeSetup();
   } catch (error) {
     elements.setupError.textContent = error.message;
     elements.setupError.classList.remove("hidden");
   }
+}
+
+function getPlayableQuestions(questions) {
+  return questions.filter((question) => {
+    if (normalizeSubject(question.subject) !== "science") return true;
+    const prompt = question.question || "";
+    const choices = question.alternatives || [];
+    // Inspect question content, not chapter/unit labels or source-page numbers.
+    const content = [prompt, ...choices].join(" ");
+    if (/\d|\b(?:twice|half|percent|percentage)\b/i.test(content)) return false;
+    if (/\bhow many\b|\bcalculat(?:e|ing|ion)\b|\b(?:formula|equation) for\b|\bwhat is the .*?(?:formula|equation)\b|\b(?:doubles|triples|quadruples)\b/i.test(prompt)) return false;
+    const numericAnswer = /^(?:one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|hundred|thousand|million|billion)(?:\s+(?:years?|seconds?|minutes?|hours?|days?|degrees?|percent))?[.!]?$/i;
+    return !numericAnswer.test(question.correctAnswer || "");
+  });
 }
 
 function initializeSetup() {
@@ -965,6 +979,7 @@ if (hasDocument) {
 
 if (typeof module !== "undefined") {
   module.exports = {
+    getPlayableQuestions,
     buildPlayers,
     getDefaultQuestionCount,
     getChapterOptions,
