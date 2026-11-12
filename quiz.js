@@ -172,7 +172,8 @@ function renderChapterOptions() {
   const subjectQuestions = getQuestionsForSubject(state.allQuestions, state.selectedSubject);
   const useUnits = usesUnits(state.selectedSubject);
   const chapterQuestions = subjectQuestions.filter((question) => !question.studyGuide);
-  const guideCount = subjectQuestions.filter((question) => question.studyGuide === "waves").length;
+  const guides = getPracticeSelectionOptions(subjectQuestions, state.selectedSubject)
+    .filter(({ key }) => getStudyGuideLabel(key));
   const chapters = useUnits ? getUnitOptions(subjectQuestions) : getChapterOptions(chapterQuestions);
   elements.chapterSelect.innerHTML = "";
   elements.chapterSelectLabel.textContent = state.selectedSubject === "math" ? "Lesson" : useUnits ? "Choose which unit" : "Chapter";
@@ -194,14 +195,14 @@ function renderChapterOptions() {
     elements.chapterSelect.append(option);
   });
 
-  if (guideCount) {
+  for (const { key, count } of guides) {
     const option = document.createElement("option");
-    option.value = "study-guide";
-    option.textContent = `Study Guide: Waves (${guideCount} questions)`;
+    option.value = key;
+    option.textContent = `${getStudyGuideLabel(key)} (${count} questions)`;
     elements.chapterSelect.append(option);
   }
   const hasSelectedChapter =
-    (state.selectedChapter === "study-guide" && guideCount > 0) ||
+    guides.some(({ key }) => key === state.selectedChapter) ||
     state.selectedChapter === "all" ||
     state.selectedChapter === "selected" ||
     chapters.some(({ chapter }) => String(chapter) === String(state.selectedChapter));
@@ -222,7 +223,7 @@ function renderChapterChoices() {
     checkbox.value = key;
     checkbox.checked = state.selectedChapters.includes(key);
     const text = document.createElement("span");
-    text.textContent = `${key === "study-guide" ? "Study Guide: Waves" : getChapterInputValue(key, state.selectedSubject)} (${count} questions)`;
+    text.textContent = `${getChapterInputValue(key, state.selectedSubject)} (${count} questions)`;
     checkbox.addEventListener("change", () => {
       state.selectedChapters = [...elements.chapterChoicesList.querySelectorAll("input:checked")].map(input => input.value);
       elements.setupError.classList.add("hidden");
@@ -237,6 +238,7 @@ function renderChapterChoices() {
 function getPracticeSelectionKey(question, subject) {
   if (usesUnits(subject)) return getQuestionUnit(question);
   if (question.studyGuide === "waves") return "study-guide";
+  if (question.studyGuide) return `study-guide:${question.studyGuide}`;
   if (subject === "science" && question.chapter === 15 && question.unit) return `15:${question.unit}`;
   return String(question.chapter);
 }
@@ -776,6 +778,9 @@ function getQuestionsForSubject(questions, subject) {
 
 function getQuestionsForChapter(questions, chapter) {
   if (chapter === "study-guide") return questions.filter((question) => question.studyGuide === "waves");
+  if (String(chapter).startsWith("study-guide:")) {
+    return questions.filter((question) => question.studyGuide === chapter.slice("study-guide:".length));
+  }
   questions = questions.filter((question) => !question.studyGuide);
   if (chapter === "all") return questions;
   if (String(chapter).startsWith("15:")) {
@@ -796,7 +801,7 @@ function getQuestionUnit(question) {
 
 function getModeLabel(subject, chapter) {
   if (chapter === "selected") return `${getSubjectLabel(subject)}: selected topics`;
-  if (chapter === "study-guide") return "Study Guide: Waves";
+  if (getStudyGuideLabel(chapter)) return getStudyGuideLabel(chapter);
   const subjectLabel = getSubjectLabel(subject);
   if (subject === "math") return `${subjectLabel}: ${getChapterInputValue(chapter, subject)}`;
   if (usesUnits(subject)) {
@@ -813,7 +818,14 @@ const mathLessons = {
   6: "Converting Mass and Area",
 };
 
+function getStudyGuideLabel(key) {
+  if (key === "study-guide") return "Study Guide: Waves";
+  if (key === "study-guide:plate-tectonics") return "Unit 2.2 — Plate Tectonics Study Guide";
+  return "";
+}
+
 function getChapterInputValue(chapter, subject = "science") {
+  if (getStudyGuideLabel(chapter)) return getStudyGuideLabel(chapter);
   if (subject === "math") {
     return chapter === "all" ? "All lessons" : `Lesson ${chapter}${mathLessons[chapter] ? ` — ${mathLessons[chapter]}` : ""}`;
   }
@@ -847,6 +859,10 @@ function normalizeSubject(subject) {
 function normalizeChapter(chapter, subject = "science") {
   const value = String(chapter || "all").trim().toLowerCase();
   if (!value || value === "all" || value === "all chapters" || value === "all units" || value === "all lessons") return "all";
+  if (subject === "science") {
+    if (value === "study-guide" || value === "study guide: waves") return "study-guide";
+    if (value === "study-guide:plate-tectonics" || /^(?:unit\s+)?2\.2(?:\s|$)/.test(value)) return "study-guide:plate-tectonics";
+  }
   if (!usesUnits(subject)) {
     const splitChapter = value.match(/^(?:chapter\s+)?15\s*(?::|—\s*unit\s+)(1\.4|2\.1)(?:\s|$)/);
     if (splitChapter) return `15:${splitChapter[1]}`;

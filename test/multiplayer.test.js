@@ -141,6 +141,16 @@ assert.ok(guide.every((question) => question.studyGuide === 'waves'));
 assert.ok(getQuestionsForChapter(data, 'all').every((question) => !question.studyGuide));
 assert.ok(getQuestionsForChapter(data, '14').every((question) => !question.studyGuide));
 assert.equal(getModeLabel('science', 'study-guide'), 'Study Guide: Waves');
+const plateGuideKey = 'study-guide:plate-tectonics';
+const plateGuideLabel = 'Unit 2.2 — Plate Tectonics Study Guide';
+assert.equal(getChapterInputValue(plateGuideKey, 'science'), plateGuideLabel);
+assert.equal(getModeLabel('science', plateGuideKey), plateGuideLabel);
+for (const value of [plateGuideKey, plateGuideLabel, 'Unit 2.2', '2.2']) {
+  assert.equal(normalizeChapter(value, 'science'), plateGuideKey);
+}
+assert.equal(normalizeChapter('Unit 2.2', 'civics'), '2.2');
+assert.equal(normalizeChapter('study-guide', 'science'), 'study-guide');
+assert.equal(getQuestionsForChapter(data, plateGuideKey).length, 200);
 
 // The round limit preserves unique questions and equal player turns.
 assert.equal(getQuestionCountOptions(500, 1).at(-1), 200);

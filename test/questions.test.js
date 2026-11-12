@@ -6,7 +6,7 @@ const {
   getPracticeSelectionOptions, getQuestionsForSelections,
 } = require('../quiz.js');
 
-assert.equal(questions.length, 5600);
+assert.equal(questions.length, 5800);
 assert.equal(new Set(questions.map(q => q.id)).size, questions.length, 'IDs must remain unique');
 const buckets = new Map();
 // Custom selections must combine only checked topics, without duplicating questions.
@@ -16,6 +16,10 @@ for (const [subject, selections, count] of [
   ['science', ['15:1.4', '15:2.1'], 400],
   ['science', ['22', '22'], 200],
   ['science', ['study-guide', '22'], 400],
+  ['science', ['study-guide:plate-tectonics'], 200],
+  ['science', ['study-guide:plate-tectonics', 'study-guide', '23'], 600],
+  ['science', ['study-guide:plate-tectonics', 'study-guide:plate-tectonics'], 200],
+  ['civics', ['study-guide:plate-tectonics'], 0],
   ['civics', ['1.4', '2.1'], 400],
   ['civics', ['2.2'], 200],
   ['civics', ['2.1', '2.2'], 400],
@@ -32,6 +36,7 @@ const scienceChoices = getPracticeSelectionOptions(questions, 'science');
 assert.ok(scienceChoices.some(choice => choice.key === '15:1.4'));
 assert.ok(scienceChoices.some(choice => choice.key === '15:2.1'));
 assert.ok(!scienceChoices.some(choice => choice.key === '15'));
+assert.ok(scienceChoices.some(choice => choice.key === 'study-guide:plate-tectonics' && choice.count === 200));
 assert.deepEqual(getQuestionsForSelections(questions, 'science', ['22', '23']),
   questions.filter(q => (q.subject || 'science') === 'science' && [22, 23].includes(q.chapter)));
 for (const q of questions) {
@@ -46,7 +51,7 @@ for (const q of questions) {
   }
   if (q.id > 865) assert.ok(q.explanation?.trim(), `Question ${q.id}: new questions need explanations`);
 }
-assert.equal(buckets.size, 28);
+assert.equal(buckets.size, 29);
 for (const [key, pool] of buckets) {
   assert.equal(pool.length, 200, `${key}: each practice set needs 200 questions`);
   assert.equal(new Set(pool.map(q => q.question.toLowerCase().trim())).size, 200, `${key}: repeated prompt`);
@@ -95,4 +100,15 @@ for (const [chapter, firstPage, lastPage] of [[22, 228, 236], [23, 239, 248]]) {
       `Question ${q.id}: outside the supplied Science pages`);
   }
 }
-console.log('Question bank: 28 sets of 200; unique prompts, valid choices, source boundaries, and selectable 200-question rounds verified.');
+const plateGuide = getQuestionsForChapter(getQuestionsForSubject(questions, 'science'), 'study-guide:plate-tectonics');
+assert.equal(plateGuide.length, 200);
+assert.equal(getRoundSize(plateGuide.length, 200, 1), 200);
+for (const q of plateGuide) {
+  assert.equal(q.unit, '2.2');
+  assert.equal(q.studyGuide, 'plate-tectonics');
+  assert.equal(q.source.document, 'plate_tectonics_guide (1).pdf');
+  assert.ok(q.source.pages.length && q.source.pages.every(page => [1, 2].includes(page)));
+}
+assert.deepEqual(getQuestionsForSelections(questions, 'science', ['study-guide:plate-tectonics']), plateGuide);
+assert.ok(getQuestionsForChapter(questions, 'all').every(q => !q.studyGuide));
+console.log('Question bank: 29 sets of 200; unique prompts, valid choices, source boundaries, and selectable 200-question rounds verified.');

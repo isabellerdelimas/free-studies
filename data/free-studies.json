@@ -102581,5 +102581,5012 @@
         8
       ]
     }
+  },
+  {
+    "id": 5601,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "In the plate-boundary guide, how do plates move at a convergent boundary?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Converge means come together.",
+    "explanation": "Convergent boundaries occur where plates approach one another.",
+    "alternatives": [
+      "Toward each other",
+      "Away from each other",
+      "Sideways past each other without approaching",
+      "Without any relative movement"
+    ],
+    "correctAnswer": "Toward each other",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5602,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which motion belongs beside “convergent” on a plate-motion chart?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Converge means come together.",
+    "explanation": "Convergent boundaries occur where plates approach one another.",
+    "alternatives": [
+      "Toward each other",
+      "Away from each other",
+      "Sideways past each other without approaching",
+      "Without any relative movement"
+    ],
+    "correctAnswer": "Toward each other",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5603,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A diagram shows two plates converging. How should the arrows point relative to one another?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Converge means come together.",
+    "explanation": "Convergent boundaries occur where plates approach one another.",
+    "alternatives": [
+      "Toward each other",
+      "Away from each other",
+      "Sideways past each other without approaching",
+      "Without any relative movement"
+    ],
+    "correctAnswer": "Toward each other",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5604,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "In the guide, what motion defines a divergent boundary?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Diverge means spread apart.",
+    "explanation": "Divergent boundaries are places where plates separate.",
+    "alternatives": [
+      "Away from each other",
+      "Toward each other",
+      "One beneath the other",
+      "Sideways past each other without separating"
+    ],
+    "correctAnswer": "Away from each other",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5605,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which motion belongs beside “divergent” on a plate-motion chart?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Diverge means spread apart.",
+    "explanation": "Divergent boundaries are places where plates separate.",
+    "alternatives": [
+      "Away from each other",
+      "Toward each other",
+      "One beneath the other",
+      "Sideways past each other without separating"
+    ],
+    "correctAnswer": "Away from each other",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5606,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A diagram shows two plates diverging. How should the arrows point relative to one another?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Diverge means spread apart.",
+    "explanation": "Divergent boundaries are places where plates separate.",
+    "alternatives": [
+      "Away from each other",
+      "Toward each other",
+      "One beneath the other",
+      "Sideways past each other without separating"
+    ],
+    "correctAnswer": "Away from each other",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5607,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "According to the guide, how do plates move along a transform boundary?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Think of sideways motion along a fault.",
+    "explanation": "Transform boundaries involve horizontal sliding between neighboring plates.",
+    "alternatives": [
+      "Horizontally past each other",
+      "Directly toward each other",
+      "Directly away from each other",
+      "Both straight down into the mantle"
+    ],
+    "correctAnswer": "Horizontally past each other",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5608,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which motion belongs beside “transform” on a plate-motion chart?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Think of sideways motion along a fault.",
+    "explanation": "Transform boundaries involve horizontal sliding between neighboring plates.",
+    "alternatives": [
+      "Horizontally past each other",
+      "Directly toward each other",
+      "Directly away from each other",
+      "Both straight down into the mantle"
+    ],
+    "correctAnswer": "Horizontally past each other",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5609,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two plate edges remain side by side along a transform fault. How do they move relative to each other?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Think of sideways motion along a fault.",
+    "explanation": "Transform boundaries involve horizontal sliding between neighboring plates.",
+    "alternatives": [
+      "Horizontally past each other",
+      "Directly toward each other",
+      "Directly away from each other",
+      "Both straight down into the mantle"
+    ],
+    "correctAnswer": "Horizontally past each other",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5610,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "What process carries one tectonic plate beneath another?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for a plate moving downward beneath its neighbor.",
+    "explanation": "Subduction is the sinking of one plate beneath another at a convergent boundary.",
+    "alternatives": [
+      "Subduction",
+      "Seafloor spreading",
+      "Continental rifting",
+      "Horizontal sliding"
+    ],
+    "correctAnswer": "Subduction",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5611,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which term labels the sinking plate in a convergent-boundary cross-section?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for a plate moving downward beneath its neighbor.",
+    "explanation": "Subduction is the sinking of one plate beneath another at a convergent boundary.",
+    "alternatives": [
+      "Subduction",
+      "Seafloor spreading",
+      "Continental rifting",
+      "Horizontal sliding"
+    ],
+    "correctAnswer": "Subduction",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5612,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An oceanic slab descends below another plate. What process is taking place?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for a plate moving downward beneath its neighbor.",
+    "explanation": "Subduction is the sinking of one plate beneath another at a convergent boundary.",
+    "alternatives": [
+      "Subduction",
+      "Seafloor spreading",
+      "Continental rifting",
+      "Horizontal sliding"
+    ],
+    "correctAnswer": "Subduction",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5613,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "At an oceanic-continental collision, which plate typically subducts?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare the densities of oceanic and continental material.",
+    "explanation": "In the guide’s oceanic-continental collision, denser oceanic lithosphere subducts beneath the continental plate.",
+    "alternatives": [
+      "The oceanic plate",
+      "The continental plate",
+      "Both plates always sink together",
+      "Neither plate can sink"
+    ],
+    "correctAnswer": "The oceanic plate",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5614,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A cross-section shows a continent beside converging oceanic crust. Which plate should be drawn descending?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare the densities of oceanic and continental material.",
+    "explanation": "In the guide’s oceanic-continental collision, denser oceanic lithosphere subducts beneath the continental plate.",
+    "alternatives": [
+      "The oceanic plate",
+      "The continental plate",
+      "Both plates always sink together",
+      "Neither plate can sink"
+    ],
+    "correctAnswer": "The oceanic plate",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5615,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which plate sinks in the type of collision associated with the Andes?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare the densities of oceanic and continental material.",
+    "explanation": "In the guide’s oceanic-continental collision, denser oceanic lithosphere subducts beneath the continental plate.",
+    "alternatives": [
+      "The oceanic plate",
+      "The continental plate",
+      "Both plates always sink together",
+      "Neither plate can sink"
+    ],
+    "correctAnswer": "The oceanic plate",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5616,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Why does the oceanic plate usually sink at an oceanic-continental boundary?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Sinking depends on density, not on the presence of seawater.",
+    "explanation": "The oceanic plate is denser, so it tends to sink beneath the more buoyant continental plate.",
+    "alternatives": [
+      "It is denser than the continental plate",
+      "It is less dense than the continental plate",
+      "It is made entirely of liquid water",
+      "It always moves faster than every other plate"
+    ],
+    "correctAnswer": "It is denser than the continental plate",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5617,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which property best explains subduction beneath a continent in the guide?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Sinking depends on density, not on the presence of seawater.",
+    "explanation": "The oceanic plate is denser, so it tends to sink beneath the more buoyant continental plate.",
+    "alternatives": [
+      "It is denser than the continental plate",
+      "It is less dense than the continental plate",
+      "It is made entirely of liquid water",
+      "It always moves faster than every other plate"
+    ],
+    "correctAnswer": "It is denser than the continental plate",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5618,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A student asks why the continental plate stays above the sinking oceanic slab. Which explanation fits?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Sinking depends on density, not on the presence of seawater.",
+    "explanation": "The oceanic plate is denser, so it tends to sink beneath the more buoyant continental plate.",
+    "alternatives": [
+      "It is denser than the continental plate",
+      "It is less dense than the continental plate",
+      "It is made entirely of liquid water",
+      "It always moves faster than every other plate"
+    ],
+    "correctAnswer": "It is denser than the continental plate",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5619,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "When two oceanic plates converge in the guide’s model, which one subducts?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Use age and density together.",
+    "explanation": "The guide describes the older, denser oceanic plate subducting beneath the younger one.",
+    "alternatives": [
+      "The older, denser oceanic plate",
+      "The younger, less dense oceanic plate",
+      "Whichever plate has more islands",
+      "Both plates always remain at the surface"
+    ],
+    "correctAnswer": "The older, denser oceanic plate",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5620,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two oceanic plates collide; one is older and denser. Which should be drawn descending?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Use age and density together.",
+    "explanation": "The guide describes the older, denser oceanic plate subducting beneath the younger one.",
+    "alternatives": [
+      "The older, denser oceanic plate",
+      "The younger, less dense oceanic plate",
+      "Whichever plate has more islands",
+      "Both plates always remain at the surface"
+    ],
+    "correctAnswer": "The older, denser oceanic plate",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5621,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which oceanic plate is most likely to sink beneath the other in the guide’s subduction example?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Use age and density together.",
+    "explanation": "The guide describes the older, denser oceanic plate subducting beneath the younger one.",
+    "alternatives": [
+      "The older, denser oceanic plate",
+      "The younger, less dense oceanic plate",
+      "Whichever plate has more islands",
+      "Both plates always remain at the surface"
+    ],
+    "correctAnswer": "The older, denser oceanic plate",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5622,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "What process builds mountains when two continents collide?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compression can push crust upward.",
+    "explanation": "When continental plates collide, buoyant continental crust crumples and thickens to build mountains.",
+    "alternatives": [
+      "Folding and thickening of continental crust",
+      "Creation of a mid-ocean ridge",
+      "Sideways offset without collision",
+      "Separation into a rift valley"
+    ],
+    "correctAnswer": "Folding and thickening of continental crust",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5623,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which change is expected as continental crust is squeezed at a collision?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compression can push crust upward.",
+    "explanation": "When continental plates collide, buoyant continental crust crumples and thickens to build mountains.",
+    "alternatives": [
+      "Folding and thickening of continental crust",
+      "Creation of a mid-ocean ridge",
+      "Sideways offset without collision",
+      "Separation into a rift valley"
+    ],
+    "correctAnswer": "Folding and thickening of continental crust",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5624,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two continents meet instead of pulling apart. Which response of the crust explains mountain building?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compression can push crust upward.",
+    "explanation": "When continental plates collide, buoyant continental crust crumples and thickens to build mountains.",
+    "alternatives": [
+      "Folding and thickening of continental crust",
+      "Creation of a mid-ocean ridge",
+      "Sideways offset without collision",
+      "Separation into a rift valley"
+    ],
+    "correctAnswer": "Folding and thickening of continental crust",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5625,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which example in the guide represents a continental-continental collision?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for a continental collision mountain range.",
+    "explanation": "The Himalayas formed through collision of the Indian and Eurasian plates.",
+    "alternatives": [
+      "The Himalayas",
+      "The Mid-Atlantic Ridge",
+      "The San Andreas Fault",
+      "The Mariana Trench"
+    ],
+    "correctAnswer": "The Himalayas",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5626,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which named mountain range illustrates crumpling continental crust?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for a continental collision mountain range.",
+    "explanation": "The Himalayas formed through collision of the Indian and Eurasian plates.",
+    "alternatives": [
+      "The Himalayas",
+      "The Mid-Atlantic Ridge",
+      "The San Andreas Fault",
+      "The Mariana Trench"
+    ],
+    "correctAnswer": "The Himalayas",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5627,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which location best matches a model of India colliding with Eurasia?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for a continental collision mountain range.",
+    "explanation": "The Himalayas formed through collision of the Indian and Eurasian plates.",
+    "alternatives": [
+      "The Himalayas",
+      "The Mid-Atlantic Ridge",
+      "The San Andreas Fault",
+      "The Mariana Trench"
+    ],
+    "correctAnswer": "The Himalayas",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5628,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which plates are associated with the formation of the Himalayas?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Use the guide’s continental-collision example.",
+    "explanation": "The guide names the Indian and Eurasian plates as the colliding plates that built the Himalayas.",
+    "alternatives": [
+      "Indian and Eurasian plates",
+      "Pacific and North American plates",
+      "Two plates separating at the Mid-Atlantic Ridge",
+      "An oceanic plate sliding beneath another oceanic plate"
+    ],
+    "correctAnswer": "Indian and Eurasian plates",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5629,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which plate pair belongs on a diagram of the Himalayan collision?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Use the guide’s continental-collision example.",
+    "explanation": "The guide names the Indian and Eurasian plates as the colliding plates that built the Himalayas.",
+    "alternatives": [
+      "Indian and Eurasian plates",
+      "Pacific and North American plates",
+      "Two plates separating at the Mid-Atlantic Ridge",
+      "An oceanic plate sliding beneath another oceanic plate"
+    ],
+    "correctAnswer": "Indian and Eurasian plates",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5630,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A study card links the Himalayas to the collision of which two plates?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Use the guide’s continental-collision example.",
+    "explanation": "The guide names the Indian and Eurasian plates as the colliding plates that built the Himalayas.",
+    "alternatives": [
+      "Indian and Eurasian plates",
+      "Pacific and North American plates",
+      "Two plates separating at the Mid-Atlantic Ridge",
+      "An oceanic plate sliding beneath another oceanic plate"
+    ],
+    "correctAnswer": "Indian and Eurasian plates",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5631,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which feature pair illustrates oceanic-continental convergence in the guide?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for a coastal volcanic range paired with an offshore trench.",
+    "explanation": "The Andes and Peru-Chile Trench are the guide’s paired examples of oceanic-continental convergence.",
+    "alternatives": [
+      "Andes Mountains and Peru-Chile Trench",
+      "Himalayas and East African Rift",
+      "San Andreas Fault and Mid-Atlantic Ridge",
+      "Mariana Islands and East African Rift"
+    ],
+    "correctAnswer": "Andes Mountains and Peru-Chile Trench",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5632,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which named pair matches a sinking oceanic plate beneath a continent?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for a coastal volcanic range paired with an offshore trench.",
+    "explanation": "The Andes and Peru-Chile Trench are the guide’s paired examples of oceanic-continental convergence.",
+    "alternatives": [
+      "Andes Mountains and Peru-Chile Trench",
+      "Himalayas and East African Rift",
+      "San Andreas Fault and Mid-Atlantic Ridge",
+      "Mariana Islands and East African Rift"
+    ],
+    "correctAnswer": "Andes Mountains and Peru-Chile Trench",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5633,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A student needs an example of a continental volcanic chain beside a deep trench. Which pair fits?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for a coastal volcanic range paired with an offshore trench.",
+    "explanation": "The Andes and Peru-Chile Trench are the guide’s paired examples of oceanic-continental convergence.",
+    "alternatives": [
+      "Andes Mountains and Peru-Chile Trench",
+      "Himalayas and East African Rift",
+      "San Andreas Fault and Mid-Atlantic Ridge",
+      "Mariana Islands and East African Rift"
+    ],
+    "correctAnswer": "Andes Mountains and Peru-Chile Trench",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5634,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which pair represents oceanic-oceanic convergence in the guide?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for volcanic islands beside a deep ocean trench.",
+    "explanation": "The guide associates the Mariana Islands and Mariana Trench with oceanic-oceanic subduction.",
+    "alternatives": [
+      "Mariana Islands and Mariana Trench",
+      "Andes Mountains and Peru-Chile Trench",
+      "Himalayas and Indian Plate",
+      "East African Rift and San Andreas Fault"
+    ],
+    "correctAnswer": "Mariana Islands and Mariana Trench",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5635,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which named features match a volcanic island arc and adjacent ocean trench?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for volcanic islands beside a deep ocean trench.",
+    "explanation": "The guide associates the Mariana Islands and Mariana Trench with oceanic-oceanic subduction.",
+    "alternatives": [
+      "Mariana Islands and Mariana Trench",
+      "Andes Mountains and Peru-Chile Trench",
+      "Himalayas and Indian Plate",
+      "East African Rift and San Andreas Fault"
+    ],
+    "correctAnswer": "Mariana Islands and Mariana Trench",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5636,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A model shows one oceanic plate beneath another. Which real-world pair belongs beside it?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for volcanic islands beside a deep ocean trench.",
+    "explanation": "The guide associates the Mariana Islands and Mariana Trench with oceanic-oceanic subduction.",
+    "alternatives": [
+      "Mariana Islands and Mariana Trench",
+      "Andes Mountains and Peru-Chile Trench",
+      "Himalayas and Indian Plate",
+      "East African Rift and San Andreas Fault"
+    ],
+    "correctAnswer": "Mariana Islands and Mariana Trench",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5637,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "What feature pair is expected where two oceanic plates converge?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "There is oceanic crust on both sides of this collision.",
+    "explanation": "Oceanic-oceanic subduction produces a trench and a chain of volcanic islands.",
+    "alternatives": [
+      "A deep trench and a volcanic island arc",
+      "A continental rift and a widening valley",
+      "Only a non-volcanic continental mountain range",
+      "A mid-ocean ridge and brand-new crust"
+    ],
+    "correctAnswer": "A deep trench and a volcanic island arc",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5638,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "One oceanic slab sinks below another. Which surface features best fit?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "There is oceanic crust on both sides of this collision.",
+    "explanation": "Oceanic-oceanic subduction produces a trench and a chain of volcanic islands.",
+    "alternatives": [
+      "A deep trench and a volcanic island arc",
+      "A continental rift and a widening valley",
+      "Only a non-volcanic continental mountain range",
+      "A mid-ocean ridge and brand-new crust"
+    ],
+    "correctAnswer": "A deep trench and a volcanic island arc",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5639,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which features should be added to a drawing of oceanic-oceanic subduction?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "There is oceanic crust on both sides of this collision.",
+    "explanation": "Oceanic-oceanic subduction produces a trench and a chain of volcanic islands.",
+    "alternatives": [
+      "A deep trench and a volcanic island arc",
+      "A continental rift and a widening valley",
+      "Only a non-volcanic continental mountain range",
+      "A mid-ocean ridge and brand-new crust"
+    ],
+    "correctAnswer": "A deep trench and a volcanic island arc",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5640,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "What happens to continental crust during rifting?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Pulling apart stretches material.",
+    "explanation": "Continental rifting stretches and thins crust, producing fractures and a rift valley.",
+    "alternatives": [
+      "Stretching, thinning, and fracturing",
+      "Folding and thickening from collision",
+      "Only sideways sliding without separation",
+      "Immediate conversion of all crust into ocean water"
+    ],
+    "correctAnswer": "Stretching, thinning, and fracturing",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5641,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which changes fit a continent being pulled apart?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Pulling apart stretches material.",
+    "explanation": "Continental rifting stretches and thins crust, producing fractures and a rift valley.",
+    "alternatives": [
+      "Stretching, thinning, and fracturing",
+      "Folding and thickening from collision",
+      "Only sideways sliding without separation",
+      "Immediate conversion of all crust into ocean water"
+    ],
+    "correctAnswer": "Stretching, thinning, and fracturing",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5642,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A divergent boundary develops within a continent. How does its crust respond?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Pulling apart stretches material.",
+    "explanation": "Continental rifting stretches and thins crust, producing fractures and a rift valley.",
+    "alternatives": [
+      "Stretching, thinning, and fracturing",
+      "Folding and thickening from collision",
+      "Only sideways sliding without separation",
+      "Immediate conversion of all crust into ocean water"
+    ],
+    "correctAnswer": "Stretching, thinning, and fracturing",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5643,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which example in the guide shows continental rifting?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Choose a place where continental crust is stretching.",
+    "explanation": "The East African Rift is the guide’s example of continental divergence.",
+    "alternatives": [
+      "The East African Rift",
+      "The Himalayas",
+      "The Mariana Trench",
+      "The San Andreas Fault"
+    ],
+    "correctAnswer": "The East African Rift",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5644,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which location matches a divergent boundary within a continent?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Choose a place where continental crust is stretching.",
+    "explanation": "The East African Rift is the guide’s example of continental divergence.",
+    "alternatives": [
+      "The East African Rift",
+      "The Himalayas",
+      "The Mariana Trench",
+      "The San Andreas Fault"
+    ],
+    "correctAnswer": "The East African Rift",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5645,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which real-world example belongs beside a continental rift-valley diagram?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Choose a place where continental crust is stretching.",
+    "explanation": "The East African Rift is the guide’s example of continental divergence.",
+    "alternatives": [
+      "The East African Rift",
+      "The Himalayas",
+      "The Mariana Trench",
+      "The San Andreas Fault"
+    ],
+    "correctAnswer": "The East African Rift",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5646,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which guide example shows seafloor spreading?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for an ocean ridge rather than a trench.",
+    "explanation": "The Mid-Atlantic Ridge is an oceanic divergent boundary where seafloor spreading creates crust.",
+    "alternatives": [
+      "The Mid-Atlantic Ridge",
+      "The Himalayas",
+      "The Peru-Chile Trench",
+      "The San Andreas Fault"
+    ],
+    "correctAnswer": "The Mid-Atlantic Ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5647,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which named feature matches an oceanic divergent boundary?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for an ocean ridge rather than a trench.",
+    "explanation": "The Mid-Atlantic Ridge is an oceanic divergent boundary where seafloor spreading creates crust.",
+    "alternatives": [
+      "The Mid-Atlantic Ridge",
+      "The Himalayas",
+      "The Peru-Chile Trench",
+      "The San Andreas Fault"
+    ],
+    "correctAnswer": "The Mid-Atlantic Ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5648,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which location belongs beside a diagram of new ocean crust forming as plates separate?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for an ocean ridge rather than a trench.",
+    "explanation": "The Mid-Atlantic Ridge is an oceanic divergent boundary where seafloor spreading creates crust.",
+    "alternatives": [
+      "The Mid-Atlantic Ridge",
+      "The Himalayas",
+      "The Peru-Chile Trench",
+      "The San Andreas Fault"
+    ],
+    "correctAnswer": "The Mid-Atlantic Ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5649,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "How does new oceanic crust form at a spreading ridge?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "New rock forms when molten material cools.",
+    "explanation": "At a spreading ridge, rising molten rock cools and solidifies to form new oceanic crust.",
+    "alternatives": [
+      "Magma rises, cools, and solidifies",
+      "Old crust folds upward without melting",
+      "Seawater freezes into rocky crust",
+      "Both plates sink without replacement"
+    ],
+    "correctAnswer": "Magma rises, cools, and solidifies",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5650,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "What sequence explains crust creation between separating oceanic plates?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "New rock forms when molten material cools.",
+    "explanation": "At a spreading ridge, rising molten rock cools and solidifies to form new oceanic crust.",
+    "alternatives": [
+      "Magma rises, cools, and solidifies",
+      "Old crust folds upward without melting",
+      "Seawater freezes into rocky crust",
+      "Both plates sink without replacement"
+    ],
+    "correctAnswer": "Magma rises, cools, and solidifies",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5651,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Molten rock reaches a gap at a mid-ocean ridge. What process builds the new seafloor?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "New rock forms when molten material cools.",
+    "explanation": "At a spreading ridge, rising molten rock cools and solidifies to form new oceanic crust.",
+    "alternatives": [
+      "Magma rises, cools, and solidifies",
+      "Old crust folds upward without melting",
+      "Seawater freezes into rocky crust",
+      "Both plates sink without replacement"
+    ],
+    "correctAnswer": "Magma rises, cools, and solidifies",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5652,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "What happens to crust overall along a transform boundary?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Sliding past is different from spreading apart or sinking.",
+    "explanation": "Transform motion shifts crust sideways without creating or consuming it at the boundary.",
+    "alternatives": [
+      "Neither created nor destroyed by the sliding motion",
+      "Continuously created at a ridge",
+      "Consumed by subduction",
+      "Changed entirely into liquid"
+    ],
+    "correctAnswer": "Neither created nor destroyed by the sliding motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5653,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which crust-budget description fits sideways plate motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Sliding past is different from spreading apart or sinking.",
+    "explanation": "Transform motion shifts crust sideways without creating or consuming it at the boundary.",
+    "alternatives": [
+      "Neither created nor destroyed by the sliding motion",
+      "Continuously created at a ridge",
+      "Consumed by subduction",
+      "Changed entirely into liquid"
+    ],
+    "correctAnswer": "Neither created nor destroyed by the sliding motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5654,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A fault allows two plates to slide past one another. Is that motion building or consuming crust?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Sliding past is different from spreading apart or sinking.",
+    "explanation": "Transform motion shifts crust sideways without creating or consuming it at the boundary.",
+    "alternatives": [
+      "Neither created nor destroyed by the sliding motion",
+      "Continuously created at a ridge",
+      "Consumed by subduction",
+      "Changed entirely into liquid"
+    ],
+    "correctAnswer": "Neither created nor destroyed by the sliding motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5655,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "How does the guide explain earthquakes at transform faults?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Think about a stuck fault suddenly slipping.",
+    "explanation": "Friction can hold a fault locked while stress builds; sudden slip releases energy as an earthquake.",
+    "alternatives": [
+      "Friction locks the plates, then sudden slip releases energy",
+      "Magma must erupt before every earthquake",
+      "Seawater pushes the plates vertically apart",
+      "The plates permanently stop moving"
+    ],
+    "correctAnswer": "Friction locks the plates, then sudden slip releases energy",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5656,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which sequence explains sudden shaking along a sliding plate boundary?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Think about a stuck fault suddenly slipping.",
+    "explanation": "Friction can hold a fault locked while stress builds; sudden slip releases energy as an earthquake.",
+    "alternatives": [
+      "Friction locks the plates, then sudden slip releases energy",
+      "Magma must erupt before every earthquake",
+      "Seawater pushes the plates vertically apart",
+      "The plates permanently stop moving"
+    ],
+    "correctAnswer": "Friction locks the plates, then sudden slip releases energy",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5657,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A transform fault remains locked before it slips abruptly. What caused the earthquake?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Think about a stuck fault suddenly slipping.",
+    "explanation": "Friction can hold a fault locked while stress builds; sudden slip releases energy as an earthquake.",
+    "alternatives": [
+      "Friction locks the plates, then sudden slip releases energy",
+      "Magma must erupt before every earthquake",
+      "Seawater pushes the plates vertically apart",
+      "The plates permanently stop moving"
+    ],
+    "correctAnswer": "Friction locks the plates, then sudden slip releases energy",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5658,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which real-world example represents a transform boundary in the guide?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for the California fault with sideways motion.",
+    "explanation": "The San Andreas Fault in California is the guide’s transform-boundary example.",
+    "alternatives": [
+      "The San Andreas Fault",
+      "The Mid-Atlantic Ridge",
+      "The Himalayas",
+      "The Mariana Trench"
+    ],
+    "correctAnswer": "The San Andreas Fault",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5659,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which named feature illustrates plates sliding horizontally past one another?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for the California fault with sideways motion.",
+    "explanation": "The San Andreas Fault in California is the guide’s transform-boundary example.",
+    "alternatives": [
+      "The San Andreas Fault",
+      "The Mid-Atlantic Ridge",
+      "The Himalayas",
+      "The Mariana Trench"
+    ],
+    "correctAnswer": "The San Andreas Fault",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5660,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which location belongs beside a diagram of a road offset by sideways fault motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Look for the California fault with sideways motion.",
+    "explanation": "The San Andreas Fault in California is the guide’s transform-boundary example.",
+    "alternatives": [
+      "The San Andreas Fault",
+      "The Mid-Atlantic Ridge",
+      "The Himalayas",
+      "The Mariana Trench"
+    ],
+    "correctAnswer": "The San Andreas Fault",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5661,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two continental plates approach each other and crumple upward. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Two buoyant continental blocks are being compressed.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental-continental convergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence"
+    ],
+    "correctAnswer": "Continental-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5662,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two continental plates approach each other and crumple upward. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops"
+    ],
+    "correctAnswer": "Continental crust folds and thickens into mountains",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5663,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A high mountain belt develops where one continent pushes into another. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Two buoyant continental blocks are being compressed.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence",
+      "Oceanic divergence"
+    ],
+    "correctAnswer": "Continental-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5664,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A high mountain belt develops where one continent pushes into another. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental crust folds and thickens into mountains",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge"
+    ],
+    "correctAnswer": "Continental crust folds and thickens into mountains",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5665,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A cross-section shows two buoyant continental blocks squeezing together. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Two buoyant continental blocks are being compressed.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental-continental convergence",
+      "Continental divergence",
+      "Oceanic divergence",
+      "Transform motion"
+    ],
+    "correctAnswer": "Continental-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5666,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A cross-section shows two buoyant continental blocks squeezing together. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental crust folds and thickens into mountains",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes"
+    ],
+    "correctAnswer": "Continental crust folds and thickens into mountains",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5667,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "The Indian Plate collides with the Eurasian Plate in a mountain-building model. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Two buoyant continental blocks are being compressed.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental-continental convergence",
+      "Oceanic divergence",
+      "Transform motion",
+      "Oceanic-continental convergence"
+    ],
+    "correctAnswer": "Continental-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5668,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "The Indian Plate collides with the Eurasian Plate in a mountain-building model. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental crust folds and thickens into mountains",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes",
+      "A trench and a continental volcanic chain develop"
+    ],
+    "correctAnswer": "Continental crust folds and thickens into mountains",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5669,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Rock layers fold as two continental edges collide. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Two buoyant continental blocks are being compressed.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental-continental convergence",
+      "Transform motion",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence"
+    ],
+    "correctAnswer": "Continental-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5670,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Rock layers fold as two continental edges collide. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental crust folds and thickens into mountains",
+      "Sideways slip offsets features and can cause earthquakes",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop"
+    ],
+    "correctAnswer": "Continental crust folds and thickens into mountains",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5671,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A model of the Himalayas shows compression between continental plates. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Two buoyant continental blocks are being compressed.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental-continental convergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence"
+    ],
+    "correctAnswer": "Continental-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5672,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A model of the Himalayas shows compression between continental plates. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops"
+    ],
+    "correctAnswer": "Continental crust folds and thickens into mountains",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5673,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two continental landmasses move inward, shortening the crust between them. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Two buoyant continental blocks are being compressed.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence",
+      "Oceanic divergence"
+    ],
+    "correctAnswer": "Continental-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5674,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two continental landmasses move inward, shortening the crust between them. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental crust folds and thickens into mountains",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge"
+    ],
+    "correctAnswer": "Continental crust folds and thickens into mountains",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5675,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Continental crust is compressed into a thick mountain belt without a typical volcanic arc. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Two buoyant continental blocks are being compressed.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental-continental convergence",
+      "Continental divergence",
+      "Oceanic divergence",
+      "Transform motion"
+    ],
+    "correctAnswer": "Continental-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5676,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Continental crust is compressed into a thick mountain belt without a typical volcanic arc. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental crust folds and thickens into mountains",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes"
+    ],
+    "correctAnswer": "Continental crust folds and thickens into mountains",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5677,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An arrow diagram shows two continents moving toward their shared boundary. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Two buoyant continental blocks are being compressed.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental-continental convergence",
+      "Oceanic divergence",
+      "Transform motion",
+      "Oceanic-continental convergence"
+    ],
+    "correctAnswer": "Continental-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5678,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An arrow diagram shows two continents moving toward their shared boundary. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental crust folds and thickens into mountains",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes",
+      "A trench and a continental volcanic chain develop"
+    ],
+    "correctAnswer": "Continental crust folds and thickens into mountains",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5679,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A continent-to-continent collision piles up crust instead of opening a new sea. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Two buoyant continental blocks are being compressed.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental-continental convergence",
+      "Transform motion",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence"
+    ],
+    "correctAnswer": "Continental-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5680,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A continent-to-continent collision piles up crust instead of opening a new sea. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Colliding continents crumple and thicken rather than opening a spreading ridge.",
+    "alternatives": [
+      "Continental crust folds and thickens into mountains",
+      "Sideways slip offsets features and can cause earthquakes",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop"
+    ],
+    "correctAnswer": "Continental crust folds and thickens into mountains",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5681,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An oceanic plate moves beneath a continental plate. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "A dense oceanic plate is meeting a buoyant continent.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "Oceanic-continental convergence",
+      "Continental-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence"
+    ],
+    "correctAnswer": "Oceanic-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5682,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An oceanic plate moves beneath a continental plate. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "A trench and a continental volcanic chain develop",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops"
+    ],
+    "correctAnswer": "A trench and a continental volcanic chain develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5683,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A dense seafloor slab descends beside the edge of a continent. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "A dense oceanic plate is meeting a buoyant continent.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence",
+      "Oceanic divergence"
+    ],
+    "correctAnswer": "Oceanic-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5684,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A dense seafloor slab descends beside the edge of a continent. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge"
+    ],
+    "correctAnswer": "A trench and a continental volcanic chain develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5685,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A volcanic mountain chain stands on a continent beside an offshore subduction trench. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "A dense oceanic plate is meeting a buoyant continent.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "Oceanic-continental convergence",
+      "Continental divergence",
+      "Oceanic divergence",
+      "Transform motion"
+    ],
+    "correctAnswer": "Oceanic-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5686,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A volcanic mountain chain stands on a continent beside an offshore subduction trench. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "A trench and a continental volcanic chain develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes"
+    ],
+    "correctAnswer": "A trench and a continental volcanic chain develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5687,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An Andes model shows oceanic crust descending under continental crust. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "A dense oceanic plate is meeting a buoyant continent.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "Oceanic-continental convergence",
+      "Oceanic divergence",
+      "Transform motion",
+      "Continental-continental convergence"
+    ],
+    "correctAnswer": "Oceanic-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5688,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An Andes model shows oceanic crust descending under continental crust. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "A trench and a continental volcanic chain develop",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains"
+    ],
+    "correctAnswer": "A trench and a continental volcanic chain develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5689,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A cross-section pairs the Peru-Chile Trench with volcanoes on the South American continent. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "A dense oceanic plate is meeting a buoyant continent.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "Oceanic-continental convergence",
+      "Transform motion",
+      "Continental-continental convergence",
+      "Oceanic-oceanic convergence"
+    ],
+    "correctAnswer": "Oceanic-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5690,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A cross-section pairs the Peru-Chile Trench with volcanoes on the South American continent. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "A trench and a continental volcanic chain develop",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a volcanic island arc develop"
+    ],
+    "correctAnswer": "A trench and a continental volcanic chain develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5691,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An ocean basin closes as its plate sinks below a continental margin. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "A dense oceanic plate is meeting a buoyant continent.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "Oceanic-continental convergence",
+      "Continental-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence"
+    ],
+    "correctAnswer": "Oceanic-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5692,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An ocean basin closes as its plate sinks below a continental margin. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "A trench and a continental volcanic chain develop",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops"
+    ],
+    "correctAnswer": "A trench and a continental volcanic chain develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5693,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two plates converge, with the oceanic member sinking and the continental member remaining above. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "A dense oceanic plate is meeting a buoyant continent.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence",
+      "Oceanic divergence"
+    ],
+    "correctAnswer": "Oceanic-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5694,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two plates converge, with the oceanic member sinking and the continental member remaining above. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge"
+    ],
+    "correctAnswer": "A trench and a continental volcanic chain develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5695,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A coast has both a deep offshore trench and a chain of subduction-related volcanoes inland. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "A dense oceanic plate is meeting a buoyant continent.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "Oceanic-continental convergence",
+      "Continental divergence",
+      "Oceanic divergence",
+      "Transform motion"
+    ],
+    "correctAnswer": "Oceanic-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5696,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A coast has both a deep offshore trench and a chain of subduction-related volcanoes inland. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "A trench and a continental volcanic chain develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes"
+    ],
+    "correctAnswer": "A trench and a continental volcanic chain develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5697,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A model has one continental block overriding a thinner, denser oceanic slab. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "A dense oceanic plate is meeting a buoyant continent.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "Oceanic-continental convergence",
+      "Oceanic divergence",
+      "Transform motion",
+      "Continental-continental convergence"
+    ],
+    "correctAnswer": "Oceanic-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5698,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A model has one continental block overriding a thinner, denser oceanic slab. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "A trench and a continental volcanic chain develop",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains"
+    ],
+    "correctAnswer": "A trench and a continental volcanic chain develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5699,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "The guide’s ocean-and-continent collision is shown with the oceanic side bending downward. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "A dense oceanic plate is meeting a buoyant continent.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "Oceanic-continental convergence",
+      "Transform motion",
+      "Continental-continental convergence",
+      "Oceanic-oceanic convergence"
+    ],
+    "correctAnswer": "Oceanic-continental convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5700,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "The guide’s ocean-and-continent collision is shown with the oceanic side bending downward. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Oceanic subduction beneath a continent is associated with an offshore trench and volcanic mountains on the continent.",
+    "alternatives": [
+      "A trench and a continental volcanic chain develop",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a volcanic island arc develop"
+    ],
+    "correctAnswer": "A trench and a continental volcanic chain develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5701,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two oceanic plates converge and the older, denser one sinks. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Both colliding plates carry oceanic crust.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "Oceanic-oceanic convergence",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence",
+      "Continental divergence"
+    ],
+    "correctAnswer": "Oceanic-oceanic convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5702,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two oceanic plates converge and the older, denser one sinks. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "A trench and a volcanic island arc develop",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop",
+      "Continental crust thins and a rift valley develops"
+    ],
+    "correctAnswer": "A trench and a volcanic island arc develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5703,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An oceanic slab descends beneath another oceanic plate near a volcanic island chain. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Both colliding plates carry oceanic crust.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "Oceanic-oceanic convergence",
+      "Oceanic-continental convergence",
+      "Continental divergence",
+      "Oceanic divergence"
+    ],
+    "correctAnswer": "Oceanic-oceanic convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5704,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An oceanic slab descends beneath another oceanic plate near a volcanic island chain. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "A trench and a volcanic island arc develop",
+      "A trench and a continental volcanic chain develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge"
+    ],
+    "correctAnswer": "A trench and a volcanic island arc develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5705,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A deep ocean trench lies beside a subduction-related arc of islands, away from a continent. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Both colliding plates carry oceanic crust.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "Oceanic-oceanic convergence",
+      "Continental divergence",
+      "Oceanic divergence",
+      "Transform motion"
+    ],
+    "correctAnswer": "Oceanic-oceanic convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5706,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A deep ocean trench lies beside a subduction-related arc of islands, away from a continent. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes"
+    ],
+    "correctAnswer": "A trench and a volcanic island arc develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5707,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A Mariana Islands model shows collision between two oceanic plates. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Both colliding plates carry oceanic crust.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "Oceanic-oceanic convergence",
+      "Oceanic divergence",
+      "Transform motion",
+      "Continental-continental convergence"
+    ],
+    "correctAnswer": "Oceanic-oceanic convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5708,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A Mariana Islands model shows collision between two oceanic plates. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "A trench and a volcanic island arc develop",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains"
+    ],
+    "correctAnswer": "A trench and a volcanic island arc develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5709,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A cross-section of the Mariana Trench shows oceanic crust on both plates. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Both colliding plates carry oceanic crust.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "Oceanic-oceanic convergence",
+      "Transform motion",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence"
+    ],
+    "correctAnswer": "Oceanic-oceanic convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5710,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A cross-section of the Mariana Trench shows oceanic crust on both plates. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "A trench and a volcanic island arc develop",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop"
+    ],
+    "correctAnswer": "A trench and a volcanic island arc develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5711,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two seafloor plates approach one another, and one bends beneath the other. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Both colliding plates carry oceanic crust.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "Oceanic-oceanic convergence",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence",
+      "Continental divergence"
+    ],
+    "correctAnswer": "Oceanic-oceanic convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5712,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two seafloor plates approach one another, and one bends beneath the other. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "A trench and a volcanic island arc develop",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop",
+      "Continental crust thins and a rift valley develops"
+    ],
+    "correctAnswer": "A trench and a volcanic island arc develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5713,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An oceanic collision places the younger, less dense plate above the older slab. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Both colliding plates carry oceanic crust.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "Oceanic-oceanic convergence",
+      "Oceanic-continental convergence",
+      "Continental divergence",
+      "Oceanic divergence"
+    ],
+    "correctAnswer": "Oceanic-oceanic convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5714,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An oceanic collision places the younger, less dense plate above the older slab. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "A trench and a volcanic island arc develop",
+      "A trench and a continental volcanic chain develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge"
+    ],
+    "correctAnswer": "A trench and a volcanic island arc develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5715,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A volcanic island arc rises on the oceanic plate above a descending oceanic slab. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Both colliding plates carry oceanic crust.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "Oceanic-oceanic convergence",
+      "Continental divergence",
+      "Oceanic divergence",
+      "Transform motion"
+    ],
+    "correctAnswer": "Oceanic-oceanic convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5716,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A volcanic island arc rises on the oceanic plate above a descending oceanic slab. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes"
+    ],
+    "correctAnswer": "A trench and a volcanic island arc develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5717,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Both sides of a converging boundary lie under the ocean, and one plate subducts. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Both colliding plates carry oceanic crust.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "Oceanic-oceanic convergence",
+      "Oceanic divergence",
+      "Transform motion",
+      "Continental-continental convergence"
+    ],
+    "correctAnswer": "Oceanic-oceanic convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5718,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Both sides of a converging boundary lie under the ocean, and one plate subducts. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "A trench and a volcanic island arc develop",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains"
+    ],
+    "correctAnswer": "A trench and a volcanic island arc develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5719,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An arrow diagram shows two oceanic plates moving inward with one descending into the mantle. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Both colliding plates carry oceanic crust.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "Oceanic-oceanic convergence",
+      "Transform motion",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence"
+    ],
+    "correctAnswer": "Oceanic-oceanic convergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5720,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An arrow diagram shows two oceanic plates moving inward with one descending into the mantle. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Subduction between oceanic plates creates a trench and volcanic islands on the overriding side.",
+    "alternatives": [
+      "A trench and a volcanic island arc develop",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop"
+    ],
+    "correctAnswer": "A trench and a volcanic island arc develop",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5721,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Continental crust stretches as plates pull away from each other. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The separating plates are stretching continental crust.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental divergence",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence"
+    ],
+    "correctAnswer": "Continental divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5722,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Continental crust stretches as plates pull away from each other. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental crust thins and a rift valley develops",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop"
+    ],
+    "correctAnswer": "Continental crust thins and a rift valley develops",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5723,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A rift valley opens within a continent as the land thins. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The separating plates are stretching continental crust.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental divergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Oceanic divergence"
+    ],
+    "correctAnswer": "Continental divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5724,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A rift valley opens within a continent as the land thins. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental crust thins and a rift valley develops",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop",
+      "Magma cools into new oceanic crust at a ridge"
+    ],
+    "correctAnswer": "Continental crust thins and a rift valley develops",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5725,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An East African Rift model shows continental plates moving apart. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The separating plates are stretching continental crust.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental divergence",
+      "Oceanic-oceanic convergence",
+      "Oceanic divergence",
+      "Transform motion"
+    ],
+    "correctAnswer": "Continental divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5726,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An East African Rift model shows continental plates moving apart. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental crust thins and a rift valley develops",
+      "A trench and a volcanic island arc develop",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes"
+    ],
+    "correctAnswer": "Continental crust thins and a rift valley develops",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5727,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Arrows point away from a widening fracture within continental crust. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The separating plates are stretching continental crust.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental divergence",
+      "Oceanic divergence",
+      "Transform motion",
+      "Continental-continental convergence"
+    ],
+    "correctAnswer": "Continental divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5728,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Arrows point away from a widening fracture within continental crust. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains"
+    ],
+    "correctAnswer": "Continental crust thins and a rift valley develops",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5729,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A continent is being split by extension, with shallow earthquakes along the rift. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The separating plates are stretching continental crust.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental divergence",
+      "Transform motion",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence"
+    ],
+    "correctAnswer": "Continental divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5730,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A continent is being split by extension, with shallow earthquakes along the rift. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental crust thins and a rift valley develops",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop"
+    ],
+    "correctAnswer": "Continental crust thins and a rift valley develops",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5731,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Continental blocks separate while magma rises below the thinning region. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The separating plates are stretching continental crust.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental divergence",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence"
+    ],
+    "correctAnswer": "Continental divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5732,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Continental blocks separate while magma rises below the thinning region. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental crust thins and a rift valley develops",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop"
+    ],
+    "correctAnswer": "Continental crust thins and a rift valley develops",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5733,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A valley widens where continental crust is pulled in opposite directions. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The separating plates are stretching continental crust.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental divergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Oceanic divergence"
+    ],
+    "correctAnswer": "Continental divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5734,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A valley widens where continental crust is pulled in opposite directions. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental crust thins and a rift valley develops",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop",
+      "Magma cools into new oceanic crust at a ridge"
+    ],
+    "correctAnswer": "Continental crust thins and a rift valley develops",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5735,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A growing rift within a continent may eventually become a new sea. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The separating plates are stretching continental crust.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental divergence",
+      "Oceanic-oceanic convergence",
+      "Oceanic divergence",
+      "Transform motion"
+    ],
+    "correctAnswer": "Continental divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5736,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A growing rift within a continent may eventually become a new sea. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental crust thins and a rift valley develops",
+      "A trench and a volcanic island arc develop",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes"
+    ],
+    "correctAnswer": "Continental crust thins and a rift valley develops",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5737,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Fractures and volcanoes occur along a zone of separating continental crust. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The separating plates are stretching continental crust.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental divergence",
+      "Oceanic divergence",
+      "Transform motion",
+      "Continental-continental convergence"
+    ],
+    "correctAnswer": "Continental divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5738,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Fractures and volcanoes occur along a zone of separating continental crust. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains"
+    ],
+    "correctAnswer": "Continental crust thins and a rift valley develops",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5739,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "The guide’s continental rifting model shows stretching instead of compression. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The separating plates are stretching continental crust.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental divergence",
+      "Transform motion",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence"
+    ],
+    "correctAnswer": "Continental divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5740,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "The guide’s continental rifting model shows stretching instead of compression. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Pulling a continent apart stretches and fractures its crust, producing a rift valley.",
+    "alternatives": [
+      "Continental crust thins and a rift valley develops",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop"
+    ],
+    "correctAnswer": "Continental crust thins and a rift valley develops",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5741,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two oceanic plates pull apart and molten rock rises between them. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Separating oceanic plates allow new seafloor to form.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Oceanic divergence",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence"
+    ],
+    "correctAnswer": "Oceanic divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5742,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two oceanic plates pull apart and molten rock rises between them. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Magma cools into new oceanic crust at a ridge",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop"
+    ],
+    "correctAnswer": "Magma cools into new oceanic crust at a ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5743,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A mid-ocean ridge produces new seafloor as its sides separate. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Separating oceanic plates allow new seafloor to form.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Oceanic divergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence"
+    ],
+    "correctAnswer": "Oceanic divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5744,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A mid-ocean ridge produces new seafloor as its sides separate. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Magma cools into new oceanic crust at a ridge",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops"
+    ],
+    "correctAnswer": "Magma cools into new oceanic crust at a ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5745,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A Mid-Atlantic Ridge model shows arrows moving outward from the ridge. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Separating oceanic plates allow new seafloor to form.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Oceanic divergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence",
+      "Transform motion"
+    ],
+    "correctAnswer": "Oceanic divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5746,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A Mid-Atlantic Ridge model shows arrows moving outward from the ridge. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Magma cools into new oceanic crust at a ridge",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops",
+      "Sideways slip offsets features and can cause earthquakes"
+    ],
+    "correctAnswer": "Magma cools into new oceanic crust at a ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5747,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Fresh oceanic rock forms along a gap between separating seafloor plates. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Separating oceanic plates allow new seafloor to form.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Oceanic divergence",
+      "Continental divergence",
+      "Transform motion",
+      "Continental-continental convergence"
+    ],
+    "correctAnswer": "Oceanic divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5748,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Fresh oceanic rock forms along a gap between separating seafloor plates. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Magma cools into new oceanic crust at a ridge",
+      "Continental crust thins and a rift valley develops",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains"
+    ],
+    "correctAnswer": "Magma cools into new oceanic crust at a ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5749,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An underwater rift lies along a ridge where new ocean crust is forming. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Separating oceanic plates allow new seafloor to form.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Oceanic divergence",
+      "Transform motion",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence"
+    ],
+    "correctAnswer": "Oceanic divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5750,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "An underwater rift lies along a ridge where new ocean crust is forming. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop"
+    ],
+    "correctAnswer": "Magma cools into new oceanic crust at a ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5751,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Magma cools at the center of a spreading ocean floor. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Separating oceanic plates allow new seafloor to form.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Oceanic divergence",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence"
+    ],
+    "correctAnswer": "Oceanic divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5752,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Magma cools at the center of a spreading ocean floor. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Magma cools into new oceanic crust at a ridge",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop"
+    ],
+    "correctAnswer": "Magma cools into new oceanic crust at a ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5753,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Small submarine volcanoes occur along a boundary where oceanic plates separate. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Separating oceanic plates allow new seafloor to form.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Oceanic divergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence"
+    ],
+    "correctAnswer": "Oceanic divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5754,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Small submarine volcanoes occur along a boundary where oceanic plates separate. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Magma cools into new oceanic crust at a ridge",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops"
+    ],
+    "correctAnswer": "Magma cools into new oceanic crust at a ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5755,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Shallow earthquakes accompany the creation of seafloor at a spreading ridge. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Separating oceanic plates allow new seafloor to form.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Oceanic divergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence",
+      "Transform motion"
+    ],
+    "correctAnswer": "Oceanic divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5756,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Shallow earthquakes accompany the creation of seafloor at a spreading ridge. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Magma cools into new oceanic crust at a ridge",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops",
+      "Sideways slip offsets features and can cause earthquakes"
+    ],
+    "correctAnswer": "Magma cools into new oceanic crust at a ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5757,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two oceanic plates move away from the place where molten material reaches the surface. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Separating oceanic plates allow new seafloor to form.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Oceanic divergence",
+      "Continental divergence",
+      "Transform motion",
+      "Continental-continental convergence"
+    ],
+    "correctAnswer": "Oceanic divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5758,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two oceanic plates move away from the place where molten material reaches the surface. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Magma cools into new oceanic crust at a ridge",
+      "Continental crust thins and a rift valley develops",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains"
+    ],
+    "correctAnswer": "Magma cools into new oceanic crust at a ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5759,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A cross-section shows ridge-centered crust creation rather than a sinking oceanic slab. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Separating oceanic plates allow new seafloor to form.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Oceanic divergence",
+      "Transform motion",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence"
+    ],
+    "correctAnswer": "Oceanic divergence",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5760,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A cross-section shows ridge-centered crust creation rather than a sinking oceanic slab. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Seafloor spreading opens space for molten rock to rise and solidify as new oceanic crust.",
+    "alternatives": [
+      "Magma cools into new oceanic crust at a ridge",
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop"
+    ],
+    "correctAnswer": "Magma cools into new oceanic crust at a ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5761,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two plates grind horizontally past one another. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The key clue is sideways movement without opening or subduction.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Transform motion",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence"
+    ],
+    "correctAnswer": "Transform motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5762,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Two plates grind horizontally past one another. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop"
+    ],
+    "correctAnswer": "Sideways slip offsets features and can cause earthquakes",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5763,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A road is shifted sideways where a plate-boundary fault crosses it. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The key clue is sideways movement without opening or subduction.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Transform motion",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence"
+    ],
+    "correctAnswer": "Transform motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5764,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A road is shifted sideways where a plate-boundary fault crosses it. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Sideways slip offsets features and can cause earthquakes",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops"
+    ],
+    "correctAnswer": "Sideways slip offsets features and can cause earthquakes",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5765,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A stream is offset by horizontal motion along a boundary with no crust creation. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The key clue is sideways movement without opening or subduction.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Transform motion",
+      "Oceanic-oceanic convergence",
+      "Continental divergence",
+      "Oceanic divergence"
+    ],
+    "correctAnswer": "Transform motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5766,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A stream is offset by horizontal motion along a boundary with no crust creation. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Sideways slip offsets features and can cause earthquakes",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge"
+    ],
+    "correctAnswer": "Sideways slip offsets features and can cause earthquakes",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5767,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A San Andreas Fault model shows neighboring plates sliding past each other. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The key clue is sideways movement without opening or subduction.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Transform motion",
+      "Continental divergence",
+      "Oceanic divergence",
+      "Continental-continental convergence"
+    ],
+    "correctAnswer": "Transform motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5768,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A San Andreas Fault model shows neighboring plates sliding past each other. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge",
+      "Continental crust folds and thickens into mountains"
+    ],
+    "correctAnswer": "Sideways slip offsets features and can cause earthquakes",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5769,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Friction locks two sliding plate edges until they suddenly slip. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The key clue is sideways movement without opening or subduction.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Transform motion",
+      "Oceanic divergence",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence"
+    ],
+    "correctAnswer": "Transform motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5770,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Friction locks two sliding plate edges until they suddenly slip. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Sideways slip offsets features and can cause earthquakes",
+      "Magma cools into new oceanic crust at a ridge",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop"
+    ],
+    "correctAnswer": "Sideways slip offsets features and can cause earthquakes",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5771,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Arrows run parallel to a fault in opposite directions, without opening a gap. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The key clue is sideways movement without opening or subduction.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Transform motion",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence"
+    ],
+    "correctAnswer": "Transform motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5772,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Arrows run parallel to a fault in opposite directions, without opening a gap. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop"
+    ],
+    "correctAnswer": "Sideways slip offsets features and can cause earthquakes",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5773,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A linear fault valley marks a boundary where plates scrape sideways. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The key clue is sideways movement without opening or subduction.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Transform motion",
+      "Oceanic-continental convergence",
+      "Oceanic-oceanic convergence",
+      "Continental divergence"
+    ],
+    "correctAnswer": "Transform motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5774,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A linear fault valley marks a boundary where plates scrape sideways. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Sideways slip offsets features and can cause earthquakes",
+      "A trench and a continental volcanic chain develop",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops"
+    ],
+    "correctAnswer": "Sideways slip offsets features and can cause earthquakes",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5775,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A plate-boundary earthquake releases stress along a horizontal sliding fault. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The key clue is sideways movement without opening or subduction.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Transform motion",
+      "Oceanic-oceanic convergence",
+      "Continental divergence",
+      "Oceanic divergence"
+    ],
+    "correctAnswer": "Transform motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5776,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A plate-boundary earthquake releases stress along a horizontal sliding fault. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Sideways slip offsets features and can cause earthquakes",
+      "A trench and a volcanic island arc develop",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge"
+    ],
+    "correctAnswer": "Sideways slip offsets features and can cause earthquakes",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5777,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Continental blocks shift laterally along a boundary rather than colliding or spreading. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The key clue is sideways movement without opening or subduction.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Transform motion",
+      "Continental divergence",
+      "Oceanic divergence",
+      "Continental-continental convergence"
+    ],
+    "correctAnswer": "Transform motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5778,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Continental blocks shift laterally along a boundary rather than colliding or spreading. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Sideways slip offsets features and can cause earthquakes",
+      "Continental crust thins and a rift valley develops",
+      "Magma cools into new oceanic crust at a ridge",
+      "Continental crust folds and thickens into mountains"
+    ],
+    "correctAnswer": "Sideways slip offsets features and can cause earthquakes",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5779,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Oceanic plates slide alongside each other at a fault without forming or consuming crust there. Which boundary setting best matches?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "The key clue is sideways movement without opening or subduction.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Transform motion",
+      "Oceanic divergence",
+      "Continental-continental convergence",
+      "Oceanic-continental convergence"
+    ],
+    "correctAnswer": "Transform motion",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5780,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Oceanic plates slide alongside each other at a fault without forming or consuming crust there. Which result is most consistent with this motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Predict the result from the stated motion and crust types.",
+    "explanation": "Transform faults shift crust sideways; sudden slip can shake the ground and offset roads or streams.",
+    "alternatives": [
+      "Sideways slip offsets features and can cause earthquakes",
+      "Magma cools into new oceanic crust at a ridge",
+      "Continental crust folds and thickens into mountains",
+      "A trench and a continental volcanic chain develop"
+    ],
+    "correctAnswer": "Sideways slip offsets features and can cause earthquakes",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        2
+      ]
+    }
+  },
+  {
+    "id": 5781,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "How do the Himalayas and the Mid-Atlantic Ridge differ?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "The Himalayas illustrate convergence between continents, while the ridge illustrates oceanic divergence.",
+    "alternatives": [
+      "The Himalayas involve continental collision; the ridge involves oceanic separation",
+      "Both form from continental collision",
+      "Both form from sideways motion",
+      "The Himalayas form by oceanic spreading; the ridge forms by continental collision"
+    ],
+    "correctAnswer": "The Himalayas involve continental collision; the ridge involves oceanic separation",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5782,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "What do the Andes and Mariana Islands have in common in the guide?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "Both examples involve an oceanic plate sinking, though the overriding plate differs.",
+    "alternatives": [
+      "Both are associated with oceanic subduction",
+      "Both form where continents pull apart",
+      "Both form only by sideways sliding",
+      "Both are mid-ocean spreading ridges"
+    ],
+    "correctAnswer": "Both are associated with oceanic subduction",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5783,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "What distinguishes the Andes from the Mariana Islands in the guide?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "The Andes illustrate oceanic-continental convergence and the Marianas illustrate oceanic-oceanic convergence.",
+    "alternatives": [
+      "Andes volcanoes are on a continent; Mariana volcanoes form an island arc",
+      "Andes volcanoes form at a spreading ridge; Mariana volcanoes form in a continental rift",
+      "The Andes lack subduction; the Marianas lack subduction",
+      "Both are non-volcanic continental collision ranges"
+    ],
+    "correctAnswer": "Andes volcanoes are on a continent; Mariana volcanoes form an island arc",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5784,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "How are the East African Rift and Mid-Atlantic Ridge alike?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "Both are divergent settings, one within a continent and one beneath the ocean.",
+    "alternatives": [
+      "Both involve plates pulling apart",
+      "Both involve oceanic subduction",
+      "Both involve only sideways motion",
+      "Both are continent-continent collisions"
+    ],
+    "correctAnswer": "Both involve plates pulling apart",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5785,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "What is the main difference between continental rifting and seafloor spreading?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "Both involve divergence, but one stretches continental crust and the other separates oceanic plates.",
+    "alternatives": [
+      "The type of crust being pulled apart",
+      "One is convergence and the other is transform motion",
+      "Only rifting involves moving plates",
+      "Only spreading occurs at a plate boundary"
+    ],
+    "correctAnswer": "The type of crust being pulled apart",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5786,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which feature best distinguishes the Mariana setting from the Himalaya setting?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "The Mariana setting involves oceanic subduction, unlike the continental collision building the Himalayas.",
+    "alternatives": [
+      "A volcanic island arc beside an ocean trench",
+      "Two continental plates crumpling upward",
+      "A high range formed by continental collision",
+      "Folding between two buoyant continental blocks"
+    ],
+    "correctAnswer": "A volcanic island arc beside an ocean trench",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5787,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "How does the crust budget at a spreading ridge differ from a transform fault?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "Divergence permits new crust to solidify; transform motion shifts existing crust sideways.",
+    "alternatives": [
+      "The ridge creates crust; transform motion neither creates nor consumes it",
+      "Both consume crust by subduction",
+      "Both create a new strip of oceanic crust",
+      "The ridge destroys crust; transform motion creates it"
+    ],
+    "correctAnswer": "The ridge creates crust; transform motion neither creates nor consumes it",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": 5788,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which comparison of subduction and transform motion is correct?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "Subduction and horizontal sliding are different ways plates interact.",
+    "alternatives": [
+      "Subduction carries a plate downward; transform motion shifts plates sideways",
+      "Both always create new oceanic crust",
+      "Both require two continents to collide",
+      "Subduction separates plates; transform motion folds continents into mountains"
+    ],
+    "correctAnswer": "Subduction carries a plate downward; transform motion shifts plates sideways",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": 5789,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Why is an earthquake alone insufficient to identify a boundary type?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "The guide includes earthquakes in convergent, divergent, and transform settings; motion and crust clues help distinguish them.",
+    "alternatives": [
+      "Earthquakes occur at several types of plate boundaries",
+      "Earthquakes occur only at transform boundaries",
+      "Earthquakes never occur near subduction zones",
+      "Earthquakes always prove that a new ridge is forming"
+    ],
+    "correctAnswer": "Earthquakes occur at several types of plate boundaries",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": 5790,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which observation best separates a transform fault from a continental rift?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "Both can have valleys and earthquakes; sideways sliding versus stretching is the decisive difference.",
+    "alternatives": [
+      "Sideways offset rather than separation across the boundary",
+      "The presence of any earthquake",
+      "The presence of solid rock",
+      "The existence of a valley of any kind"
+    ],
+    "correctAnswer": "Sideways offset rather than separation across the boundary",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": 5791,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which comparison of a trench and a mid-ocean ridge is correct?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "Trenches accompany sinking plates, while spreading ridges form where plates separate.",
+    "alternatives": [
+      "A trench marks subduction; a spreading ridge creates oceanic crust",
+      "Both mark continental collision only",
+      "A trench creates crust; a ridge consumes it",
+      "Both form only at transform boundaries"
+    ],
+    "correctAnswer": "A trench marks subduction; a spreading ridge creates oceanic crust",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5792,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Why does crust type matter at a convergent boundary?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "The guide describes different outcomes for continental-continental, oceanic-continental, and oceanic-oceanic collisions.",
+    "alternatives": [
+      "It affects whether plates subduct or continental crust crumples",
+      "It determines whether plates stop existing",
+      "It makes every convergent boundary a transform fault",
+      "It prevents all earthquakes"
+    ],
+    "correctAnswer": "It affects whether plates subduct or continental crust crumples",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5793,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which pair should be grouped under divergence in a study organizer?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "The East African Rift represents continental divergence and the Mid-Atlantic Ridge represents oceanic divergence.",
+    "alternatives": [
+      "East African Rift and Mid-Atlantic Ridge",
+      "Himalayas and Andes",
+      "Mariana Trench and Peru-Chile Trench",
+      "San Andreas Fault and Himalayas"
+    ],
+    "correctAnswer": "East African Rift and Mid-Atlantic Ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5794,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which pair should be grouped under subduction in a study organizer?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "Both trenches are associated with descending oceanic plates.",
+    "alternatives": [
+      "Peru-Chile Trench and Mariana Trench",
+      "East African Rift and Mid-Atlantic Ridge",
+      "Himalayas and San Andreas Fault",
+      "San Andreas Fault and Mid-Atlantic Ridge"
+    ],
+    "correctAnswer": "Peru-Chile Trench and Mariana Trench",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5795,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which pairing correctly matches a location with its dominant motion?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "The San Andreas Fault is the guide’s transform example.",
+    "alternatives": [
+      "San Andreas Fault — sideways sliding",
+      "Himalayas — pulling apart",
+      "Mid-Atlantic Ridge — plates colliding",
+      "East African Rift — oceanic subduction"
+    ],
+    "correctAnswer": "San Andreas Fault — sideways sliding",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": 5796,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which pairing needs to be corrected?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "The Himalayas formed through continental collision, not oceanic spreading.",
+    "alternatives": [
+      "Himalayas — oceanic spreading ridge",
+      "Andes — oceanic-continental convergence",
+      "East African Rift — continental divergence",
+      "San Andreas Fault — transform boundary"
+    ],
+    "correctAnswer": "Himalayas — oceanic spreading ridge",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": 5797,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which evidence best supports oceanic subduction rather than oceanic spreading?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "A descending slab identifies subduction; spreading involves separation and new seafloor.",
+    "alternatives": [
+      "An oceanic slab descending beneath another plate",
+      "New seafloor forming along a ridge",
+      "Oceanic plates moving apart",
+      "Molten rock filling a widening gap between plates"
+    ],
+    "correctAnswer": "An oceanic slab descending beneath another plate",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5798,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which statement about transform motion and volcanoes is most accurate?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "The guide contrasts transform sliding with volcanic activity associated with subduction and divergence.",
+    "alternatives": [
+      "Sideways sliding does not itself produce the magma supply typical of volcanic boundaries",
+      "Every transform earthquake requires a volcanic eruption",
+      "Transform motion always builds a volcanic island arc",
+      "Transform motion is another name for seafloor spreading"
+    ],
+    "correctAnswer": "Sideways sliding does not itself produce the magma supply typical of volcanic boundaries",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "id": 5799,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "A student claims all convergent boundaries produce volcanic island arcs. Which example disproves this?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "Continental collision can build non-volcanic mountain ranges rather than island arcs.",
+    "alternatives": [
+      "Continental collision forming the Himalayas",
+      "Oceanic subduction forming the Mariana Islands",
+      "A trench beside a volcanic island arc",
+      "An older oceanic plate sinking under a younger one"
+    ],
+    "correctAnswer": "Continental collision forming the Himalayas",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "id": 5800,
+    "subject": "science",
+    "chapter": 0,
+    "unit": "2.2",
+    "studyGuide": "plate-tectonics",
+    "question": "Which sequence correctly describes the origin of new seafloor?",
+    "usageExample": "Use plate motion, crust type, and landform clues to review Science Unit 2.2.",
+    "tip": "Compare motion, crust type, and the features each process produces.",
+    "explanation": "Seafloor spreading creates crust by cooling molten material between separating oceanic plates.",
+    "alternatives": [
+      "Oceanic plates separate, magma rises, and the magma cools into rock",
+      "Continental plates collide, a road shifts sideways, and seawater becomes crust",
+      "Oceanic plates subduct, continents fold, and all trenches become ridges",
+      "A transform fault locks, all plate motion ends, and new crust appears"
+    ],
+    "correctAnswer": "Oceanic plates separate, magma rises, and the magma cools into rock",
+    "version": "v1",
+    "source": {
+      "document": "plate_tectonics_guide (1).pdf",
+      "pages": [
+        1
+      ]
+    }
   }
 ]

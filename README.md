@@ -7,7 +7,7 @@ The science questions are based on the book *Everything You Need to Ace Science 
 ## Features
 
 - Subject-based quiz entries loaded from `data/free-studies.json`
-- 5,600 questions in total, with 200 in every selectable chapter, Math lesson, Civics unit, Chapter 15 unit, and the Waves study guide
+- 5,800 questions in total, with 200 in every selectable chapter, Math lesson, Civics unit, Chapter 15 unit, and study guide
 - 1,000 Math problems across lessons 2–6: area and perimeter, scale factor, currency, and measurement conversions
 - Adjustable rounds of up to 200 questions, without repeats
 - Choose SELECT THESE in the chapter/unit/lesson menu to check multiple topics and mix them in one round; Chapter 15 units can be selected separately
@@ -24,6 +24,11 @@ The science questions are based on the book *Everything You Need to Ace Science 
 - Chapter 23 — Earth’s Crust in Motion: 200 original practice questions based on the supplied pages 239–248 (IMG_8006–IMG_8015).
 - Questions include identification, new scenarios, comparisons, and calculations with stated practice values. Each records its source pages and photo filenames. Numerical examples are invented practice data, not measurements of current geological events.
 - Explanations distinguish solid, slowly deforming mantle from liquid outer core, and earthquake amplitude from energy. Original photos are not published with the quiz.
+
+## Science study guides
+
+- Science Unit 2.2 — Plate Tectonics Study Guide: 200 practice questions based on both pages of *plate_tectonics_guide (1).pdf*. Covers convergence, divergence, transform motion, crust types, subduction, landforms, and the guide's named examples. Questions include hints, explanations, and source-page metadata.
+- Select the guide under Science in the chapter menu, or include it in SELECT THESE to combine it with other topics. It is separate from Civics Unit 2.2 and the Waves study guide. As with Waves, ALL CHAPTERS excludes study-guide questions.
 
 ## Civics source boundaries
 
